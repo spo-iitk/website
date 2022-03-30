@@ -10,30 +10,33 @@ import { media } from 'utils/media';
 
 const TESTIMONIALS = [
   {
-    companyLogoUrl: '/testimonials/company-logo-1.svg',
-    content: `Really good. I am so pleased with this product. I didn't even need training.`,
+    companyLogoUrl: '/testimonials/iitk-logo.svg',
+    content: `Since the advent of this great institution, IIT Kanpur has vision to provide quality technical education and act as a rostrum for scientific research, and a mission to develop human potential to its greatest degree. In accordance with this vision IIT Kanpur has maintained an exemplary record of academic contribution for achieving excellence in teaching, research and governance. A sincere effort has now begun to restore the vantage position of IITK as the top technological Institute in India, The students of IITK are a cherry picked group. They have been chosen through a process that makes IITK one of the toughest institutes to get an admission.`,
     author: {
-      name: 'Clyde Edwards',
-      title: 'Very Serious Man',
-      avatarUrl: '/testimonials/author-photo-1.jpeg',
+      name: 'Prof. Abhay Karandikar',
+      title: 'Director',
+      subtitle: 'Indian Institute of Technology, Kanpur',
+      avatarUrl: '/testimonials/director.jpg',
     },
   },
   {
-    companyLogoUrl: '/testimonials/company-logo-2.svg',
-    content: `It's really wonderful. I use saas product often. Thank You! Saas product has really helped our business.`,
+    companyLogoUrl: '/testimonials/iitk-logo.svg',
+    content: `I would like to warmly welcome all the current and prospective recruiters to the Student Placement Office (SPO) of IIT Kanpur. In this age, demanding continual technology enhancements, the industry requires talented youngsters with outstanding analytical skills, open mindset and innovative approach towards problem solving. I am glad to convey that IIT Kanpur is home to such bright young minds. Our next batch of students is all set to graduate soon and they are looking for opportunities that are appealing to their intellect and would help them realize their full potential.`,
     author: {
-      name: 'Jimmy Hunter',
-      title: 'Sigma Male University Graduate',
-      avatarUrl: '/testimonials/author-photo-2.jpeg',
+      name: 'Dr. Kaustubh Kulkarni',
+      title: 'Chairman',
+      subtitle: 'Students\' Placement Office, IIT Kanpur',
+      avatarUrl: '/testimonials/chairman.jpeg',
     },
   },
   {
-    companyLogoUrl: '/testimonials/company-logo-3.svg',
-    content: `Since I invested in saas product I made over 100,000 dollars profits. It really saves me time and effort. saas product is exactly what our business has been lacking.`,
+    companyLogoUrl: '/testimonials/iitk-logo.svg',
+    content: `Indian Institute of Technology Kanpur (IITK), established in 1959, is one of the premier institutions established by the Government of India. IITK aims to create, disseminate, and translate knowledge in science, engineering and allied disciplines that serve the society. IITK has set a benchmark through its outstanding academic programs, quality education, and cutting-edge multidisciplinary research. We at IITK prioritize the 360-degree development of students to meet global standards. Our education system goes over and beyond the classroom lectures. We strongly agree with the overall growth of the students that ensures all our students are ready to meet the new challenges in life. In this regard, Students' Placement Office (SPO) takes utmost care to groom students according to the needs of the industry.`,
     author: {
-      name: 'Marjorie Morgan',
-      title: 'Chief Chad Officer',
-      avatarUrl: '/testimonials/author-photo-3.jpeg',
+      name: 'Dr. Raju Gupta',
+      title: 'Vice Chairman',
+      subtitle: 'Students\' Placement Office, IIT Kanpur',
+      avatarUrl: '/testimonials/vc.jpg',
     },
   },
 ];
@@ -53,7 +56,7 @@ export default function Testimonials() {
                   width={200}
                   height={40}
                 />
-                <Content>“{singleTestimonial.content}”</Content>
+                <Content>{singleTestimonial.content}</Content>
                 <AuthorContainer>
                   <AuthorImageContainer>
                     <NextImage src={singleTestimonial.author.avatarUrl} alt={singleTestimonial.author.name} width={48} height={48} />
@@ -61,6 +64,7 @@ export default function Testimonials() {
                   <AuthorContent>
                     <AuthorName>{singleTestimonial.author.name}</AuthorName>
                     <AuthorTitle>{singleTestimonial.author.title}</AuthorTitle>
+                    <AuthorSubtitle>{singleTestimonial.author.subtitle}</AuthorSubtitle>
                   </AuthorContent>
                 </AuthorContainer>
               </TestimonialCard>
@@ -108,9 +112,7 @@ const TestimonialCard = styled.div`
 
 const Content = styled.blockquote`
   text-align: center;
-  font-size: 2.2rem;
-  font-weight: bold;
-  font-style: italic;
+  font-size: 1.9rem;
   max-width: 60%;
 
   ${media('<=desktop')} {
@@ -134,6 +136,10 @@ const AuthorTitle = styled.p`
   font-weight: bold;
 `;
 
+const AuthorSubtitle = styled.p`
+  font-weight: semibold;
+  font-size: smaller;
+`;
 const AuthorName = styled.p`
   font-weight: normal;
 `;
