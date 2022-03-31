@@ -1,7 +1,11 @@
 import styled from 'styled-components';
 import Accordion from 'components/Accordion';
 
-export default function FaqSection({faqs}): JSX.Element {
+interface FaqProps {
+  faqs: any;
+}
+
+export default function FaqSection({faqs}: FaqProps) {
   return (
     <Wrapper>
       {faqs.map((singleFaq:any, idx:number) => (
