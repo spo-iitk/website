@@ -3,10 +3,10 @@ import { useState } from 'react';
 import styled from 'styled-components';
 import ArticleCard from 'components/ArticleCard';
 import AutofitGrid from 'components/AutofitGrid';
+import Input from 'components/Input';
 import Page from 'components/Page';
 import { media } from 'utils/media';
 import { getAllPosts } from 'utils/postsFetcher';
-import Input from 'components/Input';
 
 export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
   const [searchValue, setSearchValue] = useState('');
