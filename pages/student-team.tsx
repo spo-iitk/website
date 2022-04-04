@@ -45,6 +45,7 @@ export default function OfficeTeam() {
           ))}
         </CustomAutofitGrid>
       </Container>
+      <br />
     </DarkerBackgroundContainer>
   );
 }

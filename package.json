@@ -43,6 +43,7 @@
     "@next/bundle-analyzer": "^11.1.2",
     "@tinacms/cli": "^0.60.0",
     "@types/react": "^17.0.20",
+    "@types/react-dom": "^17.0.14",
     "@types/react-mailchimp-subscribe": "^2.1.1",
     "@types/styled-components": "^5.1.14",
     "@types/swiper": "^5.4.3",

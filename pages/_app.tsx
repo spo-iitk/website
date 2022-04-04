@@ -15,12 +15,11 @@ import { GlobalStyle } from 'components/GlobalStyles';
 import Navbar from 'components/Navbar';
 import NavigationDrawer from 'components/NavigationDrawer';
 import NewsletterModal from 'components/NewsletterModal';
-import WaveCta from 'components/WaveCta';
 import { NewsletterModalContextProvider, useNewsletterModalContext } from 'contexts/newsletter-modal.context';
 import { NavItems } from 'types';
 
 const navItems: NavItems = [
-  { title: 'About us', href: '/about' },
+  { title: 'About IITK', href: '/about' },
   { title: 'For companies', href: '/companies' },
   { title: 'For students', href: '/students' },
   { title: 'Contact', href: '/contact' },
