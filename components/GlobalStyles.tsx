@@ -20,7 +20,7 @@ export const GlobalStyle = createGlobalStyle`
   --secondary: 10,18,30;
   --tertiary: 231,241,251;
   --cardBackground: 255,255,255;
-  --inputBackground: 255,255,255;
+  --inputBackground: 238,238,238;
   --navbarBackground: 255,255,255;
   --modalBackground: 251,251,253;
   --errorColor: 207,34,46;

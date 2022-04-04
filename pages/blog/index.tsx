@@ -1,19 +1,37 @@
 import { InferGetStaticPropsType } from 'next';
+import { useState } from 'react';
 import styled from 'styled-components';
 import ArticleCard from 'components/ArticleCard';
 import AutofitGrid from 'components/AutofitGrid';
 import Page from 'components/Page';
 import { media } from 'utils/media';
 import { getAllPosts } from 'utils/postsFetcher';
+import Input from 'components/Input';
 
 export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
+  const [searchValue, setSearchValue] = useState('');
+
+  const filteredBlogPosts = posts.filter((singlePost) => {
+    const searchContent = singlePost.meta.title + singlePost.meta.description + singlePost.content + singlePost.meta.tags;
+    console.log(searchContent.toLowerCase().includes(searchValue.toLowerCase()));
+    return searchContent.toLowerCase().includes(searchValue.toLowerCase());
+  });
+
   return (
-    <Page
-      title="My SaaS Startup Blog"
-      description="Culpa duis reprehenderit in ex amet cillum nulla do in enim commodo. Sunt ut excepteur et est aliqua anim ea excepteur fugiat voluptate. Fugiat exercitation dolore laboris do quis consectetur eiusmod tempor consequat."
-    >
+    <Page title="SPO Blog" description="">
+      <div>
+        <Input
+          style={{ width: '100%' }}
+          aria-label="Search articles"
+          type="text"
+          onChange={(e) => setSearchValue(e.target.value)}
+          placeholder="Search articles"
+        />
+      </div>
+      <br />
       <CustomAutofitGrid>
-        {posts.map((singlePost, idx) => (
+        {!filteredBlogPosts.length && 'No posts found.'}
+        {filteredBlogPosts.map((singlePost, idx) => (
           <ArticleCard
             key={singlePost.slug}
             title={singlePost.meta.title}
