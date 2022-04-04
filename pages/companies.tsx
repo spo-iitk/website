@@ -10,73 +10,64 @@ import FaqSection from 'views/PricingPage/FaqSection';
 const steps = [
   {
     title: '1',
-    description:'Invitations of the onset of the Placements with the tentative itinerary of the placement process along with the Placement brochure are sent to the company.',
+    description: "The Students' placement office appoints a point of contact(PoC) for you.",
   },
   {
     title: '2',
-    description:'After a company expresses interest for participation, the company is sent a Job Announcement Form to share the details of the profile offered.',
+    description:
+      'You will need to contact your PoC or any placement coordinators (or mail to spo@iitk.ac.in) for your account credentials on the Recruitment Automation system(RAS).',
   },
   {
     title: '3',
-    description:'An account is created for the company on The Placement Automation System (PAS), an interactive portal, that lets the companies view the profiles of students interested in the Job Profile',
+    description:
+      'You need to fill out a Job Announcement Form (JAF) / Internship Proforma (IP) in the portal to share the offered profile details.',
   },
   {
     title: '4',
-    description:'Pre-Placement Talks (PPTs) are scheduled for companies to interact with the students based upon mutual agreement on travelling dates.',
+    description:
+      'After verification of details by PoC, job/internship openings are visible on the portal as per dates decided by the placement team.',
   },
   {
     title: '5',
-    description:'Meanwhile, students can access the company profile and prepare themselves for the PPT.',
+    description: 'Students need to submit their resumes before the deadline set for the company on the RAS.',
   },
   {
     title: '6',
-    description:'Before the PPT, students need to submit their resumes according to the deadline set by the company on the PAS.',
+    description: 'Companies conduct their PPT and tests/screening process after finalizing the schedule with the placement team.',
   },
   {
     title: '7',
-    description:'Companies are informed about their slots for the placement season which starts from the first of December.',
+    description: 'The company submits the final list of shortlisted students for the interview process.',
   },
   {
     title: '8',
-    description:'Slotting is done based on: Student Preferences,Work profile,Job Location,Compensation package,Career Prospects and student Intake.',
+    description: 'The placement office allots dates of interviews and PoC for the interview process.',
   },
   {
     title: '9',
-    description:'Based upon student profiles and/or test performances, shortlist of students is provided before the commencement of placement session.',
+    description: 'Companies need to confirm the dates with the placement office over email.',
   },
   {
     title: '10',
-    description:'Shortlisted candidates then appear for the Placement Process of the company',
+    description: 'Companies provide the list of selected and waitlisted students at the end of their interview slot.',
   },
   {
     title: '11',
-    description:'Company submits a list of finally selected students along with a waitlist at the end of the day/slot.',
+    description: 'The Placement office notifies the companies regarding the acceptance of selected students.',
   },
   {
     title: '12',
-    description:'A student may get multiple offers at the end of a day/slot, in such a case he/she is allowed to choose one of them.',
+    description: 'The company sends the offer letter to the selected candidates consistent with JAF/IP.',
   },
-  {
-    title: '13',
-    description:'A student must make a decision within two hours of the end of the day/slot.',
-  },
-  {
-    title: '14',
-    description:'Once a student has been offered a job, he/she is out of the placement process. This is in compliance with our One Student, One Job Policy',
-  },
-  {
-    title: '15',
-    description: 'The complete process is governed by SPO\'s placement policy which is shared with the companies at the start of the process.'
-  }
-]
+];
 
 const faqlist = [
   {
     idx: 1,
-    title: "Question",
-    body: "Answer"
+    title: 'Question',
+    body: 'Answer',
   },
-]
+];
 
 export default function CompaniesPage() {
   return (
@@ -134,34 +125,48 @@ export default function CompaniesPage() {
       </Section>
       <Section title="Internship Procedure">
         <p>
-          Indian Institute of Technology, Kanpur, firmly believes that internships provide the students with an unrestrained opportunity to explore the practical insights of the industry and the corporate world. At the same time, your firm would benefit by enlisting the services of budding scholars and enthusiastic assimilators who would be priceless assets in the undergoing projects.
+          Indian Institute of Technology, Kanpur, firmly believes that internships provide the students with an unrestrained opportunity to
+          explore the practical insights of the industry and the corporate world. At the same time, your firm would benefit by enlisting the
+          services of budding scholars and enthusiastic assimilators who would be priceless assets in the undergoing projects.
           <br />
           <br />
-          The Students&apos; Placement Office of IIT Kanpur is the body that organizes the internship season in the institute. Students will be available for the period starting from the 1st week of May to the 3rd week of July, 2020.
+          The Students&apos; Placement Office of IIT Kanpur is the body that organizes the internship season in the institute. Students will
+          be available for the period starting from the 1st week of May to the 3rd week of July, 2020.
           <br />
           <br />
-          You can find the Internship Proforma here. Kindly provide your company&apos;s Profile along with details of the selection process and the eligible departments. The institute brochure containing information about the academic programmes and the curriculum followed by various departments can be downloaded from here. It would be highly appreciated if you get in touch with our office at your earliest possible convenience to finalize the date of your visit.
+          You can find the Internship Proforma here. Kindly provide your company&apos;s Profile along with details of the selection process
+          and the eligible departments. The institute brochure containing information about the academic programmes and the curriculum
+          followed by various departments can be downloaded from here. It would be highly appreciated if you get in touch with our office at
+          your earliest possible convenience to finalize the date of your visit.
         </p>
       </Section>
       <br />
       <br />
       <hr />
       <Section title="Facilities">
-      <ul>
-        <li>Pickup services on payment basis from Lucknow(Amausi) Airport , Kanpur Airport and Kanpur Central Railway Station. Chopper rides from Lucknow Airport to IIT Kanpur campus can be availed on prior request to the Placement Office.</li>
-        <li>Fully equipped Seminar and conference rooms for Group discussions and Personal Interviews.</li>
-        <li>Centrally air conditioned Auditorium and Lecture halls, fully equipped with latest multimedia and Wi-Fi for Pre-Placement Talks(PPTs), Workshops, tests etc.</li>
-        <li>Facility of Tele Conferencing and Video Conferencing.</li>
-        <li>On campus accommodation in Visitors&apos; Guest House for the recruiting panel <small>(subject to availability)</small>.</li>
-        <li>Access to all student profiles via a highly efficient and effective Placement Automation System (PAS).</li>
-        <li>Round the clock assistance by the students&apos; volunteers at each level of placement process.</li>
-        <li>Highly motivated and experienced staff to coordinate the whole process.</li>
-      </ul>
+        <ul>
+          <li>
+            Pickup services on payment basis from Lucknow(Amausi) Airport , Kanpur Airport and Kanpur Central Railway Station. Chopper rides
+            from Lucknow Airport to IIT Kanpur campus can be availed on prior request to the Placement Office.
+          </li>
+          <li>Fully equipped Seminar and conference rooms for Group discussions and Personal Interviews.</li>
+          <li>
+            Centrally air conditioned Auditorium and Lecture halls, fully equipped with latest multimedia and Wi-Fi for Pre-Placement
+            Talks(PPTs), Workshops, tests etc.
+          </li>
+          <li>Facility of Tele Conferencing and Video Conferencing.</li>
+          <li>
+            On campus accommodation in Visitors&apos; Guest House for the recruiting panel <small>(subject to availability)</small>.
+          </li>
+          <li>Access to all student profiles via a highly efficient and effective Placement Automation System (PAS).</li>
+          <li>Round the clock assistance by the students&apos; volunteers at each level of placement process.</li>
+          <li>Highly motivated and experienced staff to coordinate the whole process.</li>
+        </ul>
       </Section>
       <br />
       <hr />
       <Section title="FAQs">
-        <FaqSection faqs={faqlist}/>
+        <FaqSection faqs={faqlist} />
       </Section>
     </Page>
   );

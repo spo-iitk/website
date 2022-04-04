@@ -3,8 +3,12 @@ import { InferGetStaticPropsType } from 'next';
 import Head from 'next/head';
 import styled from 'styled-components';
 import BasicSection from 'components/BasicSection';
+import Button from 'components/Button';
+import Container from 'components/Container';
 import Link from 'components/Link';
 import MessageSection from 'components/MessageSection';
+import RichText from 'components/RichText';
+import SectionTitle from 'components/SectionTitle';
 import { EnvVars } from 'env';
 import { getAllPosts } from 'utils/postsFetcher';
 import Cta from 'views/HomePage/Cta';
@@ -14,10 +18,6 @@ import Hero from 'views/HomePage/Hero';
 import Partners from 'views/HomePage/Partners';
 import ScrollableBlogPosts from 'views/HomePage/ScrollableBlogPosts';
 import Testimonials from 'views/HomePage/Testimonials';
-import SectionTitle from 'components/SectionTitle';
-import RichText from 'components/RichText';
-import Container from 'components/Container';
-import Button from 'components/Button';
 
 export default function Homepage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
