@@ -1,12 +1,14 @@
+import Link from 'next/link';
 import styled from 'styled-components';
+import Accordion from 'components/Accordion';
 import AutofitGrid from 'components/AutofitGrid';
 import BasicCard from 'components/BasicCard';
+import Button from 'components/Button';
 import Container from 'components/Container';
 import Page from 'components/Page';
 import Section from 'components/Section';
 import { media } from 'utils/media';
 import FaqSection from 'views/PricingPage/FaqSection';
-
 const steps = [
   {
     title: '1',
@@ -64,8 +66,58 @@ const steps = [
 const faqlist = [
   {
     idx: 1,
-    title: 'Question',
-    body: 'Answer',
+    title: 'What are the different ways a company can hire students from the campus?',
+    body: 'The different ways of recruiting students are: Campus Recruitment Program in which final year students participate. Summer Internship Program for pre final year students which can be converted into a pre placement offer.',
+  },
+  {
+    idx: 2,
+    title: 'How can a company register itself for the Campus Recruitment Program?',
+    body: 'To participate in the Campus Recruitment Program, a company must first contact the placement office or register on the website. The company is then sent the login details which would let them login in our Placement Automation System (PAS) enabling them to post job opportunities & see the profiles of students interested in their job opening. You can also find the detailed Placement Procedure here',
+  },
+  {
+    idx: 3,
+    title: 'Is there any fee associated with the process?',
+    body: 'No. There is no fees associated with the registration or the placement process.',
+  },
+  {
+    idx: 4,
+    title: 'When does the recruitment program start?',
+    body: "The recruitment season is held in December every year and the PPT's can be held anytime between 10th of August to mid-November. For a detailed itinerary, Please refer to the Employer Calendar",
+  },
+  {
+    idx: 5,
+    title: 'What is the procedure to schedule a pre-placement talk (PPT)?',
+    body: 'A company will only be allowed to hold its PPT after filling up the job announcement form. A typical pre placement session is scheduled for 60 minutes. In view of the academic calendar of the students, the session are scheduled between 6PM to 9PM on weekdays, and between 10AM and 5PM hours on Saturdays and Sundays. Student volunteers will get in touch with the company to fix a mutual convenient time for the session.',
+  },
+  {
+    idx: 6,
+    title: 'What kind of information do the students expect in PPTs?',
+    body: 'The pre-placement talk is a platform for interaction between the company and the students. The presentation is followed by a Q&A session where students interact with company officials to get a better understanding of the company and potential roles. The important insights that the students expect from the PPT are:\n\nProfile and reputation of the corporation\nCareer roles and responsibilities offered in different types of profiles\nLocations where the student is likely to be posted\nCompensation packages',
+  },
+  {
+    idx: 7,
+    title: 'On what basis is the slot allotted to a company for the final placement?',
+    body: 'Slotting is done subject to the following parameters:Student Preferences, Work profile, Compensation package, Career Prospects, Student Intake, and Past relationship with IIT Kanpur',
+  },
+  {
+    idx: 8,
+    title: 'What are the infrastructural facilities available on the campus for the placement process?',
+    body: 'The campus is equipped with state of the art communication, computing, and presentation facilities to facilitate a smooth placement process:Teleconferencing and video conferencing facility, Linux and windows lab for online tests, Centrally air conditioned auditorium, lecture halls, seminar and conference rooms for presentations, group discussions and interviews.',
+  },
+  {
+    idx: 9,
+    title: 'Are there multiple companies recruiting in the same slot? How is the case of multiple offers resolved?',
+    body: 'Yes, there are multiple companies recruiting in the same slot.The results of all the companies are announced at the end of the slot and if a student gets multiple offers then he is allowed to choose between one of them and inform the office of his decision before the beginning of the next slot.',
+  },
+  {
+    idx: 10,
+    title: 'Can a company interview the students already placed in other company?',
+    body: 'IIT Kanpur follows a One student; One job policy so once the job is registered against the student, he/she is not entitled to sit for any other company.',
+  },
+  {
+    idx: 11,
+    title: 'Is there any facility for the accommodation available on the campus?',
+    body: "On campus accommodation on payment basis in visitors' guest house is available subject to availability. For alternate arrangements, the list of hotels is available here",
   },
 ];
 
@@ -165,8 +217,62 @@ export default function CompaniesPage() {
       </Section>
       <br />
       <hr />
+      <Section title="Resources">
+        <br />
+        <CustomBtnGroup>
+          <div>
+            <Link href="/student-team" passHref>
+              <Button>Deffered Placement Policy</Button>
+            </Link>
+          </div>
+          <div>
+            <Link href="/student-team" passHref>
+              <Button>Placement Policy</Button>
+            </Link>
+          </div>
+          <div>
+            <Link href="/student-team" passHref>
+              <Button>Internship Policy</Button>
+            </Link>
+          </div>
+          <div>
+            <Link href="/student-team" passHref>
+              <Button>Contact</Button>
+            </Link>
+          </div>
+          <div>
+            <Link href="/student-team" passHref>
+              <Button>Contact</Button>
+            </Link>
+          </div>
+          <div>
+            <Link href="/student-team" passHref>
+              <Button>Contact</Button>
+            </Link>
+          </div>
+          <div>
+            <Link href="/student-team" passHref>
+              <Button>Contact</Button>
+            </Link>
+          </div>
+        </CustomBtnGroup>
+      </Section>
       <Section title="FAQs">
         <FaqSection faqs={faqlist} />
+        <div>
+          <Accordion title="How can one commute between the campus & airport/railway station?">
+            The campus taxi service providers can be contacted for the same at the following numbers:
+            <ul>
+              <li>Trimurti Travels - Mr Surender Yadav - 0512-259 5094</li>
+              <li>Yadav Travels - Mr Rajpal Yadav - 0512-259 5095 - (Mobile : 93362 17156)</li>
+              <li>
+                The list of institute approved taxi operators can be found{' '}
+                <a href="https://spo.iitk.ac.in/assets/docs/taxi_details.pdf">here</a> and approved rates can be found{' '}
+                <a href="https://spo.iitk.ac.in/assets/docs/taxi_rates.pdf">here</a>.
+              </li>
+            </ul>
+          </Accordion>
+        </div>
       </Section>
     </Page>
   );
@@ -182,4 +288,12 @@ const CustomAutofitGrid = styled(AutofitGrid)`
   ${media('<=phone')} {
     --autofit-grid-item-size: 100%;
   }
+`;
+
+const CustomBtnGroup = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
 `;

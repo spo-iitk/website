@@ -1,17 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
-import NextLink from 'next/link';
+import Link from 'next/link';
 import styled from 'styled-components';
 import Button from 'components/Button';
 import ButtonGroup from 'components/ButtonGroup';
 import Container from 'components/Container';
 import HeroIllustration from 'components/HeroIllustation';
 import OverTitle from 'components/OverTitle';
-import { useNewsletterModalContext } from 'contexts/newsletter-modal.context';
 import { media } from 'utils/media';
 
 export default function Hero() {
-  const { setIsModalOpened } = useNewsletterModalContext();
-
   return (
     <HeroWrapper>
       <Contents>
@@ -26,16 +23,18 @@ export default function Hero() {
           and conducting final interviews the SPO team provides it's best possible assistance to the recruiters. The hospitality and the
           functioning of SPO is applauded and well received by the visiting recruiters every year.
         </Description>
-        {/* <CustomButtonGroup>
-          <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
-          </Button>
-          <NextLink href="#whitepaper" passHref>
-            <Button transparent>
+        <CustomButtonGroup>
+          {/* <NextLink href="#whitepaper" passHref>
+            <Button>
               Features <span>&rarr;</span>
             </Button>
-          </NextLink>
-        </CustomButtonGroup> */}
+          </NextLink> */}
+          <Link href="/student-team" passHref>
+            <Button>
+              Contact <span>&rarr;</span>
+            </Button>
+          </Link>
+        </CustomButtonGroup>
       </Contents>
       <ImageContainer>
         <HeroIllustration />

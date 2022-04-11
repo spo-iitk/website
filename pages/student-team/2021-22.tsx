@@ -27,11 +27,11 @@ const TeamMembers = [
     image: '/testimonials/iitk-logo.svg',
   },
 ];
-export default function StudentTeam() {
+export default function StudentTeam22() {
   return (
     <DarkerBackgroundContainer>
       <br />
-      <SectionTitle>Student Team Members</SectionTitle>
+      <SectionTitle>Student Team Members 2021-22</SectionTitle>
       <Container>
         <CustomAutofitGrid>
           {TeamMembers.map((member) => (

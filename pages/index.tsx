@@ -74,7 +74,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           {/* <Testimonials /> */}
           {/* <Cta />  */}
           {/* <Features /> */}
-          <SectionTitle>Our Team</SectionTitle>
+          {/* <SectionTitle>Our Team</SectionTitle>
           <Container>
             <RichText>Our team description</RichText>
             <TeamContainer>
@@ -85,7 +85,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
                 <Button href="/student-team">Student team</Button>
               </div>
             </TeamContainer>
-          </Container>
+          </Container> */}
           <Partners />
           {/* <FeaturesGallery /> */}
           {/* <ScrollableBlogPosts posts={posts} /> */}
