@@ -8,6 +8,7 @@ import Container from 'components/Container';
 import Page from 'components/Page';
 import Section from 'components/Section';
 import { media } from 'utils/media';
+import FeaturesGallery from 'views/HomePage/FeaturesGallery';
 import FaqSection from 'views/PricingPage/FaqSection';
 const steps = [
   {
@@ -133,6 +134,9 @@ export default function CompaniesPage() {
           </CustomAutofitGrid>
         </Container>
       </Section>
+
+      {/* <FeaturesGallery /> */}
+
       <Section title="Placement Policy">
         <ol>
           <li>
@@ -175,22 +179,49 @@ export default function CompaniesPage() {
           </small>
         </ol>
       </Section>
-      <Section title="Internship Procedure">
-        <p>
-          Indian Institute of Technology, Kanpur, firmly believes that internships provide the students with an unrestrained opportunity to
-          explore the practical insights of the industry and the corporate world. At the same time, your firm would benefit by enlisting the
-          services of budding scholars and enthusiastic assimilators who would be priceless assets in the undergoing projects.
-          <br />
-          <br />
-          The Students&apos; Placement Office of IIT Kanpur is the body that organizes the internship season in the institute. Students will
-          be available for the period starting from the 1st week of May to the 3rd week of July, 2020.
-          <br />
-          <br />
-          You can find the Internship Proforma here. Kindly provide your company&apos;s Profile along with details of the selection process
-          and the eligible departments. The institute brochure containing information about the academic programmes and the curriculum
-          followed by various departments can be downloaded from here. It would be highly appreciated if you get in touch with our office at
-          your earliest possible convenience to finalize the date of your visit.
-        </p>
+      <Section title="Internship Policy">
+        <ol>
+          <li>
+            The Students&apos; Placement Office follows a strict <strong>&quot;One Student, One Job Policy&quot;</strong>. Once a student is
+            offered a job, he/she is out of the internship process
+          </li>
+          <li>
+            On completion of the recruitment procedure, the company needs to submit the final list of offers in a closed envelope to the
+            placement office. The offers will be opened at the end of the slot* when all companies finish their process
+          </li>
+          <li>
+            No <strong>&quot;On the Spot&quot;</strong> offers should be made nor can any clue be given to any of the candidates during the
+            placement interview.
+          </li>
+          <li>
+            IIn case a candidate receives multiple offers, the candidate has to make a choice at the end of the slot. The companies will be
+            intimated about the final choice of the candidate two hours after the end of the slot, or receipt of the offers, whichever is
+            later.
+          </li>
+          <li>
+            Since there is a high probability of multiple offers, the companies have to furnish a waiting list to the placement office along
+            with the final offers. In case a student who is extended multiple offers chooses the other company, the first candidate in the
+            waiting list moves up in the final offer list. The waitlist will not be disclosed to the students and will be released on a per
+            student basis{' '}
+          </li>
+          <li>
+            Companies are always advised to be in touch with the Internship volunteers and staff. They
+            should not entertain any direct contact from the students appearing in the internship process. In
+            case of such a situation, the company must bring this immediately to the notice of the
+            Placement Office.
+          </li>
+          <li>
+            The internship should be held during the period starting from 1st week of May 2022 to the 3rd
+            week of July 2022. 
+          </li>
+          </ol>
+        <br />*{' '}
+        <small>
+          {' '}
+          The slot allotted for the selection procedure by the Placement Office to the company is of 4-8 hours, depending upon the
+          day of the week and the number of interviews to be conducted. Although the companies are allowed to conduct tests
+          beforehand to shortlist the candidates. 
+        </small>
       </Section>
       <br />
       <br />
@@ -218,48 +249,49 @@ export default function CompaniesPage() {
       <br />
       <hr />
       <Section title="Resources">
-        <br />
         <CustomBtnGroup>
           <div>
-            <Link href="/student-team" passHref>
-              <Button>Deffered Placement Policy</Button>
-            </Link>
+            <ul>
+            <li>
+              <Link href="/" passHref>Job Announcement Form</Link>
+            </li>
+            <li>
+              <Link href="/" passHref>Internship Proforma</Link>
+            </li>
+            <li>
+              <Link href="/" passHref>Placement Policy</Link>
+            </li>
+            <li>
+              <Link href="/" passHref>Internship Policy</Link>
+            </li>
+            </ul>
+
           </div>
           <div>
-            <Link href="/student-team" passHref>
-              <Button>Placement Policy</Button>
-            </Link>
-          </div>
-          <div>
-            <Link href="/student-team" passHref>
-              <Button>Internship Policy</Button>
-            </Link>
-          </div>
-          <div>
-            <Link href="/student-team" passHref>
-              <Button>Contact</Button>
-            </Link>
-          </div>
-          <div>
-            <Link href="/student-team" passHref>
-              <Button>Contact</Button>
-            </Link>
-          </div>
-          <div>
-            <Link href="/student-team" passHref>
-              <Button>Contact</Button>
-            </Link>
-          </div>
-          <div>
-            <Link href="/student-team" passHref>
-              <Button>Contact</Button>
-            </Link>
+            <ul>
+            <li>
+              <Link href="/" passHref>Campus Recruitement Brochure</Link>
+            </li>
+
+            <li>
+              <Link href="/" passHref>Campus Recruitment Guide</Link>
+            </li>
+
+            <li>
+              <Link href="/" passHref>Steps - Company Registration</Link>
+            </li>
+
+            <li>
+              <Link href="/" passHref>Departmental Brochures</Link>
+            </li>
+            </ul>
+
           </div>
         </CustomBtnGroup>
       </Section>
       <Section title="FAQs">
         <FaqSection faqs={faqlist} />
-        <div>
+        <div style={{marginTop:'3rem'}}>
           <Accordion title="How can one commute between the campus & airport/railway station?">
             The campus taxi service providers can be contacted for the same at the following numbers:
             <ul>
@@ -292,8 +324,11 @@ const CustomAutofitGrid = styled(AutofitGrid)`
 
 const CustomBtnGroup = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  font-size: 1.8rem;
+  text-decoration: none;
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
 `;
+

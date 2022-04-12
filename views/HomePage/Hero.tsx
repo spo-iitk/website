@@ -90,7 +90,7 @@ const Description = styled.p`
   font-size: 1.8rem;
   opacity: 0.8;
   line-height: 1.6;
-
+  text-align: justify;
   ${media('<=desktop')} {
     font-size: 1.5rem;
   }

@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import styled from 'styled-components';
-import Button from 'components/Button';
-// import ButtonGroup from 'components/ButtonGroup';
+// import LinkGroup from 'components/LinkGroup';
 import Page from 'components/Page';
 
 import SectionTitle from 'components/SectionTitle';
@@ -13,39 +12,41 @@ export default function StudentsPage() {
       <br />
       <CustomBtnGroup>
         <div>
-          <Link href="/student-team" passHref>
-            <Button>Deffered Placement Policy</Button>
-          </Link>
+          <ul>
+          <li>
+            <Link href="/" passHref>Deffered Placement Policy</Link>
+          </li>
+          <li>
+            <Link href="/" passHref>Placement Policy</Link>
+          </li>
+          <li>
+            <Link href="/" passHref>Internship Policy</Link>
+          </li>
+          <li>
+            <Link href="/" passHref>Leave Application</Link>
+          </li>
+          </ul>
+
         </div>
         <div>
-          <Link href="/student-team" passHref>
-            <Button>Placement Policy</Button>
-          </Link>
-        </div>
-        <div>
-          <Link href="/student-team" passHref>
-            <Button>Internship Policy</Button>
-          </Link>
-        </div>
-        <div>
-          <Link href="/student-team" passHref>
-            <Button>Contact</Button>
-          </Link>
-        </div>
-        <div>
-          <Link href="/student-team" passHref>
-            <Button>Contact</Button>
-          </Link>
-        </div>
-        <div>
-          <Link href="/student-team" passHref>
-            <Button>Contact</Button>
-          </Link>
-        </div>
-        <div>
-          <Link href="/student-team" passHref>
-            <Button>Contact</Button>
-          </Link>
+          <ul>
+          <li>
+            <Link href="/" passHref>Project Verification Form</Link>
+          </li>
+
+          <li>
+            <Link href="/" passHref>PPT Absence Form</Link>
+          </li>
+
+          <li>
+            <Link href="/" passHref>Corporate Internship Waiver Form</Link>
+          </li>
+
+          <li>
+            <Link href="/" passHref>List of Companies</Link>
+          </li>
+          </ul>
+
         </div>
       </CustomBtnGroup>
     </Page>
@@ -54,7 +55,9 @@ export default function StudentsPage() {
 
 const CustomBtnGroup = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  font-size: 1.8rem;
+  text-decoration: none;
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }

@@ -25,14 +25,6 @@ const TABS = [
     baseColor: '57,148,224',
     secondColor: '99,172,232',
   },
-  {
-    title: 'And yet... another truly fascinating feature',
-    description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/demo-illustration-5.png',
-    baseColor: '88,193,132',
-    secondColor: '124,207,158',
-  },
 ];
 
 export default function FeaturesGallery() {
@@ -76,8 +68,7 @@ export default function FeaturesGallery() {
   return (
     <FeaturesGalleryWrapper>
       <Content>
-        <OverTitle>features</OverTitle>
-        <SectionTitle>What are you signing in for?</SectionTitle>
+        <SectionTitle>Policies</SectionTitle>
       </Content>
       <GalleryWrapper>
         <TabsContainer>{tabsMarkup}</TabsContainer>
@@ -105,6 +96,7 @@ const GalleryWrapper = styled.div`
 `;
 
 const Content = styled.div`
+    margin-top: 5rem;
   & > *:not(:first-child) {
     margin-top: 1rem;
   }
