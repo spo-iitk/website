@@ -111,6 +111,7 @@ export default function StudentsPage() {
       </CustomBtnGroup>
       </Section>
 
+      <div id="faqs"></div>
       <Section title="Resume FAQs">
         <FaqSection faqs={faqlist} />
         <p style={{marginTop: "3rem"}}>

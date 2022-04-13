@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import NextLink from 'next/link';
-import { FacebookIcon, LinkedinIcon, TwitterIcon } from 'react-share';
+import { EmailIcon, FacebookIcon, LinkedinIcon } from 'react-share';
 import styled from 'styled-components';
 import Container from 'components/Container';
 import { media } from 'utils/media';
@@ -12,37 +12,32 @@ type FooterItems = SingleFooterList[];
 
 const footerItems: FooterItems = [
   {
-    title: 'Company',
+    title: 'IITK Links',
     items: [
-      { title: 'Privacy Policy', href: '/privacy-policy' },
-      { title: 'Cookies Policy', href: '/cookies-policy' },
+      { title: 'IITK Homepage', href: 'https://iitk.ac.in/' },
+      { title: 'DOAA', href: 'https://iitk.ac.in/doaa/' },
+      { title: 'DOSA', href: 'https://iitk.ac.in/dosa' },
+      { title: 'Students\' Gymkhana', href: 'https://students.iitk.ac.in/' },
     ],
   },
   {
-    title: 'Product',
+    title: 'For Companies',
     items: [
-      { title: 'Features', href: '/features' },
-      { title: 'Something', href: '/something' },
-      { title: 'Something else', href: '/something-else' },
-      { title: 'And something else', href: '/and-something-else' },
+      { title: 'Steps -  Company registration', href: '/companies#steps' },
+      { title: 'Recruitment Procedure and Policy', href: '/companies#policy' },
+      { title: 'Brochures', href: 'https://spo.iitk.ac.in/assets/docs/IITK_Recruitment_Brochure_2021-22.pdf' },
+      { title: 'Departmental Brochures', href: '/departmental-brochure' },
+      { title: 'FAQs', href: '/companies#faqs' },
     ],
   },
   {
-    title: 'Knowledge',
+    title: 'For Students',
     items: [
-      { title: 'Blog', href: '/blog' },
-      { title: 'Contact', href: '/contact' },
-      { title: 'FAQ', href: '/faq' },
-      { title: 'Help Center', href: '/help-center' },
-    ],
-  },
-  {
-    title: 'Something',
-    items: [
-      { title: 'Features2', href: '/features2' },
-      { title: 'Something2', href: '/something2' },
-      { title: 'Something else2', href: '/something-else2' },
-      { title: 'And something else2', href: '/and-something-else2' },
+      { title: 'Steps - Students Registration', href: '/' },
+      { title: 'Policy', href: '/' },
+      { title: 'Preparation Portal', href: '/' },
+      { title: 'Insights', href: '/blog' },
+      { title: 'FAQs', href: '/students#faqs' },
     ],
   },
 ];
@@ -55,22 +50,40 @@ export default function Footer() {
           {footerItems.map((singleItem) => (
             <FooterList key={singleItem.title} {...singleItem} />
           ))}
+          <div>
+            <ListHeader>Contact</ListHeader>
+            <ListItemWrapper>
+              <span style={{ color: "rgba(var(--textSecondary), 0.75)" }} >
+              Students&apos; Placement office <br />
+              109, outreach building <br />
+              IIT Kanpur, Kanpur-208016 <br />
+              Phone no.: +91 512 259 44 33/34 <br />
+              Email: spo@iitk.ac.in <br />
+              </span>
+            </ListItemWrapper>
+          </div>
         </ListContainer>
         <BottomBar>
           <ShareBar>
-            <NextLink href="https://www.twitter.com/my-saas-startup" passHref>
+            {/* <NextLink href="https://www.twitter.com/my-saas-startup" passHref>
               <a>
                 <TwitterIcon size={50} round={true} />
               </a>
+            </NextLink> */}
+            
+            <NextLink href="mailto:spo@iitk.ac.in" passHref>
+              <a>
+                <EmailIcon size={50} round={true} />
+              </a>
             </NextLink>
 
-            <NextLink href="https://www.facebook.com/my-saas-startup" passHref>
+            <NextLink href="https://www.facebook.com/spo.iitkanpur" passHref>
               <a>
                 <FacebookIcon size={50} round={true} />
               </a>
             </NextLink>
 
-            <NextLink href="https://www.linkedin.com/my-saas-startup" passHref>
+            <NextLink href="https://www.linkedin.com/in/iitkanpurplacement" passHref>
               <a>
                 <LinkedinIcon size={50} round={true} />
               </a>

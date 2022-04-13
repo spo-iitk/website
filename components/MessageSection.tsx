@@ -64,6 +64,7 @@ const ImageContainer = styled.div`
 const ContentContainer = styled.div`
   flex: 1;
   max-width: 70%;
+  margin-top: 3rem;
 `;
 
 const Message = styled.div`

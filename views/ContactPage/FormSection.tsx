@@ -13,7 +13,6 @@ interface EmailPayload {
   phone: string;
   designation: string;
   description: string;
-
 }
 
 export default function FormSection() {

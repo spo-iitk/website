@@ -3,12 +3,10 @@ import styled from 'styled-components';
 import Accordion from 'components/Accordion';
 import AutofitGrid from 'components/AutofitGrid';
 import BasicCard from 'components/BasicCard';
-import Button from 'components/Button';
 import Container from 'components/Container';
 import Page from 'components/Page';
 import Section from 'components/Section';
 import { media } from 'utils/media';
-import FeaturesGallery from 'views/HomePage/FeaturesGallery';
 import FaqSection from 'views/PricingPage/FaqSection';
 const steps = [
   {
@@ -125,18 +123,20 @@ const faqlist = [
 export default function CompaniesPage() {
   return (
     <Page title="For companies" description="A collection of resources for companies to recruit at IIT Kanpur.">
+      <div id="steps">
       <Section title="Procedure">
         <Container>
           <CustomAutofitGrid>
             {steps.map((singleStep, idx) => (
               <BasicCard key={singleStep.title} {...singleStep} />
-            ))}
+              ))}
           </CustomAutofitGrid>
         </Container>
       </Section>
+      </div>
 
       {/* <FeaturesGallery /> */}
-
+      <div id="policy"></div>
       <Section title="Placement Policy">
         <ol>
           <li>
@@ -289,6 +289,7 @@ export default function CompaniesPage() {
           </div>
         </CustomBtnGroup>
       </Section>
+      <div id="faqs"></div>
       <Section title="FAQs">
         <FaqSection faqs={faqlist} />
         <div style={{marginTop:'3rem'}}>
