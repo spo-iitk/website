@@ -79,7 +79,7 @@ export default function StudentsPage() {
             <Link href="https://spo.iitk.ac.in/deferred_placement_policy.pdf" passHref>Deffered Placement Policy</Link>
           </li>
           <li>
-            <Link href="/" passHref>Placement Policy</Link>
+            <Link href="https://spo.iitk.ac.in/assets/docs/2021-22/Placement_Policy.pdf" passHref>Placement Policy</Link>
           </li>
           <li>
             <Link href="/" passHref>Internship Policy</Link>
