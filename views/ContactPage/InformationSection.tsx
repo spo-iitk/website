@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styled from 'styled-components';
 
 export default function InformationSection() {
@@ -8,12 +9,10 @@ export default function InformationSection() {
         <span>Email:</span> spo@iitk.ac.in
       </p>
       <p>
-        <Link href="/student-team">Placement Coordinators</Link>
+        <Link href="/student-team" passHref>Placement Coordinators</Link>
       </p>
       <p>
-        <small>
-        <Link href="/office-team">Office Team</Link>
-        </small>
+        <Link href="/office-team" passHref>Office Team</Link>
       </p>
     </Wrapper>
   );

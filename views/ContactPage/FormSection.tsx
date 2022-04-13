@@ -7,9 +7,13 @@ import { media } from 'utils/media';
 import MailSentState from '../../components/MailSentState';
 
 interface EmailPayload {
+  company: string;
   name: string;
   email: string;
+  phone: string;
+  designation: string;
   description: string;
+
 }
 
 export default function FormSection() {
@@ -53,14 +57,28 @@ export default function FormSection() {
         {hasErrored && <ErrorMessage>Couldn&apos;t send email. Please try again.</ErrorMessage>}
         <InputGroup>
           <InputStack>
+            {errors.company && <ErrorMessage>Company Name is required</ErrorMessage>}
+            <Input placeholder="Company Name" id="company" disabled={isDisabled} {...register('company', { required: true })} />
+          </InputStack>
+          <InputStack>
             {errors.name && <ErrorMessage>Name is required</ErrorMessage>}
             <Input placeholder="Your Name" id="name" disabled={isDisabled} {...register('name', { required: true })} />
+          </InputStack>
+        </InputGroup>
+        <InputGroup>
+          <InputStack>
+            {errors.phone && <ErrorMessage>Phone number is required</ErrorMessage>}
+            <Input placeholder="Your Phone number" id="phone" disabled={isDisabled} {...register('phone', { required: true })} />
           </InputStack>
           <InputStack>
             {errors.email && <ErrorMessage>Email is required</ErrorMessage>}
             <Input placeholder="Your Email" id="email" disabled={isDisabled} {...register('email', { required: true })} />
           </InputStack>
         </InputGroup>
+        <InputStack>
+          {errors.designation && <ErrorMessage>Designation is required</ErrorMessage>}
+          <Input placeholder="Your Designation" id="designation" disabled={isDisabled} {...register('designation', { required: true })} />
+        </InputStack>
         <InputStack>
           {errors.description && <ErrorMessage>Description is required</ErrorMessage>}
           <Textarea
