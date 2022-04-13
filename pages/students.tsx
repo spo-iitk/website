@@ -2,8 +2,8 @@ import Link from 'next/link';
 import styled from 'styled-components';
 // import LinkGroup from 'components/LinkGroup';
 import Page from 'components/Page';
+import Section from 'components/Section';
 import FaqSection from 'views/PricingPage/FaqSection';
-import SectionTitle from 'components/SectionTitle';
 
 const faqlist = [
   {
@@ -113,7 +113,7 @@ export default function StudentsPage() {
 
       <Section title="Resume FAQs">
         <FaqSection faqs={faqlist} />
-        <p>
+        <p style={{marginTop: "3rem"}}>
         <b>NOTE:</b> Whenever you send a mail containing proofs/PVFs or anything related to resume submission, kindly ensure that the subject contains your roll number.
         For detailed guidelines and recommendations on resume making, all the students are advised to visit this <a href="https://docs.google.com/document/d/1Lf4T9PAXi4yQ0cobzzyoslTy3VvBw8FB6FONHNQT1kY/edit">link</a>. 
         </p>
