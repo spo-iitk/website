@@ -141,7 +141,7 @@ export default function AboutPage() {
         of I.I.T. Kanpur. The spirit of Giving Back is reflected in every corner of the Institute, be it infrastructure development,
         scholarships, especially to girl students, financial support to various hobby clubs, set-up of different R&D labs and faculty
         chairs, donations to various community development sectors, environment, etc. For more info, visit{' '}
-        <a href="https://www.iitk.ac.in/dora/alumni-profile">https://www.iitk.ac.in/dora/alumni-profile</a>{' '}
+        <a href="https://www.iitk.ac.in/dora/alumni-profile">here.</a>{' '}
       </SectionText>
       <br />
       <hr />

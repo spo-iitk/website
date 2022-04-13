@@ -7,6 +7,14 @@ export default function InformationSection() {
       <p>
         <span>Email:</span> spo@iitk.ac.in
       </p>
+      <p>
+        <Link href="/student-team">Placement Coordinators</Link>
+      </p>
+      <p>
+        <small>
+        <Link href="/office-team">Office Team</Link>
+        </small>
+      </p>
     </Wrapper>
   );
 }
