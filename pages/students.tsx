@@ -76,7 +76,7 @@ export default function StudentsPage() {
         <div>
           <ul>
           <li>
-            <Link href="/" passHref>Deffered Placement Policy</Link>
+            <Link href="https://spo.iitk.ac.in/deferred_placement_policy.pdf" passHref>Deffered Placement Policy</Link>
           </li>
           <li>
             <Link href="/" passHref>Placement Policy</Link>
