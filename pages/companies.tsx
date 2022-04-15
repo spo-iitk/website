@@ -270,7 +270,7 @@ export default function CompaniesPage() {
           <div>
             <ul>
             <li>
-              <Link href="/" passHref>Campus Recruitement Brochure</Link>
+              <Link href="/assets/IITK_Recruitment_Brochure_2021-22.pdf" passHref>Campus Recruitement Brochure</Link>
             </li>
 
             <li>
