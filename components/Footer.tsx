@@ -15,8 +15,8 @@ const footerItems: FooterItems = [
     title: 'IITK Links',
     items: [
       { title: 'IITK Homepage', href: 'https://iitk.ac.in/' },
-      { title: 'DOAA', href: 'https://iitk.ac.in/doaa/' },
-      { title: 'DOSA', href: 'https://iitk.ac.in/dosa' },
+      { title: 'DoAA', href: 'https://iitk.ac.in/doaa/' },
+      { title: 'DoSA', href: 'https://iitk.ac.in/dosa' },
       { title: 'Students\' Gymkhana', href: 'https://students.iitk.ac.in/' },
     ],
   },
