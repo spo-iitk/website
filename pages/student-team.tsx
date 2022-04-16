@@ -8,37 +8,30 @@ import { media } from 'utils/media';
 const TeamMembers = [
   {
     name: 'Abhinav D Singh',
-    position: 'Overall Placement Coordinator',
     image: '/testimonials/iitk-logo.svg',
   },
   {
     name: 'Abhishek Kumar',
-    position: 'Overall Placement Coordinator',
     image: '/testimonials/iitk-logo.svg',
   },
   {
     name: 'Akhila Mudupu',
-    position: 'Overall Placement Coordinator',
     image: '/testimonials/iitk-logo.svg',
   },
   {
     name: 'Gyanendra Kumar',
-    position: 'Overall Placement Coordinator',
     image: '/testimonials/iitk-logo.svg',
   },
   {
     name: 'Vishwaraj Singh',
-    position: 'Overall Placement Coordinator',
     image: '/testimonials/iitk-logo.svg',
   },
   {
     name: 'Pragati Singh',
-    position: 'Overall Placement Coordinator',
     image: '/testimonials/iitk-logo.svg',
   },
   {
     name: 'Sunay Chhajed',
-    position: 'Overall Placement Coordinator',
     image: '/testimonials/iitk-logo.svg',
   },
 ];
@@ -115,7 +108,7 @@ const WEB = [
   },
   {
     name: 'Abhishek Shree',
-    position: 'Overall Placement Coordinator',
+    position: 'Web Head',
     image: '/testimonials/iitk-logo.svg',
   },
   {
@@ -125,17 +118,17 @@ const WEB = [
   },
   {
     name: 'Krishnansh Agarwal',
-    position: 'Overall Placement Coordinator',
+    position: 'Web Executive',
     image: '/testimonials/iitk-logo.svg',
   },
   {
     name: 'Tejas Ahuja',
-    position: 'Overall Placement Coordinator',
+    position: 'Web Executive',
     image: '/testimonials/iitk-logo.svg',
   },
   {
     name: 'Utkarsh Mishra',
-    position: 'Overall Placement Coordinator',
+    position: 'Web Executive',
     image: '/testimonials/iitk-logo.svg',
   },
 ];
