@@ -44,79 +44,67 @@ const TeamMembers = [
 ];
 const APC = [
   {
-    name: 'Abhinav D Singh',
+    name: 'Aditi Phogat',
   },
   {
-    name: 'Abhishek Kumar',
+    name: 'Afraz Jamal',
   },
   {
-    name: 'Akhila Mudupu',
+    name: 'Agrim Pandey',
   },
   {
-    name: 'Gyanendra Kumar',
+    name: 'Ananya Agrawal',
   },
   {
-    name: 'Vishwaraj Singh',
+    name: 'Ashutosh Sharma',
   },
   {
-    name: 'Pragati Singh',
+    name: 'Kashishpreet Kaur',
   },
   {
-    name: 'Sunay Chhajed',
+    name: 'Kavya Jalan',
   },
   {
-    name: 'Abhinav D Singh',
+    name: 'Khushbu Kumawat',
   },
   {
-    name: 'Abhishek Kumar',
+    name: 'Khushi Gautam',
   },
   {
-    name: 'Akhila Mudupu',
+    name: 'Nitya Aggarwal',
   },
   {
-    name: 'Gyanendra Kumar',
+    name: 'Payal Singh',
   },
   {
-    name: 'Vishwaraj Singh',
+    name: 'Pulkit Dhamija',
   },
   {
-    name: 'Pragati Singh',
+    name: 'Ravi Patel',
   },
   {
-    name: 'Sunay Chhajed',
+    name: 'Riktesh Singh',
   },
   {
-    name: 'Abhinav D Singh',
+    name: 'Rishabh Yadav',
   },
   {
-    name: 'Abhishek Kumar',
+    name: 'Rishi Malhotra',
   },
   {
-    name: 'Akhila Mudupu',
+    name: 'Sathwika',
   },
   {
-    name: 'Gyanendra Kumar',
+    name: 'Shivangi Singh',
   },
   {
-    name: 'Vishwaraj Singh',
+    name: 'Suraj Kumawat',
   },
   {
-    name: 'Pragati Singh',
+    name: 'Upen Mishra',
   },
   {
-    name: 'Sunay Chhajed',
-  },
-  {
-    name: 'Abhinav D Singh',
-  },
-  {
-    name: 'Abhishek Kumar',
-  },
-  {
-    name: 'Akhila Mudupu',
-  },
-  {
-    name: 'Gyanendra Kumar',
+    name: 'Vandana Basrani',
   },
 ];
 const WEB = [
@@ -126,32 +114,27 @@ const WEB = [
     image: '/testimonials/iitk-logo.svg',
   },
   {
-    name: 'Abhishek Kumar',
+    name: 'Abhishek Shree',
+    position: 'Overall Placement Coordinator',
+    image: '/testimonials/iitk-logo.svg',
+  },
+  {
+    name: 'Amandeep',
+    position: 'Web Executive',
+    image: '/testimonials/iitk-logo.svg',
+  },
+  {
+    name: 'Krishnansh Agarwal',
     position: 'Overall Placement Coordinator',
     image: '/testimonials/iitk-logo.svg',
   },
   {
     name: 'Tejas Ahuja',
-    position: 'Web Executive',
-    image: '/testimonials/iitk-logo.svg',
-  },
-  {
-    name: 'Gyanendra Kumar',
     position: 'Overall Placement Coordinator',
     image: '/testimonials/iitk-logo.svg',
   },
   {
-    name: 'Vishwaraj Singh',
-    position: 'Overall Placement Coordinator',
-    image: '/testimonials/iitk-logo.svg',
-  },
-  {
-    name: 'Pragati Singh',
-    position: 'Overall Placement Coordinator',
-    image: '/testimonials/iitk-logo.svg',
-  },
-  {
-    name: 'Sunay Chhajed',
+    name: 'Utkarsh Mishra',
     position: 'Overall Placement Coordinator',
     image: '/testimonials/iitk-logo.svg',
   },
