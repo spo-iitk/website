@@ -76,23 +76,23 @@ export default function StudentsPage() {
         <div>
           <ul>
           <li>
-            <Link href="public/docs/2021-22/deferred_placement_policy.pdf" passHref>Deffered Placement Policy</Link>
+            <Link href="docs/2021-22/deferred_placement_policy.pdf" passHref>Deffered Placement Policy</Link>
           </li>
           <li>
-            <Link href="public/docs/2021-22/Placement_Policy_2021-22.pdf" passHref>Placement Policy</Link>
+            <Link href="docs/2021-22/Placement_Policy_2021-22.pdf" passHref>Placement Policy</Link>
           </li>
           <li>
-            <Link href="public/docs/2021-22/Internship-Policy-2021-22.pdf" passHref>Internship Policy</Link>
+            <Link href="docs/2021-22/Internship-Policy-2021-22.pdf" passHref>Internship Policy</Link>
           </li>
           <li>
-            <Link href="/docs/2021-22/LAF.doc">Leave Application</Link>
+            <Link href="docs/2021-22/LAF.doc">Leave Application</Link>
           </li>
           </ul>
         </div>
         <div>
           <ul>
           <li>
-            <Link href="public/docs/2021-22/PVF.doc" passHref>Project Verification Form</Link>
+            <Link href="docs/2021-22/PVF.doc" passHref>Project Verification Form</Link>
           </li>
 
           <li>
@@ -104,7 +104,7 @@ export default function StudentsPage() {
           </li>
 
           <li>
-            <Link href="public/docs/2021-22/List-of-companies.pdf" passHref>List of Companies</Link>
+            <Link href="docs/2021-22/List-of-companies.pdf" passHref>List of Companies</Link>
           </li>
           </ul>
         </div>
