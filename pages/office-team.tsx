@@ -27,7 +27,7 @@ const TeamMembers = [
     image: '/testimonials/amarendra.jpg',
   },
 ];
-export default function OfficeTeam() {
+export default function OfficeStaff() {
   return (
     <DarkerBackgroundContainer>
       <br />
