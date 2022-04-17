@@ -76,35 +76,35 @@ export default function StudentsPage() {
         <div>
           <ul>
           <li>
-            <Link href="/" passHref>Deffered Placement Policy</Link>
+            <Link href="docs/2021-22/deferred_placement_policy.pdf" passHref>Deffered Placement Policy</Link>
           </li>
           <li>
-            <Link href="/" passHref>Placement Policy</Link>
+            <Link href="docs/2021-22/Placement_Policy_2021-22.pdf" passHref>Placement Policy</Link>
           </li>
           <li>
-            <Link href="/" passHref>Internship Policy</Link>
+            <Link href="docs/2021-22/Internship-Policy-2021-22.pdf" passHref>Internship Policy</Link>
           </li>
           <li>
-            <Link href="/" passHref>Leave Application</Link>
+            <Link href="docs/2021-22/LAF.doc">Leave Application</Link>
           </li>
           </ul>
         </div>
         <div>
           <ul>
           <li>
-            <Link href="/" passHref>Project Verification Form</Link>
+            <Link href="docs/2021-22/PVF.doc" passHref>Project Verification Form</Link>
           </li>
 
           <li>
-            <Link href="/" passHref>PPT Absence Form</Link>
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdV3sWKB-GSbFNkHdGSSP7N4ydybbFYumTjBSIAaZw04Na-xQ/viewform" passHref>PPT Absence Form</Link>
           </li>
 
           <li>
-            <Link href="/" passHref>Corporate Internship Waiver Form</Link>
+            <Link href="https://docs.google.com/document/d/1zQg3xr6Ca0jHFWPn6o2ZCyi7ypxtjdFoYdIT4pZwncc/edit" passHref>Corporate Internship Waiver Form</Link>
           </li>
 
           <li>
-            <Link href="/" passHref>List of Companies</Link>
+            <Link href="docs/2021-22/List-of-companies.pdf" passHref>List of Companies</Link>
           </li>
           </ul>
         </div>
