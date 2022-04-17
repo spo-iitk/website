@@ -10,24 +10,25 @@ const TeamMembers = [
     name: 'Kumar Srikanta Nayak',
     position: 'Career Development Officer',
     image: '/testimonials/srikanta_2022.jpg',
-    email:"ksnayak@iitk.ac.in",
+    email: <a href = "ksnayak@iitk.ac.in">ksnayak@iitk.ac.in</a>,
   },
   {
     name: 'Garima Singh',
     position: 'Junior Superintendent',
     image: '/testimonials/garima_2022.jpg',
+    email: "‎‎‎",
   },
   {
     name: 'Praveen Kumar',
     position: 'Junior Assistant',
     image: '/testimonials/praveen_2022.jpg',
-    email:"pravkmr@iitk.ac.in",
+    email:<a href = "pravkmr@iitk.ac.in">pravkmr@iitk.ac.in</a>,
   },
   {
     name: 'Amarendra Mohanty',
     position: 'Deputy Project Manager',
     image: '/testimonials/amarendra_2022.jpg',
-    email:"amaren@iitk.ac.in",
+    email:<a href = "amaren@iitk.ac.in">amaren@iitk.ac.in</a>,
   },
 ];
 export default function OfficeTeam() {
