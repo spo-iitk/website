@@ -78,7 +78,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
             <RichText>Our team description</RichText>
             <TeamContainer>
               <div>
-                <Button href="/office-team">Office team</Button>
+                <Button href="/office-staff">Office Staff</Button>
               </div>
               <div>
                 <Button href="/student-team">Student team</Button>
