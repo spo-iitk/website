@@ -9,29 +9,32 @@ const TeamMembers = [
   {
     name: 'Kumar Srikanta Nayak',
     position: 'Career Development Officer',
-    image: '/testimonials/srikanta.jpg',
+    image: '/testimonials/srikanta_2022.jpg',
+    email:"ksnayak@iitk.ac.in",
   },
   {
     name: 'Garima Singh',
     position: 'Junior Superintendent',
-    image: '/testimonials/garima.jpg',
+    image: '/testimonials/garima_2022.jpg',
   },
   {
     name: 'Praveen Kumar',
     position: 'Junior Assistant',
-    image: '/testimonials/praveen.jpg',
+    image: '/testimonials/praveen_2022.jpg',
+    email:"pravkmr@iitk.ac.in",
   },
   {
     name: 'Amarendra Mohanty',
     position: 'Deputy Project Manager',
-    image: '/testimonials/amarendra.jpg',
+    image: '/testimonials/amarendra_2022.jpg',
+    email:"amaren@iitk.ac.in",
   },
 ];
 export default function OfficeTeam() {
   return (
     <DarkerBackgroundContainer>
       <br />
-      <SectionTitle>Team Members</SectionTitle>
+      <SectionTitle>Staff Members</SectionTitle>
       <Container>
         <CustomAutofitGrid>
           {TeamMembers.map((member) => (
@@ -40,6 +43,7 @@ export default function OfficeTeam() {
                 {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
                 <Title>{member.name}</Title>
                 <Description>{member.position}</Description>
+                <Description>{member.email}</Description>
               </Card>
             </div>
           ))}
