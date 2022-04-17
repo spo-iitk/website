@@ -146,7 +146,6 @@ export default function StudentTeam() {
               <Card>
                 {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
                 <Title>{member.name}</Title>
-                <Description>{member.position}</Description>
               </Card>
             </div>
           ))}
@@ -158,9 +157,7 @@ export default function StudentTeam() {
           {APC.map((member) => (
             <div key={member.name}>
               <Card>
-                {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
                 <Title>{member.name}</Title>
-                <Description>{member.position}</Description>
               </Card>
             </div>
           ))}
