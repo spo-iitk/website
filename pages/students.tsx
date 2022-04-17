@@ -4,6 +4,52 @@ import styled from 'styled-components';
 import Page from 'components/Page';
 import Section from 'components/Section';
 import FaqSection from 'views/PricingPage/FaqSection';
+import AutofitGrid from 'components/AutofitGrid';
+import BasicCard from 'components/BasicCard';
+import Container from 'components/Container';
+import { media } from 'utils/media';
+
+const steps = [
+  {
+    title: '1',
+    description: "You must prepare a master resume and submit it by the specified deadline.",
+  },
+  {
+    title: '2',
+    description:
+      "Before the deadline, the Students' Placement Office must receive the proofs justifying each point in your resume as well as PVFs (Project Verification Forms) from the project or internship mentor.",
+  },
+  {
+    title: '3',
+    description:
+      'You must register on the Recruitment Automation System (RAS) within the specified timeframe as notified by SPO.',
+  },
+  {
+    title: '4',
+    description:
+      "After you've registered, you are supposed to upload all one/two page resumes on the portal.",
+  },
+  {
+    title: '5',
+    description: "The Students' Placement Office appoints a point of contact (PoC) for your resume verification.",
+  },
+  {
+    title: '6',
+    description: "You would be assigned a time window during which the allotted POC would verify your resume.",
+  },
+  {
+    title: '7',
+    description: "Once your resume has been verified, you may begin applying to companies on the RAS in which you are eligible.",
+  },
+  {
+    title: '8',
+    description: "Following your application, you must attend all of the company's hiring events (PPTs / Tests / GDs).",
+  },
+  {
+    title: '9',
+    description: "If you get an offer from a company, the SPO would notify you and your account would be frozen.",
+  },
+];
 
 const faqlist = [
   {
@@ -71,7 +117,19 @@ const faqlist = [
 export default function StudentsPage() {
   return (
     <Page title="For students" description="A collection of resources for students at IIT Kanpur.">
+      <div id="steps">
+      <Section title="Procedure">
+        <Container>
+          <CustomAutofitGrid>
+            {steps.map((singleStep, idx) => (
+              <BasicCard key={singleStep.title} {...singleStep} />
+              ))}
+          </CustomAutofitGrid>
+        </Container>
+      </Section>
+      </div>
       <Section title="Resources">
+
       <CustomBtnGroup>
         <div>
           <ul>
@@ -122,6 +180,18 @@ export default function StudentsPage() {
     </Page>
   );
 }
+
+const CustomAutofitGrid = styled(AutofitGrid)`
+  --autofit-grid-item-size: 30rem;
+
+  ${media('<=tablet')} {
+    --autofit-grid-item-size: 30rem;
+  }
+
+  ${media('<=phone')} {
+    --autofit-grid-item-size: 100%;
+  }
+`;
 
 const CustomBtnGroup = styled.div`
   display: grid;
