@@ -102,7 +102,7 @@ const APC = [
 ];
 const WEB = [
   {
-    name: 'Harshitt Raj',
+    name: 'Harshit Raj',
     position: 'Web Head',
     image: '/testimonials/iitk-logo.svg',
   },
@@ -112,7 +112,7 @@ const WEB = [
     image: '/testimonials/iitk-logo.svg',
   },
   {
-    name: 'Amandeep',
+    name: 'S Amandeep',
     position: 'Web Executive',
     image: '/testimonials/iitk-logo.svg',
   },
