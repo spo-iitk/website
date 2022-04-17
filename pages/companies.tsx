@@ -253,16 +253,16 @@ export default function CompaniesPage() {
           <div>
             <ul>
             <li>
-              <Link href="/" passHref>Job Announcement Form</Link>
+              <Link href="assets/companies_links/IITK_JAF_Job_Announcement_Form_2021-22.docx" passHref>Job Announcement Form</Link>
             </li>
             <li>
-              <Link href="/" passHref>Internship Proforma</Link>
+              <Link href="assets/companies_links/IITK_IP_Internship_Proforma_2021-22.docx" passHref>Internship Proforma</Link>
             </li>
             <li>
-              <Link href="/" passHref>Placement Policy</Link>
+              <Link href="assets/companies_links/Placement-Policy-Companies.pdf" passHref>Placement Policy</Link>
             </li>
             <li>
-              <Link href="/" passHref>Internship Policy</Link>
+              <Link href="assets/companies_links/Internship-Policy-Companies.pdf" passHref>Internship Policy</Link>
             </li>
             </ul>
 
@@ -274,15 +274,15 @@ export default function CompaniesPage() {
             </li>
 
             <li>
-              <Link href="/" passHref>Campus Recruitment Guide</Link>
+              <Link href="assets/companies_links/IITK_Recruitment_Guide_2020-21.pdf" passHref>Campus Recruitment Guide</Link>
             </li>
 
             <li>
-              <Link href="/" passHref>Steps - Company Registration</Link>
+              <Link href="assets/companies_links/Steps-Company-Registration.pdf" passHref>Steps - Company Registration</Link>
             </li>
 
             <li>
-              <Link href="/" passHref>Departmental Brochures</Link>
+              <Link href="/departmental-brochure" passHref>Departmental Brochures</Link>
             </li>
             </ul>
 
