@@ -9,10 +9,13 @@ export default function InformationSection() {
         <span>Email:</span> spo@iitk.ac.in
       </p>
       <p>
+      <span>Desk No. :</span> 0512-259-4433/34
+      </p>
+      <p>
         <Link href="/student-team" passHref>Placement Coordinators</Link>
       </p>
       <p>
-        <Link href="/office-team" passHref>Office Team</Link>
+        <Link href="/office-team" passHref>Office Staff</Link>
       </p>
     </Wrapper>
   );
