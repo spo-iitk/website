@@ -1,4 +1,5 @@
 import NextImage from 'next/image';
+import link from 'next/link';
 import styled from 'styled-components';
 import AutofitGrid from 'components/AutofitGrid';
 import Container from 'components/Container';
@@ -142,6 +143,9 @@ const WEBEXEC = [
     phone: "(+91) 78955 75235"
   },
 ];
+
+
+
 export default function StudentTeam() {
   return (
     <DarkerBackgroundContainer>
@@ -224,6 +228,37 @@ export default function StudentTeam() {
         </CustomAutofitGrid4>
       </Container>
       <br />
+      <SectionTitle>Previous Year Web Teams</SectionTitle>
+      <Container>
+        <div >
+          <ul>
+            <li>
+              <Link href="./pytm/student-team-2021-22" >Team 2021-22</Link>
+            </li>
+            <li>
+              <Link href="./students">Team 2020-21</Link>
+            </li>
+            <li>
+              <Link href="./students">Team 2019-20</Link>
+            </li>
+            <li>
+              <Link href="./students">Team 2018-19</Link>
+            </li>
+            <li>
+              <Link href="./students">Team 2017-18</Link>
+            </li>
+            <li>
+              <Link href="./students">Team 2016-17</Link>
+            </li>
+            <li>
+              <Link href="./students">Team 2015-16</Link>
+            </li>
+            <li>
+              <Link href="./students">Team 2014-15</Link>
+            </li>
+          </ul>
+        </div>
+      </Container>
     </DarkerBackgroundContainer>
   );
 }
