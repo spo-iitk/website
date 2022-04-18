@@ -7,24 +7,24 @@ import { media } from 'utils/media';
 
 const TeamMembers = [
   {
-    name: 'Something',
-    position: 'something',
-    image: '/testimonials/iitk-logo.svg',
+    name: 'Kumar Srikanta Nayak',
+    position: 'Career Development Officer',
+    image: '/testimonials/srikanta.jpg',
   },
   {
-    name: 'Something Else',
-    position: 'something',
-    image: '/testimonials/iitk-logo.svg',
+    name: 'Garima Singh',
+    position: 'Junior Superintendent',
+    image: '/testimonials/garima.jpg',
   },
   {
-    name: 'Something Else Else',
-    position: 'something',
-    image: '/testimonials/iitk-logo.svg',
+    name: 'Praveen Kumar',
+    position: 'Junior Assistant',
+    image: '/testimonials/praveen.jpg',
   },
   {
-    name: 'Something Else Els',
-    position: 'something',
-    image: '/testimonials/iitk-logo.svg',
+    name: 'Amarendra Mohanty',
+    position: 'Deputy Project Manager',
+    image: '/testimonials/amarendra.jpg',
   },
 ];
 export default function StudentTeam() {
