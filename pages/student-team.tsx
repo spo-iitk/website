@@ -3,37 +3,60 @@ import link from 'next/link';
 import styled from 'styled-components';
 import AutofitGrid from 'components/AutofitGrid';
 import Container from 'components/Container';
+import LinkedinIcon from 'components/LinkedinIcon';
+import Page from 'components/Page';
 import SectionTitle from 'components/SectionTitle';
 import { media } from 'utils/media';
 
 const TeamMembers = [
   {
-    name: 'Abhinav D Singh',
-    image: '/testimonials/iitk-logo.svg',
-  },
-  {
-    name: 'Abhishek Kumar',
-    image: '/testimonials/iitk-logo.svg',
-  },
-  {
-    name: 'Akhila Mudupu',
-    image: '/testimonials/iitk-logo.svg',
-  },
-  {
     name: 'Gyanendra Kumar',
     image: '/testimonials/iitk-logo.svg',
-  },
-  {
-    name: 'Vishwaraj Singh',
-    image: '/testimonials/iitk-logo.svg',
-  },
-  {
-    name: 'Pragati Singh',
-    image: '/testimonials/iitk-logo.svg',
+    phone: '(+91) 78965 78965',
+    mail: 'xyz@iitk.ac.in',
+    linkedin: 'https://www.linkedin.com/in/abc'
   },
   {
     name: 'Sunay Chhajed',
     image: '/testimonials/iitk-logo.svg',
+    phone: '(+91) 78965 78965',
+    mail: 'xyz@iitk.ac.in',
+    linkedin: 'https://www.linkedin.com/in/abc'
+  },
+  {
+    name: 'Abhinav D Singh',
+    image: '/testimonials/iitk-logo.svg',
+    phone: '(+91) 78965 78965',
+    mail: 'xyz@iitk.ac.in',
+    linkedin: 'https://www.linkedin.com/in/abc'
+  },
+  {
+    name: 'Vishwaraj Singh',
+    image: '/testimonials/iitk-logo.svg',
+    phone: '(+91) 78965 78965',
+    mail: 'xyz@iitk.ac.in',
+    linkedin: 'https://www.linkedin.com/in/abc'
+  },
+  {
+    name: 'Abhishek Kumar',
+    image: '/testimonials/iitk-logo.svg',
+    phone: '(+91) 78965 78965',
+    mail: 'xyz@iitk.ac.in',
+    linkedin: 'https://www.linkedin.com/in/abc'
+  },
+  {
+    name: 'Akhila Mudupu',
+    image: '/testimonials/iitk-logo.svg',
+    phone: '(+91) 78965 78965',
+    mail: 'xyz@iitk.ac.in',
+    linkedin: 'https://www.linkedin.com/in/abc'
+  },
+  {
+    name: 'Pragati Singh',
+    image: '/testimonials/iitk-logo.svg',
+    phone: '(+91) 78965 78965',
+    mail: 'xyz@iitk.ac.in',
+    linkedin: 'https://www.linkedin.com/in/abc'
   },
 ];
 const APC = [
@@ -105,16 +128,16 @@ const WEBHEAD = [
   {
     name: 'Harshit Raj',
     position: 'Web Head',
-    image: '/testimonials/iitk-logo.svg',
     phone: "(+91) 79922 71701",
-    mail: "harshitr20@iitk.ac.in"
+    mail: "harshitr20@iitk.ac.in",
+    linkedin: "https://linkedin.com/in/1-Harshit"
   },
   {
     name: 'Abhishek Shree',
     position: 'Web Head',
-    image: '/testimonials/iitk-logo.svg',
     phone: "(+91) 79922 71701",
-    mail: "shreea20@iitk.ac.in"
+    mail: "shreea20@iitk.ac.in",
+    linkedin: "https://linkedin.com/in/abc"
   },
 ]
 const WEBEXEC = [
@@ -148,120 +171,126 @@ const WEBEXEC = [
 
 export default function StudentTeam() {
   return (
-    <DarkerBackgroundContainer>
-      <br />
-      <SectionTitle>Student Team Members</SectionTitle>
-      <br />
-      <SectionTitle>Overall Placement Coordinators</SectionTitle>
-      <Container>
-        <CustomAutofitGrid>
-          {TeamMembers.map((member, i) => {
-            if (i < 3)
-              return (
-                <div key={member.name}>
-                  <Card>
-                    {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
-                    <Title>{member.name}</Title>
-                  </Card>
-                </div>
-              );
-            return <></>;
-          }
-          )}
-        </CustomAutofitGrid>
+    <Page title="IITK Placement Coordinators" description="Feel free to reach out to us!">
+      <DarkerBackgroundContainer>
+        <SectionTitle>Overall Placement Coordinators</SectionTitle>
+        <Container>
+          <CustomAutofitGrid2>
+            {TeamMembers.map((member, i) => {
+              if (i < 4)
+                return (
+                  <div key={member.name}>
+                    <Card>
+                      {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
+                      <Title>{member.name}</Title>
+                      <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
+                      <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+                      <small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small>
+                    </Card>
+                  </div>
+                );
+              return <></>;
+            }
+            )}
+          </CustomAutofitGrid2>
+          <br />
+          <CustomAutofitGrid3>
+            {TeamMembers.map((member, i) => {
+              if (i >= 4)
+                return (
+                  <div key={member.name}>
+                    <Card>
+                      {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
+                      <Title>{member.name}</Title>
+                      <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
+                      <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+                      <small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small>
+                    </Card>
+                  </div>
+                );
+              return <></>;
+            }
+            )}
+          </CustomAutofitGrid3>
+        </Container>
+        <SectionTitle>Assistant Coordinators</SectionTitle>
+        <Container>
+          <CustomAutofitGrid3>
+            {APC.map((member) => (
+              <div key={member.name}>
+                <Card>
+                  <Title>{member.name}</Title>
+                </Card>
+              </div>
+            ))}
+          </CustomAutofitGrid3>
+        </Container>
+        <SectionTitle>Web Team</SectionTitle>
+        <Container>
+          <CustomAutofitGrid2>
+            {WEBHEAD.map((member) => (
+              <div key={member.name}>
+                <Card>
+                  <Title>{member.name}</Title>
+                  <Description>{member.position}</Description>
+                  <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
+                  <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+                  {/* <small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small> */}
+                </Card>
+              </div>
+            ))}
+          </CustomAutofitGrid2>
+          <br />
+          <CustomAutofitGrid4>
+            {WEBEXEC.map((member) => (
+              <div key={member.name}>
+                <Card>
+                  <Title>{member.name}</Title>
+                  <Description>{member.position}</Description>
+                  <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
+                  <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+                </Card>
+              </div>
+            ))}
+          </CustomAutofitGrid4>
+        </Container>
         <br />
-        <CustomAutofitGrid4>
-          {TeamMembers.map((member, i) => {
-            if (i >= 3)
-              return (
-                <div key={member.name}>
-                  <Card>
-                    {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
-                    <Title>{member.name}</Title>
-                  </Card>
-                </div>
-              );
-            return <></>;
-          }
-          )}
-        </CustomAutofitGrid4>
-      </Container>
-      <SectionTitle>Assistant Placement Coordinators</SectionTitle>
-      <Container>
-        <CustomAutofitGrid>
-          {APC.map((member) => (
-            <div key={member.name}>
-              <Card>
-                <Title>{member.name}</Title>
-              </Card>
-            </div>
-          ))}
-        </CustomAutofitGrid>
-      </Container>
-      <SectionTitle>Web Team</SectionTitle>
-      <Container>
-        <CustomAutofitGrid>
-          {WEBHEAD.map((member) => (
-            <div key={member.name}>
-              <Card>
-                {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
-                <Title>{member.name}</Title>
-                <Description>{member.position}</Description>
-                <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
-                <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
-              </Card>
-            </div>
-          ))}
-        </CustomAutofitGrid>
-        <br />
-        <CustomAutofitGrid4>
-          {WEBEXEC.map((member) => (
-            <div key={member.name}>
-              <Card>
-                <Title>{member.name}</Title>
-                <Description>{member.position}</Description>
-                <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
-                <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
-              </Card>
-            </div>
-          ))}
-        </CustomAutofitGrid4>
-      </Container>
-      <br />
-      <SectionTitle>Previous Year Web Teams</SectionTitle>
-      <Container>
-        <div >
-          <ul>
-            <li>
-              <Link href="./pytm/student-team-2021-22" >Team 2021-22</Link>
-            </li>
-            <li>
-              <Link href="./students">Team 2020-21</Link>
-            </li>
-            <li>
-              <Link href="./students">Team 2019-20</Link>
-            </li>
-            <li>
-              <Link href="./students">Team 2018-19</Link>
-            </li>
-            <li>
-              <Link href="./students">Team 2017-18</Link>
-            </li>
-            <li>
-              <Link href="./students">Team 2016-17</Link>
-            </li>
-            <li>
-              <Link href="./students">Team 2015-16</Link>
-            </li>
-            <li>
-              <Link href="./students">Team 2014-15</Link>
-            </li>
-          </ul>
-        </div>
-      </Container>
-    </DarkerBackgroundContainer>
+        <SectionTitle>Previous Year Web Teams</SectionTitle>
+        <Container>
+          <div >
+            <ul>
+              <li>
+                <Link href="./pytm/student-team-2021-22" >Team 2021-22</Link>
+              </li>
+              <li>
+                <Link href="./students">Team 2020-21</Link>
+              </li>
+              <li>
+                <Link href="./students">Team 2019-20</Link>
+              </li>
+              <li>
+                <Link href="./students">Team 2018-19</Link>
+              </li>
+              <li>
+                <Link href="./students">Team 2017-18</Link>
+              </li>
+              <li>
+                <Link href="./students">Team 2016-17</Link>
+              </li>
+              <li>
+                <Link href="./students">Team 2015-16</Link>
+              </li>
+              <li>
+                <Link href="./students">Team 2014-15</Link>
+              </li>
+            </ul>
+          </div>
+        </Container>
+      </DarkerBackgroundContainer>
+    </Page>
   );
 }
+
 const Card = styled.div`
   display: flex;
   padding: 2.5rem;
@@ -286,12 +315,10 @@ const Title = styled.div`
 `;
 
 const Description = styled.div`
-opacity: 0.6;
-
-  
+  opacity: 0.6;
 `;
 
-const CustomAutofitGrid = styled(AutofitGrid)`
+const CustomAutofitGrid2 = styled(AutofitGrid)`
   --autofit-grid-item-size: 40rem;
 
   ${media('<=tablet')} {
@@ -303,8 +330,21 @@ const CustomAutofitGrid = styled(AutofitGrid)`
   }
 `;
 
-const CustomAutofitGrid4 = styled(AutofitGrid)`
+const CustomAutofitGrid3 = styled(AutofitGrid)`
 --autofit-grid-item-size: 30rem;
+
+  ${media('<=tablet')} {
+    --autofit-grid-item-size: 25rem;
+  }
+
+  ${media('<=phone')} {
+    --autofit-grid-item-size: 100%;
+  }
+`;
+
+
+const CustomAutofitGrid4 = styled(AutofitGrid)`
+--autofit-grid-item-size: 25rem;
 
   ${media('<=tablet')} {
     --autofit-grid-item-size: 25rem;
@@ -319,7 +359,7 @@ const DarkerBackgroundContainer = styled.div`
   background: rgb(var(--background));
 
   & > *:not(:first-child) {
-    margin-top: 10rem;
+    margin-top: 5rem;
   }
 `;
 
