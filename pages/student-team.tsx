@@ -100,36 +100,46 @@ const APC = [
     name: 'Vandana Basrani',
   },
 ];
-const WEB = [
+const WEBHEAD = [
   {
     name: 'Harshit Raj',
     position: 'Web Head',
     image: '/testimonials/iitk-logo.svg',
+    phone: "(+91) 79922 71701",
+    mail: "harshitr20@iitk.ac.in"
   },
   {
     name: 'Abhishek Shree',
     position: 'Web Head',
     image: '/testimonials/iitk-logo.svg',
+    phone: "(+91) 79922 71701",
+    mail: "shreea20@iitk.ac.in"
   },
+]
+const WEBEXEC = [
   {
     name: 'S Amandeep',
     position: 'Web Executive',
-    image: '/testimonials/iitk-logo.svg',
+    mail: "abc21@iitk.ac.in",
+    phone: "(+91) 78955 75235"
   },
   {
     name: 'Krishnansh Agarwal',
     position: 'Web Executive',
-    image: '/testimonials/iitk-logo.svg',
+    mail: "abc21@iitk.ac.in",
+    phone: "(+91) 78955 75235"
   },
   {
     name: 'Tejas Ahuja',
     position: 'Web Executive',
-    image: '/testimonials/iitk-logo.svg',
+    mail: "abc21@iitk.ac.in",
+    phone: "(+91) 78955 75235"
   },
   {
     name: 'Utkarsh Mishra',
     position: 'Web Executive',
-    image: '/testimonials/iitk-logo.svg',
+    mail: "abc21@iitk.ac.in",
+    phone: "(+91) 78955 75235"
   },
 ];
 export default function StudentTeam() {
@@ -141,15 +151,36 @@ export default function StudentTeam() {
       <SectionTitle>Overall Placement Coordinators</SectionTitle>
       <Container>
         <CustomAutofitGrid>
-          {TeamMembers.map((member) => (
-            <div key={member.name}>
-              <Card>
-                {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
-                <Title>{member.name}</Title>
-              </Card>
-            </div>
-          ))}
+          {TeamMembers.map((member, i) => {
+            if (i < 3)
+              return (
+                <div key={member.name}>
+                  <Card>
+                    {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
+                    <Title>{member.name}</Title>
+                  </Card>
+                </div>
+              );
+            return <></>;
+          }
+          )}
         </CustomAutofitGrid>
+        <br />
+        <CustomAutofitGrid4>
+          {TeamMembers.map((member, i) => {
+            if (i >= 3)
+              return (
+                <div key={member.name}>
+                  <Card>
+                    {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
+                    <Title>{member.name}</Title>
+                  </Card>
+                </div>
+              );
+            return <></>;
+          }
+          )}
+        </CustomAutofitGrid4>
       </Container>
       <SectionTitle>Assistant Placement Coordinators</SectionTitle>
       <Container>
@@ -166,16 +197,31 @@ export default function StudentTeam() {
       <SectionTitle>Web Team</SectionTitle>
       <Container>
         <CustomAutofitGrid>
-          {WEB.map((member) => (
+          {WEBHEAD.map((member) => (
             <div key={member.name}>
               <Card>
                 {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
                 <Title>{member.name}</Title>
                 <Description>{member.position}</Description>
+                <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
+                <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
               </Card>
             </div>
           ))}
         </CustomAutofitGrid>
+        <br />
+        <CustomAutofitGrid4>
+          {WEBEXEC.map((member) => (
+            <div key={member.name}>
+              <Card>
+                <Title>{member.name}</Title>
+                <Description>{member.position}</Description>
+                <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
+                <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+              </Card>
+            </div>
+          ))}
+        </CustomAutofitGrid4>
       </Container>
       <br />
     </DarkerBackgroundContainer>
@@ -205,14 +251,28 @@ const Title = styled.div`
 `;
 
 const Description = styled.div`
-  opacity: 0.6;
+opacity: 0.6;
+
+  
 `;
 
 const CustomAutofitGrid = styled(AutofitGrid)`
   --autofit-grid-item-size: 40rem;
 
   ${media('<=tablet')} {
-    --autofit-grid-item-size: 30rem;
+    --autofit-grid-item-size: 25rem;
+  }
+
+  ${media('<=phone')} {
+    --autofit-grid-item-size: 100%;
+  }
+`;
+
+const CustomAutofitGrid4 = styled(AutofitGrid)`
+--autofit-grid-item-size: 30rem;
+
+  ${media('<=tablet')} {
+    --autofit-grid-item-size: 25rem;
   }
 
   ${media('<=phone')} {
@@ -226,4 +286,9 @@ const DarkerBackgroundContainer = styled.div`
   & > *:not(:first-child) {
     margin-top: 10rem;
   }
+`;
+
+const Link = styled.a`
+  text-decoration: none;
+  color: var(--primary);
 `;
