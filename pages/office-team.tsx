@@ -1,4 +1,5 @@
 import NextImage from 'next/image';
+import Link from 'next/link'
 import styled from 'styled-components';
 import AutofitGrid from 'components/AutofitGrid';
 import Container from 'components/Container';
@@ -10,25 +11,30 @@ const TeamMembers = [
     name: 'Kumar Srikanta Nayak',
     position: 'Career Development Officer',
     image: '/testimonials/srikanta_2022.jpg',
-    email: <a href = "ksnayak@iitk.ac.in">ksnayak@iitk.ac.in</a>,
+    email: "ksnayak@iitk.ac.in",
+    emaill: "mailto:ksnayak@iitk.ac.in",
   },
   {
     name: 'Garima Singh',
     position: 'Junior Superintendent',
     image: '/testimonials/garima_2022.jpg',
     email: "‎‎‎",
+    emaill: "‎‎‎",
+    
   },
   {
     name: 'Praveen Kumar',
     position: 'Junior Assistant',
     image: '/testimonials/praveen_2022.jpg',
-    email:<a href = "pravkmr@iitk.ac.in">pravkmr@iitk.ac.in</a>,
+    email:"pravkmr@iitk.ac.in",
+    emaill:"mailto:pravkmr@iitk.ac.in",
   },
   {
     name: 'Amarendra Mohanty',
     position: 'Deputy Project Manager',
     image: '/testimonials/amarendra_2022.jpg',
-    email:<a href = "amaren@iitk.ac.in">amaren@iitk.ac.in</a>,
+    email: "amaren@iitk.ac.in",
+    emaill: "mailto:amaren@iitk.ac.in",
   },
 ];
 export default function OfficeTeam() {
@@ -44,7 +50,7 @@ export default function OfficeTeam() {
                 {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
                 <Title>{member.name}</Title>
                 <Description>{member.position}</Description>
-                <Description>{member.email}</Description>
+                <Description><Link href={member.emaill}><a>{member.email}</a></Link></Description>
               </Card>
             </div>
           ))}
