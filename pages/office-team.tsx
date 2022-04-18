@@ -1,4 +1,5 @@
 import NextImage from 'next/image';
+import Link from 'next/link'
 import styled from 'styled-components';
 import AutofitGrid from 'components/AutofitGrid';
 import Container from 'components/Container';
@@ -10,12 +11,13 @@ const TeamMembers = [
     name: 'Kumar Srikanta Nayak',
     position: 'Career Development Officer',
     image: '/testimonials/srikanta_2022.jpg',
-    email:"ksnayak@iitk.ac.in",
+    email: "ksnayak@iitk.ac.in",
   },
   {
     name: 'Garima Singh',
     position: 'Junior Superintendent',
     image: '/testimonials/garima_2022.jpg',
+    email: "",
   },
   {
     name: 'Praveen Kumar',
@@ -27,7 +29,7 @@ const TeamMembers = [
     name: 'Amarendra Mohanty',
     position: 'Deputy Project Manager',
     image: '/testimonials/amarendra_2022.jpg',
-    email:"amaren@iitk.ac.in",
+    email: "amaren@iitk.ac.in",
   },
 ];
 export default function OfficeTeam() {
@@ -43,7 +45,7 @@ export default function OfficeTeam() {
                 {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
                 <Title>{member.name}</Title>
                 <Description>{member.position}</Description>
-                <Description>{member.email}</Description>
+                <Description><Link href={`mailto:${member.email}`} passHref>{member.email}</Link></Description>
               </Card>
             </div>
           ))}
