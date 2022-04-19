@@ -38,8 +38,10 @@ export default function OfficeTeam() {
       <br />
       <SectionTitle>Staff Members</SectionTitle>
       <Container>
-        <CustomAutofitGrid>
-          {TeamMembers.map((member) => (
+        <CustomAutofitGrid2>
+          {TeamMembers.map((member, i) => {
+            if(i < 2)
+            return(
             <div key={member.name}>
               <Card>
                 {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
@@ -48,8 +50,29 @@ export default function OfficeTeam() {
                 <Description><Link href={`mailto:${member.email}`} passHref>{member.email}</Link></Description>
               </Card>
             </div>
-          ))}
-        </CustomAutofitGrid>
+          );
+          return <></>;
+            }
+          )}
+        </CustomAutofitGrid2>
+        <br />
+        <CustomAutofitGrid2>
+          {TeamMembers.map((member, i) => {
+            if(i >= 2)
+            return(
+            <div key={member.name}>
+              <Card>
+                {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
+                <Title>{member.name}</Title>
+                <Description>{member.position}</Description>
+                <Description><Link href={`mailto:${member.email}`} passHref>{member.email}</Link></Description>
+              </Card>
+            </div>
+          );
+          return <></>;
+            }
+          )}
+        </CustomAutofitGrid2>
       </Container>
       <br />
     </DarkerBackgroundContainer>
@@ -82,11 +105,11 @@ const Description = styled.div`
   opacity: 0.6;
 `;
 
-const CustomAutofitGrid = styled(AutofitGrid)`
+const CustomAutofitGrid2 = styled(AutofitGrid)`
   --autofit-grid-item-size: 40rem;
 
   ${media('<=tablet')} {
-    --autofit-grid-item-size: 30rem;
+    --autofit-grid-item-size: 25rem;
   }
 
   ${media('<=phone')} {

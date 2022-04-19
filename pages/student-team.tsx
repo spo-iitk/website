@@ -129,28 +129,9 @@ export default function StudentTeam() {
       <DarkerBackgroundContainer>
         <SectionTitle>Overall Placement Coordinators</SectionTitle>
         <Container>
-          <CustomAutofitGrid2>
-            {TeamMembers.map((member, i) => {
-              if (i < 4)
-                return (
-                  <div key={member.name}>
-                    <Card>
-                      {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
-                      <Title>{member.name}</Title>
-                      <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
-                      <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
-                      <small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small>
-                    </Card>
-                  </div>
-                );
-              return <></>;
-            }
-            )}
-          </CustomAutofitGrid2>
-          <br />
           <CustomAutofitGrid3>
             {TeamMembers.map((member, i) => {
-              if (i >= 4)
+              if (i < 3)
                 return (
                   <div key={member.name}>
                     <Card>
@@ -166,6 +147,25 @@ export default function StudentTeam() {
             }
             )}
           </CustomAutofitGrid3>
+          <br />
+          <CustomAutofitGrid4>
+            {TeamMembers.map((member, i) => {
+              if (i >= 3)
+                return (
+                  <div key={member.name}>
+                    <Card>
+                      {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
+                      <Title>{member.name}</Title>
+                      <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
+                      <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+                      <small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small>
+                    </Card>
+                  </div>
+                );
+              return <></>;
+            }
+            )}
+          </CustomAutofitGrid4>
         </Container>
         <SectionTitle>Assistant Coordinators</SectionTitle>
         <Container>
