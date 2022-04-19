@@ -161,8 +161,8 @@ const WEBEXEC = [
   {
     name: 'Utkarsh Mishra',
     position: 'Web Executive',
-    mail: "abc21@iitk.ac.in",
-    phone: "(+91) 78955 75235"
+    mail: "utkarshm21@iitk.ac.in",
+    phone: "(+91) 93992 15049"
   },
 ];
 export default function StudentTeam() {
