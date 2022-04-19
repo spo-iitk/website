@@ -1,4 +1,4 @@
-import NextImage from 'next/image';
+import NextImage from 'next-image-export-optimizer';
 import styled from 'styled-components';
 
 interface BasicCardProps {

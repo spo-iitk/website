@@ -1,4 +1,4 @@
-import NextImage from 'next/image';
+import NextImage from 'next-image-export-optimizer';
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Collapse from 'components/Collapse';
