@@ -300,8 +300,8 @@ export default function CompaniesPage() {
               <li>Yadav Travels - Mr Rajpal Yadav - 0512-259 5095 - (Mobile : 93362 17156)</li>
               <li>
                 The list of institute approved taxi operators can be found{' '}
-                <a href="https://spo.iitk.ac.in/assets/docs/taxi_details.pdf">here</a> and approved rates can be found{' '}
-                <a href="https://spo.iitk.ac.in/assets/docs/taxi_rates.pdf">here</a>.
+                <a href="/assets/taxi_details.pdf">here</a> and approved rates can be found{' '}
+                <a href="/assets/taxi_rates.pdf">here</a>.
               </li>
             </ul>
           </Accordion>
