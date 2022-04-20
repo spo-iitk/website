@@ -4,6 +4,22 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 });
 
+module.exports = {
+  images: {
+    loader: 'custom',
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    nextImageExportOptimizer: {
+      imageFolderPath: 'public/testimonials',
+      exportFolderPath: 'out',
+      quality: 75,
+    },
+  },
+  env: {
+    storePicturesInWEBP: true,
+  },
+};
+
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
