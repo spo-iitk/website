@@ -17,7 +17,7 @@ const TeamMembers = [
     name: 'Garima Singh',
     position: 'Junior Superintendent',
     image: '/testimonials/garima_2022.jpg',
-    email: "",
+    email: "garimasg@iitk.ac.in",
   },
   {
     name: 'Praveen Kumar',
@@ -50,6 +50,15 @@ export default function OfficeTeam() {
             </div>
           ))}
         </CustomAutofitGrid>
+        <Card>
+        <h3>Office Contact Details</h3>
+      <p>
+        <span>Email:</span> <a href="mailto:spo@iitk.ac.in">spo@iitk.ac.in</a>
+      </p>
+      <p>
+      <span>Desk No. :</span> 0512-259-4433/34
+      </p>
+        </Card>
       </Container>
       <br />
     </DarkerBackgroundContainer>
@@ -83,10 +92,10 @@ const Description = styled.div`
 `;
 
 const CustomAutofitGrid = styled(AutofitGrid)`
-  --autofit-grid-item-size: 40rem;
+  --autofit-grid-item-size: 30rem;
 
   ${media('<=tablet')} {
-    --autofit-grid-item-size: 30rem;
+    --autofit-grid-item-size: 25rem;
   }
 
   ${media('<=phone')} {
