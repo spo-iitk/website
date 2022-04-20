@@ -17,7 +17,7 @@ const TeamMembers = [
     name: 'Garima Singh',
     position: 'Junior Superintendent',
     image: '/testimonials/garima_2022.jpg',
-    email: "",
+    email: "garimasg@iitk.ac.in",
   },
   {
     name: 'Praveen Kumar',
@@ -38,10 +38,8 @@ export default function OfficeTeam() {
       <br />
       <SectionTitle>Staff Members</SectionTitle>
       <Container>
-        <CustomAutofitGrid2>
-          {TeamMembers.map((member, i) => {
-            if(i < 2)
-            return(
+        <CustomAutofitGrid>
+          {TeamMembers.map((member) => (
             <div key={member.name}>
               <Card>
                 {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
@@ -50,34 +48,45 @@ export default function OfficeTeam() {
                 <Description><Link href={`mailto:${member.email}`} passHref>{member.email}</Link></Description>
               </Card>
             </div>
-          );
-          return <></>;
-            }
-          )}
-        </CustomAutofitGrid2>
-        <br />
-        <CustomAutofitGrid2>
-          {TeamMembers.map((member, i) => {
-            if(i >= 2)
-            return(
-            <div key={member.name}>
-              <Card>
-                {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
-                <Title>{member.name}</Title>
-                <Description>{member.position}</Description>
-                <Description><Link href={`mailto:${member.email}`} passHref>{member.email}</Link></Description>
-              </Card>
-            </div>
-          );
-          return <></>;
-            }
-          )}
-        </CustomAutofitGrid2>
+          ))}
+        </CustomAutofitGrid>
+        <Wrapper>
+        <h3>Office Contact Details</h3>
+      <p>
+        <span>Email:</span> <a href="mailto:spo@iitk.ac.in">spo@iitk.ac.in</a>
+      </p>
+      <p>
+      <span>Desk No. :</span> 0512-259-4433/34
+      </p>
+      </Wrapper>
       </Container>
       <br />
     </DarkerBackgroundContainer>
   );
 }
+const Wrapper = styled.div`
+  padding: 2.5rem;
+  flex: 1;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+
+  h3 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  p {
+    font-weight: normal;
+    font-size: 1.6rem;
+    color: rgba(var(--text), 0.7);
+  }
+
+  span {
+    opacity: 1;
+    color: rgba(var(--text), 1);
+  }
+`;
+
 const Card = styled.div`
   display: flex;
   padding: 2.5rem;
@@ -105,9 +114,9 @@ const Description = styled.div`
   opacity: 0.6;
 `;
 
-const CustomAutofitGrid2 = styled(AutofitGrid)`
-  --autofit-grid-item-size: 40rem;
 
+const CustomAutofitGrid = styled(AutofitGrid)`
+  --autofit-grid-item-size: 30rem;
   ${media('<=tablet')} {
     --autofit-grid-item-size: 25rem;
   }
