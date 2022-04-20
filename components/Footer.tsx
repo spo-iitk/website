@@ -58,7 +58,8 @@ export default function Footer() {
               109, outreach building <br />
               IIT Kanpur, Kanpur-208016 <br />
               Phone no.: +91 512 259 44 33/34 <br />
-              Email: spo@iitk.ac.in <br />
+              Email: spo@iitk.ac.in <br /> <br />
+              <a href="/placement-coordinators"><u>Placement Coordinators</u></a><br />
               </span>
             </ListItemWrapper>
           </div>
