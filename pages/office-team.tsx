@@ -50,7 +50,7 @@ export default function OfficeTeam() {
             </div>
           ))}
         </CustomAutofitGrid>
-        <Card>
+        <Wrapper>
         <h3>Office Contact Details</h3>
       <p>
         <span>Email:</span> <a href="mailto:spo@iitk.ac.in">spo@iitk.ac.in</a>
@@ -58,12 +58,35 @@ export default function OfficeTeam() {
       <p>
       <span>Desk No. :</span> 0512-259-4433/34
       </p>
-        </Card>
+      </Wrapper>
       </Container>
       <br />
     </DarkerBackgroundContainer>
   );
 }
+const Wrapper = styled.div`
+  padding: 2.5rem;
+  flex: 1;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+
+  h3 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  p {
+    font-weight: normal;
+    font-size: 1.6rem;
+    color: rgba(var(--text), 0.7);
+  }
+
+  span {
+    opacity: 1;
+    color: rgba(var(--text), 1);
+  }
+`;
+
 const Card = styled.div`
   display: flex;
   padding: 2.5rem;
