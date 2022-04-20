@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { NextLink, Link } from 'next/link';
+import NextLink from 'next/link';
 import { EmailIcon, FacebookIcon, LinkedinIcon } from 'react-share';
 import styled from 'styled-components';
 import Container from 'components/Container';
@@ -59,7 +59,7 @@ export default function Footer() {
               IIT Kanpur, Kanpur-208016 <br />
               Phone no.: +91 512 259 44 33/34 <br />
               Email: spo@iitk.ac.in <br /> <br />
-              <Link href="/placement-coordinators" passHref><u>Placement Coordinators</u></Link><br />
+              <NextLink href="/placement-coordinators" passHref><u>Placement Coordinators</u></NextLink><br />
               </span>
             </ListItemWrapper>
           </div>
