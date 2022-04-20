@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import NextLink from 'next/link';
+import { NextLink, Link } from 'next/link';
 import { EmailIcon, FacebookIcon, LinkedinIcon } from 'react-share';
 import styled from 'styled-components';
 import Container from 'components/Container';
