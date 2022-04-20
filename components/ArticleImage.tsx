@@ -1,8 +1,8 @@
-import NextImage, { ImageProps } from 'next/image';
+import NextImage from 'next-image-export-optimizer';
 import React from 'react';
 import styled from 'styled-components';
 
-interface ArticleImageProps extends ImageProps {
+interface ArticleImageProps {
   src: string;
   caption?: string;
 }

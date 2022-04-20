@@ -1,4 +1,4 @@
-import NextImage from 'next/image';
+import NextImage from 'next-image-export-optimizer';
 import Link from 'next/link'
 import styled from 'styled-components';
 import AutofitGrid from 'components/AutofitGrid';
@@ -91,9 +91,9 @@ const Description = styled.div`
   opacity: 0.6;
 `;
 
+
 const CustomAutofitGrid = styled(AutofitGrid)`
   --autofit-grid-item-size: 30rem;
-
   ${media('<=tablet')} {
     --autofit-grid-item-size: 25rem;
   }
