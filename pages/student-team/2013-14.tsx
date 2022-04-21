@@ -40,7 +40,7 @@ const TeamMembers = [
 
 export default function StudentTeam22() {
   return (
-    <Page title="Student Team Members 2020-21" >
+    <Page title="Student Team Members 20213-14" >
     <DarkerBackgroundContainer>
       <br />
       <br />
