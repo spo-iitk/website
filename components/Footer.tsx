@@ -54,13 +54,22 @@ export default function Footer() {
             <ListHeader>Contact</ListHeader>
             <ListItemWrapper>
               <span style={{ color: "rgba(var(--textSecondary), 0.75)" }} >
-              Students&apos; Placement office <br />
-              109, outreach building <br />
-              IIT Kanpur, Kanpur-208016 <br />
-              Phone no.: +91 512 259 44 33/34 <br />
-              Email: spo@iitk.ac.in <br /> <br />
-              <NextLink href="/placement-coordinators" passHref><u>Placement Coordinators</u></NextLink><br />
+                Students&apos; Placement office <br />
+                109, outreach building <br />
+                IIT Kanpur, Kanpur-208016 <br />
+                Phone no.: +91 512 259 44 33/34 <br />
+                Email:
+                <NextLink href="mailto:spo@iitk.ac.in" passHref>
+                  <a>spo@iitk.ac.in</a>
+                </NextLink>
+                <br />
+                <br />
               </span>
+              <ListItemWrapper>
+                <NextLink href="/placement-coordinators" passHref>
+                  <a>Contact Placement Coordinators</a>
+                </NextLink>
+              </ListItemWrapper>
             </ListItemWrapper>
           </div>
         </ListContainer>
@@ -71,7 +80,7 @@ export default function Footer() {
                 <TwitterIcon size={50} round={true} />
               </a>
             </NextLink> */}
-            
+
             <NextLink href="mailto:spo@iitk.ac.in" passHref>
               <a>
                 <EmailIcon size={50} round={true} />
