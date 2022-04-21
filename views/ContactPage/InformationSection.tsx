@@ -12,10 +12,10 @@ export default function InformationSection() {
       <span>Desk No. :</span> 0512-259-4433/34
       </p>
       <p>
-        <Link href="/student-team" passHref>Placement Coordinators</Link>
+        <Link href="/placement-coordinators" passHref>Placement Coordinators</Link>
       </p>
       <p>
-        <Link href="/office-team" passHref>Office Staff</Link>
+        <Link href="/office-staff" passHref>Office Staff</Link>
       </p>
     </Wrapper>
   );
