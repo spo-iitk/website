@@ -69,18 +69,15 @@ const Wrapper = styled.div`
   flex: 1;
   margin-right: 3rem;
   margin-bottom: 3rem;
-
   h3 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
   }
-
   p {
     font-weight: normal;
     font-size: 1.6rem;
     color: rgba(var(--text), 0.7);
   }
-
   span {
     opacity: 1;
     color: rgba(var(--text), 1);
@@ -100,7 +97,6 @@ const Card = styled.div`
   border-radius: 0.6rem;
   color: rgb(var(--text));
   font-size: 1.6rem;
-
   & > *:not(:first-child) {
     margin-top: 1rem;
   }
@@ -120,7 +116,6 @@ const CustomAutofitGrid = styled(AutofitGrid)`
   ${media('<=tablet')} {
     --autofit-grid-item-size: 25rem;
   }
-
   ${media('<=phone')} {
     --autofit-grid-item-size: 100%;
   }
@@ -128,7 +123,6 @@ const CustomAutofitGrid = styled(AutofitGrid)`
 
 const DarkerBackgroundContainer = styled.div`
   background: rgb(var(--background));
-
   & > *:not(:first-child) {
     margin-top: 10rem;
   }
