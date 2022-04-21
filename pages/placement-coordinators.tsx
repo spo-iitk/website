@@ -6,7 +6,6 @@ import LinkedinIcon from 'components/LinkedinIcon';
 import Page from 'components/Page';
 import SectionTitle from 'components/SectionTitle';
 import { media } from 'utils/media';
-import Section from 'components/Section';
 
 
 const TeamMembers = [
@@ -125,6 +124,19 @@ const WEBEXEC = [
     phone: "(+91) 9399215049"
   },
 ];
+
+const PREVTEAM = [
+  "2021-22",
+  "2020-21",
+  "2019-20",
+  "2018-19",
+  "2017-18",
+  "2016-17",
+  "2015-16",
+  "2014-15",
+  "2013-14",
+];
+
 export default function StudentTeam() {
   return (
     <Page title="IITK Placement Coordinators" description="Feel free to reach out to us!">
@@ -212,50 +224,20 @@ export default function StudentTeam() {
             ))}
           </CustomAutofitGrid4>
         </Container>
-        <br />
-        
-      <Section title="Previous Teams">
-
-      <CustomBtnGroup>
-        <div>
-          <ul>
-          <li>
-            <Link href="./student-team/2021-22"> Team 2021-22 </Link>
-          </li>
-          <li>
-            <Link href="./student-team/2020-21">Team 2020-21</Link>
-          </li>
-          <li>
-            <Link href="./student-team/2019-20">Team 2019-20</Link>
-          </li>
-          <li>
-            <Link href="./student-team/2018-19">Team 2018-19</Link>
-          </li>
-          <li>
-            <Link href="./student-team/2017-18">Team 2017-18</Link>
-          </li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-          <li>
-            <Link href="./student-team/2016-17"> Team 2016-17 </Link>
-          </li>
-          <li>
-            <Link href="./student-team/2015-16">Team 2015-16</Link>
-          </li>
-          <li>
-            <Link href="./student-team/2014-15">Team 2014-15</Link>
-          </li>
-          <li>
-            <Link href="./student-team/2013-14">Team 2013-14</Link>
-          </li>
-           </ul>
-        </div>
-      </CustomBtnGroup>
-      </Section>
+        <SectionTitle>Previous Teams</SectionTitle>
+        <Container>
+          <CustomAutofitGrid>
+            {PREVTEAM.map((year) => (
+              <Link href={`/student-team/${year}`} key={year}>
+                <Card>
+                  <Title>Team {year}</Title>
+                </Card>
+              </Link>
+            ))}
+          </CustomAutofitGrid>
+        </Container>
       </DarkerBackgroundContainer>
-    </Page>
+    </Page >
   );
 }
 
@@ -323,6 +305,18 @@ const CustomAutofitGrid4 = styled(AutofitGrid)`
   }
 `;
 
+const CustomAutofitGrid = styled(AutofitGrid)`
+  --autofit-grid-item-size: 20rem;
+
+  ${media('<=tablet')} {
+    --autofit-grid-item-size: 15rem;
+  }
+
+  ${media('<=phone')} {
+    --autofit-grid-item-size: 50%;
+  }
+`;
+
 const DarkerBackgroundContainer = styled.div`
   background: rgb(var(--background));
 
@@ -334,14 +328,4 @@ const DarkerBackgroundContainer = styled.div`
 const Link = styled.a`
   text-decoration: none;
   color: var(--primary);
-`;
-
-const CustomBtnGroup = styled.div`
-  display: grid;
-  font-size: 1.8rem;
-  text-decoration: none;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-}
 `;
