@@ -15,7 +15,7 @@ export default function InformationSection() {
         <Link href="/placement-coordinators" passHref>Placement Coordinators</Link>
       </p>
       <p>
-        <Link href="/office-team" passHref>Office Staff</Link>
+        <Link href="/office-staff" passHref>Office Staff</Link>
       </p>
     </Wrapper>
   );
