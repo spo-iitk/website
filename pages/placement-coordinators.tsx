@@ -56,7 +56,7 @@ const TeamMembers = [
     image: '/testimonials/Pragati.jpg',
     phone: '(+91) 8303065597',
     mail: 'spragati@iitk.ac.in',
-    linkedin: 'https://www.linkedin.com/in/spragati//'
+    linkedin: 'https://www.linkedin.com/in/spragati/'
   },
 ];
 const APC = [
