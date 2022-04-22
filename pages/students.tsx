@@ -8,6 +8,7 @@ import AutofitGrid from 'components/AutofitGrid';
 import BasicCard from 'components/BasicCard';
 import Container from 'components/Container';
 import { media } from 'utils/media';
+import SectionTitle from 'components/SectionTitle';
 
 const steps = [
   {
@@ -113,7 +114,37 @@ const faqlist = [
      "body":"Whatever CPI is there on Pingala during resume verification will be taken as final."
   }
 ]
-
+const ResourcesC =[
+  {
+    name:"Deffered Placement Policy",
+    link:"docs/2021-22/deferred_placement_policy.pdf" 
+  },
+  {
+    name:"Placement Policy",
+    link: "docs/2021-22/Placement_Policy_2021-22.pdf"
+  },
+  {
+    name:"Internship Policy",
+    link:"docs/2021-22/Internship-Policy-2021-22.pdf" 
+  },
+  {
+    name:"Leave Application",
+    link: "docs/2021-22/LAF.doc"
+  },
+  {
+    name:"Project Verification Form",
+    link:"docs/2021-22/PVF.doc" 
+  },
+  {name:"PPT Absence Form",
+  link:"https://docs.google.com/forms/d/e/1FAIpQLSdV3sWKB-GSbFNkHdGSSP7N4ydybbFYumTjBSIAaZw04Na-xQ/viewform" 
+},
+  {name: "Corporate Internship Waiver Form",
+  link:"https://docs.google.com/document/d/1zQg3xr6Ca0jHFWPn6o2ZCyi7ypxtjdFoYdIT4pZwncc/edit" 
+},
+  {name:"List of Companies",
+  link:"docs/2021-22/List-of-companies.pdf"
+},
+];
 export default function StudentsPage() {
   return (
     <Page title="For students" description="A collection of resources for students at IIT Kanpur.">
@@ -128,8 +159,21 @@ export default function StudentsPage() {
         </Container>
       </Section>
       </div>
-      <Section title="Resources">
 
+      <SectionTitle style={{marginTop: "3rem"}}>Resources</SectionTitle>
+      <Container>
+        <CustomAutofitGrid4>
+          {ResourcesC.map((member)=>(
+            <Link href={member.link} key={member.name}>
+              <Card style={{cursor: "pointer"}}>
+                <Title>{member.name}</Title>
+              </Card>
+            </Link>
+          ))}
+        </CustomAutofitGrid4>
+      </Container>
+      {/* <Section title="Resources">
+    
       <CustomBtnGroup>
         <div>
           <ul>
@@ -167,7 +211,7 @@ export default function StudentsPage() {
           </ul>
         </div>
       </CustomBtnGroup>
-      </Section>
+      </Section> */}
 
       <div id="faqs"></div>
       <Section title="Resume FAQs">
@@ -180,8 +224,31 @@ export default function StudentsPage() {
     </Page>
   );
 }
+const Card = styled.div`
+  display: flex;
+  padding: 2.5rem;
+  background: rgb(var(--cardBackground));
+  box-shadow: var(--shadow-md);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  border-radius: 0.6rem;
+  color: rgb(var(--text));
+  font-size: 1.6rem;
 
+  & > *:not(:first-child) {
+    margin-top: 1.5rem;
+  }
+`;
+
+const Title = styled.div`
+  font-weight: bold;
+
+`;
 const CustomAutofitGrid = styled(AutofitGrid)`
+  margin-bottom: 1.5 rem;
   --autofit-grid-item-size: 30rem;
 
   ${media('<=tablet')} {
@@ -192,6 +259,19 @@ const CustomAutofitGrid = styled(AutofitGrid)`
     --autofit-grid-item-size: 100%;
   }
 `;
+const CustomAutofitGrid4 = styled(AutofitGrid)`
+padding: 1.5rem;
+--autofit-grid-item-size: 25rem;
+
+  ${media('<=tablet')} {
+    --autofit-grid-item-size: 25rem;
+  }
+
+  ${media('<=phone')} {
+    --autofit-grid-item-size: 100%;
+  }
+`;
+
 
 const CustomBtnGroup = styled.div`
   display: grid;
