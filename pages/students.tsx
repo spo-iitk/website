@@ -160,7 +160,7 @@ export default function StudentsPage() {
         </Container>
       </Section>
       </div>
-      <Section title="Resources">
+      
       <SectionTitle style={{marginTop: "3rem"}}>Resources</SectionTitle>
       <Container>
         <CustomAutofitGrid4>
@@ -173,7 +173,7 @@ export default function StudentsPage() {
           ))}
         </CustomAutofitGrid4>
       </Container>
-      </Section>
+      
       
 
       <div id="faqs"></div>
