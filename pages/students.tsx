@@ -173,6 +173,7 @@ export default function StudentsPage() {
           ))}
         </CustomAutofitGrid4>
       </Container>
+      </Section>
       
 
       <div id="faqs"></div>
