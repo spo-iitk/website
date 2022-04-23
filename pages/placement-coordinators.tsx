@@ -137,9 +137,13 @@ const PREVTEAM = [
   "2013-14",
 ];
 
-export default function StudentTeam() {
+export interface StudentTeamProps {
+  notNeedTitleAtStudentTeam?: boolean;
+}
+
+export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamProps) {
   return (
-    <Page title="IITK Placement Coordinators" description="Feel free to reach out to us!">
+    <Page title="IITK Placement Coordinators" description="Feel free to reach out to us!" notNeedTitle={notNeedTitleAtStudentTeam}>
       <DarkerBackgroundContainer>
         <SectionTitle>Overall Placement Coordinators</SectionTitle>
         <Container>

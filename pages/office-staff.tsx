@@ -5,6 +5,7 @@ import AutofitGrid from 'components/AutofitGrid';
 import Container from 'components/Container';
 import SectionTitle from 'components/SectionTitle';
 import { media } from 'utils/media';
+import Page from 'components/Page';
 
 const TeamMembers = [
   {
@@ -32,10 +33,16 @@ const TeamMembers = [
     email: "amaren@iitk.ac.in",
   },
 ];
-export default function OfficeTeam() {
+
+export interface OfficeStaffProps {
+  notNeedTitleAtOfficeStaff?: boolean;
+}
+
+
+export default function OfficeTeam({ notNeedTitleAtOfficeStaff }: OfficeStaffProps) {
   return (
+    <Page title="Office Staff" description="Feel free to reach out to us!" notNeedTitle={notNeedTitleAtOfficeStaff}>
     <DarkerBackgroundContainer>
-      <br />
       <SectionTitle>Staff Members</SectionTitle>
       <Container>
         <CustomAutofitGrid>
@@ -50,18 +57,20 @@ export default function OfficeTeam() {
             </div>
           ))}
         </CustomAutofitGrid>
-        <Wrapper>
-        <h3>Office Contact Details</h3>
-      <p>
-        <span>Email:</span> <a href="mailto:spo@iitk.ac.in">spo@iitk.ac.in</a>
-      </p>
-      <p>
-      <span>Desk No. :</span> 0512-259-4433/34
-      </p>
-      </Wrapper>
+        {!notNeedTitleAtOfficeStaff &&
+        <>
+          <hr />
+          <Wrapper>
+            <h3>Office Contact Details</h3>
+            <p><span>Email:</span> <a href="mailto:spo@iitk.ac.in">spo@iitk.ac.in</a></p>
+            <p><span>Desk No. :</span> 0512-259-4433/34</p>
+          </Wrapper>
+        </>
+        }
       </Container>
       <br />
     </DarkerBackgroundContainer>
+    </Page>
   );
 }
 const Wrapper = styled.div`
@@ -112,7 +121,7 @@ const Description = styled.div`
 
 
 const CustomAutofitGrid = styled(AutofitGrid)`
-  --autofit-grid-item-size: 30rem;
+  --autofit-grid-item-size: 20rem;
   ${media('<=tablet')} {
     --autofit-grid-item-size: 25rem;
   }
