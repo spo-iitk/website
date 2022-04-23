@@ -1,4 +1,4 @@
-import NextImage from 'next-image-export-optimizer';
+import NextImage from 'next/image';
 import NextLink from 'next/link';
 import styled from 'styled-components';
 import { media } from 'utils/media';

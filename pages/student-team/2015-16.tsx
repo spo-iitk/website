@@ -1,4 +1,4 @@
-import NextImage from 'next-image-export-optimizer';
+import NextImage from 'next/image';
 import styled from 'styled-components';
 import Page from 'components/Page';
 import AutofitGrid from 'components/AutofitGrid';
