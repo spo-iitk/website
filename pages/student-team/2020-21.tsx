@@ -1,9 +1,9 @@
 import NextImage from 'next/image';
 import styled from 'styled-components';
-import Page from 'components/Page';
 import AutofitGrid from 'components/AutofitGrid';
 import Container from 'components/Container';
 import LinkedinIcon from 'components/LinkedinIcon';
+import Page from 'components/Page';
 import SectionTitle from 'components/SectionTitle';
 import { media } from 'utils/media';
 
@@ -532,14 +532,4 @@ const DarkerBackgroundContainer = styled.div`
 const Link = styled.a`
   text-decoration: none;
   color: var(--primary);
-`;
-
-const CustomBtnGroup = styled.div`
-  display: grid;
-  font-size: 1.8rem;
-  text-decoration: none;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-}
 `;

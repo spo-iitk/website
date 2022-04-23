@@ -8,7 +8,6 @@ import Page from 'components/Page';
 import Section from 'components/Section';
 import { media } from 'utils/media';
 import FaqSection from 'views/PricingPage/FaqSection';
-import SectionTitle from 'components/SectionTitle';
 const steps = [
   {
     title: '1',
@@ -284,7 +283,7 @@ export default function CompaniesPage() {
       <Container>
         <CustomAutofitGrid4>
           {ResourcesL.map((member)=>(
-            <Link href={member.link} key={member.name}>
+            <Link href={member.link} key={member.name} passHref>
               <Card style={{cursor: "pointer"}}>
                 <Title>{member.name}</Title>
               </Card>
@@ -362,14 +361,3 @@ const CustomAutofitGrid = styled(AutofitGrid)`
     --autofit-grid-item-size: 100%;
   }
 `;
-
-const CustomBtnGroup = styled.div`
-  display: grid;
-  font-size: 1.8rem;
-  text-decoration: none;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-}
-`;
-
