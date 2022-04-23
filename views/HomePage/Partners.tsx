@@ -46,7 +46,7 @@ const PARTNER_LOGOS = [
 export default function Partners() {
   return (
     <PartnersWrapper>
-      <Title>official partners with</Title>
+      <Title>Past Recruiters</Title>
       <Swiper
         modules={[Autoplay]}
         slidesPerView={6}
