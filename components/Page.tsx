@@ -9,24 +9,29 @@ import SectionTitle from './SectionTitle';
 export interface PageProps {
   title: string;
   description?: string;
+  notNeedTitle?: boolean;
 }
 
-export default function Page({ title, description, children }: PropsWithChildren<PageProps>) {
+export default function Page({ title, description, children, notNeedTitle }: PropsWithChildren<PageProps>) {
   return (
     <>
+    {!notNeedTitle &&
       <Head>
         <title>
           {title} | {EnvVars.SITE_NAME}
         </title>
         <meta name="description" content={description} />
       </Head>
+    }
       <Wrapper>
+        {!notNeedTitle &&
         <HeaderContainer>
           <Container>
             <Title>{title}</Title>
             {description && <Description>{description}</Description>}
           </Container>
         </HeaderContainer>
+  }
         <Container>
           <ChildrenWrapper>{children}</ChildrenWrapper>
         </Container>
