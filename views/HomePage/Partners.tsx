@@ -1,4 +1,4 @@
-import NextImage from 'next-image-export-optimizer';
+import NextImage from 'next/image';
 import React from 'react';
 import styled from 'styled-components';
 import { Autoplay } from 'swiper';
@@ -7,19 +7,46 @@ import Container from 'components/Container';
 import { media } from 'utils/media';
 
 const PARTNER_LOGOS = [
-  'logoipsum-logo-1.svg',
-  'logoipsum-logo-2.svg',
-  'logoipsum-logo-3.svg',
-  'logoipsum-logo-4.svg',
-  'logoipsum-logo-5.svg',
-  'logoipsum-logo-6.svg',
-  'logoipsum-logo-7.svg',
+  'Accenture.svg',
+  'icons8-facebook.svg',
+  'icons8-amazon.svg',
+  'Analog_Devices_Logo.svg',
+  'Britannia_Industries_logo_with_motto.svg',
+  'bentley-motors.svg',
+  'Honda_Logo.svg',
+  'hsbc.svg',
+  'atkins.svg',
+  'Deloitte.svg',
+  'Caterpillar-shortened.svg',
+  'dr.svg',
+  'Deutsche_Bank-Logo.svg',
+  'Broadcom_Ltd_Logo.svg',
+  'drdoofficial-seeklogo.com.svg',
+  'dc.svg',
+  'General_Electric_logo.svg',
+  'IBM_logo.svg',
+  'ITC_Limited_Logo.svg',
+  'Mitsubishi_logo.svg',
+  'Microsoft_logo.svg',
+  'Morgan_Stanley_Logo_1.svg',
+  'NetApp_logo.svg',
+  'Nvidia_logo.svg',
+  'TVS_Motor_Company-Logo.wine.svg',
+  'Unilever.svg',
+  'Yahoo!_(2019).svg',
+  'InMobi_logo.svg',
+  'Indian_Space_Research_Organisation_Logo.svg',
+  'Samsung_Logo.svg',
+  'McKinsey_and_Company_Logo_1.svg',
+  'Renishaw_logo.svg',
+  'Mitsui_Chemicals.svg',
+
 ];
 
 export default function Partners() {
   return (
     <PartnersWrapper>
-      <Title>official partners with</Title>
+      <Title>Past Recruiters</Title>
       <Swiper
         modules={[Autoplay]}
         slidesPerView={6}

@@ -1,9 +1,9 @@
-import NextImage from 'next-image-export-optimizer';
+import NextImage from 'next/image';
 import styled from 'styled-components';
-import Page from 'components/Page';
 import AutofitGrid from 'components/AutofitGrid';
 import Container from 'components/Container';
 import LinkedinIcon from 'components/LinkedinIcon';
+import Page from 'components/Page';
 import SectionTitle from 'components/SectionTitle';
 import { media } from 'utils/media';
 

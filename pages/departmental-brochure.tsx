@@ -1,5 +1,5 @@
-import Section from 'components/Section';
 import styled from 'styled-components';
+import Section from 'components/Section';
 const deptBrochure = [
 	{
 		idx: "1",
