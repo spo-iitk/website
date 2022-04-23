@@ -280,7 +280,7 @@ export default function CompaniesPage() {
       </Section>
       <br />
       <hr />
-      <SectionTitle style={{marginTop: "3rem"}}>Resources</SectionTitle>
+      <Section title= "Resources">
       <Container>
         <CustomAutofitGrid4>
           {ResourcesL.map((member)=>(
@@ -292,6 +292,7 @@ export default function CompaniesPage() {
           ))}
         </CustomAutofitGrid4>
       </Container>
+      </Section>
       
       <div id="faqs"></div>
       <Section title="FAQs">

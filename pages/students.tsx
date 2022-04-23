@@ -161,7 +161,7 @@ export default function StudentsPage() {
       </Section>
       </div>
       
-      <SectionTitle style={{marginTop: "3rem"}}>Resources</SectionTitle>
+      <Section title= "Resources">
       <Container>
         <CustomAutofitGrid4>
           {ResourcesC.map((member)=>(
@@ -173,7 +173,7 @@ export default function StudentsPage() {
           ))}
         </CustomAutofitGrid4>
       </Container>
-      
+      </Section>
       
 
       <div id="faqs"></div>
