@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components"
 
 const Input = styled.input`
   border: 2px solid rgb(var(--inputBackground));
@@ -13,6 +13,6 @@ const Input = styled.input`
     outline: none;
     box-shadow: var(--shadow-lg);
   }
-`;
+`
 
-export default Input;
+export default Input

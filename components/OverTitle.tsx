@@ -1,5 +1,6 @@
-import styled from 'styled-components';
-import { media } from 'utils/media';
+import styled from "styled-components"
+
+import { media } from "utils/media"
 
 const OverTitle = styled.span`
   display: block;
@@ -21,9 +22,9 @@ const OverTitle = styled.span`
   line-height: 0;
   text-transform: uppercase;
 
-  ${media('<=desktop')} {
+  ${media("<=desktop")} {
     line-height: 1.5;
   }
-`;
+`
 
-export default OverTitle;
+export default OverTitle

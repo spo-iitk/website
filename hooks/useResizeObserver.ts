@@ -1,3 +1,3 @@
-import useResizeObserver from 'use-resize-observer';
+import useResizeObserver from "use-resize-observer"
 
-export { useResizeObserver };
+export { useResizeObserver }

@@ -1,22 +1,28 @@
-import styled from 'styled-components';
-import Accordion from 'components/Accordion';
+import styled from "styled-components"
 
-interface FaqProps {
-  faqs: any;
+import Accordion from "components/Accordion"
+
+interface FaqType {
+  title: string;
+  body: string;
 }
 
-export default function FaqSection({faqs}: FaqProps) {
-  return (
-    <Wrapper>
-      {faqs.map((singleFaq:any, idx:number) => (
-        <div key={idx}>
-        <Accordion title={singleFaq.title}>
-          {singleFaq.body}
-        </Accordion>
-        </div>
-      ))}
-    </Wrapper>
-  );
+interface FaqProps {
+  faqs: FaqType[];
+}
+
+export default function FaqSection({ faqs }: FaqProps) {
+	return (
+		<Wrapper>
+			{faqs.map((singleFaq, idx: number) => (
+				<div key={idx}>
+					<Accordion title={singleFaq.title}>
+						{singleFaq.body}
+					</Accordion>
+				</div>
+			))}
+		</Wrapper>
+	)
 }
 
 const Wrapper = styled.div`
@@ -24,4 +30,4 @@ const Wrapper = styled.div`
   & > *:not(:first-child) {
     margin-top: 3rem;
   }
-`;
+`

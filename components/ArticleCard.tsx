@@ -1,7 +1,8 @@
-import NextImage from 'next/image';
-import NextLink from 'next/link';
-import styled from 'styled-components';
-import { media } from 'utils/media';
+import NextImage from "next/image"
+import NextLink from "next/link"
+import styled from "styled-components"
+
+import { media } from "utils/media"
 
 export interface ArticleCardProps {
   title: string;
@@ -11,21 +12,21 @@ export interface ArticleCardProps {
 }
 
 export default function ArticleCard({ title, slug, imageUrl, description }: ArticleCardProps) {
-  return (
-    <NextLink href={'/blog/' + slug} passHref>
-      <ArticleCardWrapper className="article-card-wrapper">
-        <HoverEffectContainer>
-          <ImageContainer>
-            <NextImage src={imageUrl} layout="fill" objectFit="cover" alt={title} />
-          </ImageContainer>
-          <Content>
-            <Title>{title}</Title>
-            <Description>{description}</Description>
-          </Content>
-        </HoverEffectContainer>
-      </ArticleCardWrapper>
-    </NextLink>
-  );
+	return (
+		<NextLink href={"/blog/" + slug} passHref>
+			<ArticleCardWrapper className="article-card-wrapper">
+				<HoverEffectContainer>
+					<ImageContainer>
+						<NextImage src={imageUrl} layout="fill" objectFit="cover" alt={title} />
+					</ImageContainer>
+					<Content>
+						<Title>{title}</Title>
+						<Description>{description}</Description>
+					</Content>
+				</HoverEffectContainer>
+			</ArticleCardWrapper>
+		</NextLink>
+	)
 }
 
 const ArticleCardWrapper = styled.a`
@@ -39,7 +40,7 @@ const ArticleCardWrapper = styled.a`
   background: rgb(var(--cardBackground));
   cursor: pointer;
   color: rgb(var(--text));
-`;
+`
 
 const HoverEffectContainer = styled.div`
   transition: transform 0.3s;
@@ -51,7 +52,7 @@ const HoverEffectContainer = styled.div`
     overflow: hidden;
     transform: scale(1.025);
   }
-`;
+`
 
 const ImageContainer = styled.div`
   position: relative;
@@ -72,10 +73,10 @@ const ImageContainer = styled.div`
     left: 0;
   }
 
-  ${media('<=desktop')} {
+  ${media("<=desktop")} {
     width: 100%;
   }
-`;
+`
 
 const Content = styled.div`
   padding: 0 2rem;
@@ -83,7 +84,7 @@ const Content = styled.div`
   & > * {
     margin-top: 2rem;
   }
-`;
+`
 
 const Title = styled.h4`
   font-size: 1.8rem;
@@ -93,7 +94,7 @@ const Title = styled.h4`
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
-`;
+`
 
 const Description = styled.p`
   font-size: 1.6rem;
@@ -104,4 +105,4 @@ const Description = styled.p`
   opacity: 0.6;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 5;
-`;
+`

@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react"
+import styled from "styled-components"
 
 interface QuoteProps {
   content: string;
@@ -8,18 +8,18 @@ interface QuoteProps {
 }
 
 export default function Quote({ content, author, cite }: QuoteProps) {
-  return (
-    <Container>
-      <Blockquote {...(cite && { cite })}>{content}</Blockquote>
-      <Caption>— {author}</Caption>
-    </Container>
-  );
+	return (
+		<Container>
+			<Blockquote {...(cite && { cite })}>{content}</Blockquote>
+			<Caption>— {author}</Caption>
+		</Container>
+	)
 }
 
 const Container = styled.figure`
   border-left: 1px solid rgb(var(--secondary));
   padding: 3rem;
-  quotes: ${`"\\201c" "\\201d" "\\2018" "\\2019"`};
+  quotes: ${"\"\\201c\" \"\\201d\" \"\\2018\" \"\\2019\""};
   color: rgb(var(--secondary));
   margin-bottom: 3.7rem;
 
@@ -32,7 +32,7 @@ const Container = styled.figure`
     opacity: 0.6;
     font-family: arial, sans-serif;
   }
-`;
+`
 
 const Blockquote = styled.blockquote`
   color: rgb(var(--text));
@@ -41,11 +41,11 @@ const Blockquote = styled.blockquote`
   line-height: 3rem;
   font-style: italic;
   hanging-punctuation: first;
-`;
+`
 
 const Caption = styled.figcaption`
   color: rgb(var(--text));
   display: block;
   font-size: 1.6rem;
   margin-top: 2.5rem;
-`;
+`
