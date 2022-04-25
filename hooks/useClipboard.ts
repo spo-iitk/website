@@ -1,3 +1,3 @@
-import { useClipboard } from 'use-clipboard-copy';
+import { useClipboard } from "use-clipboard-copy"
 
-export { useClipboard };
+export { useClipboard }

@@ -1,7 +1,8 @@
-import { FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
-import styled from 'styled-components';
-import { EnvVars } from 'env';
-import { media } from 'utils/media';
+import { FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, TwitterIcon, TwitterShareButton } from "react-share"
+import styled from "styled-components"
+
+import { EnvVars } from "env"
+import { media } from "utils/media"
 
 interface ShareWidgetProps {
   title: string;
@@ -9,22 +10,22 @@ interface ShareWidgetProps {
 }
 
 export default function ShareWidget({ title, slug }: ShareWidgetProps) {
-  const shareMessage = 'New article: ' + title;
-  const currentUrl = EnvVars.URL + 'blog/' + slug;
+	const shareMessage = "New article: " + title
+	const currentUrl = EnvVars.URL + "blog/" + slug
 
-  return (
-    <Wrapper>
-      <FacebookShareButton title={shareMessage} url={currentUrl}>
-        <FacebookIcon />
-      </FacebookShareButton>
-      <TwitterShareButton title={shareMessage} url={currentUrl}>
-        <TwitterIcon />
-      </TwitterShareButton>
-      <LinkedinShareButton title={shareMessage} url={currentUrl}>
-        <LinkedinIcon />
-      </LinkedinShareButton>
-    </Wrapper>
-  );
+	return (
+		<Wrapper>
+			<FacebookShareButton title={shareMessage} url={currentUrl}>
+				<FacebookIcon />
+			</FacebookShareButton>
+			<TwitterShareButton title={shareMessage} url={currentUrl}>
+				<TwitterIcon />
+			</TwitterShareButton>
+			<LinkedinShareButton title={shareMessage} url={currentUrl}>
+				<LinkedinIcon />
+			</LinkedinShareButton>
+		</Wrapper>
+	)
 }
 
 const Wrapper = styled.div`
@@ -43,11 +44,11 @@ const Wrapper = styled.div`
     margin-top: 2rem;
   }
 
-  ${media('<=largeDesktop')} {
+  ${media("<=largeDesktop")} {
     transform: translateY(-50%) scale(0.8);
   }
 
-  ${media('<=desktop')} {
+  ${media("<=desktop")} {
     display: none;
   }
-`;
+`
