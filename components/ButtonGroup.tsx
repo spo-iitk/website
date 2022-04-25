@@ -1,5 +1,6 @@
-import styled from 'styled-components';
-import { media } from 'utils/media';
+import styled from "styled-components"
+
+import { media } from "utils/media"
 
 const ButtonGroup = styled.div`
   display: flex;
@@ -9,7 +10,7 @@ const ButtonGroup = styled.div`
     margin-right: 2rem;
   }
 
-  ${media('<=tablet')} {
+  ${media("<=tablet")} {
     & > * {
       width: 100%;
     }
@@ -19,6 +20,6 @@ const ButtonGroup = styled.div`
       margin-right: 0rem;
     }
   }
-`;
+`
 
-export default ButtonGroup;
+export default ButtonGroup

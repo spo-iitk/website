@@ -1,5 +1,6 @@
-import styled from 'styled-components';
-import { media } from 'utils/media';
+import styled from "styled-components"
+
+import { media } from "utils/media"
 
 const SectionTitle = styled.div`
   font-size: 5.2rem;
@@ -8,9 +9,9 @@ const SectionTitle = styled.div`
   letter-spacing: -0.03em;
   text-align: center;
 
-  ${media('<=tablet')} {
+  ${media("<=tablet")} {
     font-size: 4.6rem;
   }
-`;
+`
 
-export default SectionTitle;
+export default SectionTitle

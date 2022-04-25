@@ -1,5 +1,6 @@
-import styled from 'styled-components';
-import { media } from 'utils/media';
+import styled from "styled-components"
+
+import { media } from "utils/media"
 
 export interface ThreeLayersCircleProps {
   baseColor: string;
@@ -17,7 +18,7 @@ const ThreeLayersCircle = styled.div<ThreeLayersCircleProps>`
   z-index: 0;
   transition: background 0.2s;
 
-  ${media('<=tablet')} {
+  ${media("<=tablet")} {
     width: 4rem;
     height: 4rem;
   }
@@ -47,6 +48,6 @@ const ThreeLayersCircle = styled.div<ThreeLayersCircleProps>`
     height: 2rem;
     background: rgb(${(p) => p.baseColor});
   }
-`;
+`
 
-export default ThreeLayersCircle;
+export default ThreeLayersCircle

@@ -1,6 +1,6 @@
-import NextImage from 'next/image';
-import React from 'react';
-import styled from 'styled-components';
+import NextImage from "next/image"
+import React from "react"
+import styled from "styled-components"
 
 interface ArticleImageProps {
   src: string;
@@ -8,22 +8,22 @@ interface ArticleImageProps {
 }
 
 export default function ArticleImage({ src, caption, ...rest }: ArticleImageProps) {
-  return (
-    <Wrapper>
-      <ImageWrapper>
-        <NextImage
-          src={src}
-          alt={caption || 'Article Image'}
-          placeholder="blur"
-          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mPkj6+vBwAC4AFuNSmtGAAAAABJRU5ErkJggg=="
-          layout="fill"
-          objectFit="cover"
-          {...rest}
-        />
-      </ImageWrapper>
-      <Caption>{caption}</Caption>
-    </Wrapper>
-  );
+	return (
+		<Wrapper>
+			<ImageWrapper>
+				<NextImage
+					src={src}
+					alt={caption || "Article Image"}
+					placeholder="blur"
+					blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mPkj6+vBwAC4AFuNSmtGAAAAABJRU5ErkJggg=="
+					layout="fill"
+					objectFit="cover"
+					{...rest}
+				/>
+			</ImageWrapper>
+			<Caption>{caption}</Caption>
+		</Wrapper>
+	)
 }
 
 const ImageWrapper = styled.div`
@@ -43,7 +43,7 @@ const ImageWrapper = styled.div`
     content: '';
     clear: both;
   }
-`;
+`
 
 const Wrapper = styled.div`
   display: flex;
@@ -53,11 +53,11 @@ const Wrapper = styled.div`
   &:not(:last-child) {
     margin-bottom: 3rem;
   }
-`;
+`
 
 const Caption = styled.small`
   display: block;
   font-size: 1.4rem;
   text-align: center;
   margin-top: 1rem;
-`;
+`
