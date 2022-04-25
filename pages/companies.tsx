@@ -119,6 +119,37 @@ const faqlist = [
     body: "On campus accommodation on payment basis in visitors' guest house is available subject to availability. For alternate arrangements, the list of hotels is available here",
   },
 ];
+const ResourcesL =[
+  {
+    name:"Job Announcement Form",
+    link:"assets/companies_links/IITK_JAF_Job_Announcement_Form_2021-22.docx" 
+  },
+  {
+    name:"Internship Proforma",
+    link: "assets/companies_links/IITK_IP_Internship_Proforma_2021-22.docx"
+  },
+  {
+    name:"Placement Policy",
+    link:"assets/companies_links/Placement-Policy-Companies.pdf" 
+  },
+  {
+    name:"Internship Policy",
+    link: "assets/companies_links/Placement-Policy-Companies.pdf"
+  },
+  {
+    name:"Campus Recruitement Brochure",
+    link:"/assets/IITK_Recruitment_Brochure_2021-22.pdf" 
+  },
+  {name:"Campus Recruitment Guide",
+  link:"assets/companies_links/IITK_Recruitment_Guide_2020-21.pdf" 
+},
+  {name: "Steps - Company Registration",
+  link:"assets/companies_links/Steps-Company-Registration.pdf" 
+},
+  {name:"Departmental Brochures",
+  link:"/departmental-brochure"
+},
+];
 
 export default function CompaniesPage() {
   return (
@@ -248,47 +279,20 @@ export default function CompaniesPage() {
       </Section>
       <br />
       <hr />
-      <Section title="Resources">
-        <CustomBtnGroup>
-          <div>
-            <ul>
-            <li>
-              <Link href="assets/companies_links/IITK_JAF_Job_Announcement_Form_2021-22.docx" passHref>Job Announcement Form</Link>
-            </li>
-            <li>
-              <Link href="assets/companies_links/IITK_IP_Internship_Proforma_2021-22.docx" passHref>Internship Proforma</Link>
-            </li>
-            <li>
-              <Link href="assets/companies_links/Placement-Policy-Companies.pdf" passHref>Placement Policy</Link>
-            </li>
-            <li>
-              <Link href="assets/companies_links/Internship-Policy-Companies.pdf" passHref>Internship Policy</Link>
-            </li>
-            </ul>
-
-          </div>
-          <div>
-            <ul>
-            <li>
-              <Link href="/assets/IITK_Recruitment_Brochure_2021-22.pdf" passHref>Campus Recruitement Brochure</Link>
-            </li>
-
-            <li>
-              <Link href="assets/companies_links/IITK_Recruitment_Guide_2020-21.pdf" passHref>Campus Recruitment Guide</Link>
-            </li>
-
-            <li>
-              <Link href="assets/companies_links/Steps-Company-Registration.pdf" passHref>Steps - Company Registration</Link>
-            </li>
-
-            <li>
-              <Link href="/departmental-brochure" passHref>Departmental Brochures</Link>
-            </li>
-            </ul>
-
-          </div>
-        </CustomBtnGroup>
+      <Section title= "Resources">
+      <Container>
+        <CustomAutofitGrid4>
+          {ResourcesL.map((member)=>(
+            <Link href={member.link} key={member.name} passHref>
+              <Card style={{cursor: "pointer"}}>
+                <Title>{member.name}</Title>
+              </Card>
+            </Link>
+          ))}
+        </CustomAutofitGrid4>
+      </Container>
       </Section>
+      
       <div id="faqs"></div>
       <Section title="FAQs">
         <FaqSection faqs={faqlist} />
@@ -310,6 +314,41 @@ export default function CompaniesPage() {
     </Page>
   );
 }
+const Card = styled.div`
+  display: flex;
+  padding: 2.5rem;
+  background: rgb(var(--cardBackground));
+  box-shadow: var(--shadow-md);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  border-radius: 0.6rem;
+  color: rgb(var(--text));
+  font-size: 1.6rem;
+
+  & > *:not(:first-child) {
+    margin-top: 1.5rem;
+  }
+`;
+
+const Title = styled.div`
+  font-weight: bold;
+
+`;
+const CustomAutofitGrid4 = styled(AutofitGrid)`
+padding: 1.5rem;
+--autofit-grid-item-size: 25rem;
+
+  ${media('<=tablet')} {
+    --autofit-grid-item-size: 25rem;
+  }
+
+  ${media('<=phone')} {
+    --autofit-grid-item-size: 100%;
+  }
+`;
 
 const CustomAutofitGrid = styled(AutofitGrid)`
   --autofit-grid-item-size: 30rem;
@@ -322,14 +361,3 @@ const CustomAutofitGrid = styled(AutofitGrid)`
     --autofit-grid-item-size: 100%;
   }
 `;
-
-const CustomBtnGroup = styled.div`
-  display: grid;
-  font-size: 1.8rem;
-  text-decoration: none;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-}
-`;
-

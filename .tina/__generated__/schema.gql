@@ -38,18 +38,19 @@ interface Document {
 
 """A relay-compliant pagination connection"""
 interface Connection {
-  totalCount: Int!
+  totalCount: Float!
 }
 
 type Query {
+  getOptimizedQuery(queryString: String!): String
   getCollection(collection: String): Collection!
   getCollections: [Collection!]!
   node(id: String): Node!
   getDocument(collection: String, relativePath: String): DocumentNode!
-  getDocumentList(before: String, after: String, first: Int, last: Int): DocumentConnection!
+  getDocumentList(before: String, after: String, first: Float, last: Float, sort: String): DocumentConnection!
   getDocumentFields: JSON!
   getPostsDocument(relativePath: String): PostsDocument!
-  getPostsList(before: String, after: String, first: Int, last: Int): PostsConnection!
+  getPostsList(before: String, after: String, first: Float, last: Float, sort: String): PostsConnection!
 }
 
 type DocumentConnectionEdges {
@@ -59,7 +60,7 @@ type DocumentConnectionEdges {
 
 type DocumentConnection implements Connection {
   pageInfo: PageInfo
-  totalCount: Int!
+  totalCount: Float!
   edges: [DocumentConnectionEdges]
 }
 
@@ -72,7 +73,7 @@ type Collection {
   matches: String
   templates: [JSON]
   fields: [JSON]
-  documents(before: String, after: String, first: Int, last: Int): DocumentConnection!
+  documents(before: String, after: String, first: Float, last: Float, sort: String): DocumentConnection!
 }
 
 union DocumentNode = PostsDocument
@@ -102,13 +103,14 @@ type PostsConnectionEdges {
 
 type PostsConnection implements Connection {
   pageInfo: PageInfo
-  totalCount: Int!
+  totalCount: Float!
   edges: [PostsConnectionEdges]
 }
 
 type Mutation {
   addPendingDocument(collection: String!, relativePath: String!, template: String): DocumentNode!
   updateDocument(collection: String, relativePath: String!, params: DocumentMutation!): DocumentNode!
+  deleteDocument(collection: String, relativePath: String!): DocumentNode!
   createDocument(collection: String, relativePath: String!, params: DocumentMutation!): DocumentNode!
   updatePostsDocument(relativePath: String!, params: PostsMutation!): PostsDocument!
   createPostsDocument(relativePath: String!, params: PostsMutation!): PostsDocument!

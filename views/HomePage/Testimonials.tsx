@@ -1,4 +1,4 @@
-import NextImage from 'next-image-export-optimizer';
+import NextImage from 'next/image';
 import React from 'react';
 import styled from 'styled-components';
 

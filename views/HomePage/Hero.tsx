@@ -29,7 +29,7 @@ export default function Hero() {
               Features <span>&rarr;</span>
             </Button>
           </NextLink> */}
-          <Link href="/student-team" passHref>
+          <Link href="/placement-coordinators" passHref>
             <Button>
               Contact <span>&rarr;</span>
             </Button>
