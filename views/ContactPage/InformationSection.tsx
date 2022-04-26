@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import styled from 'styled-components';
+import Link from "next/link"
+import styled from "styled-components"
 
 export default function InformationSection() {
   return (
@@ -15,7 +15,7 @@ export default function InformationSection() {
         <Link href="/placement-coordinators" passHref>Placement Coordinators</Link>
       </p>
       <p>
-        <Link href="/office-staff" passHref>Office Staff</Link>
+        <Link href="/office-staff" passHref>Officials</Link>
       </p>
     </Wrapper>
   );
@@ -41,4 +41,4 @@ const Wrapper = styled.div`
     opacity: 1;
     color: rgba(var(--text), 1);
   }
-`;
+`

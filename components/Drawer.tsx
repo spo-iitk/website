@@ -1,3 +1,3 @@
-import * as OriginalDrawer from '@accessible/drawer'
+import * as OriginalDrawer from "@accessible/drawer"
 
 export default OriginalDrawer

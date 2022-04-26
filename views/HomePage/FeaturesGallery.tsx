@@ -1,81 +1,82 @@
-import NextImage from 'next/image';
-import React, { useState } from 'react';
-import styled from 'styled-components';
-import Collapse from 'components/Collapse';
-import Container from 'components/Container';
-import OverTitle from 'components/OverTitle';
-import SectionTitle from 'components/SectionTitle';
-import ThreeLayersCircle from 'components/ThreeLayersCircle';
-import { media } from 'utils/media';
+import NextImage from "next/image"
+import React, { useState } from "react"
+import styled from "styled-components"
+
+import Collapse from "components/Collapse"
+import Container from "components/Container"
+import OverTitle from "components/OverTitle"
+import SectionTitle from "components/SectionTitle"
+import ThreeLayersCircle from "components/ThreeLayersCircle"
+import { media } from "utils/media"
 
 const TABS = [
-  {
-    title: 'Find relevant media contacts - multiline title',
-    description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/demo-illustration-3.png',
-    baseColor: '249,82,120',
-    secondColor: '221,9,57',
-  },
-  {
-    title: 'Another amazing feature',
-    description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/demo-illustration-4.png',
-    baseColor: '57,148,224',
-    secondColor: '99,172,232',
-  },
-];
+	{
+		title: "Find relevant media contacts - multiline title",
+		description:
+      "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>",
+		imageUrl: "/demo-illustration-3.png",
+		baseColor: "249,82,120",
+		secondColor: "221,9,57",
+	},
+	{
+		title: "Another amazing feature",
+		description:
+      "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>",
+		imageUrl: "/demo-illustration-4.png",
+		baseColor: "57,148,224",
+		secondColor: "99,172,232",
+	},
+]
 
 export default function FeaturesGallery() {
-  const [currentTab, setCurrentTab] = useState(TABS[0]);
+	const [currentTab, setCurrentTab] = useState(TABS[0])
 
-  const imagesMarkup = TABS.map((singleTab, idx) => {
-    const isActive = singleTab.title === currentTab.title;
-    const isFirst = idx === 0;
+	const imagesMarkup = TABS.map((singleTab, idx) => {
+		const isActive = singleTab.title === currentTab.title
+		const isFirst = idx === 0
 
-    return (
-      <ImageContainer key={singleTab.title} isActive={isActive}>
-        <NextImage src={singleTab.imageUrl} alt={singleTab.title} layout="fill" objectFit="contain" priority={isFirst} />
-      </ImageContainer>
-    );
-  });
+		return (
+			<ImageContainer key={singleTab.title} isActive={isActive}>
+				<NextImage src={singleTab.imageUrl} alt={singleTab.title} layout="fill" objectFit="contain" priority={isFirst} />
+			</ImageContainer>
+		)
+	})
 
-  const tabsMarkup = TABS.map((singleTab, idx) => {
-    const isActive = singleTab.title === currentTab.title;
+	const tabsMarkup = TABS.map((singleTab, idx) => {
+		const isActive = singleTab.title === currentTab.title
 
-    return (
-      <Tab isActive={isActive} key={idx} onClick={() => handleTabClick(idx)}>
-        <TabTitleContainer>
-          <CircleContainer>
-            <ThreeLayersCircle baseColor={isActive ? 'transparent' : singleTab.baseColor} secondColor={singleTab.secondColor} />
-          </CircleContainer>
-          <h4>{singleTab.title}</h4>
-        </TabTitleContainer>
-        <Collapse isOpen={isActive} duration={300}>
-          <TabContent>
-            <div dangerouslySetInnerHTML={{ __html: singleTab.description }}></div>
-          </TabContent>
-        </Collapse>
-      </Tab>
-    );
-  });
+		return (
+			<Tab isActive={isActive} key={idx} onClick={() => handleTabClick(idx)}>
+				<TabTitleContainer>
+					<CircleContainer>
+						<ThreeLayersCircle baseColor={isActive ? "transparent" : singleTab.baseColor} secondColor={singleTab.secondColor} />
+					</CircleContainer>
+					<h4>{singleTab.title}</h4>
+				</TabTitleContainer>
+				<Collapse isOpen={isActive} duration={300}>
+					<TabContent>
+						<div dangerouslySetInnerHTML={{ __html: singleTab.description }}></div>
+					</TabContent>
+				</Collapse>
+			</Tab>
+		)
+	})
 
-  function handleTabClick(idx: number) {
-    setCurrentTab(TABS[idx]);
-  }
+	function handleTabClick(idx: number) {
+		setCurrentTab(TABS[idx])
+	}
 
-  return (
-    <FeaturesGalleryWrapper>
-      <Content>
-        <SectionTitle>Policies</SectionTitle>
-      </Content>
-      <GalleryWrapper>
-        <TabsContainer>{tabsMarkup}</TabsContainer>
-        {imagesMarkup}
-      </GalleryWrapper>
-    </FeaturesGalleryWrapper>
-  );
+	return (
+		<FeaturesGalleryWrapper>
+			<Content>
+				<SectionTitle>Policies</SectionTitle>
+			</Content>
+			<GalleryWrapper>
+				<TabsContainer>{tabsMarkup}</TabsContainer>
+				{imagesMarkup}
+			</GalleryWrapper>
+		</FeaturesGalleryWrapper>
+	)
 }
 
 const FeaturesGalleryWrapper = styled(Container)`
@@ -83,17 +84,17 @@ const FeaturesGalleryWrapper = styled(Container)`
   align-items: center;
   flex-direction: column;
   justify-content: center;
-`;
+`
 
 const GalleryWrapper = styled.div`
   display: flex;
   align-items: center;
   margin-top: 4rem;
 
-  ${media('<=desktop')} {
+  ${media("<=desktop")} {
     flex-direction: column;
   }
-`;
+`
 
 const Content = styled.div`
     margin-top: 5rem;
@@ -101,7 +102,7 @@ const Content = styled.div`
     margin-top: 1rem;
   }
   text-align: center;
-`;
+`
 
 const TabsContainer = styled.div`
   flex: 1;
@@ -111,18 +112,18 @@ const TabsContainer = styled.div`
     margin-top: 2rem;
   }
 
-  ${media('<=desktop')} {
+  ${media("<=desktop")} {
     margin-right: 0;
     margin-bottom: 4rem;
     width: 100%;
   }
-`;
+`
 
 const ImageContainer = styled.div<{ isActive: boolean }>`
   position: relative;
   overflow: hidden;
   border-radius: 0.8rem;
-  flex: ${(p) => (p.isActive ? '2' : '0')};
+  flex: ${(p) => (p.isActive ? "2" : "0")};
   box-shadow: var(--shadow-md);
 
   &:before {
@@ -140,10 +141,10 @@ const ImageContainer = styled.div<{ isActive: boolean }>`
     left: 0;
   }
 
-  ${media('<=desktop')} {
-    width: ${(p) => (p.isActive ? '100%' : '0')};
+  ${media("<=desktop")} {
+    width: ${(p) => (p.isActive ? "100%" : "0")};
   }
-`;
+`
 
 const Tab = styled.div<{ isActive: boolean }>`
   display: flex;
@@ -159,10 +160,10 @@ const Tab = styled.div<{ isActive: boolean }>`
   font-size: 1.6rem;
   font-weight: bold;
 
-  ${media('<=desktop')} {
+  ${media("<=desktop")} {
     width: 100%;
   }
-`;
+`
 
 const TabTitleContainer = styled.div`
   display: flex;
@@ -171,7 +172,7 @@ const TabTitleContainer = styled.div`
   h4 {
     flex: 1;
   }
-`;
+`
 
 const TabContent = styled.div`
   display: flex;
@@ -181,19 +182,19 @@ const TabContent = styled.div`
   font-size: 1.5rem;
   padding-left: calc(5rem + 1.5rem);
 
-  ${media('<=tablet')} {
+  ${media("<=tablet")} {
     padding-left: calc(4rem + 1.25rem);
   }
 
   p {
     font-weight: normal;
   }
-`;
+`
 
 const CircleContainer = styled.div`
   flex: 0 calc(5rem + 1.5rem);
 
-  ${media('<=tablet')} {
+  ${media("<=tablet")} {
     flex: 0 calc(4rem + 1.25rem);
   }
-`;
+`

@@ -1,5 +1,6 @@
-import styled from 'styled-components';
-import { media } from 'utils/media';
+import styled from "styled-components"
+
+import { media } from "utils/media"
 
 const RichText = styled.div`
   font-size: 1.8rem;
@@ -55,9 +56,9 @@ const RichText = styled.div`
     background: rgb(var(--textSecondary));
   }
 
-  ${media('<=desktop')} {
+  ${media("<=desktop")} {
     font-size: 1.5rem;
   }
-`;
+`
 
-export default RichText;
+export default RichText

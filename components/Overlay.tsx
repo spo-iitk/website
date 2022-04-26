@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components"
 
 const Overlay = styled.div`
   position: fixed;
@@ -10,6 +10,6 @@ const Overlay = styled.div`
   align-items: center;
   z-index: var(--z-modal);
   color: rgb(var(--textSecondary));
-`;
+`
 
-export default Overlay;
+export default Overlay

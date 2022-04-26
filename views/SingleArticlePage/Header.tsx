@@ -1,7 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
-import ArticleImage from 'components/ArticleImage';
-import { media } from 'utils/media';
+import React from "react"
+import styled from "styled-components"
+
+import ArticleImage from "components/ArticleImage"
+import { media } from "utils/media"
 
 interface HeaderProps {
   title: string;
@@ -11,15 +12,15 @@ interface HeaderProps {
 }
 
 export default function Header({ title, formattedDate, imageUrl, readTime }: HeaderProps) {
-  return (
-    <HeaderContainer>
-      <ArticleImage src={imageUrl} />
-      <Title>{title}</Title>
-      <DetailsContainer>
-        {formattedDate} <MidDot /> {readTime}
-      </DetailsContainer>
-    </HeaderContainer>
-  );
+	return (
+		<HeaderContainer>
+			<ArticleImage src={imageUrl} />
+			<Title>{title}</Title>
+			<DetailsContainer>
+				{formattedDate} <MidDot /> {readTime}
+			</DetailsContainer>
+		</HeaderContainer>
+	)
 }
 
 const HeaderContainer = styled.div`
@@ -27,7 +28,7 @@ const HeaderContainer = styled.div`
   flex-direction: column;
   max-width: 90rem;
   margin-bottom: 8rem;
-`;
+`
 
 const Title = styled.h1`
   font-weight: 600;
@@ -35,16 +36,16 @@ const Title = styled.h1`
   line-height: 5.6rem;
   margin-bottom: 28px;
 
-  ${media('<=tablet')} {
+  ${media("<=tablet")} {
     font-size: 3.5rem;
     line-height: 4.8rem;
   }
-`;
+`
 
 const DetailsContainer = styled.div`
   font-size: 1.6rem;
   color: var(--text-lighter);
-`;
+`
 
 const MidDot = styled.span`
   &::before {
@@ -52,4 +53,4 @@ const MidDot = styled.span`
     content: '\x000B7';
     margin: 0 0.6rem;
   }
-`;
+`

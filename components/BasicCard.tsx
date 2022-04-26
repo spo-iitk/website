@@ -1,5 +1,5 @@
-import NextImage from 'next/image';
-import styled from 'styled-components';
+import NextImage from "next/image"
+import styled from "styled-components"
 
 interface BasicCardProps {
   title: string;
@@ -8,13 +8,13 @@ interface BasicCardProps {
 }
 
 export default function BasicCard({ title, description, imageUrl }: BasicCardProps) {
-  return (
-    <Card>
-      { imageUrl && <NextImage src={imageUrl} width={128} height={128} alt={title} />}
-      <Title>{title}</Title>
-      <Description>{description}</Description>
-    </Card>
-  );
+	return (
+		<Card>
+			{ imageUrl && <NextImage src={imageUrl} width={128} height={128} alt={title} />}
+			<Title>{title}</Title>
+			<Description>{description}</Description>
+		</Card>
+	)
 }
 
 const Card = styled.div`
@@ -34,12 +34,12 @@ const Card = styled.div`
   & > *:not(:first-child) {
     margin-top: 1rem;
   }
-`;
+`
 
 const Title = styled.div`
   font-weight: bold;
-`;
+`
 
 const Description = styled.div`
   opacity: 0.6;
-`;
+`
