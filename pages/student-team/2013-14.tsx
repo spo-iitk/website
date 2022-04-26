@@ -40,54 +40,54 @@ const TeamMembers = [
 ]
 
 export default function StudentTeam22() {
-  return (
-    <Page title="Placement Team 2013-14" >
-    <DarkerBackgroundContainer>
-      <br />
-      <br />
-      <Container>
-      <SectionTitle>Overall Placement Coordinators</SectionTitle>
-        <CustomAutofitGrid2>
-          {TeamMembers.map((member, i) => {
-            if (i < 2)
-              return (
-                <div key={member.name}>
-                  <Card>
-                    {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
-                    <Title>{member.name}</Title>
-                    <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
-                    <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
-                    <small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small>
-                  </Card>
-                </div>
-              );
-            return <></>;
-          }
-          )}
-        </CustomAutofitGrid2>
-        <br />
-        <CustomAutofitGrid2>
-          {TeamMembers.map((member, i) => {
-            if (i >= 2)
-              return (
-                <div key={member.name}>
-                  <Card>
-                    {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
-                    <Title>{member.name}</Title>
-                    <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
-                    <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
-                    <small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small>
-                  </Card>
-                </div>
-              );
-            return <></>;
-          }
-          )}
-        </CustomAutofitGrid2>
-      </Container>
-    </DarkerBackgroundContainer>
-    </Page>
-  );
+	return (
+		<Page title="Placement Team 2013-14" >
+			<DarkerBackgroundContainer>
+				<br />
+				<br />
+				<Container>
+					<SectionTitle>Overall Placement Coordinators</SectionTitle>
+					<CustomAutofitGrid2>
+						{TeamMembers.map((member, i) => {
+							if (i < 2)
+								return (
+									<div key={member.name}>
+										<Card>
+											{member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
+											<Title>{member.name}</Title>
+											<Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
+											<Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+											<small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small>
+										</Card>
+									</div>
+								)
+							return <></>
+						}
+						)}
+					</CustomAutofitGrid2>
+					<br />
+					<CustomAutofitGrid2>
+						{TeamMembers.map((member, i) => {
+							if (i >= 2)
+								return (
+									<div key={member.name}>
+										<Card>
+											{member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
+											<Title>{member.name}</Title>
+											<Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
+											<Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+											<small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small>
+										</Card>
+									</div>
+								)
+							return <></>
+						}
+						)}
+					</CustomAutofitGrid2>
+				</Container>
+			</DarkerBackgroundContainer>
+		</Page>
+	)
 }
 
 const Card = styled.div`

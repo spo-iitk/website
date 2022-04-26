@@ -9,16 +9,16 @@ import OfficeTeam from "./office-staff"
 import StudentTeam from "./placement-coordinators"
 
 export default function ContactPage() {
-  return (
-    <Page title="Contact" description="Feel free to reach out to us!">
-      {/* <OfficeTeam notNeedTitleAtOfficeStaff /> */}
-      {/* <StudentTeam notNeedTitleAtStudentTeam /> */}
-      <ContactContainer>
-        <InformationSection />
-        <FormSection />
-      </ContactContainer>
-    </Page>
-  );
+	return (
+		<Page title="Contact" description="Feel free to reach out to us!">
+			{/* <OfficeTeam notNeedTitleAtOfficeStaff /> */}
+			{/* <StudentTeam notNeedTitleAtStudentTeam /> */}
+			<ContactContainer>
+				<InformationSection />
+				<FormSection />
+			</ContactContainer>
+		</Page>
+	)
 }
 
 const ContactContainer = styled.div`

@@ -1,3 +1,4 @@
+/* eslint-disable no-mixed-spaces-and-tabs */
 import NextImage from "next/image"
 import Link from "next/link"
 import styled from "styled-components"
@@ -40,38 +41,38 @@ export interface OfficeStaffProps {
 }
 
 export default function OfficeTeam({ notNeedTitleAtOfficeStaff }: OfficeStaffProps) {
-  return (
-    <Page title="Office Staff" description="Feel free to reach out to us!" notNeedTitle={notNeedTitleAtOfficeStaff}>
-    <DarkerBackgroundContainer>
-      {/* <SectionTitle>Staff Members</SectionTitle> */}
-      <Container>
-        <CustomAutofitGrid>
-          {TeamMembers.map((member) => (
-            <div key={member.name}>
-              <Card>
-                {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
-                <Title>{member.name}</Title>
-                <Description>{member.position}</Description>
-                <Description><Link href={`mailto:${member.email}`} passHref>{member.email}</Link></Description>
-              </Card>
-            </div>
-          ))}
-        </CustomAutofitGrid>
-        {!notNeedTitleAtOfficeStaff &&
+	return (
+		<Page title="Office Staff" description="Feel free to reach out to us!" notNeedTitle={notNeedTitleAtOfficeStaff}>
+			<DarkerBackgroundContainer>
+				{/* <SectionTitle>Staff Members</SectionTitle> */}
+				<Container>
+					<CustomAutofitGrid>
+						{TeamMembers.map((member) => (
+							<div key={member.name}>
+								<Card>
+									{member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
+									<Title>{member.name}</Title>
+									<Description>{member.position}</Description>
+									<Description><Link href={`mailto:${member.email}`} passHref>{member.email}</Link></Description>
+								</Card>
+							</div>
+						))}
+					</CustomAutofitGrid>
+					{!notNeedTitleAtOfficeStaff &&
         <>
-          <hr />
-          <Wrapper>
-            <h3>Office Contact Details</h3>
-            <p><span>Email:</span> <a href="mailto:spooffice@iitk.ac.in">spooffice@iitk.ac.in</a></p>
-            <p><span>Desk No. :</span> 0512-259-4433/34</p>
-          </Wrapper>
+        	<hr />
+        	<Wrapper>
+        		<h3>Office Contact Details</h3>
+        		<p><span>Email:</span> <a href="mailto:spooffice@iitk.ac.in">spooffice@iitk.ac.in</a></p>
+        		<p><span>Desk No. :</span> 0512-259-4433/34</p>
+        	</Wrapper>
         </>
-        }
-      </Container>
-      <br />
-    </DarkerBackgroundContainer>
-    </Page>
-  );
+					}
+				</Container>
+				<br />
+			</DarkerBackgroundContainer>
+		</Page>
+	)
 }
 const Wrapper = styled.div`
   padding: 2.5rem;
