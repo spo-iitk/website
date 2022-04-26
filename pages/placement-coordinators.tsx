@@ -38,11 +38,11 @@ const TeamMembers = [
 		linkedin: "https://www.linkedin.com/in/vishwaraj-singh-visraj/"
 	},
 	{
-		name: "Abhishek Kumar",
-		image: "/testimonials/Abhishek.jpg",
-		phone: "(+91) 9872686648",
-		mail: "krabhishek20@iitk.ac.in",
-		linkedin: "https://www.linkedin.com/in/abhisjust4u"
+		name: "Pragati Singh",
+		image: "/testimonials/Pragati.jpg",
+		phone: "(+91) 8303065597",
+		mail: "spragati@iitk.ac.in",
+		linkedin: "https://www.linkedin.com/in/spragati/"
 	},
 	{
 		name: "Akhila Mudupu",
@@ -52,11 +52,11 @@ const TeamMembers = [
 		linkedin: "https://www.linkedin.com/in/akhila-mudupu-9b3890217"
 	},
 	{
-		name: "Pragati Singh",
-		image: "/testimonials/Pragati.jpg",
-		phone: "(+91) 8303065597",
-		mail: "spragati@iitk.ac.in",
-		linkedin: "https://www.linkedin.com/in/spragati/"
+		name: "Abhishek Kumar",
+		image: "/testimonials/Abhishek.jpg",
+		phone: "(+91) 9872686648",
+		mail: "krabhishek20@iitk.ac.in",
+		linkedin: "https://www.linkedin.com/in/abhisjust4u"
 	},
 ]
 const APC = [
