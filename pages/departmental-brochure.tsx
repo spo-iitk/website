@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-import Section from "components/Section"
+import Page from "components/Page"
 const deptBrochure = [
 	{
 		idx: "1",
@@ -106,8 +106,7 @@ const deptBrochure = [
 export default function departmentalBrochure() {
 	return (
 		
-		<Section title="Departmental Brochures">
-			<p>Click on department to download their brochure.</p>
+		<Page title="Departmental Brochures" description="Click on department to download their brochure.">
 			<ul>
 				{deptBrochure.map(brochure => {
 					return (
@@ -117,10 +116,11 @@ export default function departmentalBrochure() {
 					)
 				})}
 			</ul>
-		</Section>
+		</Page>
 	)
 }
 
 const CustomLi = styled.li`
-	list-style-type: "➡ "; 
+	list-style-type: "➡ ";
+	font-size: 20px;
 `
