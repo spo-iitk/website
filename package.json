@@ -9,15 +9,8 @@
     "export": "yarn tinacms server:start -c \"next build && next export\"",
     "lint": "next lint",
     "lint:fix": "next lint --fix --ext .ts,.tsx",
-    "precommit": "husky"
-  },
-  "husky": {
-    "hooks": {
-      "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
-      "pre-applypatch": "echo \"[Husky] pre-applypatch\"",
-      "post-applypatch": "echo \"[Husky] post-applypatch\"",
-      "pre-commit": "echo \"[Husky] pre-commit\""
-    }
+    "precommit": "husky",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@accessible/drawer": "^3.0.2",
@@ -72,6 +65,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^7.0.0",
     "next-mdx-remote": "^3.0.5",
     "remark-breaks": "^3.0.1",
     "remark-external-links": "^9.0.1",
@@ -79,7 +73,6 @@
     "remark-gfm": "^3.0.0",
     "remark-sectionize": "^1.1.1",
     "remark-slug": "^7.0.0",
-    "typescript": "4.4.2",
-    "husky": "^7.0.4"
+    "typescript": "4.4.2"
   }
 }
