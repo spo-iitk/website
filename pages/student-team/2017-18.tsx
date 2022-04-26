@@ -397,8 +397,4 @@ const CustomBtnGroup = styled.div`
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
-<<<<<<< HEAD
-`
-=======
 `;
->>>>>>> 9650538 (Minor changes)
