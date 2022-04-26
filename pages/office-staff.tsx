@@ -42,7 +42,7 @@ export interface OfficeStaffProps {
 
 export default function OfficeTeam({ notNeedTitleAtOfficeStaff }: OfficeStaffProps) {
 	return (
-		<Page title="Office Staff" description="Feel free to reach out to us!" notNeedTitle={notNeedTitleAtOfficeStaff}>
+		<Page title="Officials" description="Feel free to reach out to us!" notNeedTitle={notNeedTitleAtOfficeStaff}>
 			<DarkerBackgroundContainer>
 				{/* <SectionTitle>Staff Members</SectionTitle> */}
 				<Container>
