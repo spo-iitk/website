@@ -135,14 +135,14 @@ const ResourcesL =[
 	},
 	{
 		name:"Internship Policy",
-		link: "assets/companies_links/Placement-Policy-Companies.pdf"
+		link: "assets/companies_links/Internship-Policy-Companies.pdf"
 	},
 	{
 		name:"Campus Recruitement Brochure",
 		link:"/assets/IITK_Recruitment_Brochure_2021-22.pdf" 
 	},
 	{name:"Campus Recruitment Guide",
-		link:"assets/companies_links/IITK_Recruitment_Guide_2020-21.pdf" 
+		link:"assets/companies_links/IITK_Recruitment_Guide_2022-23.pdf" 
 	},
 	{name: "Steps - Company Registration",
 		link:"assets/companies_links/Steps-Company-Registration.pdf" 
