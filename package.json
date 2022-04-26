@@ -9,9 +9,6 @@
     "export": "yarn tinacms server:start -c \"next build && next export\"",
     "lint": "next lint",
     "lint:fix": "next lint --fix --ext .ts,.tsx .",
-    "pre-commit": [
-      "lint"
-    ]
   },
   "dependencies": {
     "@accessible/drawer": "^3.0.2",
