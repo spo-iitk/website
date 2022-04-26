@@ -387,135 +387,135 @@ const ACD_Eng = [
 ]
 
 export default function StudentTeam22() {
-	return (
-		<Page title="Student Team Members 2014-15" >
-			<DarkerBackgroundContainer>
-				<br />
-				<Container>
-					<SectionTitle>Overall Placement Coordinators</SectionTitle>
-					<br />
-					<br />
-					<CustomAutofitGrid3>
-						{TeamMembers.map((member, i) => {
-							if (i < 3)
-								return (
-									<div key={member.name}>
-										<Card>
-											{member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
-											<Title>{member.name}</Title>
-											<Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
-											<Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
-											<small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small>
-										</Card>
-									</div>
-								)
-							return <></>
-						}
-						)}
-					</CustomAutofitGrid3>
-					<br />
-					<CustomAutofitGrid3>
-						{TeamMembers.map((member, i) => {
-							if (i >= 3)
-								return (
-									<div key={member.name}>
-										<Card>
-											{member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
-											<Title>{member.name}</Title>
-											<Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
-											<Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
-											<small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small>
-										</Card>
-									</div>
-								)
-							return <></>
-						}
-						)}
-					</CustomAutofitGrid3>
-				</Container>
-				<SectionTitle>Internship Coordinators</SectionTitle>
-				<Container>
-					<CustomAutofitGrid4>
-						{Internship_Cordis.map((member) => (
-							<div key={member.name}>
-								<Card>
-									<Title>{member.name}</Title>
-									<Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
-									<Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
-								</Card>
-							</div>
-						))}
-					</CustomAutofitGrid4>
-				</Container>
-				<SectionTitle>Internship Core-Team</SectionTitle>
-				<Container>
-					<CustomAutofitGrid4>
-						{Internship_CoreTeam.map((member) => (
-							<div key={member.name}>
-								<Card>
-									<Title>{member.name}</Title>
-									<Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
-									<Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
-								</Card>
-							</div>
-						))}
-					</CustomAutofitGrid4>
-				</Container>
-				<SectionTitle>Assistant Coordinators of Departments</SectionTitle>
-				<Container>
-					<h1>Inter-disciplinary specializations</h1>
-					<br />
-					<CustomAutofitGrid4>
-						{ACD_IDS.map((member) => (
-							<div key={member.name}>
-								<Card>
-									<Title>{member.name}</Title>
-									<Description>{member.department}</Description>
-									<Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
-									<Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
-								</Card>
-							</div>
-						))}
-					</CustomAutofitGrid4>
-				</Container>
-				<br />
-				<Container>
-					<h1>Science and Humanities</h1>
-					<br />
-					<CustomAutofitGrid4>
-						{ACD_SnH.map((member) => (
-							<div key={member.name}>
-								<Card>
-									<Title>{member.name}</Title>
-									<Description>{member.department}</Description>
-									<Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
-									<Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
-								</Card>
-							</div>
-						))}
-					</CustomAutofitGrid4>
-				</Container>
-				<br />
-				<Container>
-					<h1>Engineering</h1>
-					<br />
-					<CustomAutofitGrid4>
-						{ACD_Eng.map((member) => (
-							<div key={member.name}>
-								<Card>
-									<Title>{member.name}</Title>
-									<Description>{member.department}</Description>
-									<Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
-									<Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
-								</Card>
-							</div>
-						))}
-					</CustomAutofitGrid4>
-				</Container>
-				<br />
-			</DarkerBackgroundContainer>
-		</Page>
-	)
+  return (
+    <Page title="Placement Team 2014-15" >
+      <DarkerBackgroundContainer>
+        <br />
+        <Container>
+          <SectionTitle>Overall Placement Coordinators</SectionTitle>
+          <br />
+          <br />
+          <CustomAutofitGrid3>
+            {TeamMembers.map((member, i) => {
+              if (i < 3)
+                return (
+                  <div key={member.name}>
+                    <Card>
+                      {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
+                      <Title>{member.name}</Title>
+                      <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
+                      <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+                      <small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small>
+                    </Card>
+                  </div>
+                );
+              return <></>;
+            }
+            )}
+          </CustomAutofitGrid3>
+          <br />
+          <CustomAutofitGrid3>
+            {TeamMembers.map((member, i) => {
+              if (i >= 3)
+                return (
+                  <div key={member.name}>
+                    <Card>
+                      {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
+                      <Title>{member.name}</Title>
+                      <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
+                      <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+                      <small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small>
+                    </Card>
+                  </div>
+                );
+              return <></>;
+            }
+            )}
+          </CustomAutofitGrid3>
+        </Container>
+        <SectionTitle>Internship Coordinators</SectionTitle>
+        <Container>
+          <CustomAutofitGrid4>
+            {Internship_Cordis.map((member) => (
+              <div key={member.name}>
+                <Card>
+                  <Title>{member.name}</Title>
+                  <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
+                  <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+                </Card>
+              </div>
+            ))}
+          </CustomAutofitGrid4>
+        </Container>
+        <SectionTitle>Internship Core-Team</SectionTitle>
+        <Container>
+          <CustomAutofitGrid4>
+            {Internship_CoreTeam.map((member) => (
+              <div key={member.name}>
+                <Card>
+                  <Title>{member.name}</Title>
+                  <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
+                  <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+                </Card>
+              </div>
+            ))}
+          </CustomAutofitGrid4>
+        </Container>
+        <SectionTitle>Assistant Coordinators of Departments</SectionTitle>
+        <Container>
+        <h1>Inter-disciplinary specializations</h1>
+        <br />
+          <CustomAutofitGrid4>
+            {ACD_IDS.map((member) => (
+              <div key={member.name}>
+                <Card>
+                  <Title>{member.name}</Title>
+                  <Description>{member.department}</Description>
+                  <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
+                  <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+                </Card>
+              </div>
+            ))}
+          </CustomAutofitGrid4>
+        </Container>
+        <br />
+        <Container>
+        <h1>Science and Humanities</h1>
+        <br />
+          <CustomAutofitGrid4>
+            {ACD_SnH.map((member) => (
+              <div key={member.name}>
+                <Card>
+                  <Title>{member.name}</Title>
+                  <Description>{member.department}</Description>
+                  <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
+                  <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+                </Card>
+              </div>
+            ))}
+          </CustomAutofitGrid4>
+        </Container>
+        <br />
+        <Container>
+        <h1>Engineering</h1>
+        <br />
+          <CustomAutofitGrid4>
+            {ACD_Eng.map((member) => (
+              <div key={member.name}>
+                <Card>
+                  <Title>{member.name}</Title>
+                  <Description>{member.department}</Description>
+                  <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
+                  <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+                </Card>
+              </div>
+            ))}
+          </CustomAutofitGrid4>
+        </Container>
+        <br />
+      </DarkerBackgroundContainer>
+    </Page>
+  );
 }
 
 const Card = styled.div`

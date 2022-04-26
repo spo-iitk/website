@@ -232,85 +232,85 @@ const ACD = [
 ]
 
 export default function StudentTeam22() {
-	return (
-		<Page title="Student Team Members 2017-18" >
-			<DarkerBackgroundContainer>
-				<br />
-				<Container>
-					<SectionTitle>Overall Placement Coordinators</SectionTitle>
-					<br />
-					<br />
-					<CustomAutofitGrid3>
-						{TeamMembers.map((member, i) => {
-							if (i < 3)
-								return (
-									<div key={member.name}>
-										<Card>
-											{member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
-											<Title>{member.name}</Title>
-											<Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
-											<Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
-											<small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small>
-										</Card>
-									</div>
-								)
-							return <></>
-						}
-						)}
-					</CustomAutofitGrid3>
-					<br />
-					<CustomAutofitGrid3>
-						{TeamMembers.map((member, i) => {
-							if (i >= 3)
-								return (
-									<div key={member.name}>
-										<Card>
-											{member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
-											<Title>{member.name}</Title>
-											<Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
-											<Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
-											<small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small>
-										</Card>
-									</div>
-								)
-							return <></>
-						}
-						)}
-					</CustomAutofitGrid3>
-				</Container>
-				<SectionTitle>Assistant Coordinators</SectionTitle>
-				<Container>
-					<CustomAutofitGrid4>
-						{APC.map((member) => (
-							<div key={member.name}>
-								<Card>
-									<Title>{member.name}</Title>
-									<Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
-									<Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
-								</Card>
-							</div>
-						))}
-					</CustomAutofitGrid4>
-				</Container>
-				<SectionTitle>Assistant Coordinators of Departments</SectionTitle>
-				<Container>
-					<CustomAutofitGrid4>
-						{ACD.map((member) => (
-							<div key={member.name}>
-								<Card>
-									<Title>{member.name}</Title>
-									<Description>{member.department}</Description>
-									<Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
-									<Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
-								</Card>
-							</div>
-						))}
-					</CustomAutofitGrid4>
-				</Container>
-				<br />
-			</DarkerBackgroundContainer>
-		</Page>
-	)
+  return (
+    <Page title="Placement Team 2017-18" >
+      <DarkerBackgroundContainer>
+        <br />
+        <Container>
+          <SectionTitle>Overall Placement Coordinators</SectionTitle>
+          <br />
+          <br />
+          <CustomAutofitGrid3>
+            {TeamMembers.map((member, i) => {
+              if (i < 3)
+                return (
+                  <div key={member.name}>
+                    <Card>
+                      {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
+                      <Title>{member.name}</Title>
+                      <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
+                      <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+                      <small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small>
+                    </Card>
+                  </div>
+                );
+              return <></>;
+            }
+            )}
+          </CustomAutofitGrid3>
+          <br />
+          <CustomAutofitGrid3>
+            {TeamMembers.map((member, i) => {
+              if (i >= 3)
+                return (
+                  <div key={member.name}>
+                    <Card>
+                      {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
+                      <Title>{member.name}</Title>
+                      <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
+                      <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+                      <small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small>
+                    </Card>
+                  </div>
+                );
+              return <></>;
+            }
+            )}
+          </CustomAutofitGrid3>
+        </Container>
+        <SectionTitle>Assistant Coordinators</SectionTitle>
+        <Container>
+          <CustomAutofitGrid4>
+            {APC.map((member) => (
+              <div key={member.name}>
+                <Card>
+                  <Title>{member.name}</Title>
+                  <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
+                  <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+                </Card>
+              </div>
+            ))}
+          </CustomAutofitGrid4>
+        </Container>
+        <SectionTitle>Assistant Coordinators of Departments</SectionTitle>
+        <Container>
+          <CustomAutofitGrid4>
+            {ACD.map((member) => (
+              <div key={member.name}>
+                <Card>
+                  <Title>{member.name}</Title>
+                  <Description>{member.department}</Description>
+                  <Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
+                  <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+                </Card>
+              </div>
+            ))}
+          </CustomAutofitGrid4>
+        </Container>
+        <br />
+      </DarkerBackgroundContainer>
+    </Page>
+  );
 }
 
 const Card = styled.div`
@@ -397,4 +397,8 @@ const CustomBtnGroup = styled.div`
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
+<<<<<<< HEAD
 `
+=======
+`;
+>>>>>>> 9650538 (Minor changes)
