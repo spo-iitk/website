@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "yarn lint && yarn tinacms server:start -c \"next dev\"",
-    "build": "yarn lint && yarn tinacms server:start -c \"next build\"",
+    "dev": "yarn lint --fix && yarn tinacms server:start -c \"next dev\"",
+    "build": "yarn lint --fix && yarn tinacms server:start -c \"next build\"",
     "start": "yarn tinacms server:start -c \"next start\"",
     "export": "yarn tinacms server:start -c \"next build && next export\"",
     "lint": "next lint",
