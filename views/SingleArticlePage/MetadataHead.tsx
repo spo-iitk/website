@@ -4,9 +4,9 @@ import React from "react"
 import { EnvVars } from "env"
 
 interface MetadataHeadProps {
-  title: string;
-  description: string;
-  author: string;
+	title: string;
+	description: string;
+	author: string;
 }
 
 export default function MetadataHead(props: MetadataHeadProps) {

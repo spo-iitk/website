@@ -55,11 +55,11 @@ export default function Footer() {
 						<ListHeader>Contact</ListHeader>
 						<ListItemWrapper>
 							<span style={{ color: "rgba(var(--textSecondary), 0.75)" }} >
-                Students&apos; Placement office <br />
-                109, outreach building <br />
-                IIT Kanpur, Kanpur-208016 <br />
-                Phone no.: +91 512 259 44 33/34 <br />
-                Email:
+								Students&apos; Placement office <br />
+								109, outreach building <br />
+								IIT Kanpur, Kanpur-208016 <br />
+								Phone no.: +91 512 259 44 33/34 <br />
+								Email:
 								<NextLink href="mailto:spo@iitk.ac.in" passHref>
 									<a>spo@iitk.ac.in</a>
 								</NextLink>

@@ -2,14 +2,14 @@ import { forwardRef, PropsWithChildren } from "react"
 import AnimateHeight from "react-animate-height"
 
 export interface CollapseProps {
-  isOpen?: boolean;
-  animateOpacity?: boolean;
-  onAnimationStart?: () => void;
-  onAnimationEnd?: () => void;
-  duration?: number;
-  easing?: string;
-  startingHeight?: number | string;
-  endingHeight?: number | string;
+	isOpen?: boolean;
+	animateOpacity?: boolean;
+	onAnimationStart?: () => void;
+	onAnimationEnd?: () => void;
+	duration?: number;
+	easing?: string;
+	startingHeight?: number | string;
+	endingHeight?: number | string;
 }
 
 const Collapse = forwardRef<HTMLDivElement, PropsWithChildren<CollapseProps>>(

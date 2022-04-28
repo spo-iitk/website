@@ -11,42 +11,42 @@ import { media } from "utils/media"
 const TeamMembers = [
 	{
 		"name": "Sanket Gaggar",
-		image: "/testimonials/PastYearTeamImages/20-21/Sanket.jpg",
+		"image": "/testimonials/PastYearTeamImages/20-21/Sanket.jpg",
 		"mail": "gsanket@iitk.ac.in",
 		"phone": "91-7021414681",
 		"linkedin": "http://linkedin.com/in/sanket-gaggar-853865160/"
 	},
 	{
 		"name": "Himanshu Pandey",
-		image: "/testimonials/PastYearTeamImages/20-21/Himanshu.jpg",
+		"image": "/testimonials/PastYearTeamImages/20-21/Himanshu.jpg",
 		"mail": "hpandey@iitk.ac.in",
 		"phone": "91-9123438377",
 		"linkedin": "https://www.linkedin.com/in/himanshu-pandey-b25985164/"
 	},
 	{
 		"name": "Raj Gohil",
-		image: "/testimonials/PastYearTeamImages/20-21/Raj.png",
+		"image": "/testimonials/PastYearTeamImages/20-21/Raj.png",
 		"mail": "rgohil@iitk.ac.in",
 		"phone": "91-9172495348",
 		"linkedin": "https://www.linkedin.com/in/rajgohil12/"
 	},
 	{
 		"name": "Rishu Katiyar",
-		image: "/testimonials/PastYearTeamImages/20-21/Rishu.png",
+		"image": "/testimonials/PastYearTeamImages/20-21/Rishu.png",
 		"mail": "rishu@iitk.ac.in",
 		"phone": "91-7355964094",
 		"linkedin": "https://www.linkedin.com/in/rishu-katiyar-aa72ab1a2/"
 	},
 	{
 		"name": "Vedanth Venkatakrishnan",
-		image: "/testimonials/PastYearTeamImages/20-21/Vedanth.png",
+		"image": "/testimonials/PastYearTeamImages/20-21/Vedanth.png",
 		"mail": "vedanthv@iitk.ac.in",
 		"phone": "91-9198995614",
 		"linkedin": "https://www.linkedin.com/in/vedanth-venkatakrishnan-053436149/"
 	},
 	{
 		"name": "Bhavesh Loungani",
-		image: "/testimonials/PastYearTeamImages/20-21/Bhavesh.jpg",
+		"image": "/testimonials/PastYearTeamImages/20-21/Bhavesh.jpg",
 		"mail": "bhaveshl@iitk.ac.in",
 		"phone": "91-9079721746",
 		"linkedin": "https://www.linkedin.com/in/bhavesh-loungani-9079721746/"

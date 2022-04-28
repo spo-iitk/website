@@ -26,7 +26,7 @@ const TeamMembers = [
 		name: "Praveen Kumar",
 		position: "Junior Assistant",
 		image: "/testimonials/praveen_2022.jpg",
-		email:"pravkmr@iitk.ac.in",
+		email: "pravkmr@iitk.ac.in",
 	},
 	{
 		name: "Amarendra Mohanty",
@@ -37,7 +37,7 @@ const TeamMembers = [
 ]
 
 export interface OfficeStaffProps {
-  notNeedTitleAtOfficeStaff?: boolean;
+	notNeedTitleAtOfficeStaff?: boolean;
 }
 
 export default function OfficeTeam({ notNeedTitleAtOfficeStaff }: OfficeStaffProps) {
@@ -59,14 +59,14 @@ export default function OfficeTeam({ notNeedTitleAtOfficeStaff }: OfficeStaffPro
 						))}
 					</CustomAutofitGrid>
 					{!notNeedTitleAtOfficeStaff &&
-        <>
-        	<hr />
-        	<Wrapper>
-        		<h3>Office Contact Details</h3>
-        		<p><span>Email:</span> <a href="mailto:spooffice@iitk.ac.in">spooffice@iitk.ac.in</a></p>
-        		<p><span>Desk No. :</span> 0512-259-4433/34</p>
-        	</Wrapper>
-        </>
+						<>
+							<hr />
+							<Wrapper>
+								<h3>Office Contact Details</h3>
+								<p><span>Email:</span> <a href="mailto:spooffice@iitk.ac.in">spooffice@iitk.ac.in</a></p>
+								<p><span>Desk No. :</span> 0512-259-4433/34</p>
+							</Wrapper>
+						</>
 					}
 				</Container>
 				<br />

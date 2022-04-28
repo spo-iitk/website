@@ -138,7 +138,7 @@ const PREVTEAM = [
 ]
 
 export interface StudentTeamProps {
-  notNeedTitleAtStudentTeam?: boolean;
+	notNeedTitleAtStudentTeam?: boolean;
 }
 
 export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamProps) {

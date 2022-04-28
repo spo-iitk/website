@@ -11,42 +11,42 @@ import { media } from "utils/media"
 const TeamMembers = [
 	{
 		"name": "Aditi Singh",
-		image: "/testimonials/PastYearTeamImages/18-19/aditisgh.jpg",
+		"image": "/testimonials/PastYearTeamImages/18-19/aditisgh.jpg",
 		"mail": "aditisgh@iitk.ac.in",
 		"phone": "+91 9461 699 954",
 		"linkedin": "https://www.linkedin.com/in/aditi-singh-b82303158/"
 	},
 	{
 		"name": "Asim Katakwar",
-		image: "/testimonials/PastYearTeamImages/18-19/asim.jpg",
+		"image": "/testimonials/PastYearTeamImages/18-19/asim.jpg",
 		"mail": "asimsr@iitk.ac.in",
 		"phone": "+91 9519 206 077",
 		"linkedin": "https://www.linkedin.com/in/asim-katakwar-347285115/"
 	},
 	{
 		"name": "Pritesh Kumbhare",
-		image: "/testimonials/PastYearTeamImages/18-19/pritesh.jpg",
+		"image": "/testimonials/PastYearTeamImages/18-19/pritesh.jpg",
 		"mail": "pritesh@iitk.ac.in",
 		"phone": "+91 7054 117 608",
 		"linkedin": "https://www.linkedin.com/in/priteshkumbhare/"
 	},
 	{
 		"name": "Utkarsh Sharma",
-		image: "/testimonials/PastYearTeamImages/18-19/utkarsh.jpg",
+		"image": "/testimonials/PastYearTeamImages/18-19/utkarsh.jpg",
 		"mail": "sutkars@iitk.ac.in",
 		"phone": "+91 8400 848 228",
 		"linkedin": "https://www.linkedin.com/in/utkarsh-sharma-026b55158/"
 	},
 	{
 		"name": "Shubhadeep Das",
-		image: "/testimonials/PastYearTeamImages/18-19/shubh.jpg",
+		"image": "/testimonials/PastYearTeamImages/18-19/shubh.jpg",
 		"mail": "shubdas@iitk.ac.in",
 		"phone": "+91 9559 024 468",
 		"linkedin": "https://www.linkedin.com/in/shubhadeep456/"
 	},
 	{
 		"name": "Santhosh Kumar C",
-		image: "/testimonials/PastYearTeamImages/18-19/santosh.jpg",
+		"image": "/testimonials/PastYearTeamImages/18-19/santosh.jpg",
 		"mail": "csksant@iitk.ac.in",
 		"phone": "+91 7418 121 826",
 		"linkedin": "https://in.linkedin.com/in/csksanthoshkumar"

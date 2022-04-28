@@ -17,17 +17,17 @@ const steps = [
 	{
 		title: "2",
 		description:
-      "You will need to contact your PoC or any placement coordinators (or mail to spo@iitk.ac.in) for your account credentials on the Recruitment Automation system(RAS).",
+			"You will need to contact your PoC or any placement coordinators (or mail to spo@iitk.ac.in) for your account credentials on the Recruitment Automation system(RAS).",
 	},
 	{
 		title: "3",
 		description:
-      "You need to fill out a Job Announcement Form (JAF) / Internship Proforma (IP) in the portal to share the offered profile details.",
+			"You need to fill out a Job Announcement Form (JAF) / Internship Proforma (IP) in the portal to share the offered profile details.",
 	},
 	{
 		title: "4",
 		description:
-      "After verification of details by PoC, job/internship openings are visible on the portal as per dates decided by the placement team.",
+			"After verification of details by PoC, job/internship openings are visible on the portal as per dates decided by the placement team.",
 	},
 	{
 		title: "5",
@@ -120,35 +120,38 @@ const faqlist = [
 		body: "On campus accommodation on payment basis in visitors' guest house is available subject to availability. For alternate arrangements, the list of hotels is available here",
 	},
 ]
-const ResourcesL =[
+const ResourcesL = [
 	{
-		name:"Job Announcement Form",
-		link:"assets/companies_links/IITK_JAF_Job_Announcement_Form_2021-22.docx" 
+		name: "Job Announcement Form",
+		link: "assets/companies_links/IITK_JAF_Job_Announcement_Form_2021-22.docx"
 	},
 	{
-		name:"Internship Proforma",
+		name: "Internship Proforma",
 		link: "assets/companies_links/IITK_IP_Internship_Proforma_2021-22.docx"
 	},
 	{
-		name:"Placement Policy",
-		link:"assets/companies_links/Placement-Policy-Companies.pdf" 
+		name: "Placement Policy",
+		link: "assets/companies_links/Placement-Policy-Companies.pdf"
 	},
 	{
-		name:"Internship Policy",
+		name: "Internship Policy",
 		link: "assets/companies_links/Internship-Policy-Companies.pdf"
 	},
 	{
-		name:"Campus Recruitement Brochure",
-		link:"/assets/IITK_Recruitment_Brochure_2021-22.pdf" 
+		name: "Campus Recruitement Brochure",
+		link: "/assets/IITK_Recruitment_Brochure_2021-22.pdf"
 	},
-	{name:"Campus Recruitment Guide",
-		link:"assets/companies_links/IITK_Recruitment_Guide_2022-23.pdf" 
+	{
+		name: "Campus Recruitment Guide",
+		link: "assets/companies_links/IITK_Recruitment_Guide_2022-23.pdf"
 	},
-	{name: "Steps - Company Registration",
-		link:"assets/companies_links/Steps-Company-Registration.pdf" 
+	{
+		name: "Steps - Company Registration",
+		link: "assets/companies_links/Steps-Company-Registration.pdf"
 	},
-	{name:"Departmental Brochures",
-		link:"/departmental-brochure"
+	{
+		name: "Departmental Brochures",
+		link: "/departmental-brochure"
 	},
 ]
 
@@ -172,87 +175,87 @@ export default function CompaniesPage() {
 			<Section title="Placement Policy">
 				<ol>
 					<li>
-            The Students&apos; Placement Office follows a strict <strong>&quot;One Student, One Job Policy&quot;</strong>. Once a student is
-            offered a job, he/she is out of the placement process
+						The Students&apos; Placement Office follows a strict <strong>&quot;One Student, One Job Policy&quot;</strong>. Once a student is
+						offered a job, he/she is out of the placement process
 					</li>
 					<li>
-            On completion of the recruitment procedure, the company needs to submit the final list of offers in a closed envelope to the
-            placement office. The offers will be opened at the end of the slot* when all companies finish their process
+						On completion of the recruitment procedure, the company needs to submit the final list of offers in a closed envelope to the
+						placement office. The offers will be opened at the end of the slot* when all companies finish their process
 					</li>
 					<li>
-            No <strong>&quot;On the Spot&quot;</strong> offers should be made nor can any clue be given to any of the candidates during the
-            placement interview.
+						No <strong>&quot;On the Spot&quot;</strong> offers should be made nor can any clue be given to any of the candidates during the
+						placement interview.
 					</li>
 					<li>
-            IIn case a candidate receives multiple offers, the candidate has to make a choice at the end of the slot. The companies will be
-            intimated about the final choice of the candidate two hours after the end of the slot, or receipt of the offers, whichever is
-            later.
+						IIn case a candidate receives multiple offers, the candidate has to make a choice at the end of the slot. The companies will be
+						intimated about the final choice of the candidate two hours after the end of the slot, or receipt of the offers, whichever is
+						later.
 					</li>
 					<li>
-            Since there is a high probability of multiple offers, the companies have to furnish a waiting list to the placement office along
-            with the final offers. In case a student who is extended multiple offers chooses the other company, the first candidate in the
-            waiting list moves up in the final offer list. The waitlist will not be disclosed to the students and will be released on a per
-            student basis{" "}
+						Since there is a high probability of multiple offers, the companies have to furnish a waiting list to the placement office along
+						with the final offers. In case a student who is extended multiple offers chooses the other company, the first candidate in the
+						waiting list moves up in the final offer list. The waitlist will not be disclosed to the students and will be released on a per
+						student basis{" "}
 					</li>
 					<li>
-            Companies are advised to be in touch with the Placement volunteers and staff at all times. They should not entertain any direct
-            contact from the students appearing in the placement process. In case of such a situation, the company must bring this
-            immediately to the notice of the Placement Office.
+						Companies are advised to be in touch with the Placement volunteers and staff at all times. They should not entertain any direct
+						contact from the students appearing in the placement process. In case of such a situation, the company must bring this
+						immediately to the notice of the Placement Office.
 					</li>
 					<li>
-            In case of a delay of more than 60 days from the date of convocation (last week of June), the company has to pay the student the
-            compensation for the delayed period.
+						In case of a delay of more than 60 days from the date of convocation (last week of June), the company has to pay the student the
+						compensation for the delayed period.
 					</li>
 					<br />*{" "}
 					<small>
 						{" "}
-            The slot allotted for the selection procedure by the placement office to the company is of 8 hrs. Although the companies are
-            allowed to conduct tests beforehand to shortlist the candidates
+						The slot allotted for the selection procedure by the placement office to the company is of 8 hrs. Although the companies are
+						allowed to conduct tests beforehand to shortlist the candidates
 					</small>
 				</ol>
 			</Section>
 			<Section title="Internship Policy">
 				<ol>
 					<li>
-            The Students&apos; Placement Office follows a strict <strong>&quot;One Student, One Job Policy&quot;</strong>. Once a student is
-            offered a job, he/she is out of the internship process
+						The Students&apos; Placement Office follows a strict <strong>&quot;One Student, One Job Policy&quot;</strong>. Once a student is
+						offered a job, he/she is out of the internship process
 					</li>
 					<li>
-            On completion of the recruitment procedure, the company needs to submit the final list of offers in a closed envelope to the
-            placement office. The offers will be opened at the end of the slot* when all companies finish their process
+						On completion of the recruitment procedure, the company needs to submit the final list of offers in a closed envelope to the
+						placement office. The offers will be opened at the end of the slot* when all companies finish their process
 					</li>
 					<li>
-            No <strong>&quot;On the Spot&quot;</strong> offers should be made nor can any clue be given to any of the candidates during the
-            placement interview.
+						No <strong>&quot;On the Spot&quot;</strong> offers should be made nor can any clue be given to any of the candidates during the
+						placement interview.
 					</li>
 					<li>
-            IIn case a candidate receives multiple offers, the candidate has to make a choice at the end of the slot. The companies will be
-            intimated about the final choice of the candidate two hours after the end of the slot, or receipt of the offers, whichever is
-            later.
+						IIn case a candidate receives multiple offers, the candidate has to make a choice at the end of the slot. The companies will be
+						intimated about the final choice of the candidate two hours after the end of the slot, or receipt of the offers, whichever is
+						later.
 					</li>
 					<li>
-            Since there is a high probability of multiple offers, the companies have to furnish a waiting list to the placement office along
-            with the final offers. In case a student who is extended multiple offers chooses the other company, the first candidate in the
-            waiting list moves up in the final offer list. The waitlist will not be disclosed to the students and will be released on a per
-            student basis{" "}
+						Since there is a high probability of multiple offers, the companies have to furnish a waiting list to the placement office along
+						with the final offers. In case a student who is extended multiple offers chooses the other company, the first candidate in the
+						waiting list moves up in the final offer list. The waitlist will not be disclosed to the students and will be released on a per
+						student basis{" "}
 					</li>
 					<li>
-            Companies are always advised to be in touch with the Internship volunteers and staff. They
-            should not entertain any direct contact from the students appearing in the internship process. In
-            case of such a situation, the company must bring this immediately to the notice of the
-            Placement Office.
+						Companies are always advised to be in touch with the Internship volunteers and staff. They
+						should not entertain any direct contact from the students appearing in the internship process. In
+						case of such a situation, the company must bring this immediately to the notice of the
+						Placement Office.
 					</li>
 					<li>
-            The internship should be held during the period starting from 1st week of May 2022 to the 3rd
-            week of July 2022. 
+						The internship should be held during the period starting from 1st week of May 2022 to the 3rd
+						week of July 2022.
 					</li>
 				</ol>
 				<br />*{" "}
 				<small>
 					{" "}
-          The slot allotted for the selection procedure by the Placement Office to the company is of 4-8 hours, depending upon the
-          day of the week and the number of interviews to be conducted. Although the companies are allowed to conduct tests
-          beforehand to shortlist the candidates. 
+					The slot allotted for the selection procedure by the Placement Office to the company is of 4-8 hours, depending upon the
+					day of the week and the number of interviews to be conducted. Although the companies are allowed to conduct tests
+					beforehand to shortlist the candidates.
 				</small>
 			</Section>
 			<br />
@@ -261,17 +264,17 @@ export default function CompaniesPage() {
 			<Section title="Facilities">
 				<ul>
 					<li>
-            Pickup services on payment basis from Lucknow(Amausi) Airport , Kanpur Airport and Kanpur Central Railway Station. Chopper rides
-            from Lucknow Airport to IIT Kanpur campus can be availed on prior request to the Placement Office.
+						Pickup services on payment basis from Lucknow(Amausi) Airport , Kanpur Airport and Kanpur Central Railway Station. Chopper rides
+						from Lucknow Airport to IIT Kanpur campus can be availed on prior request to the Placement Office.
 					</li>
 					<li>Fully equipped Seminar and conference rooms for Group discussions and Personal Interviews.</li>
 					<li>
-            Centrally air conditioned Auditorium and Lecture halls, fully equipped with latest multimedia and Wi-Fi for Pre-Placement
-            Talks(PPTs), Workshops, tests etc.
+						Centrally air conditioned Auditorium and Lecture halls, fully equipped with latest multimedia and Wi-Fi for Pre-Placement
+						Talks(PPTs), Workshops, tests etc.
 					</li>
 					<li>Facility of Tele Conferencing and Video Conferencing.</li>
 					<li>
-            On campus accommodation in Visitors&apos; Guest House for the recruiting panel <small>(subject to availability)</small>.
+						On campus accommodation in Visitors&apos; Guest House for the recruiting panel <small>(subject to availability)</small>.
 					</li>
 					<li>Access to all student profiles via a highly efficient and effective Placement Automation System (PAS).</li>
 					<li>Round the clock assistance by the students&apos; volunteers at each level of placement process.</li>
@@ -280,12 +283,12 @@ export default function CompaniesPage() {
 			</Section>
 			<br />
 			<hr />
-			<Section title= "Resources">
+			<Section title="Resources">
 				<Container>
 					<CustomAutofitGrid4>
-						{ResourcesL.map((member)=>(
+						{ResourcesL.map((member) => (
 							<Link href={member.link} key={member.name} passHref>
-								<Card style={{cursor: "pointer"}}>
+								<Card style={{ cursor: "pointer" }}>
 									<Title>{member.name}</Title>
 								</Card>
 							</Link>
@@ -293,18 +296,18 @@ export default function CompaniesPage() {
 					</CustomAutofitGrid4>
 				</Container>
 			</Section>
-      
+
 			<div id="faqs"></div>
 			<Section title="FAQs">
 				<FaqSection faqs={faqlist} />
-				<div style={{marginTop:"3rem"}}>
+				<div style={{ marginTop: "3rem" }}>
 					<Accordion title="How can one commute between the campus & airport/railway station?">
-            The campus taxi service providers can be contacted for the same at the following numbers:
+						The campus taxi service providers can be contacted for the same at the following numbers:
 						<ul>
 							<li>Trimurti Travels - Mr Surender Yadav - 0512-259 5094</li>
 							<li>Yadav Travels - Mr Rajpal Yadav - 0512-259 5095 - (Mobile : 93362 17156)</li>
 							<li>
-                The list of institute approved taxi operators can be found{" "}
+								The list of institute approved taxi operators can be found{" "}
 								<a href="/assets/taxi_details.pdf">here</a> and approved rates can be found{" "}
 								<a href="/assets/taxi_rates.pdf">here</a>.
 							</li>

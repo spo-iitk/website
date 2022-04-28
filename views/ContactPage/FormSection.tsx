@@ -9,12 +9,12 @@ import { media } from "utils/media"
 import MailSentState from "../../components/MailSentState"
 
 interface EmailPayload {
-  company: string;
-  name: string;
-  email: string;
-  phone: string;
-  designation: string;
-  description: string;
+	company: string;
+	name: string;
+	email: string;
+	phone: string;
+	designation: string;
+	description: string;
 }
 
 export default function FormSection() {
@@ -91,7 +91,7 @@ export default function FormSection() {
 					/>
 				</InputStack>
 				<Button as="button" type="submit" disabled={isSubmitDisabled}>
-          Send Message
+					Send Message
 				</Button>
 			</Form>
 		</Wrapper>

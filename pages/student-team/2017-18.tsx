@@ -11,28 +11,28 @@ import { media } from "utils/media"
 const TeamMembers = [
 	{
 		"name": "Akshay Wadhwani",
-		image: "/testimonials/PastYearTeamImages/17-18/akshay.jpg",
+		"image": "/testimonials/PastYearTeamImages/17-18/akshay.jpg",
 		"mail": "akshayw@iitk.ac.in",
 		"phone": "+91 8604 926 396",
 		"linkedin": "https://www.linkedin.com/in/akshay-wadhwani-534650b6/"
 	},
 	{
 		"name": "Aryaman",
-		image: "/testimonials/PastYearTeamImages/17-18/aryaman.jpg",
+		"image": "/testimonials/PastYearTeamImages/17-18/aryaman.jpg",
 		"mail": "aryaman@iitk.ac.in",
 		"phone": "+91 7755 047 977",
 		"linkedin": "https://www.linkedin.com/in/aryaman-singh-788b70ba/"
 	},
 	{
 		"name": "Harshit Omar",
-		image: "/testimonials/PastYearTeamImages/17-18/harshit.jpg",
+		"image": "/testimonials/PastYearTeamImages/17-18/harshit.jpg",
 		"mail": "homar@iitk.ac.in",
 		"phone": "+91 8687 007 388",
 		"linkedin": "https://www.linkedin.com/in/harshit-omar-574bb3b2/"
 	},
 	{
 		"name": "Subham Kumar",
-		image: "/testimonials/PastYearTeamImages/17-18/subham.jpg",
+		"image": "/testimonials/PastYearTeamImages/17-18/subham.jpg",
 		"mail": "subham@iitk.ac.in",
 		"phone": "+91 8960 620 584",
 		"linkedin": "https://www.linkedin.com/in/subham-kumar-44a913aa/"

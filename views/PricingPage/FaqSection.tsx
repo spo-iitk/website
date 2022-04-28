@@ -3,12 +3,12 @@ import styled from "styled-components"
 import Accordion from "components/Accordion"
 
 interface FaqType {
-  title: string;
-  body: string;
+	title: string;
+	body: string;
 }
 
 interface FaqProps {
-  faqs: FaqType[];
+	faqs: FaqType[];
 }
 
 export default function FaqSection({ faqs }: FaqProps) {

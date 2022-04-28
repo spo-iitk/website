@@ -11,41 +11,41 @@ import { media } from "utils/media"
 const TeamMembers = [
 	{
 		"name": "Yogesh Kumar",
-		image: "/testimonials/PastYearTeamImages/19-20/yogesh.jpg",
+		"image": "/testimonials/PastYearTeamImages/19-20/yogesh.jpg",
 		"mail": "kumaryog@iitk.ac.in",
 		"phone": "+91 9794 966 036",
 		"linkedin": "https://www.linkedin.com/in/yogesh-kumar-a73737154/"
 	},
 	{
 		"name": "Mohammad Anas",
-		image: "/testimonials/PastYearTeamImages/19-20/anas.jpg",
+		"image": "/testimonials/PastYearTeamImages/19-20/anas.jpg",
 		"mail": "mdanas@iitk.ac.in",
 		"phone": "+91 8090 300 463",
 		"linkedin": "https://www.linkedin.com/in/anas-abdullah08"
 	},
 	{
 		"name": "Moulik Jain",
-		image: "/testimonials/PastYearTeamImages/19-20/moulik.jpg",
+		"image": "/testimonials/PastYearTeamImages/19-20/moulik.jpg",
 		"mail": "mlkjain@iitk.ac.in",
 		"phone": "+91 9981 635 341",
 		"linkedin": "https://www.linkedin.com/in/mlkjain"
 	},
 	{
 		"name": "Nishu Jain",
-		image: "/testimonials/PastYearTeamImages/19-20/nishu.jpg",
+		"image": "/testimonials/PastYearTeamImages/19-20/nishu.jpg",
 		"mail": "nishuj@iitk.ac.in",
 		"linkedin": "https://in.linkedin.com/in/nishujain94"
 	},
 	{
 		"name": "Vaibhav Agarwal",
-		image: "/testimonials/PastYearTeamImages/19-20/vaibhav.jpg",
+		"image": "/testimonials/PastYearTeamImages/19-20/vaibhav.jpg",
 		"mail": "vaibhavg@iitk.ac.in",
 		"phone": "+91 9453 620 663",
 		"linkedin": "https://www.linkedin.com/in/vaibhav31ag"
 	},
 	{
 		"name": "Apoorva Singh",
-		image: "/testimonials/PastYearTeamImages/19-20/apoorva.jpg",
+		"image": "/testimonials/PastYearTeamImages/19-20/apoorva.jpg",
 		"mail": "apoorvas@iitk.ac.in",
 		"phone": "+91 9415 390 833",
 		"linkedin": "https://www.linkedin.com/in/apoorvasingh0803"
