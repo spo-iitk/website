@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1"
-	 id="svg2" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="500px"
-	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
-<style type="text/css">
+<svg version="1.1" id="svg2"
+	xmlns:cc="http://creativecommons.org/ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:svg="http://www.w3.org/2000/svg"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="500px" viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+	<style type="text/css">
 	.st0{fill:#FFFFFF;}
 	.st1{fill:#3B73B9;}
-</style>
-<g id="g10" transform="matrix(1, 0, 0, 1, 0, 0)">
-	<g id="g12" transform="scale(0.1,0.1)">
-		<path id="path14" inkscape:connector-curvature="0" class="st0" d="M2499.8,4950C3853.2,4950,4950,3853.2,4950,2500.2
+	</style>
+	<g id="g10" transform="matrix(1, 0, 0, 1, 0, 0)">
+		<g id="g12" transform="scale(0.1,0.1)">
+			<path id="path14" inkscape:connector-curvature="0" class="st0" d="M2499.8,4950C3853.2,4950,4950,3853.2,4950,2500.2
 			C4950,1147.2,3853.2,50,2499.8,50C1146.8,50,50,1147.2,50,2500.2C50,3853.2,1146.8,4950,2499.8,4950"/>
-		<path id="path16" inkscape:connector-curvature="0" class="st1" d="M3049.6,1862.1c0-278.6,188.6-548.8,291.5-497.9
+			<path id="path16" inkscape:connector-curvature="0" class="st1" d="M3049.6,1862.1c0-278.6,188.6-548.8,291.5-497.9
 			C3458.4,1423,3253.2,1685.4,3049.6,1862.1 M1767.1,1963.6c0-224,221-649.6,356-604.6C2282.7,1412.2,1990.9,1841.5,1767.1,1963.6
 			 M1543,3565.6c-101.6,4.6-169.6-60.4-169.6-168.9c0-291.5,404.5-570,710-719.5C2029.2,3084.2,1891.7,3549.9,1543,3565.6
 			 M3409.2,2615.7c-230.7,0-407,169.7-407,373.2c0,169.7,102,305.4,237.3,305.4c47.9,0,95.3-27.3,95.3-87.9
@@ -42,6 +46,6 @@
 			c0,1289.5,1045.1,2334.3,2334.6,2334.3c1289.2,0,2334.3-1044.8,2334.3-2334.3C4834.5,1217.3,3789.4,165.5,2500.2,165.5
 			 M2500.2,4950C1149.6,4950,50,3857.4,50,2500.2C50,1149.2,1149.6,50,2500.2,50C3850.4,50,4950,1149.2,4950,2500.2
 			C4950,3857.4,3850.4,4950,2500.2,4950"/>
+		</g>
 	</g>
-</g>
 </svg>

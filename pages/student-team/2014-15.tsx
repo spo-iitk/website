@@ -11,42 +11,42 @@ import { media } from "utils/media"
 const TeamMembers = [
 	{
 		"name": "Aditya Jain",
-		image: "/testimonials/PastYearTeamImages/14-15/aditya.jpg",
+		"image": "/testimonials/PastYearTeamImages/14-15/aditya.jpg",
 		"mail": "adityj@iitk.ac.in",
 		"phone": "+91 8960 419 300",
 		"linkedin": "https://www.linkedin.com/profile/view?id=157498923"
 	},
 	{
 		"name": "Amanpreet Singh",
-		image: "/testimonials/PastYearTeamImages/14-15/amanpreet.jpg",
+		"image": "/testimonials/PastYearTeamImages/14-15/amanpreet.jpg",
 		"mail": "amanprs@iitk.ac.in",
 		"phone": "+91 9621 249 264",
 		"linkedin": "https://www.linkedin.com/profile/view?id=312298778"
 	},
 	{
 		"name": "Parth Vaswani",
-		image: "/testimonials/PastYearTeamImages/14-15/parth.jpg",
+		"image": "/testimonials/PastYearTeamImages/14-15/parth.jpg",
 		"mail": "vaspar@iitk.ac.in",
 		"phone": "+91 9936 375 558",
 		"linkedin": "https://www.linkedin.com/profile/view?id=141264083"
 	},
 	{
 		"name": "Shashwat Chandra",
-		image: "/testimonials/PastYearTeamImages/14-15/chandras.jpg",
+		"image": "/testimonials/PastYearTeamImages/14-15/chandras.jpg",
 		"mail": "chandras@iitk.ac.in",
 		"phone": "+91 9936 335 650",
 		"linkedin": "https://www.linkedin.com/profile/view?id=341972785"
 	},
 	{
 		"name": "Shrey Verma",
-		image: "/testimonials/PastYearTeamImages/14-15/shrey.jpg",
+		"image": "/testimonials/PastYearTeamImages/14-15/shrey.jpg",
 		"mail": "shreyv@iitk.ac.in",
 		"phone": "+91 9651 762 826",
 		"linkedin": "https://www.linkedin.com/profile/view?id=292873328"
 	},
 	{
 		"name": "Avanindra Kumar Pandeya",
-		image: "/testimonials/PastYearTeamImages/14-15/apandeya.jpg",
+		"image": "/testimonials/PastYearTeamImages/14-15/apandeya.jpg",
 		"mail": "apandeya@iitk.ac.in",
 		"phone": "+91 8081 245 927",
 		"linkedin": "https://www.linkedin.com/profile/view?id=71112726"
@@ -119,7 +119,7 @@ const Internship_CoreTeam = [
 	}
 ]
 
-const ACD_IDS =[
+const ACD_IDS = [
 	{
 		"name": "Raman Kumar",
 		"department": "Centre for Lasers Photonics (CELP)",

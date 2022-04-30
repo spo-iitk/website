@@ -17,17 +17,17 @@ const steps = [
 	{
 		title: "2",
 		description:
-      "Before the deadline, the Students' Placement Office must receive the proofs justifying each point in your resume as well as PVFs (Project Verification Forms) from the project or internship mentor.",
+			"Before the deadline, the Students' Placement Office must receive the proofs justifying each point in your resume as well as PVFs (Project Verification Forms) from the project or internship mentor.",
 	},
 	{
 		title: "3",
 		description:
-      "You must register on the Recruitment Automation System (RAS) within the specified timeframe as notified by SPO.",
+			"You must register on the Recruitment Automation System (RAS) within the specified timeframe as notified by SPO.",
 	},
 	{
 		title: "4",
 		description:
-      "After you've registered, you are supposed to upload all one/two page resumes on the portal.",
+			"After you've registered, you are supposed to upload all one/two page resumes on the portal.",
 	},
 	{
 		title: "5",
@@ -182,7 +182,7 @@ export default function StudentsPage() {
 				<FaqSection faqs={faqlist} />
 				<p style={{ marginTop: "3rem" }}>
 					<b>NOTE:</b> Whenever you send a mail containing proofs/PVFs or anything related to resume submission, kindly ensure that the subject contains your roll number.
-          For detailed guidelines and recommendations on resume making, all the students are advised to visit this <a href="https://docs.google.com/document/d/1Lf4T9PAXi4yQ0cobzzyoslTy3VvBw8FB6FONHNQT1kY/edit">link</a>.
+					For detailed guidelines and recommendations on resume making, all the students are advised to visit this <a href="https://docs.google.com/document/d/1Lf4T9PAXi4yQ0cobzzyoslTy3VvBw8FB6FONHNQT1kY/edit">link</a>.
 				</p>
 			</Section>
 		</Page>

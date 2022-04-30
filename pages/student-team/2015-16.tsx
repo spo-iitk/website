@@ -11,42 +11,42 @@ import { media } from "utils/media"
 const TeamMembers = [
 	{
 		"name": "Divya Pratap Singh",
-		image: "/testimonials/PastYearTeamImages/15-16/Divya.jpg",
+		"image": "/testimonials/PastYearTeamImages/15-16/Divya.jpg",
 		"mail": "pratapd@iitk.ac.in",
 		"phone": "+91 8604 926 466",
 		"linkedin": "https://www.linkedin.com/profile/view?id=329781983"
 	},
 	{
 		"name": "Jital Patel",
-		image: "/testimonials/PastYearTeamImages/15-16/Jital.jpg",
+		"image": "/testimonials/PastYearTeamImages/15-16/Jital.jpg",
 		"mail": "jital@iitk.ac.in",
 		"phone": "+91 8953 448 627",
 		"linkedin": "https://www.linkedin.com/profile/view?id=309705980"
 	},
 	{
 		"name": "Nimish Garg",
-		image: "/testimonials/PastYearTeamImages/15-16/Nimish.jpg",
+		"image": "/testimonials/PastYearTeamImages/15-16/Nimish.jpg",
 		"mail": "nimishg@iitk.ac.in",
 		"phone": "+91 8953 441 447",
 		"linkedin": "https://www.linkedin.com/profile/view?id=341522443"
 	},
 	{
 		"name": "Sidhant Khatri",
-		image: "/testimonials/PastYearTeamImages/15-16/Sidhant.jpg",
+		"image": "/testimonials/PastYearTeamImages/15-16/Sidhant.jpg",
 		"mail": "sidhantk@iitk.ac.in",
 		"phone": "+91 9819 755 096",
 		"linkedin": "https://www.linkedin.com/profile/view?id=341972785"
 	},
 	{
 		"name": "Gaurav Kumar",
-		image: "/testimonials/PastYearTeamImages/15-16/Gaurav.jpg",
+		"image": "/testimonials/PastYearTeamImages/15-16/Gaurav.jpg",
 		"mail": "gaukumar@iitk.ac.in",
 		"phone": "+91 8800 404 524",
 		"linkedin": "https://www.linkedin.com/profile/view?id=412050248"
 	},
 	{
 		"name": "Dhanik Bharatkar",
-		image: "/testimonials/PastYearTeamImages/15-16/Dhanik.jpg",
+		"image": "/testimonials/PastYearTeamImages/15-16/Dhanik.jpg",
 		"mail": "dhanik@iitk.ac.in",
 		"phone": "+91 8953 434 522",
 		"linkedin": "https://www.linkedin.com/profile/view?id=310701029"

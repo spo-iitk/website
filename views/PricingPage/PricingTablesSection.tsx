@@ -15,7 +15,7 @@ export default function PricingTablesSection() {
 					description="Give us a try for free"
 					benefits={["1 seat", "1 active project", "Ulimited viewers", "10 blocks"]}
 				>
-          $0<span>/month</span>
+					$0<span>/month</span>
 				</PricingCard>
 				<PricingCard
 					title="Starter"
@@ -23,7 +23,7 @@ export default function PricingTablesSection() {
 					benefits={["1 seat", "3 active project", "Ulimited viewers", "100 blocks", "CSV Downloader", "Password protection"]}
 					isOutlined
 				>
-          $29<span>/month</span>
+					$29<span>/month</span>
 				</PricingCard>
 				<PricingCard
 					title="Premium"
@@ -38,7 +38,7 @@ export default function PricingTablesSection() {
 						"Customization",
 					]}
 				>
-          $79<span>/month</span>
+					$79<span>/month</span>
 				</PricingCard>
 			</AutofitGrid>
 		</Wrapper>
