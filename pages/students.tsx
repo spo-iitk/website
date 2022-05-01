@@ -4,7 +4,7 @@ import styled from "styled-components"
 import AutofitGrid from "components/AutofitGrid"
 import BasicCard from "components/BasicCard"
 import Container from "components/Container"
-import Page from "components/Page"
+import Page from "components/PageStudent"
 import Section from "components/Section"
 import { media } from "utils/media"
 import FaqSection from "views/PricingPage/FaqSection"
@@ -150,7 +150,8 @@ const ResourcesC = [
 
 export default function StudentsPage() {
 	return (
-		<Page title="For students" description="A collection of resources for students at IIT Kanpur.">
+		<Page title="For students" description="A collection of resources for students at IIT Kanpur." nav1="Procedure" nav2="Resources" nav3="FAQs" nav1href="/students#steps" nav2href="/students#resources" nav3href="/students#faqs"> 
+			
 			<div id="steps">
 				<Section title="Procedure">
 					<Container>
@@ -162,7 +163,8 @@ export default function StudentsPage() {
 					</Container>
 				</Section>
 			</div>
-
+			
+			<div id="resources"></div>
 			<Section title="Resources">
 				<Container>
 					<CustomAutofitGrid4>

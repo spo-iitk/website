@@ -5,7 +5,7 @@ import Accordion from "components/Accordion"
 import AutofitGrid from "components/AutofitGrid"
 import BasicCard from "components/BasicCard"
 import Container from "components/Container"
-import Page from "components/Page"
+import Page from "components/PageCompanies"
 import Section from "components/Section"
 import { media } from "utils/media"
 import FaqSection from "views/PricingPage/FaqSection"
@@ -157,7 +157,7 @@ const ResourcesL = [
 
 export default function CompaniesPage() {
 	return (
-		<Page title="For companies" description="A collection of resources for companies to recruit at IIT Kanpur.">
+		<Page title="For companies" description="A collection of resources for companies to recruit at IIT Kanpur." nav1="Procedure" nav2="Placement Policy" nav3="Internship Policy" nav4="Facilities" nav5="Resources" nav6="FAQs" nav1href="/companies#steps" nav2href="/companies#policy" nav3href="/companies#ipolicy" nav4href="/companies#facilities" nav5href="/companies#resources" nav6href="/companies#faqs">
 			<div id="steps">
 				<Section title="Procedure">
 					<Container>
@@ -214,6 +214,7 @@ export default function CompaniesPage() {
 					</small>
 				</ol>
 			</Section>
+			<div id="ipolicy"></div>
 			<Section title="Internship Policy">
 				<ol>
 					<li>
@@ -261,6 +262,7 @@ export default function CompaniesPage() {
 			<br />
 			<br />
 			<hr />
+			<div id="facilities"></div>
 			<Section title="Facilities">
 				<ul>
 					<li>
@@ -283,6 +285,7 @@ export default function CompaniesPage() {
 			</Section>
 			<br />
 			<hr />
+			<div id="resources"></div>
 			<Section title="Resources">
 				<Container>
 					<CustomAutofitGrid4>
