@@ -97,7 +97,9 @@ const NavContainer = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
+	${media("<=tablet")}{
+		display:none;
+	}	
 `
 
 const Utton = styled(Button)`
