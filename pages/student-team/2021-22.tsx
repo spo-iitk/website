@@ -11,42 +11,42 @@ import { media } from "utils/media"
 const TeamMembers = [
 	{
 		"name": "Ayush Agrawal",
-		image: "/testimonials/PastYearTeamImages/21-22/ayush.jpg",
+		"image": "/testimonials/PastYearTeamImages/21-22/ayush.jpg",
 		"mail": "ayushagr@iitk.ac.in",
-		"phone": "91-8588846679", 
+		"phone": "91-8588846679",
 		"linkedin": "https://www.linkedin.com/in/ayush-agrawal-iitk/"
 	},
 	{
 		"name": "Akarsh Mittal",
-		image: "/testimonials/PastYearTeamImages/21-22/akarsh.jpg",
+		"image": "/testimonials/PastYearTeamImages/21-22/akarsh.jpg",
 		"mail": "akarshm@iitk.ac.in",
 		"phone": "91-9828383799",
 		"linkedin": "https://www.linkedin.com/in/akarsh-mittal"
 	},
 	{
 		"name": "Shruti Srivastava",
-		image: "/testimonials/PastYearTeamImages/21-22/shruti.jpg",
+		"image": "/testimonials/PastYearTeamImages/21-22/shruti.jpg",
 		"mail": "shrutis20@iitk.ac.in",
 		"phone": "91-8299767186",
 		"linkedin": "https://www.linkedin.com/in/shruti-srivastava-808a87179"
 	},
 	{
 		"name": "Amisha Shahdeo",
-		image: "/testimonials/PastYearTeamImages/21-22/amisha.jpg",
+		"image": "/testimonials/PastYearTeamImages/21-22/amisha.jpg",
 		"mail": "ashahdeo@iitk.ac.in",
 		"phone": "91-8809405690",
 		"linkedin": "https://www.linkedin.com/in/amisha-shahdeo-7b38b619a/"
 	},
 	{
 		"name": "Manali Patil",
-		image: "/testimonials/PastYearTeamImages/21-22/manali.jpg",
+		"image": "/testimonials/PastYearTeamImages/21-22/manali.jpg",
 		"mail": "manali@iitk.ac.in",
 		"phone": "91-9130597084",
 		"linkedin": "https://www.linkedin.com/in/manali-patil-20845b148"
 	},
 	{
 		"name": "Utkarsh Verma",
-		image: "/testimonials/PastYearTeamImages/21-22/utkarsh.jpg",
+		"image": "/testimonials/PastYearTeamImages/21-22/utkarsh.jpg",
 		"mail": "utverma@iitk.ac.in",
 		"phone": "91-6388500292",
 		"linkedin": "https://www.linkedin.com/in/utkarsh-verma-2a7875168/"

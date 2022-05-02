@@ -11,42 +11,42 @@ import { media } from "utils/media"
 const TeamMembers = [
 	{
 		"name": "Aditya Agarwal",
-		image: "/testimonials/PastYearTeamImages/16-17/Aditya.jpg",
+		"image": "/testimonials/PastYearTeamImages/16-17/Aditya.jpg",
 		"mail": "agaditya@iitk.ac.in",
 		"phone": "+91 7668 801 363",
 		"linkedin": "https://in.linkedin.com/in/aditya-agarwal-537a14a7"
 	},
 	{
 		"name": "Manish Yadav",
-		image: "/testimonials/PastYearTeamImages/16-17/Manish.jpg",
+		"image": "/testimonials/PastYearTeamImages/16-17/Manish.jpg",
 		"mail": "ymanish@iitk.ac.in",
 		"phone": "+91 7755 047 998",
 		"linkedin": "https://www.linkedin.com/in/manish-yadav-191370a2"
 	},
 	{
 		"name": "Riya Gupta",
-		image: "/testimonials/PastYearTeamImages/16-17/Riya.jpg",
+		"image": "/testimonials/PastYearTeamImages/16-17/Riya.jpg",
 		"mail": "riyag@iitk.ac.in",
 		"phone": "+91 8756 624 468",
 		"linkedin": "https://www.linkedin.com/in/riya-gupta-b4ba08a7"
 	},
 	{
 		"name": "Roopal Singh",
-		image: "/testimonials/PastYearTeamImages/16-17/Roopal.jpg",
+		"image": "/testimonials/PastYearTeamImages/16-17/Roopal.jpg",
 		"mail": "roopal@iitk.ac.in",
 		"phone": "+91 7408 223 870",
 		"linkedin": "https://www.linkedin.com/in/roopal-singh-0047b2a2"
 	},
 	{
 		"name": "Ashish Bharti",
-		image: "/testimonials/PastYearTeamImages/16-17/Ashish.jpg",
+		"image": "/testimonials/PastYearTeamImages/16-17/Ashish.jpg",
 		"mail": "ashisb@iitk.ac.in",
 		"phone": "+91 9873 594 459",
 		"linkedin": "https://www.linkedin.com/in/ashish-ashishbharti0701-91797b92"
 	},
 	{
 		"name": "Ayushi Gupta",
-		image: "/testimonials/PastYearTeamImages/16-17/Ayushi.jpg",
+		"image": "/testimonials/PastYearTeamImages/16-17/Ayushi.jpg",
 		"mail": "ayushi@iitk.ac.in",
 		"phone": "+91 7408 228 486",
 		"linkedin": "https://www.linkedin.com/in/ayushi-gupta-bb9714a1"
@@ -471,11 +471,11 @@ const Description = styled.div`
   --autofit-grid-item-size: 40rem;
 
   ${media('<=tablet')} {
-    --autofit-grid-item-size: 25rem;
+	--autofit-grid-item-size: 25rem;
   }
 
   ${media('<=phone')} {
-    --autofit-grid-item-size: 100%;
+	--autofit-grid-item-size: 100%;
   }
 `; */
 

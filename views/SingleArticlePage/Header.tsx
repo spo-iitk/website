@@ -12,15 +12,15 @@ interface HeaderProps {
 }
 
 export default function Header({ title, formattedDate, imageUrl, readTime }: HeaderProps) {
-	return (
-		<HeaderContainer>
-			<ArticleImage src={imageUrl} />
-			<Title>{title}</Title>
-			<DetailsContainer>
-				{formattedDate} <MidDot /> {readTime}
-			</DetailsContainer>
-		</HeaderContainer>
-	)
+  return (
+    <HeaderContainer>
+      <ArticleImage src={imageUrl} />
+      <Title>{title}</Title>
+      <DetailsContainer>
+        {formattedDate} <MidDot /> {readTime}
+      </DetailsContainer>
+    </HeaderContainer>
+  )
 }
 
 const HeaderContainer = styled.div`

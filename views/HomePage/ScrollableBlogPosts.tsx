@@ -13,7 +13,7 @@ import { SingleArticle } from "types"
 import { media } from "utils/media"
 
 interface ScrollableBlogPostsProps {
-  posts: SingleArticle[];
+	posts: SingleArticle[];
 }
 
 export default function ScrollableBlogPosts({ posts }: ScrollableBlogPostsProps) {

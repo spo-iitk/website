@@ -5,12 +5,12 @@ import { TechArticle, WebSite } from "schema-dts"
 import { EnvVars } from "env"
 
 interface StructuredDataHeadProps {
-  slug: string;
-  title: string;
-  date: string;
-  description: string;
-  tags: string;
-  author: string;
+	slug: string;
+	title: string;
+	date: string;
+	description: string;
+	tags: string;
+	author: string;
 }
 
 export default function StructuredDataHead(props: StructuredDataHeadProps) {
