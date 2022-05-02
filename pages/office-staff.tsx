@@ -9,6 +9,22 @@ import Page from "components/Page"
 import SectionTitle from "components/SectionTitle"
 import { media } from "utils/media"
 
+const chair = [
+	{
+		name:"Something",
+		position:"Chair",
+		image:"/testimonials/chair.jpg",
+		email:"something@iitk.ac.in"
+	}
+]
+const vice_chair = [ 
+	{
+		name:"Something",
+		position:"Vice Chair",
+		image:"/testimonials/vice_chair.jpg",
+		email:"something@iitk.ac.in"
+	}
+]
 const TeamMembers = [
 	{
 		name: "Kumar Srikanta Nayak",
@@ -26,7 +42,7 @@ const TeamMembers = [
 		name: "Praveen Kumar",
 		position: "Junior Assistant",
 		image: "/testimonials/praveen_2022.jpg",
-		email: "pravkmr@iitk.ac.in",
+		email:"pravkmr@iitk.ac.in",
 	},
 	{
 		name: "Amarendra Mohanty",
@@ -37,15 +53,38 @@ const TeamMembers = [
 ]
 
 export interface OfficeStaffProps {
-	notNeedTitleAtOfficeStaff?: boolean;
+  notNeedTitleAtOfficeStaff?: boolean;
 }
 
 export default function OfficeTeam({ notNeedTitleAtOfficeStaff }: OfficeStaffProps) {
 	return (
-		<Page title="Officials" description="Feel free to reach out to us!" notNeedTitle={notNeedTitleAtOfficeStaff}>
+		<Page title="Administration" description="Feel free to reach out to us!" notNeedTitle={notNeedTitleAtOfficeStaff}>
 			<DarkerBackgroundContainer>
 				{/* <SectionTitle>Staff Members</SectionTitle> */}
 				<Container>
+					<CustomAutofitGrid>
+						{chair.map((member) => (
+							<div key={member.name}>
+								<Card>
+									{member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
+									<Title>{member.name}</Title>
+									<Description>{member.position}</Description>
+									<Description><Link href={`mailto:${member.email}`} passHref>{member.email}</Link></Description>
+								</Card>
+							</div>
+						))}
+						{vice_chair.map((member)=> (
+							<div key={member.name}>
+								<Card>
+									{member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
+									<Title>{member.name}</Title>
+									<Description>{member.position}</Description>
+									<Description><Link href={`mailto:${member.email}`} passHref>{member.email}</Link></Description>
+								</Card>
+							</div>
+						))}
+					</CustomAutofitGrid>
+					<br />
 					<CustomAutofitGrid>
 						{TeamMembers.map((member) => (
 							<div key={member.name}>
@@ -59,14 +98,14 @@ export default function OfficeTeam({ notNeedTitleAtOfficeStaff }: OfficeStaffPro
 						))}
 					</CustomAutofitGrid>
 					{!notNeedTitleAtOfficeStaff &&
-						<>
-							<hr />
-							<Wrapper>
-								<h3>Office Contact Details</h3>
-								<p><span>Email:</span> <a href="mailto:spooffice@iitk.ac.in">spooffice@iitk.ac.in</a></p>
-								<p><span>Desk No. :</span> 0512-259-4433/34</p>
-							</Wrapper>
-						</>
+        <>
+        	<hr />
+        	<Wrapper>
+        		<h3>Office Contact Details</h3>
+        		<p><span>Email:</span> <a href="mailto:spooffice@iitk.ac.in">spooffice@iitk.ac.in</a></p>
+        		<p><span>Desk No. :</span> 0512-259-4433/34</p>
+        	</Wrapper>
+        </>
 					}
 				</Container>
 				<br />
