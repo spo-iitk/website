@@ -1,5 +1,8 @@
-import Link from "next/link"
+import NextLink from "next/link"
 import styled from "styled-components"
+
+import Button from "components/Button"
+import ButtonGroup from "components/ButtonGroup"
 
 export default function InformationSection() {
 	return (
@@ -11,12 +14,18 @@ export default function InformationSection() {
 			<p>
 				<span>Desk No. :</span> 0512-259-4433/34
 			</p>
-			<p>
-				<Link href="/placement-coordinators" passHref>Placement Coordinators</Link>
-			</p>
-			<p>
-				<Link href="/office-staff" passHref>Officials</Link>
-			</p>
+			<CustomButtonGroup>
+				<NextLink href="/placement-coordinators" passHref>
+					<CustomButton>
+						Placement Coordinators
+					</CustomButton>
+				</NextLink>
+				<NextLink href="/administration" passHref>
+					<CustomButton>
+						Administration
+					</CustomButton>
+				</NextLink>
+			</CustomButtonGroup>
 		</Wrapper>
 	)
 }
@@ -41,4 +50,15 @@ const Wrapper = styled.div`
     opacity: 1;
     color: rgba(var(--text), 1);
   }
+`
+
+const CustomButtonGroup = styled(ButtonGroup)`
+  margin-top: 4rem;
+  flex-direction: column;
+  width: 80%;
+  text-align: left;
+`
+
+const CustomButton = styled(Button)`
+  margin-bottom: 1rem;
 `
