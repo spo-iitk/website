@@ -16,12 +16,12 @@ export default function InformationSection() {
 			</p>
 			<CustomButtonGroup>
 				<NextLink href="/placement-coordinators" passHref>
-					<CustomButton>
+					<CustomButton transparent>
 						Placement Coordinators
 					</CustomButton>
 				</NextLink>
 				<NextLink href="/administration" passHref>
-					<CustomButton>
+					<CustomButton transparent>
 						Administration
 					</CustomButton>
 				</NextLink>
@@ -56,9 +56,9 @@ const CustomButtonGroup = styled(ButtonGroup)`
   margin-top: 4rem;
   flex-direction: column;
   width: 80%;
-  text-align: left;
 `
 
 const CustomButton = styled(Button)`
   margin-bottom: 1rem;
+  text-align: left;
 `
