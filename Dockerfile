@@ -2,6 +2,8 @@ FROM node:alpine
 
 ENV PORT 3000
 
+RUN apk add --no-cache bash zsh curl wget git
+
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
