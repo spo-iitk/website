@@ -164,7 +164,6 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 						)}
 					</CustomAutofitGrid4>
 					<br />
-
 				</Container>
 				<SectionTitle>Assistant Coordinators</SectionTitle>
 				<Container>

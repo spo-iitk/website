@@ -37,33 +37,26 @@ const TeamMembers = [
 
 export default function OfficeTeam() {
 	return (
-		<Page title="Administration" description="Governing and managing body of Students' Placement Office!">
+		<Page title="Administration" description="">
 			<DarkerBackgroundContainer>
-				<SectionTitle>Director</SectionTitle>
-				<Card>
-					<NextImage src="/testimonials/director.jpg" width={128} height={128} alt="Director IITK" />
-					<Title>Prof. Abhay Karandikar</Title>
-					<Description>Director, Indian Institute of Technology</Description>
-					<Description><Link href="mailto:director@iitk.ac.in`" passHref>director@iitk.ac.in</Link></Description>
-					<Description><Link href="/director-message`" passHref>Director&apos;s Message</Link></Description>
-				</Card>
 				<SectionTitle>SPO Chairman</SectionTitle>
-				<CustomAutofitGrid>
+				<div style={{ display: "flex", justifyContent: "center" }}>
 					<Card>
 						<NextImage src="/testimonials/chairman.jpeg" width={128} height={128} alt="Chairman SPO" />
 						<Title>Prof. Kaustubh Kulkarni</Title>
 						<Description>Chairman, Students&apos; Placement Office </Description>
-						<Description><Link href="mailto:spochair@iitk.ac.in`" passHref>spochair@iitk.ac.in</Link></Description>
 						<Description><Link href="/chairman-message`" passHref>Chairman&apos; Message</Link></Description>
 					</Card>
+				</div>
+				<SectionTitle>SPO Vice Chairman</SectionTitle>
+				<div style={{ display: "flex", justifyContent: "center" }}>
 					<Card>
 						<NextImage src="/testimonials/vc.jpg" width={128} height={128} alt="Vice Chairman SPO" />
 						<Title>Prof. Raju Gupta</Title>
 						<Description>Vice Chairman, Students&apos; Placement Office </Description>
-						<Description><Link href="mailto:guptark@iitk.ac.in`" passHref>guptark@iitk.ac.in</Link></Description>
 						<Description><Link href="/vice-chairman-message`" passHref>Vice Chairman&apos; Message</Link></Description>
 					</Card>
-				</CustomAutofitGrid>
+				</div>
 				<SectionTitle>Staff Members</SectionTitle>
 				<Container>
 					<CustomAutofitGrid>
