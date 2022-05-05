@@ -3,20 +3,26 @@ import { NextApiRequest, NextApiResponse } from "next"
 
 export default async function SendEmail(req: NextApiRequest, res: NextApiResponse) {
 	sgMail.setApiKey(process.env.SENDGRID_API_KEY || "")
+	const sender = process.env.SENDER_EMAIL || ""
 
-	const { subject, description, email, name } = req.body
+	const { subject, company, name, email, phone, designation, description } = req.body
 	const referer = req.headers.referer
 
 	const content = {
-		to: ["contact@bstefanski.com"],
-		from: "contact@bstefanski.com",
+		to: ["spo@iitk.ac.in"],
+		from: `SPO Website Automation<${sender}`,
 		subject: subject,
-		text: description,
+		text: company + " " + name + " " + email + " " + phone + " " + designation + " " + description,
 		html: `<div>
-    <h1>Name: ${name}</h1>
-    <h1>E-mail: ${email}</h1>
-    <p>${description}</p>
-    <p>Sent from: ${referer || "Not specified or hidden"}`,
+		<p>Company: ${company}</p>
+		<p>Name: ${name}</p>
+		<p>E-mail: ${email}</p>
+		<p>Phone: ${phone}</p>
+		<p>Designation: ${designation}</p>
+		<br/>
+		<p>Message: ${description}</p>
+		<p>Sent from: ${referer || "Not specified or hidden"}</p>
+		</div>`,
 	}
 
 	try {

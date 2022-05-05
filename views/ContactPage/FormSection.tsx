@@ -30,7 +30,7 @@ export default function FormSection() {
 				headers: {
 					"Content-Type": "application/json",
 				},
-				body: JSON.stringify({ subject: "Email from contact form", ...payload }),
+				body: JSON.stringify({ subject: "Email from contact form on SPO Website", ...payload }),
 			})
 
 			if (res.status !== 204) {
