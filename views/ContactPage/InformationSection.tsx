@@ -55,10 +55,11 @@ const Wrapper = styled.div`
 const CustomButtonGroup = styled(ButtonGroup)`
   margin-top: 4rem;
   flex-direction: column;
-  width: 80%;
+  width: 70%;
 `
 
 const CustomButton = styled(Button)`
   margin-bottom: 1rem;
+  background: rgb(var(--cardBackground));
   text-align: left;
 `
