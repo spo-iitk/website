@@ -10,11 +10,12 @@ import { media } from "utils/media"
 
 const TeamMembers = [
 	{
-		name: "Gyanendra Kumar",
-		image: "/testimonials/Gyanendra.jpg",
-		phone: "(+91) 7301276032",
-		mail: "krgyan@iitk.ac.in",
-		linkedin: "https://www.linkedin.com/in/gyanendra-kumar-iitk/"
+		name: "Abhinav D Singh",
+		image: "/testimonials/Abhinav.jpg",
+		phone: "(+91) 9483296049",
+		mail: "abhids@iitk.ac.in",
+		linkedin: "https://www.linkedin.com/in/abhinav-d-singh-iitk/"
+		
 	},
 	{
 		name: "Sunay Chhajed",
@@ -24,18 +25,18 @@ const TeamMembers = [
 		linkedin: "https://www.linkedin.com/in/sunay-chhajed/"
 	},
 	{
-		name: "Abhinav D Singh",
-		image: "/testimonials/Abhinav.jpg",
-		phone: "(+91) 9483296049",
-		mail: "abhids@iitk.ac.in",
-		linkedin: "https://www.linkedin.com/in/abhinav-d-singh-iitk/"
+		name: "Gyanendra Kumar",
+		image: "/testimonials/Gyanendra.jpg",
+		phone: "(+91) 7301276032",
+		mail: "krgyan@iitk.ac.in",
+		linkedin: "https://www.linkedin.com/in/gyanendra-kumar-iitk/"
 	},
 	{
-		name: "Vishwaraj Singh",
-		image: "/testimonials/Vishwaraj.jpg",
-		phone: "(+91) 9877579129",
-		mail: "vrsingh@iitk.ac.in",
-		linkedin: "https://www.linkedin.com/in/vishwaraj-singh-visraj/"
+		name: "Abhishek Kumar",
+		image: "/testimonials/Abhishek.jpg",
+		phone: "(+91) 9872686648",
+		mail: "krabhishek20@iitk.ac.in",
+		linkedin: "https://www.linkedin.com/in/abhisjust4u"
 	},
 	{
 		name: "Pragati Singh",
@@ -45,18 +46,18 @@ const TeamMembers = [
 		linkedin: "https://www.linkedin.com/in/spragati/"
 	},
 	{
+		name: "Vishwaraj Singh",
+		image: "/testimonials/Vishwaraj.jpg",
+		phone: "(+91) 9877579129",
+		mail: "vrsingh@iitk.ac.in",
+		linkedin: "https://www.linkedin.com/in/vishwaraj-singh-visraj/"
+	},
+	{
 		name: "Akhila Mudupu",
 		image: "/testimonials/Akhila.jpg",
 		phone: "(+91) 9014921208",
 		mail: "akhilam21@iitk.ac.in",
 		linkedin: "https://www.linkedin.com/in/akhila-mudupu-9b3890217"
-	},
-	{
-		name: "Abhishek Kumar",
-		image: "/testimonials/Abhishek.jpg",
-		phone: "(+91) 9872686648",
-		mail: "krabhishek20@iitk.ac.in",
-		linkedin: "https://www.linkedin.com/in/abhisjust4u"
 	},
 ]
 const APC = [

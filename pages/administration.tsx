@@ -57,7 +57,7 @@ export default function OfficeTeam() {
 						<Description><Link href="/vice-chairman-message" passHref>Vice Chairman&apos; Message</Link></Description>
 					</Card>
 				</div>
-				<SectionTitle>Staff Members</SectionTitle>
+				<SectionTitle>SPO Officials</SectionTitle>
 				<Container>
 					<CustomAutofitGrid>
 						{TeamMembers.map((member) => (
