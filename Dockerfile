@@ -4,15 +4,13 @@ ENV PORT 3000
 
 RUN apk add --no-cache bash zsh curl wget git
 
-RUN mkdir -p /home/website && chown -R node:node /home/website
+RUN mkdir -p /home/website
 WORKDIR /home/website
-
-USER node
 
 RUN git config --global user.name "SPO Web Team"
 RUN git config --global user.email "pas@iitk.ac.in"
 
-RUN git clone https://github.com/abhishekshree/spo-website.git
+RUN git clone https://github.com/abhishekshree/spo-website.git .
 
 RUN yarn install --frozen-lockfile
 RUN yarn build
