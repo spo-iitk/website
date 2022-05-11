@@ -4,16 +4,17 @@ ENV PORT 3000
 
 RUN apk add --no-cache bash zsh curl wget git
 
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
+RUN mkdir -p /home/website
+WORKDIR /home/website
 
-COPY package*.json /usr/src/app/
-COPY yarn.lock /usr/src/app/
-RUN yarn install
+RUN git config --global user.name "SPO Web Team"
+RUN git config --global user.email "pas@iitk.ac.in"
 
-COPY . /usr/src/app
+RUN git clone https://github.com/abhishekshree/spo-website.git .
 
-RUN npm run build
+RUN yarn install --frozen-lockfile
+RUN yarn build
+
 EXPOSE 3000
 
-CMD ["npm", "run", "start"]
+CMD [ "yarn", "start" ]
