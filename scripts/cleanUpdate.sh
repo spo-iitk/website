@@ -13,4 +13,4 @@ rm -rf node_modules/ ./.next/
 
 # Install dependencies and build
 yarn install --frozen-lockfile
-yarn build
+yarn rebuild

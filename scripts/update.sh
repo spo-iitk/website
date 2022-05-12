@@ -9,4 +9,4 @@ NEW_HEAD=$(git rev-parse HEAD)
 [ "$OLD_HEAD" = "$NEW_HEAD" ] && exit 0
 
 # rebuild the website
-yarn build
+yarn rebuild
