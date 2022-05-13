@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { useState } from "react"
 import { useForm } from "react-hook-form"
 import styled from "styled-components"
@@ -33,8 +34,9 @@ export default function FormSection() {
 				body: JSON.stringify({ subject: "Email from contact form on SPO Website", ...payload }),
 			})
 
-			if (res.status !== 204) {
+			if (res.status !== 204 && res.status !== 200) {
 				setHasErrored(true)
+				return
 			}
 		} catch {
 			setHasErrored(true)
@@ -55,7 +57,7 @@ export default function FormSection() {
 	return (
 		<Wrapper>
 			<Form onSubmit={handleSubmit(onSubmit)}>
-				{hasErrored && <ErrorMessage>Couldn&apos;t send email. Please try again.</ErrorMessage>}
+				{hasErrored && <ErrorMessage>Oops! Couldn&apos;t send email. Please contact <Link href="/placement-coordinators" passHref>placement cordinators</Link> directly.</ErrorMessage>}
 				<InputGroup>
 					<InputStack>
 						{errors.company && <ErrorMessage>Company Name is required</ErrorMessage>}
