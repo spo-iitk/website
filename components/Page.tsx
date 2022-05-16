@@ -5,10 +5,9 @@ import styled from "styled-components"
 import { EnvVars } from "env"
 import { media } from "utils/media"
 
+import Button from "./Button"
 import Container from "./Container"
 import SectionTitle from "./SectionTitle"
-
-import Button from "./Button"
 
 export interface PageProps {
 	title: string;
@@ -16,8 +15,6 @@ export interface PageProps {
 	notNeedTitle?: boolean;
 	routes?:any;
 }
-
-
 
 export default function Page({ title, description,routes, children, notNeedTitle }: PropsWithChildren<PageProps>) {
 	return (
@@ -39,7 +36,7 @@ export default function Page({ title, description,routes, children, notNeedTitle
 							<NavContainer>
 								{routes.map((nav:any)=>{
 									return(
-										<CustomButton href={nav.url}>{nav.name}</CustomButton>
+										<CustomButton key={nav.url} href={nav.url}>{nav.name}</CustomButton>
 									)
 								})}
 							</NavContainer>

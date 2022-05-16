@@ -153,10 +153,10 @@ const Routes=[
 		name:"Procedures",
 		url:"/students#steps"
 	},{
-		name:"RESOURCES",
+		name:"Resources",
 		url:"/students#resources"
 	},{
-		name:"FAQ's",
+		name:"FAQs",
 		url:"/students#faqs"
 	},
 ]

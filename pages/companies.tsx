@@ -169,15 +169,15 @@ const Routes=[
 		url:"/companies#steps"
 	},
 	{
-		name:"FACILITES",
+		name:"Facilities",
 		url:"/companies#facilities"
 	},
 	{
-		name:"RESOURCES",
+		name:"Resources",
 		url:"/companies#resources"
 	},
 	{
-		name:"FAQ's",
+		name:"FAQs",
 		url:"/companies#faqs"
 	},
 ]
