@@ -13,8 +13,13 @@ export interface PageProps {
 	title: string;
 	description?: string;
 	notNeedTitle?: boolean;
-	routes?:any;
+	routes?:RouteType[];
 }
+
+type RouteType={
+	name:string;
+	url:string;
+};
 
 export default function Page({ title, description,routes, children, notNeedTitle }: PropsWithChildren<PageProps>) {
 	return (
@@ -34,7 +39,7 @@ export default function Page({ title, description,routes, children, notNeedTitle
 							<Title>{title}</Title>
 							{description && <Description>{description}</Description>}
 							<NavContainer>
-								{routes.map((nav:any)=>{
+								{routes?.map((nav)=>{
 									return(
 										<CustomButton key={nav.url} href={nav.url}>{nav.name}</CustomButton>
 									)
