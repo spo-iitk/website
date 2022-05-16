@@ -8,13 +8,18 @@ import { media } from "utils/media"
 import Container from "./Container"
 import SectionTitle from "./SectionTitle"
 
+import Button from "./Button"
+
 export interface PageProps {
 	title: string;
 	description?: string;
 	notNeedTitle?: boolean;
+	routes?:any;
 }
 
-export default function Page({ title, description, children, notNeedTitle }: PropsWithChildren<PageProps>) {
+
+
+export default function Page({ title, description,routes, children, notNeedTitle }: PropsWithChildren<PageProps>) {
 	return (
 		<>
 			{!notNeedTitle &&
@@ -31,6 +36,13 @@ export default function Page({ title, description, children, notNeedTitle }: Pro
 						<Container>
 							<Title>{title}</Title>
 							{description && <Description>{description}</Description>}
+							<NavContainer>
+								{routes.map((nav:any)=>{
+									return(
+										<CustomButton href={nav.url}>{nav.name}</CustomButton>
+									)
+								})}
+							</NavContainer>
 						</Container>
 					</HeaderContainer>
 				}
@@ -74,4 +86,21 @@ const Description = styled.div`
 const ChildrenWrapper = styled.div`
 	margin-top: 10rem;
 	margin-bottom: 10rem;
+`
+const NavContainer = styled.div`
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	${media("<=tablet")} {
+		display:none;
+	}
+	
+`
+const CustomButton = styled(Button)`
+	margin-right: 5rem;
+	margin-top: 5rem;
+	color: rgb(var(--primary));
+	background-color: rgb(var(--secondary));
+	font-size:1.45rem;
 `

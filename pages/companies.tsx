@@ -5,7 +5,7 @@ import Accordion from "components/Accordion"
 import AutofitGrid from "components/AutofitGrid"
 import BasicCard from "components/BasicCard"
 import Container from "components/Container"
-import Page from "components/PageCompanies"
+import Page from "components/Page"
 import Section from "components/Section"
 import { media } from "utils/media"
 import FaqSection from "views/PricingPage/FaqSection"
@@ -155,9 +155,37 @@ const ResourcesL = [
 	},
 ]
 
+const Routes=[
+	{
+		name:"Procedures",
+		url:"/companies#steps"
+	},
+	{
+		name:"Placement Policy",
+		url:"/companies#policy"
+	},
+	{
+		name:"Internship Poilcy",
+		url:"/companies#steps"
+	},
+	{
+		name:"FACILITES",
+		url:"/companies#facilities"
+	},
+	{
+		name:"RESOURCES",
+		url:"/companies#resources"
+	},
+	{
+		name:"FAQ's",
+		url:"/companies#faqs"
+	},
+]
+
 export default function CompaniesPage() {
 	return (
-		<Page title="For companies" description="A collection of resources for companies to recruit at IIT Kanpur." nav1="Procedure" nav2="Placement Policy" nav3="Internship Policy" nav4="Facilities" nav5="Resources" nav6="FAQs" nav1href="/companies#steps" nav2href="/companies#policy" nav3href="/companies#ipolicy" nav4href="/companies#facilities" nav5href="/companies#resources" nav6href="/companies#faqs">
+		<Page title="For companies" description="A collection of resources for companies to recruit at IIT Kanpur." routes={Routes} >
+
 			<div id="steps">
 				<Section title="Procedure">
 					<Container>

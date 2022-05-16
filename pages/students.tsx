@@ -4,7 +4,7 @@ import styled from "styled-components"
 import AutofitGrid from "components/AutofitGrid"
 import BasicCard from "components/BasicCard"
 import Container from "components/Container"
-import Page from "components/PageStudent"
+import Page from "components/Page"
 import Section from "components/Section"
 import { media } from "utils/media"
 import FaqSection from "views/PricingPage/FaqSection"
@@ -148,9 +148,22 @@ const ResourcesC = [
 	},
 ]
 
+const Routes=[
+	{
+		name:"Procedures",
+		url:"/students#steps"
+	},{
+		name:"RESOURCES",
+		url:"/students#resources"
+	},{
+		name:"FAQ's",
+		url:"/students#faqs"
+	},
+]
+
 export default function StudentsPage() {
 	return (
-		<Page title="For students" description="A collection of resources for students at IIT Kanpur." nav1="Procedure" nav2="Resources" nav3="FAQs" nav1href="/students#steps" nav2href="/students#resources" nav3href="/students#faqs"> 
+		<Page title="For students" description="A collection of resources for students at IIT Kanpur." routes={Routes}> 
 			
 			<div id="steps">
 				<Section title="Procedure">
