@@ -166,7 +166,7 @@ const Routes=[
 	},
 	{
 		name:"Internship Poilcy",
-		url:"/companies#steps"
+		url:"/companies#ipolicy"
 	},
 	{
 		name:"Facilities",
