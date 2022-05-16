@@ -21,7 +21,7 @@ type RouteType={
 	url:string;
 };
 
-export default function Page({ title, description,routes, children, notNeedTitle }: PropsWithChildren<PageProps>) {
+export default function Page({ title, description, routes, children, notNeedTitle }: PropsWithChildren<PageProps>) {
 	return (
 		<>
 			{!notNeedTitle &&
