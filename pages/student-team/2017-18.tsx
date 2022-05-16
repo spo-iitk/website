@@ -240,43 +240,23 @@ export default function StudentTeam22() {
 					<SectionTitle>Overall Placement Coordinators</SectionTitle>
 					<br />
 					<br />
-					<CustomAutofitGrid3>
+					<CustomAutofitGrid4>
 						{TeamMembers.map((member, i) => {
-							if (i < 3)
-								return (
-									<div key={member.name}>
-										<Card>
-											{member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
-											<Title>{member.name}</Title>
-											<Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
-											<Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
-											<small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small>
-										</Card>
-									</div>
-								)
-							return <></>
+							return (
+								<div key={member.name}>
+									<Card>
+										{member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
+										<Title>{member.name}</Title>
+										<Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
+										<Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+										<small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small>
+									</Card>
+								</div>
+							)
 						}
 						)}
-					</CustomAutofitGrid3>
+					</CustomAutofitGrid4>
 					<br />
-					<CustomAutofitGrid3>
-						{TeamMembers.map((member, i) => {
-							if (i >= 3)
-								return (
-									<div key={member.name}>
-										<Card>
-											{member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
-											<Title>{member.name}</Title>
-											<Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
-											<Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
-											<small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small>
-										</Card>
-									</div>
-								)
-							return <></>
-						}
-						)}
-					</CustomAutofitGrid3>
 				</Container>
 				<SectionTitle>Assistant Coordinators</SectionTitle>
 				<Container>
