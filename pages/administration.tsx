@@ -1,4 +1,3 @@
-/* eslint-disable no-mixed-spaces-and-tabs */
 import NextImage from "next/image"
 import Link from "next/link"
 import styled from "styled-components"
@@ -36,15 +35,29 @@ const TeamMembers = [
 	},
 ]
 
-export interface OfficeStaffProps {
-	notNeedTitleAtOfficeStaff?: boolean;
-}
-
-export default function OfficeTeam({ notNeedTitleAtOfficeStaff }: OfficeStaffProps) {
+export default function OfficeTeam() {
 	return (
-		<Page title="Officials" description="Feel free to reach out to us!" notNeedTitle={notNeedTitleAtOfficeStaff}>
+		<Page title="Administration" description="">
 			<DarkerBackgroundContainer>
-				{/* <SectionTitle>Staff Members</SectionTitle> */}
+				<SectionTitle>SPO Chairman</SectionTitle>
+				<div style={{ display: "flex", justifyContent: "center" }}>
+					<Card>
+						<NextImage src="/testimonials/chairman.jpeg" width={128} height={128} alt="Chairman SPO" />
+						<Title>Prof. Kaustubh Kulkarni</Title>
+						<Description>Chairman, Students&apos; Placement Office </Description>
+						<Description><Link href="/chairman-message" passHref>Chairman&apos; Message</Link></Description>
+					</Card>
+				</div>
+				<SectionTitle>SPO Vice Chairman</SectionTitle>
+				<div style={{ display: "flex", justifyContent: "center" }}>
+					<Card>
+						<NextImage src="/testimonials/vc.jpg" width={128} height={128} alt="Vice Chairman SPO" />
+						<Title>Prof. Raju Gupta</Title>
+						<Description>Vice Chairman, Students&apos; Placement Office </Description>
+						<Description><Link href="/vice-chairman-message" passHref>Vice Chairman&apos; Message</Link></Description>
+					</Card>
+				</div>
+				<SectionTitle>SPO Officials</SectionTitle>
 				<Container>
 					<CustomAutofitGrid>
 						{TeamMembers.map((member) => (
@@ -58,16 +71,11 @@ export default function OfficeTeam({ notNeedTitleAtOfficeStaff }: OfficeStaffPro
 							</div>
 						))}
 					</CustomAutofitGrid>
-					{!notNeedTitleAtOfficeStaff &&
-						<>
-							<hr />
-							<Wrapper>
-								<h3>Office Contact Details</h3>
-								<p><span>Email:</span> <a href="mailto:spooffice@iitk.ac.in">spooffice@iitk.ac.in</a></p>
-								<p><span>Desk No. :</span> 0512-259-4433/34</p>
-							</Wrapper>
-						</>
-					}
+					<Wrapper>
+						<h3>Office Contact Details</h3>
+						<p><span>Email:</span> <a href="mailto:spooffice@iitk.ac.in">spooffice@iitk.ac.in</a></p>
+						<p><span>Desk No. :</span> 0512-259-4433/34</p>
+					</Wrapper>
 				</Container>
 				<br />
 			</DarkerBackgroundContainer>
@@ -104,6 +112,7 @@ const Card = styled.div`
   align-items: center;
   text-align: center;
   width: 100%;
+  max-width: 35rem;
   border-radius: 0.6rem;
   color: rgb(var(--text));
   font-size: 1.6rem;

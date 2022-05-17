@@ -10,90 +10,91 @@ import { media } from "utils/media"
 
 const TeamMembers = [
 	{
-		name: "Gyanendra Kumar",
-		image: "/testimonials/Gyanendra.jpg",
-		phone: "(+91) 7301276032",
-		mail: "krgyan@iitk.ac.in",
-		linkedin: "https://www.linkedin.com/in/gyanendra-kumar-iitk/"
+		name: "Abhinav D Singh",
+		image: "/testimonials/Abhinav.jpg",
+		phone: "(+91) 94832 96049",
+		mail: "abhids@iitk.ac.in",
+		linkedin: "https://www.linkedin.com/in/abhinav-d-singh-iitk/"
+
 	},
 	{
 		name: "Sunay Chhajed",
 		image: "/testimonials/Sunay.jpg",
-		phone: "(+91) 7225824183",
+		phone: "(+91) 72258 24183",
 		mail: "sunay@iitk.ac.in",
 		linkedin: "https://www.linkedin.com/in/sunay-chhajed/"
 	},
 	{
-		name: "Abhinav D Singh",
-		image: "/testimonials/Abhinav.jpg",
-		phone: "(+91) 9483296049",
-		mail: "abhids@iitk.ac.in",
-		linkedin: "https://www.linkedin.com/in/abhinav-d-singh-iitk/"
-	},
-	{
-		name: "Vishwaraj Singh",
-		image: "/testimonials/Vishwaraj.jpg",
-		phone: "(+91) 9877579129",
-		mail: "vrsingh@iitk.ac.in",
-		linkedin: "https://www.linkedin.com/in/vishwaraj-singh-visraj/"
-	},
-	{
-		name: "Pragati Singh",
-		image: "/testimonials/Pragati.jpg",
-		phone: "(+91) 8303065597",
-		mail: "spragati@iitk.ac.in",
-		linkedin: "https://www.linkedin.com/in/spragati/"
-	},
-	{
-		name: "Akhila Mudupu",
-		image: "/testimonials/Akhila.jpg",
-		phone: "(+91) 9014921208",
-		mail: "akhilam21@iitk.ac.in",
-		linkedin: "https://www.linkedin.com/in/akhila-mudupu-9b3890217"
+		name: "Gyanendra Kumar",
+		image: "/testimonials/Gyanendra.jpg",
+		phone: "(+91) 73012 76032",
+		mail: "krgyan@iitk.ac.in",
+		linkedin: "https://www.linkedin.com/in/gyanendra-kumar-iitk/"
 	},
 	{
 		name: "Abhishek Kumar",
 		image: "/testimonials/Abhishek.jpg",
-		phone: "(+91) 9872686648",
+		phone: "(+91) 98726 86648",
 		mail: "krabhishek20@iitk.ac.in",
 		linkedin: "https://www.linkedin.com/in/abhisjust4u"
 	},
+	{
+		name: "Pragati Singh",
+		image: "/testimonials/Pragati.jpg",
+		phone: "(+91) 83030 65597",
+		mail: "spragati@iitk.ac.in",
+		linkedin: "https://www.linkedin.com/in/spragati/"
+	},
+	{
+		name: "Vishwaraj Singh",
+		image: "/testimonials/Vishwaraj.jpg",
+		phone: "(+91) 98775 79129",
+		mail: "vrsingh@iitk.ac.in",
+		linkedin: "https://www.linkedin.com/in/vishwaraj-singh-visraj/"
+	},
+	{
+		name: "Akhila Mudupu",
+		image: "/testimonials/Akhila.jpg",
+		phone: "(+91) 90149 21208",
+		mail: "akhilam21@iitk.ac.in",
+		linkedin: "https://www.linkedin.com/in/akhila-mudupu-9b3890217"
+	},
 ]
 const APC = [
-	{ name: "Aditi Phogat", phone: 7015560038, mail: "aditi20@iitk.ac.in" },
-	{ name: "Afraz Jamal", phone: 8239997985, mail: "afrazj20@iitk.ac.in" },
-	{ name: "Agrim Pandey", phone: 8604501747, mail: "agrimp20@iitk.ac.in" },
-	{ name: "Ananya Agrawal", phone: 8209464287, mail: "ananya20@iitk.ac.in" },
-	{ name: "Ashutosh Sharma", phone: 9425421164, mail: "ashutoshs20@iitk.ac.in" },
-	{ name: "Kashishpreet Kaur", phone: 7973983785, mail: "kkaur20@iitk.ac.in" },
-	{ name: "Kavya Jalan", phone: 6900805432, mail: "kavyajalan20@iitk.ac.in" },
-	{ name: "Khushbu Kumawat", phone: 9166221076, mail: "khushbuk20@iitk.ac.in" },
-	{ name: "Khushi Gautam", phone: 6307088928, mail: "khushig20@iitk.ac.in" },
-	{ name: "Nitya Aggarwal", phone: 9501887478, mail: "nityag20@iitk.ac.in" },
-	{ name: "Payal Singh", phone: 8306579903, mail: "payalk20@iitk.ac.in" },
-	{ name: "Pulkit Dhamija", phone: 7082039486, mail: "pulkitd20@iitk.ac.in" },
-	{ name: "Ravi Patel", phone: 8381955859, mail: "ravip20@iitk.ac.in" },
-	{ name: "Riktesh Singh", phone: 9696170669, mail: "rikteshs20@iitk.ac.in" },
-	{ name: "Rishabh Yadav", phone: 8827992444, mail: "rishabhy20@iitk.ac.in" },
-	{ name: "Rishi Malhotra", phone: 8076883009, mail: "rishim20@iitk.ac.in" },
-	{ name: "Sathwika", phone: 6281329383, mail: "sathwikach20@iitk.ac.in" },
-	{ name: "Shivangi Singh", phone: 8175888052, mail: "shivangis20@iitk.ac.in" },
-	{ name: "Suraj Kumawat", phone: 7023588839, mail: "skumawat20@iitk.ac.in" },
-	{ name: "Upen Mishra", phone: 7851928910, mail: "upen20@iitk.ac.in" },
-	{ name: "Vandana Basrani", phone: 8890406081, mail: "vandanab20@iitk.ac.in" },
+	{ name: "Aditi Phogat", phone: "(+91) 70155 60038", mail: "aditi20@iitk.ac.in" },
+	{ name: "Afraz Jamal", phone: "(+91) 82399 97985", mail: "afrazj20@iitk.ac.in" },
+	{ name: "Agrim Pandey", phone: "(+91) 86045 01747", mail: "agrimp20@iitk.ac.in" },
+	{ name: "Ananya Agrawal", phone: "(+91) 82094 64287", mail: "ananya20@iitk.ac.in" },
+	{ name: "Ashutosh Sharma", phone: "(+91) 94254 21164", mail: "ashutoshs20@iitk.ac.in" },
+	{ name: "Kashishpreet Kaur", phone: "(+91) 79739 83785", mail: "kkaur20@iitk.ac.in" },
+	{ name: "Kavya Jalan", phone: "(+91) 69008 05432", mail: "kavyajalan20@iitk.ac.in" },
+	{ name: "Khushbu Kumawat", phone: "(+91) 91662 21076", mail: "khushbuk20@iitk.ac.in" },
+	{ name: "Khushi Gautam", phone: "(+91) 63070 88928", mail: "khushig20@iitk.ac.in" },
+	{ name: "Nitya Aggarwal", phone: "(+91) 95018 87478", mail: "nityag20@iitk.ac.in" },
+	{ name: "Payal Singh", phone: "(+91) 83065 79903", mail: "payalk20@iitk.ac.in" },
+	{ name: "Pulkit Dhamija", phone: "(+91) 70820 39486", mail: "pulkitd20@iitk.ac.in" },
+	{ name: "Ravi Patel", phone: "(+91) 83819 55859", mail: "ravip20@iitk.ac.in" },
+	{ name: "Riktesh Singh", phone: "(+91) 96961 70669", mail: "rikteshs20@iitk.ac.in" },
+	{ name: "Rishabh Yadav", phone: "(+91) 88279 92444", mail: "rishabhy20@iitk.ac.in" },
+	{ name: "Rishi Malhotra", phone: "(+91) 80768 83009", mail: "rishim20@iitk.ac.in" },
+	{ name: "Sathwika", phone: "(+91) 62813 29383", mail: "sathwikach20@iitk.ac.in" },
+	{ name: "Shivangi Singh", phone: "(+91) 81758 88052", mail: "shivangis20@iitk.ac.in" },
+	{ name: "Suraj Kumawat", phone: "(+91) 70235 88839", mail: "skumawat20@iitk.ac.in" },
+	{ name: "Upen Mishra", phone: "(+91) 78519 28910", mail: "upen20@iitk.ac.in" },
+	{ name: "Vandana Basrani", phone: "(+91) 88904 06081", mail: "vandanab20@iitk.ac.in" },
 ]
 const WEBHEAD = [
 	{
 		name: "Harshit Raj",
 		position: "Web Head",
-		phone: "(+91) 7992271701",
+		phone: "(+91) 79922 71701",
 		mail: "harshitr20@iitk.ac.in",
 		linkedin: "https://www.linkedin.com/in/1-Harshit/"
 	},
 	{
 		name: "Abhishek Shree",
 		position: "Web Head",
-		phone: "(+91) 9955960224",
+		phone: "(+91) 99559 60224",
 		mail: "shreea20@iitk.ac.in",
 		linkedin: "https://www.linkedin.com/in/abhishekshree/"
 	},
@@ -103,25 +104,25 @@ const WEBEXEC = [
 		name: "S Amandeep",
 		position: "Web Executive",
 		mail: "samandeep21@iitk.ac.in",
-		phone: "(+91) 7075563909"
+		phone: "(+91) 70755 63909"
 	},
 	{
 		name: "Krishnansh Agarwal",
 		position: "Web Executive",
 		mail: "krishnansh21@iitk.ac.in",
-		phone: "(+91) 8317084914"
+		phone: "(+91) 83170 84914"
 	},
 	{
 		name: "Tejas Ahuja",
 		position: "Web Executive",
 		mail: "tejasahuja21@iitk.ac.in",
-		phone: "(+91) 8700794886"
+		phone: "(+91) 87007 94886"
 	},
 	{
 		name: "Utkarsh Mishra",
 		position: "Web Executive",
 		mail: "utkarshm21@iitk.ac.in",
-		phone: "(+91) 9399215049"
+		phone: "(+91) 93992 15049"
 	},
 ]
 
@@ -164,7 +165,6 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 						)}
 					</CustomAutofitGrid4>
 					<br />
-
 				</Container>
 				<SectionTitle>Assistant Coordinators</SectionTitle>
 				<Container>

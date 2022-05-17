@@ -148,9 +148,23 @@ const ResourcesC = [
 	},
 ]
 
+const Routes=[
+	{
+		name:"Procedures",
+		url:"/students#steps"
+	},{
+		name:"Resources",
+		url:"/students#resources"
+	},{
+		name:"FAQs",
+		url:"/students#faqs"
+	},
+]
+
 export default function StudentsPage() {
 	return (
-		<Page title="For students" description="A collection of resources for students at IIT Kanpur.">
+		<Page title="For students" description="A collection of resources for students at IIT Kanpur." routes={Routes}> 
+			
 			<div id="steps">
 				<Section title="Procedure">
 					<Container>
@@ -162,7 +176,8 @@ export default function StudentsPage() {
 					</Container>
 				</Section>
 			</div>
-
+			
+			<div id="resources"></div>
 			<Section title="Resources">
 				<Container>
 					<CustomAutofitGrid4>

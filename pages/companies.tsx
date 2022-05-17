@@ -155,9 +155,37 @@ const ResourcesL = [
 	},
 ]
 
+const Routes=[
+	{
+		name:"Procedures",
+		url:"/companies#steps"
+	},
+	{
+		name:"Placement Policy",
+		url:"/companies#policy"
+	},
+	{
+		name:"Internship Poilcy",
+		url:"/companies#ipolicy"
+	},
+	{
+		name:"Facilities",
+		url:"/companies#facilities"
+	},
+	{
+		name:"Resources",
+		url:"/companies#resources"
+	},
+	{
+		name:"FAQs",
+		url:"/companies#faqs"
+	},
+]
+
 export default function CompaniesPage() {
 	return (
-		<Page title="For companies" description="A collection of resources for companies to recruit at IIT Kanpur.">
+		<Page title="For companies" description="A collection of resources for companies to recruit at IIT Kanpur." routes={Routes} >
+
 			<div id="steps">
 				<Section title="Procedure">
 					<Container>
@@ -214,6 +242,7 @@ export default function CompaniesPage() {
 					</small>
 				</ol>
 			</Section>
+			<div id="ipolicy"></div>
 			<Section title="Internship Policy">
 				<ol>
 					<li>
@@ -261,6 +290,7 @@ export default function CompaniesPage() {
 			<br />
 			<br />
 			<hr />
+			<div id="facilities"></div>
 			<Section title="Facilities">
 				<ul>
 					<li>
@@ -283,6 +313,7 @@ export default function CompaniesPage() {
 			</Section>
 			<br />
 			<hr />
+			<div id="resources"></div>
 			<Section title="Resources">
 				<Container>
 					<CustomAutofitGrid4>
