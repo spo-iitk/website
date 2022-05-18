@@ -33,3 +33,7 @@ yarn-error.log*
 # vercel
 .vercel
 sendgrid.env
+
+# lock files
+yarn.lock
+package-lock.json
