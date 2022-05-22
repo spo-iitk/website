@@ -150,6 +150,9 @@ const ResourcesC = [
 
 const Routes=[
 	{
+		name:"Insights",
+		url:"/blog"
+	},{
 		name:"Procedures",
 		url:"/students#steps"
 	},{

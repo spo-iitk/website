@@ -3,6 +3,7 @@ import styled from "styled-components"
 
 import Button from "components/Button"
 import ButtonGroup from "components/ButtonGroup"
+import { media } from "utils/media"
 
 export default function InformationSection() {
 	return (
@@ -55,7 +56,11 @@ const Wrapper = styled.div`
 const CustomButtonGroup = styled(ButtonGroup)`
   margin-top: 4rem;
   flex-direction: column;
-  width: 70%;
+  display: none;
+
+  ${media("<=tablet")} {
+    display: block;
+  }
 `
 
 const CustomButton = styled(Button)`
