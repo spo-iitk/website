@@ -5,6 +5,7 @@ import styled from "styled-components"
 import { EnvVars } from "env"
 import { media } from "utils/media"
 
+import AutofitGrid from "./AutofitGrid"
 import Button from "./Button"
 import Container from "./Container"
 import SectionTitle from "./SectionTitle"
@@ -13,13 +14,13 @@ export interface PageProps {
 	title: string;
 	description?: string;
 	notNeedTitle?: boolean;
-	routes?:RouteType[];
+	routes?: RouteType[];
 }
 
-type RouteType={
-	name:string;
-	url:string;
-};
+interface RouteType {
+	name: string;
+	url: string;
+}
 
 export default function Page({ title, description, routes, children, notNeedTitle }: PropsWithChildren<PageProps>) {
 	return (
@@ -39,11 +40,13 @@ export default function Page({ title, description, routes, children, notNeedTitl
 							<Title>{title}</Title>
 							{description && <Description>{description}</Description>}
 							<NavContainer>
-								{routes?.map((nav)=>{
-									return(
-										<CustomButton key={nav.url} href={nav.url}>{nav.name}</CustomButton>
-									)
-								})}
+								<CustomAutofitGrid>
+									{routes?.map((nav) => {
+										return (
+											<CustomButton key={nav.url} href={nav.url}>{nav.name}</CustomButton>
+										)
+									})}
+								</CustomAutofitGrid>
 							</NavContainer>
 						</Container>
 					</HeaderContainer>
@@ -90,7 +93,7 @@ const ChildrenWrapper = styled.div`
 	margin-bottom: 10rem;
 `
 const NavContainer = styled.div`
-	display: flex;
+	margin-top: 5rem;
 	align-items: center;
 	justify-content: center;
 
@@ -100,9 +103,11 @@ const NavContainer = styled.div`
 	
 `
 const CustomButton = styled(Button)`
-	margin-right: 5rem;
-	margin-top: 5rem;
 	color: rgb(var(--primary));
 	background-color: rgb(var(--secondary));
 	font-size:1.45rem;
+`
+
+const CustomAutofitGrid = styled(AutofitGrid)`
+	--autofit-grid-item-size: 17rem;
 `
