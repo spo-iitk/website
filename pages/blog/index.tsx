@@ -1,4 +1,5 @@
 import { InferGetStaticPropsType } from "next"
+import NextLink from "next/link"
 import { useState } from "react"
 import styled from "styled-components"
 
@@ -19,7 +20,7 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 	})
 
 	return (
-		<Page title="SPO Blog" description="">
+		<Page title="SPO Insights" description="">
 			<div>
 				<Input
 					style={{ width: "100%" }}
@@ -30,36 +31,51 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 				/>
 			</div>
 			<br />
-			<CustomAutofitGrid>
-				{!filteredBlogPosts.length && "No posts found."}
-				{filteredBlogPosts.map((singlePost, idx) => (
-					<ArticleCard
-						key={singlePost.slug}
-						title={singlePost.meta.title}
-						description={singlePost.meta.description}
-						imageUrl={singlePost.meta.imageUrl}
-						slug={singlePost.slug}
-					/>
-				))}
-			</CustomAutofitGrid>
+			<div style={{width:"100%", display:"grid", placeItems:"center"}}>
+				<CustomUl>
+					{!filteredBlogPosts.length && "No posts found."}
+					{filteredBlogPosts.map((singlePost, idx) => (
+						<BlogItem key={idx}>
+							<BlogDate>{singlePost.meta.date}</BlogDate>
+							<NextLink href={"/blog/" + singlePost.slug} passHref>
+								<div style={{flex:"1"}}>{singlePost.meta.title}</div>
+							</NextLink>
+						</BlogItem>
+					))}
+				</CustomUl>
+			</div>
 		</Page>
 	)
 }
 
-const CustomAutofitGrid = styled(AutofitGrid)`
-  --autofit-grid-item-size: 40rem;
+const CustomUl = styled.ul`
+	list-style: none;
+	width: 80%;
+	
+`
 
-  ${media("<=tablet")} {
-    --autofit-grid-item-size: 30rem;
-  }
+const BlogDate = styled.span`
+	flex: 0 0 100px;
+	font-weight: normal;
+	@media (max-width: 768px) {
+		display: none;
+	}
+`
 
-  ${media("<=phone")} {
-    --autofit-grid-item-size: 100%;
-  }
-
-  .article-card-wrapper {
-    max-width: 100%;
-  }
+const BlogItem = styled.li`
+	text-decoration: none;
+	margin-bottom: 0.7rem;
+	cursor: pointer;
+	font-size: 1.5rem;
+	font-weight: bold;
+	display: flex;
+	flex-direction: row;
+	gap: 3rem;
+	@media (max-width: 768px) {
+		flex-direction: column;
+		gap: 0;
+		border-bottom: 1px dashed #ccc;
+	}
 `
 
 export async function getStaticProps() {

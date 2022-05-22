@@ -45,7 +45,7 @@ export default function OfficeTeam() {
 						<NextImage src="/testimonials/chairman.jpeg" width={128} height={128} alt="Chairman SPO" />
 						<Title>Prof. Kaustubh Kulkarni</Title>
 						<Description>Chairman, Students&apos; Placement Office </Description>
-						<Description><Link href="/chairman-message`" passHref>Chairman&apos; Message</Link></Description>
+						<Description><Link href="/chairman-message" passHref>Chairman&apos; Message</Link></Description>
 					</Card>
 				</div>
 				<SectionTitle>SPO Vice Chairman</SectionTitle>
@@ -54,10 +54,10 @@ export default function OfficeTeam() {
 						<NextImage src="/testimonials/vc.jpg" width={128} height={128} alt="Vice Chairman SPO" />
 						<Title>Prof. Raju Gupta</Title>
 						<Description>Vice Chairman, Students&apos; Placement Office </Description>
-						<Description><Link href="/vice-chairman-message`" passHref>Vice Chairman&apos; Message</Link></Description>
+						<Description><Link href="/vice-chairman-message" passHref>Vice Chairman&apos; Message</Link></Description>
 					</Card>
 				</div>
-				<SectionTitle>Staff Members</SectionTitle>
+				<SectionTitle>SPO Officials</SectionTitle>
 				<Container>
 					<CustomAutofitGrid>
 						{TeamMembers.map((member) => (

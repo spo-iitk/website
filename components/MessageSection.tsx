@@ -10,16 +10,17 @@ export interface MessageSectionProps {
   imageUrl: string;
   title: string;
   reversed?: boolean;
+  hideTitle?: boolean;
 }
 
-export default function MessageSection({ imageUrl, title, reversed, children, }: PropsWithChildren<MessageSectionProps>) {
+export default function MessageSection({ imageUrl, title, reversed, children, hideTitle}: PropsWithChildren<MessageSectionProps>) {
 	return (
 		<MessageSectionWrapper reversed={reversed}>
 			<ImageContainer>
 				<NextImage src={imageUrl} alt={title} layout="fill" objectFit="contain" />
 			</ImageContainer>
 			<ContentContainer>
-				<Title>{title}</Title>
+				{!hideTitle && <Title>{title}</Title>}
 				<Message>{children}</Message>
 			</ContentContainer>
 		</MessageSectionWrapper>
