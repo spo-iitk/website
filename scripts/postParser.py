@@ -34,7 +34,7 @@ if __name__ == "__main__":
 	DRIVER CODE
 	'''
 
-	df = pd.read_csv("2.csv")
+	df = pd.read_csv(get_input_file_name())
 
 	# Date
 	now = datetime.now()
