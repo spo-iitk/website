@@ -158,14 +158,17 @@ export default function departmentalBrochure() {
 		<Page title="Departmental Brochures" description="Click on department to download their brochure.">
 			<Container>
 				<CustomAutofitGrid>
-					{deptBrochure.map((member) => (
-						<Card key={member.idx}>
-							<Link href={member.url} key={member.dept} passHref>
-								<Title>{member.dept}</Title>
-							</Link>
-							{member.link && <Link href={member.link} passHref>
-								<Description>Download Brochure</Description>
-							</Link>}
+					{deptBrochure.map((dept) => (
+						<Card key={dept.idx}>
+							<Title>{dept.dept}</Title>
+							{dept.url &&
+								<Link href={dept.url} passHref>
+									<Description>Visit Department Homepage</Description>
+								</Link>}
+							{dept.link &&
+								<Link href={dept.link} passHref>
+									<Description>Download Brochure</Description>
+								</Link>}
 						</Card>
 					))}
 				</CustomAutofitGrid>
@@ -205,8 +208,8 @@ const Card = styled.div`
 
 const Title = styled.div`
   font-weight: bold;
-  cursor: pointer;
 `
+
 const Description = styled.div`
   opacity: 0.6;
   cursor: pointer;
