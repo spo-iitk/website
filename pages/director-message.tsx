@@ -3,7 +3,7 @@ import Page from "components/Page"
 
 export default function DirectorMessage() {
 	return (
-		<Page title="Director Message" description="From the desk of Prof. Abhay Karandikar">
+		<Page title="Director's Message" description="From the desk of Prof. Abhay Karandikar" keywords="Director IITK, SPO Direction, Administration IITK">
 			<MessageSection imageUrl="/testimonials/director.jpg" title="Director's Message" hideTitle>
 				<p>
           Since the advent of this great institution, IIT Kanpur has vision to provide quality technical education and act as a rostrum for

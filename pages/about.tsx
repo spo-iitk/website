@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Head from "next/head"
 import styled from "styled-components"
 
 import AutofitGrid from "components/AutofitGrid"
@@ -11,6 +12,7 @@ export default function AboutPage() {
 		<Page
 			title="IIT Kanpur"
 			description="The Institute has earned a superb academic reputation globally in its continuous endeavour to achieve excellence in undergraduate and postgraduate education and research."
+			keywords="Student's Placement Office, SPO IITK, Placement IITK, Recruitment IITK, About IITK, About IITK Placements"
 		>
 			<SectionTitle>Programs at IITK</SectionTitle>
 			<br />
