@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from "next/link"
 import styled from "styled-components"
-
+import NextImage from "next/image"
 import Button from "components/Button"
 import ButtonGroup from "components/ButtonGroup"
 import Container from "components/Container"
@@ -16,13 +16,9 @@ export default function Hero() {
 				<CustomOverTitle>IIT Kanpur</CustomOverTitle>
 				<Heading>Students' Placement Office</Heading>
 				<Description>
-          The Indian Institute of Technology Kanpur is well known for its academic excellence and is often considered as the 'first stop'
-          for a large number of industries and other organizations for recruiting undergraduate and post-graduate students. We truly
-          appreciate the faith bestowed on us from several organizations and we look forward to continuing our relationship with them. The
-          Students' Placement Office (SPO) is run and managed by an efficient team of office staff & students and handles all aspects of
-          placements at IIT Kanpur. Right from contacting companies to managing all logistics of arranging for tests, pre-placement talks
-          and conducting final interviews the SPO team provides it's best possible assistance to the recruiters. The hospitality and the
-          functioning of SPO is applauded and well received by the visiting recruiters every year.
+        The Students' Placement Office (SPO), IIT Kanpur is maintained and managed by a dedicated team of office staff and students 
+        who are responsible for all areas of IIT Kanpur placements. The SPO team assists recruiters to the best of its ability. We are 
+        gratefu for the trust placed in us by various organisations, and we hope to continue working with them in the future.
 				</Description>
 				<CustomButtonGroup>
 					{/* <NextLink href="#whitepaper" passHref>
@@ -38,7 +34,8 @@ export default function Hero() {
 				</CustomButtonGroup>
 			</Contents>
 			<ImageContainer>
-				<HeroIllustration />
+				{/* <HeroIllustration /> */}
+        <NextImage id = "building" src= "/testimonials/iitkanpur.png"  layout = "fill" objectFit="contain" />
 			</ImageContainer>
 		</HeroWrapper>
 	)
@@ -69,21 +66,25 @@ const CustomButtonGroup = styled(ButtonGroup)`
 `
 
 const ImageContainer = styled.div`
-  display: flex;
-  flex: 1;
-  justify-content: flex-end;
-  align-items: flex-start;
-
-  svg {
-    max-width: 45rem;
-  }
+flex: 1;
+max-width: 40%;
+position: relative;
+left : 5rem;
+&:before {
+  display: block;
+  content: '';
+  width: 100%;
+  padding-top : calc((9 / 16) * 100%);
+}
 
   ${media("<=desktop")} {
     margin-top: 2rem;
-    justify-content: center;
-    svg {
-      max-width: 80%;
-    }
+    justify-content: center; 
+    max-width: 100%;
+    width: 100vw;
+    position: relative;
+    right: 5 rem;
+    
   }
 `
 
