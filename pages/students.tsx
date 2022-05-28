@@ -146,28 +146,32 @@ const ResourcesC = [
 		name: "List of Companies",
 		link: "docs/2021-22/List-of-companies.pdf"
 	},
+	{
+		name: "Previous Year IP and JAF",
+		link: "https://spo.iitk.ac.in/resources/"
+	}
 ]
 
-const Routes=[
+const Routes = [
 	{
-		name:"Insights",
-		url:"/blog"
-	},{
-		name:"Procedures",
-		url:"/students#steps"
-	},{
-		name:"Resources",
-		url:"/students#resources"
-	},{
-		name:"FAQs",
-		url:"/students#faqs"
+		name: "Insights",
+		url: "/blog"
+	}, {
+		name: "Procedures",
+		url: "/students#steps"
+	}, {
+		name: "Resources",
+		url: "/students#resources"
+	}, {
+		name: "FAQs",
+		url: "/students#faqs"
 	},
 ]
 
 export default function StudentsPage() {
 	return (
-		<Page title="For students" description="A collection of resources for students at IIT Kanpur." routes={Routes}> 
-			
+		<Page title="For students" description="A collection of resources for students at IIT Kanpur." routes={Routes}>
+
 			<div id="steps">
 				<Section title="Procedure">
 					<Container>
@@ -179,7 +183,7 @@ export default function StudentsPage() {
 					</Container>
 				</Section>
 			</div>
-			
+
 			<div id="resources"></div>
 			<Section title="Resources">
 				<Container>
