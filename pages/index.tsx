@@ -27,8 +27,14 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
 				<title>{EnvVars.SITE_NAME}</title>
 				<meta
 					name="description"
-					content="Tempor nostrud velit fugiat nostrud duis incididunt Lorem deserunt est tempor aute dolor ad elit."
+					content="Students' Placement Office at IIT Kanpur has been providing world-class recruitment services to organizations worldwide for over three decades now. 
+					IIT Kanpur was in fact the first institute of the IIT fraternity to have a dedicated Placement Office. The Office is responsible for over 1000 jobs and 500 summer internships annually."
 				/>
+				<meta 
+					name="keywords" 
+					content="Student's Placement Office, SPO IITK, Placement IITK, Recruitment IITK, Preparation Portal, Resources"
+				/>
+
 			</Head>
 			<HomepageWrapper>
 				<WhiteBackgroundContainer>

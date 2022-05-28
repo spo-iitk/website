@@ -144,7 +144,7 @@ export interface StudentTeamProps {
 
 export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamProps) {
 	return (
-		<Page title="IITK Placement Coordinators" description="Feel free to reach out to us!" notNeedTitle={notNeedTitleAtStudentTeam}>
+		<Page title="IITK Placement Coordinators" description="Feel free to reach out to us!" keywords="SPO Team IITK, Placement Coordinators IITK, Web Team IITK, Old Team SPO IITK" notNeedTitle={notNeedTitleAtStudentTeam}>
 			<DarkerBackgroundContainer>
 				<SectionTitle>Overall Placement Coordinators</SectionTitle>
 				<Container>
