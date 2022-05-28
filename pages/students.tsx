@@ -170,7 +170,7 @@ const Routes = [
 
 export default function StudentsPage() {
 	return (
-		<Page title="For students" description="A collection of resources for students at IIT Kanpur." routes={Routes}>
+		<Page title="For students" description="A collection of resources for students at IIT Kanpur." routes={Routes} keywords="Students IITK, Placement Procedure IITK, Resources">
 
 			<div id="steps">
 				<Section title="Procedure">
