@@ -81,9 +81,9 @@ left : 5rem;
     margin-top: 2rem;
     justify-content: center; 
     max-width: 100%;
-    width: 100vw;
+    width: 50vw;
     position: relative;
-    right: 5 rem;
+    right: 10 rem;
     
   }
 `

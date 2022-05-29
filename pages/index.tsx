@@ -3,7 +3,7 @@ import { InferGetStaticPropsType } from "next"
 import Head from "next/head"
 import styled from "styled-components"
 // import BasicSection from 'components/BasicSection';
-import { EffectFade, Navigation, Pagination } from "swiper"
+import { Autoplay, EffectFade, Navigation, Pagination } from "swiper"
 import {Swiper, SwiperSlide } from "swiper/react"
 
 import Button from "components/Button"
@@ -20,6 +20,7 @@ import "swiper/css"
 import "swiper/css/effect-fade"
 import "swiper/css/navigation"
 import "swiper/css/pagination"
+import "swiper/css/autoplay"
 import Hero from "views/HomePage/Hero"
 import NewsIIT from "views/HomePage/NewsIIT"
 import Partners from "views/HomePage/Partners"
@@ -41,13 +42,16 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
 			<HomepageWrapper>
 				<WhiteBackgroundContainer>
 					<Hero />
+					<WhyRec />
 					<Swiper
 						spaceBetween={30}
 						navigation
 						pagination={{
 							clickable: true,
 						}}
-						modules={[EffectFade, Navigation, Pagination]}
+						loop
+						autoplay = {true}
+						modules={[EffectFade, Navigation, Pagination, Autoplay]}
 						className="mySwiper"
 					>
 						<SwiperSlide>
@@ -93,7 +97,6 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
 							</MessageSection>
 						</SwiperSlide>
 					</Swiper>
-					<WhyRec />
 				</WhiteBackgroundContainer>
 				<DarkerBackgroundContainer>
 					<NewsIIT />

@@ -10,7 +10,7 @@ export default function NewsIIT(){
         <Section title = "News@IITK">
         <Wrapper>
         <TwitterWrapper>    
-        <a className="twitter-timeline" data-width="500" data-height="300" href="https://twitter.com/IITKanpur?ref_src=twsrc%5Etfw">Tweets by IITKanpur</a> 
+        <a className ="twitter-timeline" data-width="400" data-height="300" href="https://twitter.com/IITKanpur?ref_src=twsrc%5Etfw">Tweets by IITKanpur</a> 
         <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
         </TwitterWrapper>
         <FacebookWrapper>
@@ -41,9 +41,9 @@ ${media("<=desktop")} {
 
 const TwitterWrapper = styled.div`
 max-height: 18.75 rem;
-padding : 2rem;
+margin : 2rem;
 
 `
 const FacebookWrapper = styled.div`
-padding: 2rem;
+margin : 2rem;
 `
