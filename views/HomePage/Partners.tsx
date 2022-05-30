@@ -78,7 +78,7 @@ function normalizePartnerLogoName(logo: string) {
 }
 
 const Title = styled.h3`
-  font-size: 1.3rem;
+  font-size: 4rem;
   letter-spacing: 0.02em;
   line-height: 0;
   text-transform: uppercase;

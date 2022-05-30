@@ -10,73 +10,73 @@ import ThreeLayersCircle from "components/ThreeLayersCircle"
 import { media } from "utils/media"
 
 const TABS = [
-  {
-    title: "Find relevant media contacts - multiline title",
-    description:
+	{
+		title: "Find relevant media contacts - multiline title",
+		description:
       "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>",
-    imageUrl: "/demo-illustration-3.png",
-    baseColor: "249,82,120",
-    secondColor: "221,9,57",
-  },
-  {
-    title: "Another amazing feature",
-    description:
+		imageUrl: "/demo-illustration-3.png",
+		baseColor: "249,82,120",
+		secondColor: "221,9,57",
+	},
+	{
+		title: "Another amazing feature",
+		description:
       "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>",
-    imageUrl: "/demo-illustration-4.png",
-    baseColor: "57,148,224",
-    secondColor: "99,172,232",
-  },
+		imageUrl: "/demo-illustration-4.png",
+		baseColor: "57,148,224",
+		secondColor: "99,172,232",
+	},
 ]
 
 export default function FeaturesGallery() {
-  const [currentTab, setCurrentTab] = useState(TABS[0])
+	const [currentTab, setCurrentTab] = useState(TABS[0])
 
-  const imagesMarkup = TABS.map((singleTab, idx) => {
-    const isActive = singleTab.title === currentTab.title
-    const isFirst = idx === 0
+	const imagesMarkup = TABS.map((singleTab, idx) => {
+		const isActive = singleTab.title === currentTab.title
+		const isFirst = idx === 0
 
-    return (
-      <ImageContainer key={singleTab.title} isActive={isActive}>
-        <NextImage src={singleTab.imageUrl} alt={singleTab.title} layout="fill" objectFit="contain" priority={isFirst} />
-      </ImageContainer>
-    )
-  })
+		return (
+			<ImageContainer key={singleTab.title} isActive={isActive}>
+				<NextImage src={singleTab.imageUrl} alt={singleTab.title} layout="fill" objectFit="contain" priority={isFirst} />
+			</ImageContainer>
+		)
+	})
 
-  const tabsMarkup = TABS.map((singleTab, idx) => {
-    const isActive = singleTab.title === currentTab.title
+	const tabsMarkup = TABS.map((singleTab, idx) => {
+		const isActive = singleTab.title === currentTab.title
 
-    return (
-      <Tab isActive={isActive} key={idx} onClick={() => handleTabClick(idx)}>
-        <TabTitleContainer>
-          <CircleContainer>
-            <ThreeLayersCircle baseColor={isActive ? "transparent" : singleTab.baseColor} secondColor={singleTab.secondColor} />
-          </CircleContainer>
-          <h4>{singleTab.title}</h4>
-        </TabTitleContainer>
-        <Collapse isOpen={isActive} duration={300}>
-          <TabContent>
-            <div dangerouslySetInnerHTML={{ __html: singleTab.description }}></div>
-          </TabContent>
-        </Collapse>
-      </Tab>
-    )
-  })
+		return (
+			<Tab isActive={isActive} key={idx} onClick={() => handleTabClick(idx)}>
+				<TabTitleContainer>
+					<CircleContainer>
+						<ThreeLayersCircle baseColor={isActive ? "transparent" : singleTab.baseColor} secondColor={singleTab.secondColor} />
+					</CircleContainer>
+					<h4>{singleTab.title}</h4>
+				</TabTitleContainer>
+				<Collapse isOpen={isActive} duration={300}>
+					<TabContent>
+						<div dangerouslySetInnerHTML={{ __html: singleTab.description }}></div>
+					</TabContent>
+				</Collapse>
+			</Tab>
+		)
+	})
 
-  function handleTabClick(idx: number) {
-    setCurrentTab(TABS[idx])
-  }
+	function handleTabClick(idx: number) {
+		setCurrentTab(TABS[idx])
+	}
 
-  return (
-    <FeaturesGalleryWrapper>
-      <Content>
-        <SectionTitle>Policies</SectionTitle>
-      </Content>
-      <GalleryWrapper>
-        <TabsContainer>{tabsMarkup}</TabsContainer>
-        {imagesMarkup}
-      </GalleryWrapper>
-    </FeaturesGalleryWrapper>
-  )
+	return (
+		<FeaturesGalleryWrapper>
+			<Content>
+				<SectionTitle>Policies</SectionTitle>
+			</Content>
+			<GalleryWrapper>
+				<TabsContainer>{tabsMarkup}</TabsContainer>
+				{imagesMarkup}
+			</GalleryWrapper>
+		</FeaturesGalleryWrapper>
+	)
 }
 
 const FeaturesGalleryWrapper = styled(Container)`
