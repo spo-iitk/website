@@ -37,7 +37,7 @@ const TeamMembers = [
 
 export default function OfficeTeam() {
 	return (
-		<Page title="Administration" description="">
+		<Page title="Administration" keywords="Administration IITK, SPO Management IITK" description="">
 			<DarkerBackgroundContainer>
 				<SectionTitle>SPO Chairman</SectionTitle>
 				<div style={{ display: "flex", justifyContent: "center" }}>

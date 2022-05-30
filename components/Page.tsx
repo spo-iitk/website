@@ -13,6 +13,7 @@ import SectionTitle from "./SectionTitle"
 export interface PageProps {
 	title: string;
 	description?: string;
+	keywords?:string;
 	notNeedTitle?: boolean;
 	routes?: RouteType[];
 }
@@ -22,7 +23,7 @@ interface RouteType {
 	url: string;
 }
 
-export default function Page({ title, description, routes, children, notNeedTitle }: PropsWithChildren<PageProps>) {
+export default function Page({ title, description, keywords,routes, children, notNeedTitle }: PropsWithChildren<PageProps>) {
 	return (
 		<>
 			{!notNeedTitle &&
@@ -31,6 +32,10 @@ export default function Page({ title, description, routes, children, notNeedTitl
 						{title} | {EnvVars.SITE_NAME}
 					</title>
 					<meta name="description" content={description} />
+					<meta
+						name="keywords"
+						content={keywords}
+					/>
 				</Head>
 			}
 			<Wrapper>

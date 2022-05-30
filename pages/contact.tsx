@@ -17,7 +17,7 @@ const Routes = [
 
 export default function ContactPage() {
 	return (
-		<Page title="Contact" description="Feel free to reach out to us!" routes={Routes}>
+		<Page title="Contact" description="Feel free to reach out to us!" routes={Routes} keywords="SPO Team, Placement Coordinators, Management SPO IITK, Administration SPO IITK, Administration Contact, Helpline IITK SPO, Contact SPO IITK, Toll-free IITK SPO">
 			<ContactContainer>
 				<InformationSection />
 				<FormSection />

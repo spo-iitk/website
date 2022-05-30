@@ -184,7 +184,7 @@ const Routes=[
 
 export default function CompaniesPage() {
 	return (
-		<Page title="For companies" description="A collection of resources for companies to recruit at IIT Kanpur." routes={Routes} >
+		<Page title="For companies" description="A collection of resources for companies to recruit at IIT Kanpur." routes={Routes} keywords="Recruitment IITK, Placement Policy IITK, Internship Policy IITK, FAQs, Companies, Resources">
 
 			<div id="steps">
 				<Section title="Procedure">

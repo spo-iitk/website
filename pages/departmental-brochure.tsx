@@ -155,7 +155,7 @@ const deptBrochure = [
 
 export default function departmentalBrochure() {
 	return (
-		<Page title="Departmental Brochures" description="Click on department to download their brochure.">
+		<Page title="Departmental Brochures" description="Click on department to download their brochure." keywords="Brochures, Departments, Department Information, Department Research">
 			<Container>
 				<CustomAutofitGrid>
 					{deptBrochure.map((dept) => (
