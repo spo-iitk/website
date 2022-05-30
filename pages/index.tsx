@@ -55,7 +55,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
 						className="mySwiper"
 					>
 						<SwiperSlide>
-							<MessageSection imageUrl="/testimonials/director.jpg" title="Director's Message">
+							<MessageSection imageUrl="/testimonials/dir_2.png" title="Director's Message">
 								<p>
 							Since the advent of this great institution, IIT Kanpur has vision to provide quality technical education and act as a rostrum
 							for scientific research, and a mission to develop human potential to its greatest degree. In accordance with this vision IIT
@@ -69,7 +69,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
 							</MessageSection>
 						</SwiperSlide>
 						<SwiperSlide>
-							<MessageSection imageUrl="/testimonials/chairman.jpeg" title="Chairman's Message" reversed>
+							<MessageSection imageUrl="/testimonials/cc_2.png" title="Chairman's Message" reversed>
 								<p>
 							I would like to warmly welcome all the current and prospective recruiters to the Student Placement Office (SPO) of IIT Kanpur.
 							In this age, demanding continual technology enhancements, the industry requires talented youngsters with outstanding
@@ -82,7 +82,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
 							</MessageSection>
 						</SwiperSlide>
 						<SwiperSlide>
-							<MessageSection imageUrl="/testimonials/vc.jpg" title="Vice Chairman's Message">
+							<MessageSection imageUrl="/testimonials/vc_1.png" title="Vice Chairman's Message">
 								<p>
 							Indian Institute of Technology Kanpur (IITK), established in 1959, is one of the premier institutions established by the
 							Government of India. IITK aims to create, disseminate, and translate knowledge in science, engineering and allied disciplines

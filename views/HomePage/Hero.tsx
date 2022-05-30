@@ -1,7 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
+import NextImage from "next/image"
 import Link from "next/link"
 import styled from "styled-components"
-import NextImage from "next/image"
+
 import Button from "components/Button"
 import ButtonGroup from "components/ButtonGroup"
 import Container from "components/Container"
@@ -35,7 +36,7 @@ export default function Hero() {
 			</Contents>
 			<ImageContainer>
 				{/* <HeroIllustration /> */}
-        <NextImage id = "building" src= "/testimonials/iitkanpur.png"  layout = "fill" objectFit="contain" />
+				<NextImage id = "building" src= "/testimonials/iitkanpur.png"  layout = "fill" objectFit="contain" />
 			</ImageContainer>
 		</HeroWrapper>
 	)
@@ -80,11 +81,10 @@ left : 5rem;
   ${media("<=desktop")} {
     margin-top: 2rem;
     justify-content: center; 
+    align-items: center;
     max-width: 100%;
-    width: 50vw;
-    position: relative;
-    right: 10 rem;
-    
+    left: 0;
+    width: 100vw;
   }
 `
 

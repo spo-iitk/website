@@ -4,7 +4,7 @@ import Page from "components/Page"
 export default function DirectorMessage() {
 	return (
 		<Page title="Director Message" description="From the desk of Prof. Abhay Karandikar">
-			<MessageSection imageUrl="/testimonials/director.jpg" title="Director's Message" hideTitle>
+			<MessageSection imageUrl="/testimonials/dir_2.png" title="Director's Message" hideTitle>
 				<p>
           Since the advent of this great institution, IIT Kanpur has vision to provide quality technical education and act as a rostrum for
           scientific research, and a mission to develop human potential to its greatest degree. In accordance with this vision IIT Kanpur has

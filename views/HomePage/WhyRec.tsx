@@ -1,63 +1,63 @@
-import Section from "components/Section"
-import AutofitGrid from "components/AutofitGrid"
-import styled from "styled-components"
-import { media } from "utils/media"
-import Container from "components/Container"
 import Link from "next/link"
-import SectionTitle from "components/SectionTitle"
+import styled from "styled-components"
 
+import AutofitGrid from "components/AutofitGrid"
+import Container from "components/Container"
+import Section from "components/Section"
+import SectionTitle from "components/SectionTitle"
+import { media } from "utils/media"
 
 export default function WhyRec(){
-    return(
-      <Section title = "" >
-          <SectionTitle>Why Recruit from IIT Kanpur ?</SectionTitle>
-          <br />
-			    <br />
-					<Container>
-						<CustomAutofitGrid3>
-                        {/* <Link href= "/about"  passHref> */}
-								<Card style={{ cursor: "pointer" }}>
-									<Title>Academics</Title>
-                                    <Description>Providing a rigorous and world-class academic experience with the help 
+	return(
+		<Section title = "" >
+			<SectionTitle>Why Recruit from IIT Kanpur ?</SectionTitle>
+			<br />
+			<br />
+			<Container>
+				<CustomAutofitGrid3>
+					<Link href= "/about#academics"  passHref>
+						<Card style={{ cursor: "pointer" }}>
+							<Title>Academics</Title>
+							<Description>Providing a rigorous and world-class academic experience with the help 
                                         of distinguished faculty, amazing peer groups and carefully designed coursework.
-                                    </Description>
-								</Card>
-						{/* </Link> */}
-                        {/* <Link href= "/about"  passHref> */}
-								<Card style={{ cursor: "pointer" }}>
-									<Title>Ranking</Title>
-                                    <Description>IIT Kanpur is ranked 4th among engineering colleges in India by the National Institutional Ranking 
+							</Description>
+						</Card>
+					</Link>
+					<Link href= "/about"  passHref>
+						<Card style={{ cursor: "pointer" }}>
+							<Title>Ranking</Title>
+							<Description>IIT Kanpur is ranked 4th among engineering colleges in India by the National Institutional Ranking 
                                       Framework (NIRF) in 2021, and 5th overall.
-                                    </Description>
-								</Card>
-						{/* </Link> */}
-                        {/* <Link href= "/about"  passHref> */}
-								<Card style={{ cursor: "pointer" }}>
-									<Title>Alumni</Title>
-                                    {/* <Description>
-                                    </Description> */}
-								</Card>
-						{/* </Link> */}
-                        {/* <Link href= "/about"  passHref> */}
-								<Card style={{ cursor: "pointer" }}>
-									<Title>Research and Development</Title>
-                                    <Description>Access to the latest and pioneering advances in technology with the aim of acclimating students 
+							</Description>
+						</Card>
+					</Link>
+					<Link href= "/about#alumni"  passHref>
+						<Card style={{ cursor: "pointer" }}>
+							<Title>Alumni</Title>
+							<Description>The alumni of IIT Kanpur have undoubtedly made their mark on the Global professional fronts. Most of them occupy leading positions in corporate, academia & the government.</Description>
+						</Card>
+					</Link>
+					<Link href= "/about#research"  passHref>
+						<Card style={{ cursor: "pointer" }}>
+							<Title>Research and Development</Title>
+							<Description>Access to the latest and pioneering advances in technology with the aim of acclimating students 
                                         to the innovations in the scientific community.
-                                    </Description>
-								</Card>
-                        {/* <Link href= "/about"  passHref> */}
-								<Card style={{ cursor: "pointer" }}>
-									<Title>All-Round Development</Title>
-                                    <Description>Promoting the all-around development of students through a myriad of cultural and sports activities, 
+							</Description>
+						</Card>
+					</Link>
+					<Link href= "/about#all-round-development"  passHref>
+						<Card style={{ cursor: "pointer" }}>
+							<Title>All-Round Development</Title>
+							<Description>Promoting the all-around development of students through a myriad of cultural and sports activities, 
                                         fests, competitions and exhibitions.
-                                    </Description>
-								</Card>
-						{/* </Link> */}
-						</CustomAutofitGrid3>
-					</Container>
-				</Section>
+							</Description>
+						</Card>
+					</Link>
+				</CustomAutofitGrid3>
+			</Container>
+		</Section>
 
-    )
+	)
 }
 
 const CustomAutofitGrid = styled(AutofitGrid)`
