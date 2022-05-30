@@ -4,10 +4,14 @@ import styled from "styled-components"
 import { media } from "utils/media"
 import Container from "components/Container"
 import Link from "next/link"
+import SectionTitle from "components/SectionTitle"
 
 export default function NewsIIT(){
     return (
-        <Section title = "News@IITK">
+        <Section title = "">
+        <SectionTitle>News@IITK</SectionTitle>
+        <br />
+			  <br /> 
         <Wrapper>
         <TwitterWrapper>    
         <a className ="twitter-timeline" data-width="400" data-height="300" href="https://twitter.com/IITKanpur?ref_src=twsrc%5Etfw">Tweets by IITKanpur</a> 

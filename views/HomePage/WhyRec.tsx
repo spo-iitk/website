@@ -26,17 +26,16 @@ export default function WhyRec(){
                         {/* <Link href= "/about"  passHref> */}
 								<Card style={{ cursor: "pointer" }}>
 									<Title>Ranking</Title>
-                                    <Description>Providing a rigorous and world-class academic experience with the help 
-                                        of distinguished faculty, amazing peer groups and carefully designed coursework.
+                                    <Description>IIT Kanpur is ranked 4th among engineering colleges in India by the National Institutional Ranking 
+                                      Framework (NIRF) in 2021, and 5th overall.
                                     </Description>
 								</Card>
 						{/* </Link> */}
                         {/* <Link href= "/about"  passHref> */}
 								<Card style={{ cursor: "pointer" }}>
 									<Title>Alumni</Title>
-                                    <Description>Providing a rigorous and world-class academic experience with the help 
-                                        of distinguished faculty, amazing peer groups and carefully designed coursework.
-                                    </Description>
+                                    {/* <Description>
+                                    </Description> */}
 								</Card>
 						{/* </Link> */}
                         {/* <Link href= "/about"  passHref> */}

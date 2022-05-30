@@ -18,7 +18,7 @@ export default function Hero() {
 				<Description>
         The Students' Placement Office (SPO), IIT Kanpur is maintained and managed by a dedicated team of office staff and students 
         who are responsible for all areas of IIT Kanpur placements. The SPO team assists recruiters to the best of its ability. We are 
-        gratefu for the trust placed in us by various organisations, and we hope to continue working with them in the future.
+        grateful for the trust placed in us by various organisations, and we hope to continue working with them in the future.
 				</Description>
 				<CustomButtonGroup>
 					{/* <NextLink href="#whitepaper" passHref>
