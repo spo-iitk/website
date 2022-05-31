@@ -53,17 +53,20 @@ if __name__ == "__main__":
 	# loop thru data
 	for index, row in df.iterrows():
 		fileName = suffix + " " + \
-			row["Name"].strip() + ": Summer Intern at" + row["Company"].strip()
+			row["Name"].strip() + " " + row["Company"].strip()
 		fileName = re.sub('[^0-9a-zA-Z ]+', '', fileName)
 		fileName = fileName.replace(" ", "-").lower()
 
-		print(fileName)        
+		print(fileName)  
+
+		x = "his" if (row["Gender"]=="M") else "her"  
+		y = "his" if (row["Gender"]=="M") else "hers"   
 
 		
-		file = open("drafts/"+str(fileName) + ".mdx", 'w+')
+		file = open("draft/"+str(fileName) + ".mdx", 'w+')
 		file.write("---\n")
-		file.write("title: "+ "'" +row["Name"] + ": " +
-				   row["Company"] + "(" + row["Profile"] + ")" + "'" + "\n")
+		file.write("title: "+ "'" +row["Name"] + ": Summer Intern at " +
+				   row["Company"] + "'\n")
 		file.write("description: " +"'"+row["Name"] + ": " +
 				   row["Company"] + "(" + row["Profile"] + ")" + "'" + "\n")
 		file.write("date: " + "'" + date + "'" + "\n")
@@ -72,7 +75,9 @@ if __name__ == "__main__":
 		file.write("imageUrl: ''\n")
 		file.write("---" + "\n" + "\n")
         
-		file.write(row["Name"] + ", studying in IIT Kanpur as a " + row["Programme"] + " student in " + row["Department"] + " will do\n" +  "his/her summer internship in " + row["Profile"] + " profile at " + row["Company"] + ". Here are some breif\n" + "insights of his/hers.\n\n")
+		file.write(row["Name"] + ", studying in IIT Kanpur as a " + row["Programme"] + " student in " + 
+			row["Department"] + " will do\n" + x +  " summer internship in " + row["Profile"] 
+			+ " profile at " + row["Company"] + ". Here are some breif\n" + "insights of " + y +".\n\n")
 		file.write(
 			"## Shortlisted Profiles & Companies:\n")
 		file.write(str(
@@ -81,10 +86,10 @@ if __name__ == "__main__":
 			"## Insights on the Selection Process" + "\n")
 		file.write(
 			str(row["Insights on the Selection Process"]) + "\n" + "\n")
-		file.write("## Resources that can be used for Internship Preparation" + "\n")
+		file.write("##  Preparation Resources" + "\n")
 		file.write(str(
 			row[" Preparation Resources "]) + "\n\n")
 		file.write(
-			"## Advice for students sitting in internship drive (do's and dont's) " + "\n")
+			"## Adivce for students (dos and don’ts)? " + "\n")
 		file.write(str(
 			row["Adivce for students (dos and don’ts)?"]) + "\n" + "\n")
