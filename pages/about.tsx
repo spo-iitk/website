@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Head from "next/head"
 import styled from "styled-components"
 
 import AutofitGrid from "components/AutofitGrid"
@@ -11,7 +12,9 @@ export default function AboutPage() {
 		<Page
 			title="IIT Kanpur"
 			description="The Institute has earned a superb academic reputation globally in its continuous endeavour to achieve excellence in undergraduate and postgraduate education and research."
+			keywords="Student's Placement Office, SPO IITK, Placement IITK, Recruitment IITK, About IITK, About IITK Placements"
 		>
+			<span id = "academics"></span>
 			<SectionTitle>Programs at IITK</SectionTitle>
 			<br />
 			<br />
@@ -119,6 +122,7 @@ export default function AboutPage() {
 			<br />
 			<hr />
 			<br />
+			<span id = "research"></span>
 			<SectionTitle>Research</SectionTitle>
 			<br />
 			<br />
@@ -131,6 +135,7 @@ export default function AboutPage() {
 			<br />
 			<hr />
 			<br />
+			<span id = "alumni"></span>
 			<SectionTitle>Alumni</SectionTitle>
 			<br />
 			<br />
@@ -169,6 +174,7 @@ export default function AboutPage() {
 			<br />
 			<hr />
 			<br />
+			<span id = "all-round-development"></span>
 			<SectionTitle>All Round Development</SectionTitle>
 			<br />
 			<br />

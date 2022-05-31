@@ -2,9 +2,11 @@ import { InferGetStaticPropsType } from "next"
 import NextLink from "next/link"
 import { useState } from "react"
 import styled from "styled-components"
+import { Button } from "tinacms"
 
 import Input from "components/Input"
 import Page from "components/Page"
+import SectionTitle from "components/SectionTitle"
 import { getAllPosts } from "utils/postsFetcher"
 
 export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
@@ -12,7 +14,6 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 
 	const filteredBlogPosts = posts.filter((singlePost) => {
 		const searchContent = singlePost.meta.title + singlePost.meta.description + singlePost.content + singlePost.meta.tags
-		console.log(searchContent.toLowerCase().includes(searchValue.toLowerCase()))
 		return searchContent.toLowerCase().includes(searchValue.toLowerCase())
 	})
 
@@ -20,7 +21,7 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 		<Page title="SPO Insights" description="">
 			<div>
 				<Input
-					style={{ width: "100%" }}
+					style={{ width: "90%" }}
 					aria-label="Search articles"
 					type="text"
 					onChange={(e) => setSearchValue(e.target.value)}
@@ -31,14 +32,23 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 			<div style={{ width: "100%", display: "grid", placeItems: "center" }}>
 				<CustomUl>
 					{!filteredBlogPosts.length && "No posts found."}
-					{filteredBlogPosts.map((singlePost, idx) => (
-						<NextLink href={"/blog/" + singlePost.slug} passHref key={idx}>
-							<BlogItem>
-								<BlogDate>{singlePost.meta.date}</BlogDate>
-								<div style={{ flex: "1" }}>{singlePost.meta.title}</div>
-							</BlogItem>
-						</NextLink>
-					))}
+					<SectionTitle>{filteredBlogPosts.length && "2022 Internship Insight" }</SectionTitle>
+					<br></br>
+					{filteredBlogPosts.map((singlePost, idx) => {
+						if (singlePost.slug.includes("2022-intern")) {
+							return (
+								<NextLink href={"/blog/" + singlePost.slug} passHref key={idx}>
+									<BlogItem>
+										<BlogDate>{singlePost.meta.date}</BlogDate>
+										<div style={{ flex: "1" }}>{singlePost.meta.title}</div>
+									</BlogItem>
+								</NextLink>
+							)
+						} else {
+							<></>
+						}
+
+					})}
 				</CustomUl>
 			</div>
 		</Page>
@@ -73,6 +83,19 @@ const BlogItem = styled.li`
 		gap: 0;
 		border-bottom: 1px dashed #ccc;
 	}
+`
+const Dropdown = styled.div`
+	postion : "relative"
+	display : "inline-block"
+`
+
+const DropdownMenu = styled.div`
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
 `
 
 export async function getStaticProps() {
