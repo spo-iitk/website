@@ -1,5 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
+
 import NextImage from "next/image"
+import Head from "next/head"
 import styled from "styled-components"
 
 import AutofitGrid from "components/AutofitGrid"

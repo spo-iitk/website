@@ -16,7 +16,7 @@ const TESTIMONIALS = [
 			name: "Prof. Abhay Karandikar",
 			title: "Director",
 			subtitle: "Indian Institute of Technology, Kanpur",
-			avatarUrl: "/testimonials/director.jpg",
+			avatarUrl: "/testimonials/dir_2.png",
 		},
 	},
 	{
@@ -26,7 +26,7 @@ const TESTIMONIALS = [
 			name: "Dr. Kaustubh Kulkarni",
 			title: "Chairman",
 			subtitle: "Students' Placement Office, IIT Kanpur",
-			avatarUrl: "/testimonials/chairman.jpeg",
+			avatarUrl: "/testimonials/cc_2.png",
 		},
 	},
 	{
@@ -36,7 +36,7 @@ const TESTIMONIALS = [
 			name: "Dr. Raju Gupta",
 			title: "Vice Chairman",
 			subtitle: "Students' Placement Office, IIT Kanpur",
-			avatarUrl: "/testimonials/vc.jpg",
+			avatarUrl: "/testimonials/vc_1.png",
 		},
 	},
 ]
@@ -117,6 +117,8 @@ const Content = styled.blockquote`
 
   ${media("<=desktop")} {
     max-width: 100%;
+	width: 100%;
+	height: auto;
   }
 `
 
