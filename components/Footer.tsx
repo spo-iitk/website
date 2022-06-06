@@ -37,7 +37,7 @@ const footerItems: FooterItems = [
 			{ title: "Steps - Students Registration", href: "/" },
 			{ title: "Policy", href: "/" },
 			{ title: "Preparation Portal", href: "/" },
-			{ title: "Insights", href: "/blog" },
+			{ title: "Insights", href: "/insights" },
 			{ title: "FAQs", href: "/students#faqs" },
 		],
 	},

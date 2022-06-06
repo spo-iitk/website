@@ -155,7 +155,7 @@ const ResourcesC = [
 const Routes = [
 	{
 		name: "Insights",
-		url: "/blog"
+		url: "/insights"
 	}, {
 		name: "Procedures",
 		url: "/students#steps"
