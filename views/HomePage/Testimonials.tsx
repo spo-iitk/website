@@ -124,10 +124,6 @@ const Content = styled.blockquote`
 const AuthorContainer = styled.div`
   display: flex;
   align-items: center;
-  ${media("<=tablet")} {
-	  display:grid;
-	  grid-template-rows:1fr 1fr;
-  }
 `
 
 const AuthorContent = styled.div`
@@ -154,14 +150,4 @@ const AuthorImageContainer = styled.div`
   border-radius: 10rem;
   margin-right: 1rem;
   overflow: hidden;
-  ${media("<=tablet")} {
-	margin:0;
-	padding:0;
-	width:auto;
-	min-height:60rem;
-	position:absolute;
-	top:0;
-  }
-
-
 `
