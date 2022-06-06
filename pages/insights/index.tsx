@@ -37,7 +37,7 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 					{filteredBlogPosts.map((singlePost, idx) => {
 						if (singlePost.slug.includes("2022-intern")) {
 							return (
-								<NextLink href={"/blog/" + singlePost.slug} passHref key={idx}>
+								<NextLink href={"/insights/" + singlePost.slug} passHref key={idx}>
 									<BlogItem>
 										<BlogDate>{singlePost.meta.date}</BlogDate>
 										<div style={{ flex: "1" }}>{singlePost.meta.title}</div>
