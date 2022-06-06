@@ -47,24 +47,28 @@ export default function AboutPage() {
 				<SectionTitle id = "about">About IIT Kanpur</SectionTitle>
 				<br />
 				<br />
-				<SectionText>
+				<TextWrapper>
+					<SectionText>
 			Indian Institute of Technology, Kanpur, established in 1959, is one of the premier institutions established by the Government of India. The aim of the Institute is to provide meaningful education, conduct original research of the highest standard and provide leadership in technological innovation. Consistently ranked amongst the top 5 engineering institutes in India over past several decades. IIT Kanpur offers courses in sciences, engineering, humanities and management. The students go to get the best of opportunities in the form of highly advanced courses, eminent faculty members, well-equipped laboratories, library, hostels and immense facilities to excel in research and development. The selection procedure for students at undergraduate, postgraduate and research level is highly stringent so that IIT gets the best brains of India. Highly scientific and innovative technology is used for teaching and conducting research activities. Every year IIT Kanpur is enriched by the laurels brought by the faculty members and the students in the form of research publications, projects, fellowships and industrial exposure. Many of our alumni are leaders in academia and industry around the globe. The sprawling IIT Kanpur campus is located in the industrial city of Kanpur, only a few hours away from New Delhi, the Capital of India.
-				</SectionText>
-				<ImageContainerCenter50>
-					<NextImage src="/AboutPageImg/AboutIITK.jpg" alt="IITK" layout="fill" objectFit="contain"	/>
-				</ImageContainerCenter50>
+					</SectionText>
+					<ImageContainer>
+						<NextImage src="/AboutPageImg/AboutIITK.jpg" alt="IITK" layout="fill" objectFit="contain"	/>
+					</ImageContainer>
+				</TextWrapper>
 				<br />	
 				<hr />
 				<br />
 				<SectionTitle id="academics">Academics at IIT Kanpur</SectionTitle>
 				<br />
 				<br />
-				<SectionText>
+				<TextWrapper>
+					<SectionText>
 			Academics at IIT Kanpur empowers the students with a critical thinking led approach, scientific temperament and knowledge in science, engineering, management and humanities fields to solve problems that challenge humanity. The globally acclaimed education prepares the students for rewarding and exciting careers. The excellent education has enabled the alumni to succeed in diverse fields.
-				</SectionText>
-				<ImageContainerCenter40>
-					<NextImage src="/AboutPageImg/students.jpg" alt="IITK" layout="fill" objectFit="contain"	/>
-				</ImageContainerCenter40>
+					</SectionText>
+					<ImageContainer>
+						<NextImage src="/AboutPageImg/students.jpg" alt="IITK" layout="fill" objectFit="contain"	/>
+					</ImageContainer>
+				</TextWrapper>
 				<br />
 				<br />
 				<CustomAutofitGrid>
@@ -169,7 +173,7 @@ export default function AboutPage() {
 							<li>BSNL-IITK Telecom Cen	tre of Excellence</li>
 						</ul>
 					</SectionText>
-			    <ImageContainer>{ /* eslint-disable-line no-mixed-spaces-and-tabs */}
+			    	<ImageContainer>{ /* eslint-disable-line no-mixed-spaces-and-tabs */}
 						<NextImage src="/AboutPageImg/Research.jpg" alt="Research" layout="fill" objectFit="contain"/>
 					</ImageContainer>
 				</TextWrapper>	
@@ -300,7 +304,7 @@ export default function AboutPage() {
 						<Title>Udghosh</Title>
 						<NextImage src="/AboutPageImg/Logos/udghosh.jpeg" width="128" height="128" alt="GnS logo" />
 						<Description>
-					Udghosh, the annual inter college sports allows the students to exhibit their excellence in sports and showcase their talent in various fun games, shows, etc, It happens around end of September and hosts the best athletes from engineering campuses around India. {" "}
+						This is the annual sports meet of IIT Kanpur. It is an exhibition of sporting fervour, and success in the meet has been ratified by the success of many of its winners higher up in the sporting hierarchy. It offers a common platform for the students of numerous educational institutions from all over the country to exhibit and hone their skills in the sport arena. It attracts huge participation under its banner from across the country. The institute has, in all four sprawling well-maintained grounds. This includes two cricket grounds, one for football, and one for Hockey, volley courts, two basketball courts, complete with night-lights and seating facility.{" "}
 						</Description>
 					</Card>
 				</CustomAutofitGrid3>
@@ -347,13 +351,18 @@ const Description = styled.div`
 const TextWrapper = styled.div`
   display: flex;
   justify-content: space-between;
+  ${media("<=tablet")} {
+    display:block;
+  }
 `
 
 const SectionText = styled.div`
   flex: 1;
   font-size: 1.8rem;
-  text-align: justified;
+  text-align: justify;
   opacity: 0.9;
+  margin:20px 30px auto auto;
+  font
 `
 const SectionTitle2 = styled.div`
   font-size: 2.4rem;
@@ -392,17 +401,14 @@ const ImageContainer = styled.div`
 	  border-style: solid;
 	  border-radius:0.6rem;
   }
-`
-const ImageContainerCenter50 = styled.div`
-  height: 50rem;
-  align: center;
-  position: relative;
-`
-const ImageContainerCenter40 = styled.div`
-  height: 40rem;
-  align: center;
-  position: relative;
-`
+  ${media("<=tablet")} {
+	max-width: 100%;
+    display:block;
+	height:30rem;
+	width:auto;
+	margin-top:20px;
+  }
+  `
 const ImageContainerCenter30 = styled.div`
   height: 30rem;
   align: center;

@@ -59,7 +59,7 @@ export default function Testimonials() {
 								<Content>{singleTestimonial.content}</Content>
 								<AuthorContainer>
 									<AuthorImageContainer>
-										<NextImage src={singleTestimonial.author.avatarUrl} alt={singleTestimonial.author.name} width={48} height={48} />
+										<NextImage src={singleTestimonial.author.avatarUrl} alt={singleTestimonial.author.name} width={200} height={100} className="imgTestimonial"/>
 									</AuthorImageContainer>
 									<AuthorContent>
 										<AuthorName>{singleTestimonial.author.name}</AuthorName>
@@ -76,7 +76,6 @@ export default function Testimonials() {
 		</div>
 	)
 }
-
 const TestimonialsWrapper = styled(Container)`
   position: relative;
 
@@ -108,8 +107,8 @@ const TestimonialCard = styled.div`
   & > *:not(:first-child) {
     margin-top: 5rem;
   }
+  
 `
-
 const Content = styled.blockquote`
   text-align: center;
   font-size: 1.9rem;
@@ -125,6 +124,10 @@ const Content = styled.blockquote`
 const AuthorContainer = styled.div`
   display: flex;
   align-items: center;
+  ${media("<=tablet")} {
+	  display:grid;
+	  grid-template-rows:1fr 1fr;
+  }
 `
 
 const AuthorContent = styled.div`
@@ -151,4 +154,14 @@ const AuthorImageContainer = styled.div`
   border-radius: 10rem;
   margin-right: 1rem;
   overflow: hidden;
+  ${media("<=tablet")} {
+	margin:0;
+	padding:0;
+	width:auto;
+	min-height:60rem;
+	position:absolute;
+	top:0;
+  }
+
+
 `
