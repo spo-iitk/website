@@ -362,7 +362,9 @@ const SectionText = styled.div`
   text-align: justify;
   opacity: 0.9;
   margin:20px 30px auto auto;
-  font
+  ${media("<=tablet")} {
+	margin:20px auto auto auto;
+  }
 `
 const SectionTitle2 = styled.div`
   font-size: 2.4rem;
