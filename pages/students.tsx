@@ -149,6 +149,9 @@ const ResourcesC = [
 	{
 		name: "Previous Year IP and JAF",
 		link: "https://spo.iitk.ac.in/resources/"
+	}, {
+		name: "Preparation Portal",
+		link: "https://spo.iitk.ac.in/preparation/"
 	}
 ]
 
@@ -165,7 +168,10 @@ const Routes = [
 	}, {
 		name: "FAQs",
 		url: "/students#faqs"
-	},
+	},{ 
+		name: "Preparation Portal", 
+		url: "https://spo.iitk.ac.in/preparation/" 
+	}
 ]
 
 export default function StudentsPage() {
