@@ -26,7 +26,7 @@ const footerItems: FooterItems = [
 		items: [
 			{ title: "Steps -  Company registration", href: "/companies#steps" },
 			{ title: "Recruitment Procedure and Policy", href: "/companies#policy" },
-			{ title: "Brochures", href: "/assets/IITK_Recruitment_Brochure_2021-22.pdf" },
+			{ title: "Brochures", href: "/assets/IITK_Recruitment_Brochure_2022-23.pdf" },
 			{ title: "Departmental Brochures", href: "/departmental-brochure" },
 			{ title: "FAQs", href: "/companies#faqs" },
 		],

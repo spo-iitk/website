@@ -139,7 +139,7 @@ const ResourcesL = [
 	},
 	{
 		name: "Campus Recruitement Brochure",
-		link: "/assets/IITK_Recruitment_Brochure_2021-22.pdf"
+		link: "/assets/IITK_Recruitment_Brochure_2022-23.pdf"
 	},
 	{
 		name: "Campus Recruitment Guide",
