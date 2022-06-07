@@ -7,7 +7,7 @@ import "swiper/css/autoplay"
 import { AppProps } from "next/dist/shared/lib/router/router"
 import dynamic from "next/dynamic"
 import Head from "next/head"
-import { ColorModeScript } from "nextjs-color-mode"
+// import { ColorModeScript } from "nextjs-color-mode"
 import React, { PropsWithChildren } from "react"
 import { TinaEditProvider } from "tinacms/dist/edit-state"
 
@@ -46,7 +46,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         /> */}
 				{/* <script async src="https://www.google-analytics.com/analytics.js"></script> */}
 			</Head>
-			<ColorModeScript />
+			{/* <ColorModeScript /> */}
 			<GlobalStyle />
 
 			<Providers>
