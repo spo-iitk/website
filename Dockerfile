@@ -10,8 +10,7 @@ WORKDIR /home/website
 RUN git config --global user.name "SPO Web Team"
 RUN git config --global user.email "pas@iitk.ac.in"
 
-RUN git clone --depth 1 https://github.com/abhishekshree/spo-website.git .
-# RUN git clone --depth 1 https://github.com/spo-iitk/website.git .
+RUN git clone --depth 1 https://github.com/spo-iitk/website.git .
 
 EXPOSE 80
 
