@@ -34,9 +34,9 @@ const footerItems: FooterItems = [
 	{
 		title: "For Students",
 		items: [
-			{ title: "Steps - Students Registration", href: "/" },
-			{ title: "Policy", href: "/" },
-			{ title: "Preparation Portal", href: "/" },
+			{ title: "Steps - Students Registration", href: "/students#steps" },
+			{ title: "Policy", href: "/students#resources" },
+			{ title: "Preparation Portal", href: "https://spo.iitk.ac.in/preparation/" },
 			{ title: "Insights", href: "/insights" },
 			{ title: "FAQs", href: "/students#faqs" },
 		],
