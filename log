@@ -1,0 +1,150 @@
+From https://github.com/abhishekshree/spo-website
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+yarn install v1.22.18
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+warning Pattern ["@graphql-codegen/plugin-helpers@latest"] is trying to unpack in the same destination "/home/salazar/.cache/yarn/v6/npm-@graphql-codegen-plugin-helpers-2.3.1/node_modules/@graphql-codegen/plugin-helpers" as pattern ["@graphql-codegen/plugin-helpers@^2.3.0","@graphql-codegen/plugin-helpers@^2.3.0","@graphql-codegen/plugin-helpers@^2.3.0","@graphql-codegen/plugin-helpers@^2.3.0","@graphql-codegen/plugin-helpers@^2.3.0","@graphql-codegen/plugin-helpers@^2.3.0"]. This could result in non-deterministic behavior, skipping.
+[3/4] Linking dependencies...
+warning " > styled-components@5.3.3" has unmet peer dependency "react-is@>= 16.8.0".
+warning " > tinacms@0.63.0" has unmet peer dependency "react-is@^16.13.1 || <18.0.0".
+warning "tinacms > @tinacms/sharedctx@0.0.1" has unmet peer dependency "react-is@>=16.14.0".
+warning "tinacms > @tinacms/toolkit@0.56.6" has unmet peer dependency "react-is@>=16.14.0".
+warning "tinacms > @tinacms/toolkit > react-beautiful-dnd@11.0.5" has incorrect peer dependency "react@^16.8.5".
+warning "tinacms > @tinacms/toolkit > @udecode/plate > @udecode/plate-styled-components@7.0.2" has unmet peer dependency "react-is@>=16.8.0".
+warning "tinacms > @tinacms/toolkit > @udecode/plate > @udecode/plate-combobox > @udecode/zustood@0.4.0" has incorrect peer dependency "zustand@3.5.10".
+warning " > url-loader@4.1.1" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+warning " > @babel/eslint-parser@7.15.4" has unmet peer dependency "@babel/core@>=7.11.0".
+warning "@tinacms/cli > @graphql-codegen/typescript-generic-sdk@2.3.0" has unmet peer dependency "graphql-tag@^2.0.0".
+warning " > copy-webpack-plugin@9.0.1" has unmet peer dependency "webpack@^5.1.0".
+[4/4] Building fresh packages...
+$ husky install
+husky - Git hooks installed
+Done in 13.31s.
+yarn run v1.22.18
+$ yarn lint --fix && yarn tinacms server:start -c "next build"
+$ next lint --fix
+warn  - SWC minify release candidate enabled. https://nextjs.org/docs/messages/swc-minify-enabled
+✔ No ESLint warnings or errors
+$ /home/salazar/Documents/SPO/spo-website/node_modules/.bin/tinacms server:start -c 'next build'
+
+(node:98091) [DEP0147] DeprecationWarning: In future versions of Node.js, fs.rmdir(path, { recursive: true }) will be removed. Use fs.rm(path, { recursive: true }) instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Started Filesystem GraphQL server on port: 4001
+Visit the playground at http://localhost:4001/altair/
+Generating Tina config
+Compiling...
+Transpiling...
+Generating types...
+Typescript types => /home/salazar/Documents/SPO/spo-website/.tina/__generated__/types.ts
+GraphQL types ====> /home/salazar/Documents/SPO/spo-website/.tina/__generated__/schema.gql
+warn  - SWC minify release candidate enabled. https://nextjs.org/docs/messages/swc-minify-enabled
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+info  - Checking validity of types...
+info  - Creating an optimized production build...
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+info  - Compiled successfully
+info  - Collecting page data...
+(node:98375) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+info  - Generating static pages (0/29)
+info  - Generating static pages (7/29)
+info  - Generating static pages (14/29)
+info  - Generating static pages (21/29)
+(node:98346) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98410) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+info  - Generating static pages (29/29)
+info  - Finalizing page optimization...
+
+Page                                                         Size     First Load JS
+┌ ● /                                                        32.9 kB         155 kB
+├   └ css/10f5022fac225891.css                               931 B
+├   /_app                                                    0 B             118 kB
+├ ○ /404                                                     13.8 kB         132 kB
+├ ○ /about                                                   9.11 kB         131 kB
+├ ○ /administration                                          2.36 kB         124 kB
+├ λ /api/sendEmail                                           0 B             118 kB
+├ ○ /chairman-message                                        3.6 kB          125 kB
+├ ○ /companies                                               5.27 kB         133 kB
+├ ○ /contact                                                 10.5 kB         128 kB
+├ ○ /cookies-policy                                          3.49 kB         121 kB
+├ ○ /departmental-brochure                                   2.42 kB         120 kB
+├ ○ /director-message                                        3.27 kB         125 kB
+├ ○ /features                                                3.36 kB         125 kB
+├ ● /insights                                                2.08 kB         120 kB
+├ ● /insights/[slug] (1793 ms)                               63.3 kB         185 kB
+├   ├ /insights/2022-intern-gaurav-manwani-optiver (915 ms)
+├   └ /insights/2022-intern-suhas-s-optiver (878 ms)
+├ ○ /placement-coordinators                                  3.83 kB         126 kB
+├ ○ /pricing                                                 2.58 kB         120 kB
+├ ○ /privacy-policy                                          3.49 kB         121 kB
+├ ○ /student-team/2013-14                                    2.69 kB         124 kB
+├ ○ /student-team/2014-15                                    4.58 kB         126 kB
+├ ○ /student-team/2015-16                                    4.27 kB         126 kB
+├ ○ /student-team/2016-17                                    4.31 kB         126 kB
+├ ○ /student-team/2017-18                                    3.77 kB         126 kB
+├ ○ /student-team/2018-19                                    4.09 kB         126 kB
+├ ○ /student-team/2019-20                                    4.34 kB         126 kB
+├ ○ /student-team/2020-21                                    4.36 kB         126 kB
+├ ○ /student-team/2021-22                                    4.58 kB         126 kB
+├ ○ /students                                                4.24 kB         132 kB
+└ ○ /vice-chairman-message                                   2.74 kB         125 kB
++ First Load JS shared by all                                118 kB
+  ├ chunks/framework-25a84902f454c528.js                     46.6 kB
+  ├ chunks/main-673cdfd36112ad0b.js                          27.7 kB
+  ├ chunks/pages/_app-655f43ea5720dbb2.js                    41.5 kB
+  ├ chunks/webpack-3047143cfdd4d854.js                       1.91 kB
+  └ css/cc1afe1648831433.css                                 4.33 kB
+
+λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
+
+
+<--- Last few GCs --->
+
+[98091:0x55ba9203d040]    63204 ms: Scavenge 2043.7 (2084.8) -> 2042.7 (2089.3) MB, 4.6 / 0.0 ms  (average mu = 0.350, current mu = 0.363) allocation failure; 
+[98091:0x55ba9203d040]    64144 ms: Mark-sweep (reduce) 2046.1 (2089.3) -> 2043.8 (2084.1) MB, 432.5 / 0.0 ms  (+ 255.5 ms in 54 steps since start of marking, biggest step 6.7 ms, walltime since start of marking 724 ms) (average mu = 0.329, current mu = 0
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+ 1: 0x55ba8e7c9a65 node::Abort() [/usr/bin/node]
+ 2: 0x55ba8e664622 node::OnFatalError(char const*, char const*) [/usr/bin/node]
+ 3: 0x55ba8e9c2f6a v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/usr/bin/node]
+ 4: 0x55ba8e9c332b v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/usr/bin/node]
+ 5: 0x55ba8eb891fa  [/usr/bin/node]
+ 6: 0x55ba8eba04b1 v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/usr/bin/node]
+ 7: 0x55ba8eb7c4d2 v8::internal::HeapAllocator::AllocateRawWithLightRetrySlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/usr/bin/node]
+ 8: 0x55ba8eb7d539 v8::internal::HeapAllocator::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/usr/bin/node]
+ 9: 0x55ba8eb6272c v8::internal::Factory::NewFillerObject(int, v8::internal::AllocationAlignment, v8::internal::AllocationType, v8::internal::AllocationOrigin) [/usr/bin/node]
+10: 0x55ba8eeea339 v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/usr/bin/node]
+11: 0x55ba8f2e6bf9  [/usr/bin/node]
+error Command failed with signal "SIGABRT".
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.18
+$ yarn tinacms server:start -c "next start"
+$ /home/salazar/Documents/SPO/spo-website/node_modules/.bin/tinacms server:start -c 'next start'
+
+(node:98846) [DEP0147] DeprecationWarning: In future versions of Node.js, fs.rmdir(path, { recursive: true }) will be removed. Use fs.rm(path, { recursive: true }) instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Started Filesystem GraphQL server on port: 4001
+Visit the playground at http://localhost:4001/altair/
+Generating Tina config
+Compiling...
+Transpiling...
+Generating types...
+Typescript types => /home/salazar/Documents/SPO/spo-website/.tina/__generated__/types.ts
+GraphQL types ====> /home/salazar/Documents/SPO/spo-website/.tina/__generated__/schema.gql
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+warn  - SWC minify release candidate enabled. https://nextjs.org/docs/messages/swc-minify-enabled

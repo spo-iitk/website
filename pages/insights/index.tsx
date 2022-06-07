@@ -45,7 +45,7 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 								</NextLink>
 							)
 						} else {
-							<></>
+							return <></>
 						}
 
 					})}
