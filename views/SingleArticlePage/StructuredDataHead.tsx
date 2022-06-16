@@ -16,7 +16,7 @@ interface StructuredDataHeadProps {
 export default function StructuredDataHead(props: StructuredDataHeadProps) {
 	const { slug, title, date, description, tags, author } = props
 
-	const currentSiteUrl = EnvVars.URL + "blog/" + slug
+	const currentSiteUrl = EnvVars.URL + "insights/" + slug
 	const ogImageUrl = EnvVars.OG_IMAGES_URL + `${slug}.png`
 	const domainName = EnvVars.URL.replace("https://", "")
 	const logoUrl = EnvVars.URL + "logo.png"

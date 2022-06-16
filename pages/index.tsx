@@ -75,7 +75,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
 							</MessageSection>
 						</SwiperSlide>
 						<SwiperSlide>
-							<MessageSection imageUrl="/testimonials/cc_2.png" title="Chairman's Message" reversed>
+							<MessageSection imageUrl="/testimonials/cc_2.png" title="Chairman's Message">
 								<p>
 							I would like to warmly welcome all the current and prospective recruiters to the Student Placement Office (SPO) of IIT Kanpur.
 							In this age, demanding continual technology enhancements, the industry requires talented youngsters with outstanding

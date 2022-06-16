@@ -15,7 +15,7 @@ interface OpenGraphHeadProps {
 export default function OpenGraphHead(props: OpenGraphHeadProps) {
 	const { slug, title, description, date, tags } = props
 
-	const currentUrl = EnvVars.URL + "blog/" + slug
+	const currentUrl = EnvVars.URL + "insights/" + slug
 	const ogImageUrl = EnvVars.OG_IMAGES_URL + `${slug}.png`
 	const domainName = EnvVars.URL.replace("https://", "")
 

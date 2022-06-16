@@ -26,7 +26,7 @@ const footerItems: FooterItems = [
 		items: [
 			{ title: "Steps -  Company registration", href: "/companies#steps" },
 			{ title: "Recruitment Procedure and Policy", href: "/companies#policy" },
-			{ title: "Brochures", href: "/assets/IITK_Recruitment_Brochure_2021-22.pdf" },
+			{ title: "Brochures", href: "/assets/IITK_Recruitment_Brochure_2022-23.pdf" },
 			{ title: "Departmental Brochures", href: "/departmental-brochure" },
 			{ title: "FAQs", href: "/companies#faqs" },
 		],
@@ -34,10 +34,10 @@ const footerItems: FooterItems = [
 	{
 		title: "For Students",
 		items: [
-			{ title: "Steps - Students Registration", href: "/" },
-			{ title: "Policy", href: "/" },
-			{ title: "Preparation Portal", href: "/" },
-			{ title: "Insights", href: "/blog" },
+			{ title: "Steps - Students Registration", href: "/students#steps" },
+			{ title: "Policy", href: "/students#resources" },
+			{ title: "Preparation Portal", href: "https://spo.iitk.ac.in/preparation/" },
+			{ title: "Insights", href: "/insights" },
 			{ title: "FAQs", href: "/students#faqs" },
 		],
 	},

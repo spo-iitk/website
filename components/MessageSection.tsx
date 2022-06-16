@@ -61,6 +61,7 @@ const ImageContainer = styled.div`
 
   ${media("<=desktop")} {
     width: 100%;
+    max-width: 80%;
   }
 `
 
