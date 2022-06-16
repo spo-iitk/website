@@ -34,7 +34,7 @@ export default function Page({ title, description, keywords,routes, children, no
 					<meta name="description" content={description} />
 					<meta
 						name="keywords"
-						content={keywords}
+						content={keywords +" ,Placement, IIT Placement, Engineering placement, Internship, Technical Placement"}
 					/>
 				</Head>
 			}
