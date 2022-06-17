@@ -63,7 +63,7 @@ export default function AboutPage() {
 				<br />
 				<TextWrapper>
 					<SectionText>
-			Academics at IIT Kanpur empowers the students with a critical thinking led approach, scientific temperament and knowledge in science, engineering, management and humanities fields to solve problems that challenge humanity. The globally acclaimed education prepares the students for rewarding and exciting careers. The excellent education has enabled the alumni to succeed in diverse fields.
+						Academics at IIT Kanpur empowers the students with scientific temperament and knowledge in diverse disciplines of science, engineering, management, and humanities and social sciences. The pedagogy at IIT Kanpur teaches the students to take an approach led by critical thinking to solve technologically challenging problems. The globally acclaimed education prepares the students for rewarding and exciting careers. The excellent education has enabled the alumni to succeed in diverse fields.
 					</SectionText>
 					<ImageContainer>
 						<NextImage src="/AboutPageImg/students.jpg" alt="IITK" layout="fill" objectFit="contain"	/>
