@@ -15,6 +15,8 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 	const filteredBlogPosts = posts.filter((singlePost) => {
 		const searchContent = singlePost.meta.title + singlePost.meta.description + singlePost.content + singlePost.meta.tags
 		return searchContent.toLowerCase().includes(searchValue.toLowerCase())
+	}).sort((a, b) => {
+		return new Date(b.meta.date).valueOf() - new Date(a.meta.date).valueOf()
 	})
 
 	return (
