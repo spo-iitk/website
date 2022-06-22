@@ -77,7 +77,7 @@ if __name__ == "__main__":
         
 		file.write(row["Name"] + ", studying in IIT Kanpur as a " + row["Programme"] + " student in " + 
 			row["Department"] + " will do\n" + x +  " summer internship in " + row["Profile"] 
-			+ " profile at " + row["Company"] + ". Here are some breif\n" + "insights of " + y +".\n\n")
+			+ " profile at " + row["Company"] + ". Here are some brief\n" + "insights of " + y +".\n\n")
 		file.write(
 			"## Shortlisted Profiles & Companies:\n")
 		file.write(str(

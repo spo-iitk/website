@@ -1,0 +1,96 @@
+Name,Programme,Department,Gender,Company,Profile,Companies & Profiles that you were shortlisted for,Insights on the Selection Process, Preparation Resources ,Adivce for students (dos and don’ts)?
+Ananya Gupta,BT,CSE,F,Quadeye,Quant,"Goldman Sachs - Summer Analyst, Uber - Software, Graviton - software, Sprinklr - Software, Microsoft -Both software and data science ","I gave interviews for 3 companies out of the ones I was shortlisted for. 
+
+1.) Goldman Sachs:- 
+I had 2 rounds, some people had to appear for 3. Both were technical rounds. In my first round, I was asked 3 questions. One was based on basic probability, one was based on DFS in a matrix (just the algorithm, not coding) and last one was an analytical puzzle. In the second round, it started with a discussion on my second year summer intern, then I was asked differences between arrays and linked lists, where can doubly linked lists be used in real life, etc. Then, there was a question on indexing in a DBMS, 2-3 direct questions from 50CP/brainstellar. The second round was much longer than the first one. 
+
+2.) Quadeye:-
+Here, I had continuous 4-5 rounds without break, some were even 10 minute rounds. The questions were mostly based on probability and puzzles (not from brainstellar/50 CP, you need to think fast on the spot), 1-2 questions on describing the algorithm for a particular problem and even some on mental math (like 105 square, 39*41, etc).
+
+3.) Uber:-
+I gave one round only, since Quadeye made an on the spot offer. I had to code two questions, they were pretty straightforward. One was based on prefix sum and hashmaps and other was based on DFS on a binary tree.","1.) For coding practice - Interview Bit and LeetCode
+
+2.) For probability and puzzles - 50 CP, Brainstellar and IB puzzles
+
+3.) For statistics - YouTube videos on hypothesis testing, regression 
+
+4.) For OOPS theory - Tutorialspoint, Gfg","For tests:- The hard part is getting shortlisted for interviews. Try to do regular coding practice over the summers if you're aiming for SDE profiles. I didn't do codeforces, codechef, etc, I focused on IB/LC only. For quant companies, few of them don't take tests and CPI plays an important role there. Like for GS, a high CPI will give you a better shortlisting chance even if you mess up your test. APT portfolio, alphagrep, GS, etc will have a section of questions on probability and statistics, JEE type math. Having practiced timed tests will definitely help you out here. For data science roles, brush up your ML knowledge. MS data science test had 2 questions in which we had to code models (regression using sklearn, etc) and also a section on theoretical MCQs. 
+
+Revise all concepts of DSA, have a good theoretical grasp. Do not skip over graphs part while practicing coding. Be thorough with OOPS concepts too. Do not forget to do brainstellar and 50 CP if you're aiming for quant profiles (can be done in 2-3 days). In your summers, trying doing one project/intern in the area you're interested in along with intern prep. 
+For interviews, try doing 1-2 mock interviews before you give the real ones, it'll help you adjust to interview setting. 
+
+Lastly, keep in touch with seniors, ask them about the companies you're aiming for and their procedure. Take tips from them. It'll help you guide your preparation in the right direction."
+Atur Gupta,BT,CSE,M,Quadeye,Quant,"Optiver - Quant, Tower Research - Quant, Alphagrep - Quant, Alphagrep - Software, DE Shaw - Software, Sprinklr - Software, Goldman Sachs - Analyst, Microsoft - Software","In all of the quant interviews (Alphagrep, Quadeye, Goldman Sachs) except Tower and Optiver, I was asked questions straight from the website Brainstellar and 50 challenging Problems book. In Tower, I was asked questions on standard deviation and variance on random variables, which was something I neither expected nor had prepared for. For optiver, you have to be really good at mental math and the concept of expectation in probability. ","1.) For Quant -  Brainstellar and 50 Challenging Problems 
+
+2.) For Software -  Interviewbit mostly. Preferred solutions given in discussion section of leetcode for the same questions. ","1.) If you're a student reading this before the summers, my first and most important advice would be for you to focus on increasing your cpi as much as you can. It is extremely important to get shortlisted in good companies. Definitely keep it above 9 if you're targeting Day 1 companies.
+ 
+2.) As for software profiles, Competitive programming is a must for companies Google and Rubrik, and maybe Uber too. For other companies like sprinklr, microsoft, etc just interviewbit would be fine.  
+
+3.) Now for Quant profiles, both brainstellar and 50 challenging problems, are necessary and sufficient. Do both of 'em twice at least. I was also asked mental math problems in some companies' interviews (Quadeye, Optiver). 
+
+4.)Some general tips -  The projects and internships on your resume don't help much (at all?) in getting shortlisted for interviews. It's just CPI and tests. As for interviews, what's required is that you should be able to explain why you'd be a good fit for the company and the relevant role. For this, the relevant projects/internships can help."
+Dipanshu Garg,BT,CSE,M,Quadeye,Systems,"Graviton, Alphagrep, DE Shaw, Rubrik, Google, Sprinkler, GS","Topics - Data Structures and Algorithms, OOP, Probability
+
+Company specific shortlisting:
+
+1.) HFTs software - (Highly) biased towards high CPI. Some don't even conduct tests. Tests are of moderate difficulty.
+
+2.) Rubrik - Shortlisting purely based on coding test. Quality of questions is really good. You should be comfortable with solving A/B/C/D problems in a CF Div 2 round.
+
+3.) Google - Resume shortlisting + test. Do participate in Kickstart/Codejam. If you secure good ranks in them, mention them on your resume as it is a big plus.
+
+Interviews:
+
+1.) HFTs software - Besides DSA, they might expect some knowlege of OOP preferably in C++.
+
+2.) Rubrik - Similar to test just in a different format.
+
+3.) Google - Tricky DSA problems. Also you need to code in a google doc.","Codeforces, InterviewBit, Leetcode, Fifty challenging problems in Probability",Try to maintain a good CPI. Also start preparation early.
+Gurbaaz Singh Nandra,BT,CSE,M,Quadeye,Systems,"Jane Street, Optiver, Quadeye, Sprinklr, Microsoft, Goldman Sachs","1. Resume Shortlist: Branch CSE and CPI > 9 was the criteria
+
+2. Interview Process
+
+a. Interview rounds = 1
+b. Duration = 1 hour
+c. Type of question asked during interviews: There were a
+total of 4 interviewers, roughly interviewing for 15-20 min
+each:-
+        i.Basic introduction, general questions related to C/C++, STL implementations e.g. set vs unordered set, pass by value vs pass by reference etc.
+        ii. DSA questions on linked list.
+        iii. DSA questions covering DP, Stack, and Sorting.
+        iv. Puzzle round.
+d. No quant related question was asked as such since they
+already asked the preference at the start of the interview.
+e. In general, the questions were basic to medium and one
+could answer confidently given he/she has done a
+decent prep.","Interview Bit, LeetCode, GFG, Fifty Challenging Problems in Probability, Gurmeet Puzzles and Brainstellar","Do:
+● Sitting for non-core/software roles, coding preparation, without any doubt, is a must.
+Utilize the summers well and be consistent in solving questions on coding platforms.
+● Put a bit of work daily on improving your communication skills. There is no fun if you
+know the solution to an XYZ technical/HR question but fail to communicate it
+effortlessly to the interviewer.
+● Start working on building your resume and reviewing it from seniors early. Else it
+unnecessary creates last-minute panic.
+
+Don’t:
+● Waste time in comparing yourself to others and looking down upon yourself. Rather
+focus on your own growth and efforts.
+● Pull other legs down or demotivate others. Intern/placement times could be
+overwhelming to one’s physical and mental health, and you should rather be
+supporting and motivating others than making fun of their misery."
+Akshat Sharma,BT,CSE,M,Graviton Research Capital LLP,Software Engineering,"Quadeye (Software engineering intern), Optiver (Software engineering intern)","The Graviton interview involved 2 coding questions. The first used trees and recursion, the second was quite unique and based on discrete mathematics. No questions from dynamic programming/graphs were asked. 
+
+The second round of the graviton interview involved a lot of questions from computer organisation (CS220). They asked questions based on memory management(about heap,stack, global pointer memory allocation), how the memory stack is maintained in programs(they gave an example program and asked me how the stack would be arranged), pipelining, hazards related to pipelining.
+
+The last question was a practical one based on how cache misses and branch prediction influence performance and how to write code that keeps these points in mind. Most of the above points are covered in CS220 (other than the pratical aspects of writing code)","1.) For Coding practice : Interviewbit(website), Geeks for geeks(website). 
+
+2.) For Algorithms theory : Introduction to algorithms by Cormen. 
+
+3.) For Probability : CS203 course slides, Brainstellar(website).",Start preparing at the start of your summers. Try to identify which profiles are of your interest. Get your resume checked with atleast 5 seniors. If applying for high frequency trading profiles then knowledge of the market is a must. Try and be consistent. Be confident and formal during the interview.
+Himanshu Sood,BT,CSE,M,Jane Street,Quantitative Trading,"Jane Street - Quant Trading, Quadeye - Quant, Microsoft - SDE","1. Resume Shortlist
+2.Test - There was a subjective test with questions on probability
+3. Interview Process - There were a total of five interviews, one of which was a preliminary round, and the other four happened consecutively on the final day.
+
+They mostly tested for knowledge and ability to apply fundamental probability concepts such as linearity of expectation, understanding of probability distributions, etc.","A Collection of Dice Problems by Matthew M. Conroy, 50 Challenging Problems in Probability, Brainstellar, LeetCode, CSES Problemset","For Quant profiles, it’s important to be well versed with Probability concepts (such as
+expected value and linearity of expectation). They also expect you to be able to do simple
+computations quickly and accurately."
