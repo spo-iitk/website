@@ -90,6 +90,6 @@ if __name__ == "__main__":
 		file.write(str(
 			row[" Preparation Resources "]) + "\n\n")
 		file.write(
-			"## Adivce for students (dos and don’ts)? " + "\n")
+			"## Advice for students (dos and don’ts)? " + "\n")
 		file.write(str(
-			row["Adivce for students (dos and don’ts)?"]) + "\n" + "\n")
+			row["Advice for students (dos and don’ts)?"]) + "\n" + "\n")
