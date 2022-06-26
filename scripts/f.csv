@@ -1,55 +1,27 @@
 Name,Programme,Department,Gender,Company,Profile,Companies & Profiles that you were shortlisted for,Insights on the Selection Process, Preparation Resources ,Advice for students (dos and don’ts)?
 Shubh Agrawal,BT,CSE,M,Rubrik,Software Development,"Google, Rubrik, Uber, Graviton, Tower Research, Quadeye, Microsoft, Sprinklr","In SDE role, most of the interviews are based upon algorithms and Data Structures only. You will be given questions and you will have to solve them and write code/pseudo code and then even explain it. Explaining is the most important step. Also try to give good names to variables, in one of the interview I was asked to change all the variable names so that the code looks good. Also in some cases you might be asked questions from some of the courses , but that chance of asking that is less.
+Name,Programme,Department,Gender,Company,Profile,Companies & Profiles that you were shortlisted for,Insights on the Selection Process, Preparation Resources ,Adivce for students (dos and don’ts)?
+Gyanendra Kumar,BT,ME,M,Microsoft,SWE,NA,"I have only 1 round of interviews with Microsoft as I was a part of Engage Mentorship program. The round is named AA round (As Appropriate). There is only one interviewer, and he has an experience of more than 20 years with Microsoft. Since I was a part of the mentorship program, the initial 15 mins discussion was on my project. He asked me to give a quick demo of my project, open the source code, and explain what I have done and why I did it. Then he asked about my previous internship experience, which was very brief (2-5 min only). After all this, they came to DSA ( Data Structure and Algorithm). He put one sample test case of the linked list in the comment box and asked me to predict the possible question. I predicted around 4-5 possible questions. Then he gave me a second test case, and I was successfully able to predict the questions. The question is straightforward once you predict the question. The question is as follows: Given a linked list, split it into two halves, reverse both halves, and connect the end of the first linked list. In the end, they ask me to code the same problem.","Theory
 
-In quant roles, generally  puzzles and probability questions are asked. ","Interviewbit , CodeForces","Try to wrap up all the things you do in summers by June end . From July the things get a bit time consuming , you will first have to give time to make resume and then the coding rounds are soon lined up and then preparing for interview. All this require much time.
-Also do practise from the test series from archives , they are really good set of question.
-"
-Dawood Bin Mansoor,BS,MTH,M,Rubrik,Software Development,"Microsoft, Google, Quadeye , Graviton","Disjoint Set Union(Medium), DFS (Cycle Detection+ DP(Easy))","Leet Code Medium and Hard, Brainstellar(Medium and Hard)","Besides standard prep of Competitive Programming Questions, do a Project wherein you apply some level of advanced programming like Asynchronous Programming, Web Servers, Multithreaded Programming, Tech Stacks. Also, do Competitive Programming. Start preparation early on so that you do'nt face  tremendous pressure during the last days."
-Antreev Singh Brar,BT,CSE,M,Tower Research Capital,Quant Researcher,-,"1.) Resume Shortlist: Based on CPI
-2.) Test: Technical test was taken - OS / Network and CP based questions
-3.) Interview Process: 2 Rounds of Technical and One small HR round. Both technical rounds revolved around probability , statistics , data structures and puzzles. The HR round was more of like a brainstorming session on dealing with a open ended finance problem. Just like an informal discussion.
+1. GFG - https://www.geeksforgeeks.org/
 
-The Resume selection criteria for all HFTs is just CPI along with your branch. Its simple as that. So if you are in CSE with 9.5+ , you should get in most HFTs interviews. Tower had a technical test, so you had to perform well in it be shortlisted. Interview rounds were hard, the data structure questions asked could be weighted at about 1900-2000 on codeforces. The probability ones were straight out of CS203 course and 50 interesting problems in statistics book. The informal HR round was fun.
+Video Lectures
 
-Interview Questions: You have 2 sticks with an error of ‘a%’ and ‘b%’ (while measuring length) . What is the minimum percentage in error you can get while measuring the length of the stick formed after joining the two sticks.","Data structures : Codeforces , Interviewbit","1) Code and improve CPI
-2) Don't lose ur cool"
-Anchal Gupta,BT,CSE,F,Sprinklr,Product Engineer,"Google India - Software Engineer, Goldman Sachs - Summer Analyst, Optiver - Software Engineer Internship, Uber - Software Engineer, Sprinklr - Product Engineer","In Goldman Sachs, there were questions related to probability and stats, puzzles 
-In Google, Uber, Sprinklr only coding questions were asked in all the rounds
-In Optiver, questions related to CS fundamentals are also asked apart from quant and coding questions.
+1. DP Lecture - Aditya Verma (YouTube)  - https://www.youtube.com/c/AdityaVermaTheProgrammingLord/playlists
+2. Basic Fundamental of Coding - MyCodeSchool (YouTube) - https://www.youtube.com/user/mycodeschool
 
-Other insights on the interview process - 
-1. Think out loud. Interviewer wants to see your approach so you should keep explaining your thought process.
-2. Communicate well (very important to ace an interview).
-3. Try to catch the hints that the interviewers give. Usually when you are going in the wrong direction or taking a long time to reach to the solution, interviewers give you hints.
-4. If you think you are taking a lot of time, then ask the interviewer to guide you.
-5. Try to think of corner cases and build upon any cases that the interviewers tell.
-6. Practice the standard questions that can be asked related to any topic well.
-7. Lastly, do not panic. Keep calm and keep smiling :)","Leetcode - https://leetcode.com/
-Brainstellar - https://brainstellar.com/
-Interviewbit - https://www.interviewbit.com/
-50 challenging Problems in Prob and Stats -https://drive.google.com/file/d/14JZmX7DsGnwLLdlOVYqLL0u5re60SJWl/view?usp=sharing","1. Start your preparation as early as you can. 
-2. If possible, do group studies and discuss your approach to a question.
-3. Talk to a lot of seniors about the internship preparation and keep in contact with them.
-4. Do not wait for the deadline of resume submission. Prepare and get review from a lot of seniors beforehand."
-Rishabh Dugaye,BT,CSE,M,Sprinklr,Product Engineer,"Uber-SDE,Microsoft-ML","For Sprinklr:
-1st round had Questions on Binary search, Median of stream of numbers,Implementation of heap and basic questions about sorting algorithms.
-2nd round had questions on base conversion,Least recently used cache using DLL and SLL,Implementation of Trie and one puzzle which was from brainstellar hard.
-In both rounds i was also asked about my projects and internships.
-3rd round was HR.
+Practice
 
-For Uber:
-1st round had a easy question on BST where given a BST root and a target T we need to split the tree into two trees where 1st tree has all nodes with values less than V and 2nd tree had value greater than V.This can be solved easily using recursion.
-2nd round was HR and discussion on project.
-3rd round was coding and had a problem implementation problem in which I was only supposed to write pseudocode of a brute force solution.","Coding-Interview Bit and PClub Archives.
-Quant-50 challenging problems and brainstellar.","I would suggest to start coding from May. In my opinion interview bit is sufficient for most of the companies.If you are preparing for companies like google,rubrik,TRC then you should really focus on doing competitive programming on codeforces.Apart from that P Club archives are really helpful and gives you a really good about about the difficulty of tests."
-Shorya Kumar,BT,EE,M,Sprinklr,Product Engineer,"Optiver, DE Shaw , Graviton (SDE and Quant)","Quant 
-1.) Puzzles on probability and expected values 
-2.) Strategy and game theory puzzles 
-
-SDE 
-1.) Data structures and algorithms 
-2.) OOPs and Resume 
-3.) System design interview ( for optiver , which was a complete surprise for me but you better be prepared )
-","Codeforces , Atcoder , GFG , Leetcode , Brainstellar , 50 challenging problems , A guide to Quantitative finance ","1.) Try to be patient and sit tight , you will see people getting shortlisted and your name not in the list even when you expect it to be , don't loose hope. 
-2.) Dont write SQL in your resume if you dont know it inside out . What i mean if you are mentioning use of any technology in your resume then expect questions on it.
-3.) Look at what company does before the interview and make sure to ask questions to the interviewer after the interview about his experiences , work life , what you are working on etc."
+1.) Interviewbit - https://www.interviewbit.com/
+2.) Leetcode - https://leetcode.com/
+3.) Striver SDE Problems: https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/
+","1) Prepare well for the coding round. 
+2) Mostly, DP questions are asked in the coding round.  
+3) Make sure to have good practice beforehand.  
+4) It may be possible that during the initial days of the internship season, you will not be able to grab an internship offer, but if you prepare well, then you will get the offer in the latter part of the drive. Internship season is spread throughout the year. Focus more on your preparation.
+5) Do not lose calm. Stay motivated and try and learn as much as you can.
+6) Talk to seniors if you need guidance or help in your internship preparation.
+Feel free to reach out to me in case of any doubts."
+Vaishnavi gupta,BS,MTH,F,Microsoft,SWE,"Goldman Sachs , Optiver ,APT Portfolio","DFS, DP, String, Matrices, Arrays","Interview bit, Geeks for Geeks, Leetcode, Brainstellar, Gurmeet puzzles, Fifty Challenging Problems ","1) Try to maintain or increase your CPI as it matters a lot in shortlisting 
+2) Try doing the questions in a timed manner as it really help in doing the tests "
+Jadhav Dnyandeep Chandrakant,BS,MTH,M,Microsoft,SWE,Sprinkler SWE,Mainly Coding interiview. Interviewers were friendly and supportive. ,"Interview Bit, Geeks for Geeks, Youtube. ","Maintain good CPI and do coding, use vacations effectively either coding or doing some project. "
