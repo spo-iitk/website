@@ -1,27 +1,65 @@
 Name,Programme,Department,Gender,Company,Profile,Companies & Profiles that you were shortlisted for,Insights on the Selection Process, Preparation Resources ,Advice for students (dos and don’ts)?
-Shubh Agrawal,BT,CSE,M,Rubrik,Software Development,"Google, Rubrik, Uber, Graviton, Tower Research, Quadeye, Microsoft, Sprinklr","In SDE role, most of the interviews are based upon algorithms and Data Structures only. You will be given questions and you will have to solve them and write code/pseudo code and then even explain it. Explaining is the most important step. Also try to give good names to variables, in one of the interview I was asked to change all the variable names so that the code looks good. Also in some cases you might be asked questions from some of the courses , but that chance of asking that is less.
-Name,Programme,Department,Gender,Company,Profile,Companies & Profiles that you were shortlisted for,Insights on the Selection Process, Preparation Resources ,Adivce for students (dos and don’ts)?
-Gyanendra Kumar,BT,ME,M,Microsoft,SWE,NA,"I have only 1 round of interviews with Microsoft as I was a part of Engage Mentorship program. The round is named AA round (As Appropriate). There is only one interviewer, and he has an experience of more than 20 years with Microsoft. Since I was a part of the mentorship program, the initial 15 mins discussion was on my project. He asked me to give a quick demo of my project, open the source code, and explain what I have done and why I did it. Then he asked about my previous internship experience, which was very brief (2-5 min only). After all this, they came to DSA ( Data Structure and Algorithm). He put one sample test case of the linked list in the comment box and asked me to predict the possible question. I predicted around 4-5 possible questions. Then he gave me a second test case, and I was successfully able to predict the questions. The question is straightforward once you predict the question. The question is as follows: Given a linked list, split it into two halves, reverse both halves, and connect the end of the first linked list. In the end, they ask me to code the same problem.","Theory
+Aayush,BS,MTH,M,APT Portfolio Pvt Limited,Quant,Goldman Sachs,"The focus was on topics like expectations, Probability, Dynamic Programming. Some standard puzzles, Standard Data Structure and algorithm questions were asked as well. ","Brainstellar, 50 Challenging Problems in Probability, A Guide to Quantitative Finance Interviews, InterviewBit",Just try to be well-versed with all the standard questions from the important resources instead of trying to solve all the resources.
+Varun Gupta,DoubleMajor,CHE,M,AlphaGrep Securities,Quantitative Researcher,"AlphaGrep - Software, DE Shaw, Microsoft, Goldman Sachs, Uber, Google, Optiver","Resume Shortlist
+a.8.5+ CPI
 
-1. GFG - https://www.geeksforgeeks.org/
+Test
+a.Both programming and aptitude questions
 
-Video Lectures
+Interview Process
+a. 3 (In my case), can vary
+b. Logical Questions where one had to brainstorm the
+entire process.
 
-1. DP Lecture - Aditya Verma (YouTube)  - https://www.youtube.com/c/AdityaVermaTheProgrammingLord/playlists
-2. Basic Fundamental of Coding - MyCodeSchool (YouTube) - https://www.youtube.com/user/mycodeschool
+Perform well in the test is one of the key factors in order to get
+selected.","To prepare for internship season, there are two major areas which one needs to practice, CP and Quant.
 
-Practice
+For CP -
+1) Basic - if you are new to coding then first pick up a coding language (preferably C++, read about STL), understand different Data Structures and learn basic algorithms for graphs since
+it is one of the favorite topics and build upon it.
+2) Advanced – There are different websites where you can practice questions from. I recommend solving Interview Bit since it has many relevant questions. Apart from this I personally used Leetcode during the initial part of preparation and CodeForces towards the end. CP algorithms is a nice resource to widen your coding toolbox.
 
-1.) Interviewbit - https://www.interviewbit.com/
-2.) Leetcode - https://leetcode.com/
-3.) Striver SDE Problems: https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/
-","1) Prepare well for the coding round. 
-2) Mostly, DP questions are asked in the coding round.  
-3) Make sure to have good practice beforehand.  
-4) It may be possible that during the initial days of the internship season, you will not be able to grab an internship offer, but if you prepare well, then you will get the offer in the latter part of the drive. Internship season is spread throughout the year. Focus more on your preparation.
-5) Do not lose calm. Stay motivated and try and learn as much as you can.
-6) Talk to seniors if you need guidance or help in your internship preparation.
-Feel free to reach out to me in case of any doubts."
-Vaishnavi gupta,BS,MTH,F,Microsoft,SWE,"Goldman Sachs , Optiver ,APT Portfolio","DFS, DP, String, Matrices, Arrays","Interview bit, Geeks for Geeks, Leetcode, Brainstellar, Gurmeet puzzles, Fifty Challenging Problems ","1) Try to maintain or increase your CPI as it matters a lot in shortlisting 
-2) Try doing the questions in a timed manner as it really help in doing the tests "
-Jadhav Dnyandeep Chandrakant,BS,MTH,M,Microsoft,SWE,Sprinkler SWE,Mainly Coding interiview. Interviewers were friendly and supportive. ,"Interview Bit, Geeks for Geeks, Youtube. ","Maintain good CPI and do coding, use vacations effectively either coding or doing some project. "
+For Quant –
+1) Revision Mso/hso
+2) 50 challenging Questions
+3) Brain stellar
+4) Xinfeng Chau","If you fear giving interviews, then make sure you attend the mock interviews organized by both SPO and AnC Council. It is better to form a peer group while solving CP questions daily since there will be someone with whom you can discuss different approaches to solve the same problem. Always remember that interview is not just how much you know, but how much you can reproduce in a pressure situation. Maintain your nerves during the interview. While discussing the problem statement make sure you understand it perfectly, you need to ask the interviewer about the end cases. Think aloud during the interview so that interviewer can get to know the approach you are using. Start making resume at least a month before the submission and get it reviewed by some seniors."
+Arpit Maheshwari,BT,EE,M,SAMSUNG Electronics South Korea,Associate,"Graviton (Quant), Microsoft (SDE), DE Shaw (SDE)","People from CSE and EE branches were allowed to give the coding test
+
+Coding test-
+1.) There was 1 coding test of 3 hours duration. The test consisted of 1 question.
+2.) The test was not too difficult. The time complexity bounds were also not too tight for the given constraints of the question which essentially meant that brute force solution also worked. Still, it was lengthy and one had to be careful with the edge cases. Apart from the number of test cases passed, the time taken to solve the problem was also a factor which was considered.
+
+Interview-
+1) It consisted of 2 rounds - HR and Technical
+2) A coding question was asked in the technical round. It was based DP. The problem asked in the interview was based on Knapsack
+3) The HR round had general questions like ""Why do you want to work for Samsung?"","" Do you know anything about Korean culture?"", and things based on similar lines.
+
+CGPA plays a crucial role in getting shortlisted. 14 people were shortlisted for the interview, out of which 6 were finally selected. Among those 6 people, 5 were from CSE and 1 from EE. These numbers generally remain similar every year.","1.) For Coding- Interviewbit, leetcode, contests on Codeforces for time-bound practice. 
+2.) For Quant- Brainstellar, 50 challenging problems","1.) I would say that first chalk out a plan for yourself because every person is in a
+different scenario with varied strengths/ weaknesses, so try and figure out what
+works best for you.
+2.) Start early so that you have enough time to figure out things and prepare accordingly
+3.) Talk to seniors. This is very important since they are the people who have gone
+through similar situations and can easily guide you throughout the process.
+4.)Finally, don't get bogged down by any hiccups that you may face. Stay focused
+and don't let your self-confidence go down. It is easier said than done but then it is
+the reality and it matters a lot."
+Mohd Muzzammil,BT,CSE,M,SAMSUNG Electronics South Korea,Associate,"Graviton, Systems, Quadeye, Systems","1. Coding Round
+a. All CSE and EE people were eligible
+b. Given a single problem and 3hrs to solve it.
+c. Largely a brute force question, with some little dp.
+
+2. CPI Shortlist
+a.14 people were shortlist after coding round based on CPI
+
+3. Interview
+a. Coding nterview:  Easy question based on a variant of maximum subset problem.
+b. HR Interview: They basically try to assess how well may you fit the Korean Culture.",Interviewbit and Codeforces,Do Coding and reach out to seniors in case of any help
+Somya Lohani,BT,CSE,F,Uber,Software Engineer ,"Microsoft Machine Learning Intern, Google Software Engineer, Microsoft Software Engineer, Sprinklr Software Engineer ","For Microsoft ML, I was extensively quizzed about my past projects which were mostly reinforcement learning based. I was also asked questions on the probability concepts relevant to machine learning and different classification and regression models and where and why those models were relevant. All the software roles that I interviewed for, required me to have a good command on competitive programming and DSA concepts. I had to code the  solutions to the problems in real time. Questions based on OOPS were also frequently asked. For most parts, the companies (Software roles) I interviewed for did not discuss my resume at length. ","Interviewbit, Leetcode Medium level problems, CSES problem set, GFG for topic wise revision of DSA concepts and Machine learning Course by Andrew Ng.  ","The process can be very stressful since luck plays a decent amount of role while getting you through interview shortlists and interviews. The key is to have faith in yourself and surround yourself with a good set of friends who are just as motivated and have your best interests in mind. There is no one model that works for everyone, so spend time figuring out what works for you and follow it religiously. "
+Ankit Yadav,BT,ME,M,D.E Shaw India Pvt Ltd,Software Developer,NA,"Questions Related to Dynamic Programming, Graphs and Binary search and very basic questions regarding OOPS were asked.","1) Interview Bit ( Programming and Puzzles)
+2) Codeforces( for pclub contests only)
+3) CSES Problem Set (to consolidate a topic if enough time is there)
+4) Competitive Programming - 3  (BOOK by Steven Halim and Felix Halim)
+5) Brainsteller
+6) GeeksforGeeks","Most important thing is to have good peer group for discussing questions, find people with common interest, keep giving contests organized by pclub and you must keep learning things which you don't know and due to which you were not able to solve a particular question in company tests and contests. My personal advice would be to First do each and every question from Interview Bit and keep learning things you don't know from geeks for geeks, for graphs and Binary search read theory (no need to do questions if you don't have much time) from the book I mentioned( CP-3 by Halim). For DP do every question from Interview Bit and also do some questions from CSES problem set for building confidence, for quant profile do Brainsteller and interview bit Puzzles, if you get stuck refer to GeeksforGeeks for that question and YouTube if still not clear"
