@@ -215,7 +215,7 @@ export default function CompaniesPage() {
 						placement interview.
 					</li>
 					<li>
-						IIn case a candidate receives multiple offers, the candidate has to make a choice at the end of the slot. The companies will be
+						In case a candidate receives multiple offers, the candidate has to make a choice at the end of the slot. The companies will be
 						intimated about the final choice of the candidate two hours after the end of the slot, or receipt of the offers, whichever is
 						later.
 					</li>
@@ -258,7 +258,7 @@ export default function CompaniesPage() {
 						placement interview.
 					</li>
 					<li>
-						IIn case a candidate receives multiple offers, the candidate has to make a choice at the end of the slot. The companies will be
+						In case a candidate receives multiple offers, the candidate has to make a choice at the end of the slot. The companies will be
 						intimated about the final choice of the candidate two hours after the end of the slot, or receipt of the offers, whichever is
 						later.
 					</li>
