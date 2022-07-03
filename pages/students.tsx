@@ -124,7 +124,7 @@ const ResourcesC = [
 	},
 	{
 		name: "Internship Policy",
-		link: "docs/2021-22/Internship-Policy-2021-22.pdf"
+		link: "docs/students/internship-policy.pdf"
 	},
 	{
 		name: "Leave Application",
