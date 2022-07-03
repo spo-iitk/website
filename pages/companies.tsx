@@ -131,7 +131,7 @@ const ResourcesL = [
 	},
 	{
 		name: "Placement Policy",
-		link: "assets/companies_links/Placement-Policy-Companies.pdf"
+		link: "docs/company/placement-policy.pdf"
 	},
 	{
 		name: "Internship Policy",
