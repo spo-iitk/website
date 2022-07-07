@@ -60,7 +60,7 @@ const faqlist = [
 	{
 		"idx": 2,
 		"title": "What should be the name of the resume file (one page)?",
-		"body": "The resume file should be named as rollNumber_resumeNumber, example a student with roll number 180840 who is submitting 3 resumes should name the files as 180840_1,180840_2,180840_3."
+		"body": "The resume file should be named as rollNumber_name_program_dept_resumeNumber. For example, a student with roll number 200000, Name Jhon Doe, Branch: BS-MTH is submitting resumes should name the files as 200000_jhon_doe_bs_mth_1.pdf"
 	},
 	{
 		"idx": 3,
