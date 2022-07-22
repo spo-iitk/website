@@ -32,6 +32,7 @@ export default function Accordion({ title, isOpen, children }: PropsWithChildren
 			</TitleWrapper>
 			<Collapse isOpen={isActive} duration={300}>
 				<Description>
+					<RichText>Ques: <i>{title}</i></RichText><br />
 					<RichText>{children}</RichText>
 				</Description>
 			</Collapse>

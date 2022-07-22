@@ -49,7 +49,7 @@ export default function AboutPage() {
 				<br />
 				<TextWrapper>
 					<SectionText>
-			Indian Institute of Technology, Kanpur, established in 1959, is one of the premier institutions established by the Government of India. The aim of the Institute is to provide meaningful education, conduct original research of the highest standard and provide leadership in technological innovation. Consistently ranked amongst the top 5 engineering institutes in India over past several decades. IIT Kanpur offers courses in sciences, engineering, humanities and management. The students go to get the best of opportunities in the form of highly advanced courses, eminent faculty members, well-equipped laboratories, library, hostels and immense facilities to excel in research and development. The selection procedure for students at undergraduate, postgraduate and research level is highly stringent so that IIT gets the best brains of India. Highly scientific and innovative technology is used for teaching and conducting research activities. Every year IIT Kanpur is enriched by the laurels brought by the faculty members and the students in the form of research publications, projects, fellowships and industrial exposure. Many of our alumni are leaders in academia and industry around the globe. The sprawling IIT Kanpur campus is located in the industrial city of Kanpur, only a few hours away from New Delhi, the Capital of India.
+			Indian Institute of Technology Kanpur is one of the premier institutions established by the Government of India in 1959. The aim of the Institute is to provide meaningful education, conduct original research of the highest standard and provide leadership in technological innovation. Consistently ranked amongst the top 5 engineering institutes in India over past several decades, IIT Kanpur offers courses in sciences, engineering, humanities and management. The students get the best of opportunities in the form of highly advanced courses, eminent faculty members, well-equipped laboratories, library, hostels and state of the art facilities to excel in research and development. The selection procedures for students at undergraduate, postgraduate and PhD levels are highly stringent so that IIT gets the best brains of India. Highly scientific and innovative technology is used for teaching and conducting research activities. Every year IIT Kanpur is enriched by the laurels brought by its faculty members and the students in the form of research publications, sponsored projects, fellowships and industrial consultancies. Many of our alumni are leaders in academia and industry around the globe. The sprawling IIT Kanpur campus is located in the industrial city of Kanpur, only a few hours away from New Delhi, the Capital of India.
 					</SectionText>
 					<ImageContainer>
 						<NextImage src="/AboutPageImg/AboutIITK.jpg" alt="IITK" layout="fill" objectFit="contain"	/>
@@ -63,7 +63,7 @@ export default function AboutPage() {
 				<br />
 				<TextWrapper>
 					<SectionText>
-			Academics at IIT Kanpur empowers the students with a critical thinking led approach, scientific temperament and knowledge in science, engineering, management and humanities fields to solve problems that challenge humanity. The globally acclaimed education prepares the students for rewarding and exciting careers. The excellent education has enabled the alumni to succeed in diverse fields.
+						Academics at IIT Kanpur empowers the students with scientific temperament and knowledge in diverse disciplines of science, engineering, management, and humanities and social sciences. The pedagogy at IIT Kanpur teaches the students to take an approach led by critical thinking to solve technologically challenging problems. The globally acclaimed education prepares the students for rewarding and exciting careers. The excellent education has enabled the alumni to succeed in diverse fields.
 					</SectionText>
 					<ImageContainer>
 						<NextImage src="/AboutPageImg/students.jpg" alt="IITK" layout="fill" objectFit="contain"	/>
@@ -75,73 +75,72 @@ export default function AboutPage() {
 					<Card>
 						<Title>B.Tech / B.S.</Title>
 						<Description>
-					Admission: Joint Entrance Exam (JEE) Advanced <br />
-					Duration: 4 years <br />
-                    Internships: Upto 5 internships of 1-3 months <br />
-                    Includes a core programme common to all students; provides a foundation in introductory Mathematics, Physics, Chemistry, Engineering Sciences, Technical Arts and Humanities and Social Sciences.{" "}
+							Admission: Joint Entrance Exam (JEE) Advanced <br />
+							Duration: 4 years <br />
+							Internships(voluntary): Upto 5 internships of 1-3 months <br />
+							Includes a core programme common to all students; provides a foundation in introductory Mathematics, Physics, Chemistry, Engineering Sciences, Technical Arts and Humanities and Social Sciences. and professionally trains the students in their individual disciplines.{" "}
 						</Description>
 					</Card>
 					<Card>
 						<Title>Minor</Title>
 						<Description>
-					Our students can take 3 or 4 courses to gain specialization in a specific field of a department, other than their parent departments to get a minor. <br />
-                    Eg: BS in Mathematics and Scientific Computing with a minor in Economics.
+							Our B.Tech/B.S. students can take 3 or 4 courses to gain specialization in a specific field of a department, other than their parent departments to get a minor. <br />
+							Eg: BS in Mathematics and Scientific Computing with a minor in Economics.
 						</Description>
 					</Card>
 					<Card>
 						<Title>Bachelor-Master Dual Degree</Title>
 						<Description>
-					No student is initially admitted in a dual degree program because we believe it is too early for them to decide their specializations. We want them to get a flavour of the department before they make such a crucial choice. Our students can choose to convert to a dual degree (with Masters in the parent or any other department) till the end of 7th semester. Two degrees (BTech/BS+MTech/MS) are awarded at the end of 5-year coursework. <br />
-                    Eg: BS in Mathematics and Scientific Computing with MS in Economics.
+							Our B.Tech/B.S. students can choose to convert to a dual degree (with Masters in the parent or any other department) till the end of 7th semester.Two degrees (BTech/BS+MTech/MS) are awarded at the end of 5-year coursework.No student is initially admitted in a dual degree program because we believe it is too early for them to decide their specializations.We want them to get a flavour of the department before they make such a crucial choice. <br />
+							Eg: BS in Mathematics and Scientific Computing with MS in Economics.
 						</Description>
 					</Card>	
 					<Card>
 						<Title>Double Major</Title>
 						<Description>
-					Our students can major in 2 departments, meaning a B Tech/BS degree in parent department along with a second major in department of their choice, in duration of 5 years. This requires the student to complete all department core courses of their second major. <br />
-					Eg: BS in Mathematics and Scientific Computing with second major in Economics.
+							Our B.Tech/B.S. students can major in 2 departments, meaning a B Tech/BS degree in parent department along with a second major in department of their choice, in duration of 5 years. This requires the student to complete all department core courses of their second major. <br />
+							Eg: BS in Mathematics and Scientific Computing with second major in Economics.
 						</Description>
 					</Card>
 					<Card>
 						<Title>M.Sc.</Title>
 						<Description>
-                    Admission: Joint Admission Test for M.Sc.(JAM)  <br />
-                    Duration: 2 years <br />
-                    Eligibility: Student with B.Sc.(Hons.) <br /> <br />
-
-                    Offered in Physics, Chemistry, Mathematics and Statistics. M.Sc. students of The Department of Physics are allowed to continue for a Ph.D.
+							Admission: Joint Admission Test for M.Sc.(JAM)  <br />
+							Duration: 2 years <br />
+							Eligibility: Student with B.Sc.(Hons.) <br />
+							Offered in Physics, Chemistry, Mathematics and Statistics. M.Sc. students of The Department of Physics are allowed to continue for a Ph.D.
 						</Description>
 					</Card>
 					<Card>
 						<Title>M.Tech. / M.S.(R)</Title>
 						<Description>
-					Admission: Graduate Aptitude Test in Engineering(GATE) <br />
-					Duration: 2 years <br />
-                    Acquaints the students with the various aspects of engineering through several courses, both introductory and in the specialized area followed by research, leading to a thesis on a topic in the area.
+							Admission: Graduate Aptitude Test in Engineering(GATE) <br />
+							Duration: 2 years <br />
+							Acquaints the students with the various aspects of engineering through several courses, both introductory and in the specialized area followed by research, leading to a thesis on a topic in their area of specialization.
 						</Description>
 					</Card>
 					<Card>
 						<Title>Ph.D.</Title>
 						<Description>
-						The ph.D. program is aimed and designed to facilitate students in acquiring proficiency in the chosen area through coursework
-						with a creative ability to solve new problems and a capacity to learn continually and interact with multidisciplinary groups,
-						followed by doctoral research. It is offered in Sciences, Engineering, Humanities & Social Sciences, and Management.
+							The ph.D. program is aimed and designed to facilitate students in acquiring proficiency in the chosen area through coursework
+							with a creative ability to solve new problems and a capacity to learn continually and interact with multidisciplinary groups,
+							followed by doctoral research. PhD programm is offered in all disciplines of Sciences, Engineering, Humanities & Social Sciences, and Management.
 						</Description>
 					</Card>
 					<Card>
 						<Title>M.B.A.</Title>
 						<Description>
-					Admission: Joint Management Entrance Test(JMET) <br />
-					Duration: 2 years <br />
-                    Carefully structured and integrated with classroom teaching, case discussions, hands-on industry experience with internship and project work. Continuous industrial interaction, seminars and live projects are a part of the curriculum.
+							Admission: Joint Management Entrance Test(JMET) <br />
+							Duration: 2 years <br />
+							Carefully structured and integrated with classroom teaching, case discussions, hands-on industry experience with internship and project work. Continuous industrial interaction, seminars and live projects are a part of the curriculum.
 						</Description>
 					</Card>
 					<Card>
 						<Title>Master of Design (M.Des.)</Title>
 						<Description>
 					Admission: Common Entrance Exam for Design(CEED) <br />
-					Duration: 2 years <br />
-                    The programme is interdisciplinary in nature with a strong emphasis on a balanced curriculum of theory and practice. The programme has three sub-groups: Product Design, User Interface Design and Visual Communication Design. Students are required to conduct a project and prepare a thesis as a part of their curriculum. Various workshops are also held to broaden the outlook of students and also in helping them in deciding their career.
+							Duration: 2 years <br />
+							The programme is interdisciplinary in nature with a strong emphasis on a balanced curriculum of theory and practice. The programme has three sub-groups: Product Design, User Interface Design and Visual Communication Design. Students are required to conduct a project and prepare a thesis as a part of their curriculum. Various workshops are also held to broaden the outlook of students and also in helping them in deciding their career.
 						</Description>
 					</Card>
 				</CustomAutofitGrid>
@@ -153,8 +152,8 @@ export default function AboutPage() {
 				<br />
 				<TextWrapper>
 					<SectionText>
-			IIT Kanpur has always been among the pioneers in new research fields. The institute has coped with the changing times and requirements in this field by enhancing its interaction with industries, working on projects that aim to advance the existing technologies and expanding the scope of the research work beyond patents and publications.<br />
-            Our labs are equipped with industry grade equipments. Our lecture halls incorporate excellent audio-visual aids. We accommodate a great team of professors and professionals pushing frontiers in science and technology. They carry the banners of our excellent research quality standards.
+						IIT Kanpur has always been among the pioneers in new research fields. The institute has coped with the changing times and requirements of R&D by enhancing its interaction with industries, working on projects that aim to advance the existing technologies and expanding the scope of the research work beyond patents and publications.<br />
+						Our labs are equipped with industry grade equipments. Our lecture halls incorporate excellent audio-visual aids. We accommodate a great team of professors and professionals pushing frontiers in science and technology. They carry the banners of our excellent research quality standards.
 						<ul>
 							<li>FlexE</li>
 							<li>NWTF</li>
@@ -170,7 +169,7 @@ export default function AboutPage() {
 							<li>Advanced Centre for Materials Science</li> 
 							<li>Advance Centre for Electronic Systems</li> 
 							<li>SAMTEL Centre for Display Technology</li>
-							<li>BSNL-IITK Telecom Cen	tre of Excellence</li>
+							<li>BSNL-IITK Telecom Centre of Excellence</li>
 						</ul>
 					</SectionText>
 			    	<ImageContainer>{ /* eslint-disable-line no-mixed-spaces-and-tabs */}
@@ -183,15 +182,15 @@ export default function AboutPage() {
 				<SectionTitle id="alumni">Alumni</SectionTitle>
 				<br />
 				<br />
-			    <ImageContainerCenter30>{ /* eslint-disable-line no-mixed-spaces-and-tabs */}
+				<ImageContainerCenter30>
 					<NextImage src="/AboutPageImg/alumni.png" alt="alumni" layout="fill" objectFit="contain"/>
 				</ImageContainerCenter30>
 				<SectionText>
-			    IIT Kanpur's rising global stature is credited to its distinguished alumni whose achievements in many different fields continue to make us proud, our well-established alumni network is a matter of pride for us. It includes India's stalwarts in all imaginable fields: academia, technology, banking, entrepreneurship, public services, music and social service. IIT Kanpur recognizes the achievements and contributions of its alumni by conferring the Distinguished Alumnus Award (DAA) to honour individuals who have made a mark in their fields (Academic Excellence, Professional Excellence, Entrepreneurship and Management, Humanitarian Service). Our alumni too have generously given back to the institute. Their endowments have funded scholarships, departmental buildings, parks and other infrastructural improvements.With more than 45000 alumni spanning across the globe, they have been instrumental in strengthening the image of I.I.T. Kanpur. <br /> { /* eslint-disable-line no-mixed-spaces-and-tabs */}
-				We have had many notable alumni who have received national and international recognition in their respective professional fields.{ /* eslint-disable-line no-mixed-spaces-and-tabs */}
-				Some of the most notable alumni that IIT Kanpur boasts of producing are :{ /* eslint-disable-line no-mixed-spaces-and-tabs */}
-			    <ol> { /* eslint-disable-line no-mixed-spaces-and-tabs */}
-			        <li>N.R Narayana Murthy - Founder of Infosys</li> { /* eslint-disable-line no-mixed-spaces-and-tabs */}
+					IIT Kanpur's rising global stature is credited to its distinguished alumni whose achievements in many different fields continue to make us proud. Our well-established alumni network is a matter of pride for us. It includes India's stalwarts in all imaginable fields: academia, technology, banking, entrepreneurship, public services, music and social service. IIT Kanpur recognizes the achievements and contributions of its alumni by conferring the Distinguished Alumnus Award (DAA) to honour individuals who have made a mark in their fields (Academic Excellence, Professional Excellence, Entrepreneurship and Management, Humanitarian Service). Our alumni too have generously given back to the institute. Their endowments have funded scholarships, departmental buildings, parks and other infrastructural improvements.With more than 45000 alumni spanning across the globe, they have been instrumental in strengthening the image of IIT Kanpur. <br /> 
+					We have had many notable alumni who have received national and international recognitions in their respective professional fields.
+					Some of the most notable alumni that IIT Kanpur boasts of are :
+					<ol> 
+						<li>N.R. Narayana Murthy - Founder of Infosys</li>
 						<li>Pradeep S. Sindhu - Founder, Vice Chairman & CTO - Juniper Networks</li>
 						<li>Dr Ashok Jhunjhunwala - Padma Shri & Professor of Electrical Engg at IIT Madras</li>
 						<li>Dr Ashoke Sen - FRS & Padma Shri, Famous String Theorist</li>
@@ -205,7 +204,7 @@ export default function AboutPage() {
 						<li>Manindra Agarwal, Nitin Saxena & Neeraj Kayal - Gave the first deterministic primality-proving algorithm famously known as AKS Primality Test. Authors received the 2006 Godel Prize & the 2006 Fulkerson Prize for this result</li>             
 						<li>Prof. Arvind - JOHNSON Professor , MIT, USA</li>
 						<li>Rajeev Chawla - Secretary of E-governance, Govt. of Karnataka</li>
-			    </ol> { /* eslint-disable-line no-mixed-spaces-and-tabs */}
+					</ol>
 				</SectionText>
 				<br />
 				<hr />
@@ -215,8 +214,8 @@ export default function AboutPage() {
 				<br />
 				<TextWrapper>
 					<SectionText>
-				I.I.T. Kanpur has more than 413 <a href="https://iitk.ac.in/new/iitk-faculty">faculty members</a> with degrees from renowned
-				universities worldwide. The Faculty at I.I.T. Kanpur are involved in cutting-edge research both in the industry and within I.I.T.
+				IIT Kanpur has more than 413 <a href="https://iitk.ac.in/new/iitk-faculty">faculty members</a> with degrees from renowned
+				universities worldwide. The Faculty at IIT Kanpur are involved in cutting-edge research both in the industry and within IIT
 				Kanpur and hold positions as varied as editors of various international journals, visiting Faculty in many universities, advisors to
 				government and industry. The contribution of the Faculty has been recognized frequently and has been honored with the awards such
 				as:
@@ -241,7 +240,7 @@ export default function AboutPage() {
 				<br />
 				<br />
 				<SectionText>
-			    Our campus community is a close-knit group that helps students learn, collaborate and flourish. Numerous student clubs and hobby groups allow students to develop skills in science and technology, showcase their talents in cultural, sports, films and media, and entrepreneurial events, and work towards numerous social initiatives. This plethora of activities guarantees that our students develop as well-rounded, responsible individuals, Additionally, HT Kanpur is renowned for its student organized inter-college fests• Antaragni, Techkriti and Udghosh, which allow students across Indian colleges to display their talents, while constantly pushing our limits in efficient managerial skills and strategies. { /* eslint-disable-line no-mixed-spaces-and-tabs */}
+					Our campus community is a close-knit group that helps students learn, collaborate and flourish. Numerous student clubs and hobby groups allow students to develop skills in science and technology, showcase their talents in cultural, sports, films and media, and entrepreneurial events, and work towards numerous social initiatives. This plethora of activities guarantees that our students develop into all-round and responsible individuals. Additionally, IIT Kanpur is renowned for its inter-college students' festivals namely, Antaragni, Techkriti and Udghosh, which allow students across Indian colleges to display their talents, while constantly pushing our limits in efficient managerial skills and strategies.
 				</SectionText>
 				<br />
 				<CustomAutofitGrid>

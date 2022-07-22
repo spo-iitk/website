@@ -15,13 +15,14 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 	const filteredBlogPosts = posts.filter((singlePost) => {
 		const searchContent = singlePost.meta.title + singlePost.meta.description + singlePost.content + singlePost.meta.tags
 		return searchContent.toLowerCase().includes(searchValue.toLowerCase())
+	}).sort((a, b) => {
+		return new Date(b.meta.date).valueOf() - new Date(a.meta.date).valueOf()
 	})
 
 	return (
 		<Page title="SPO Insights" description="">
 			<div>
-				<Input
-					style={{ width: "90%" }}
+				<CustomInput
 					aria-label="Search articles"
 					type="text"
 					onChange={(e) => setSearchValue(e.target.value)}
@@ -32,7 +33,7 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 			<div style={{ width: "100%", display: "grid", placeItems: "center" }}>
 				<CustomUl>
 					{!filteredBlogPosts.length && "No posts found."}
-					<SectionTitle>{filteredBlogPosts.length && "2022 Internship Insight" }</SectionTitle>
+					<CustomSectionTitle>{filteredBlogPosts.length && "2022 Internship Insight" }</CustomSectionTitle>
 					<br></br>
 					{filteredBlogPosts.map((singlePost, idx) => {
 						if (singlePost.slug.includes("2022-intern")) {
@@ -40,7 +41,7 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 								<NextLink href={"/insights/" + singlePost.slug} passHref key={idx}>
 									<BlogItem>
 										<BlogDate>{singlePost.meta.date}</BlogDate>
-										<div style={{ flex: "1" }}>{singlePost.meta.title}</div>
+										<BlogTitle>{singlePost.meta.title}</BlogTitle>
 									</BlogItem>
 								</NextLink>
 							)
@@ -55,10 +56,32 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 	)
 }
 
+const CustomInput = styled(Input)`
+	width: 100%;
+	height: 3rem;
+	margin-bottom: 1rem;
+`
+
 const CustomUl = styled.ul`
 	list-style: none;
 	width: 80%;
+	@media (max-width: 768px) {
+		width: 100%;
+		margin-left: 0;
+		padding-inline-start: 0;
+	}
 	
+`
+
+const CustomSectionTitle = styled(SectionTitle)`
+	@media (max-width: 768px) {
+		font-size: 3.1em;
+	}
+`
+
+const BlogTitle = styled.div`
+	flex: 1;
+	font-size: 1.1em;
 `
 
 const BlogDate = styled.span`

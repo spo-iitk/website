@@ -17,11 +17,11 @@ export default function NewsIIT(){
 				<br /> <br />
 				<Wrapper>
 					<TwitterWrapper>
-						<a className="twitter-timeline" data-width="400" data-height="300" href="https://twitter.com/IITKanpur?ref_src=twsrc%5Etfw">Tweets by IITKanpur</a>
+						<a className="twitter-timeline" data-width="500" data-height="400" href="https://twitter.com/IITKanpur?ref_src=twsrc%5Etfw">Tweets by IITKanpur</a>
 					</TwitterWrapper>
 					<FacebookWrapper>
 						<div id="fb-root"></div>
-						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fiitkanpur&tabs=timeline&width=500&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="240" style={{ border: "none", overflow: "hidden" }} scrolling="no" frameBorder="0" allow="encrypted-media" title="FB IITK"></iframe>
+						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fiitkanpur&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="400" style={{ border: "none", overflow: "hidden" }} scrolling="no" frameBorder="0" allow="encrypted-media" title="FB IITK"></iframe>
 					</FacebookWrapper>
 				</Wrapper>
 			</Section>

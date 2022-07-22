@@ -123,15 +123,15 @@ const faqlist = [
 const ResourcesL = [
 	{
 		name: "Job Announcement Form",
-		link: "assets/companies_links/IITK_JAF_Job_Announcement_Form_2021-22.docx"
+		link: "assets/companies_links/IITK_JAF_Job_Announcement_Form_2022-23.docx"
 	},
 	{
 		name: "Internship Proforma",
-		link: "assets/companies_links/IITK_IP_Internship_Proforma_2021-22.docx"
+		link: "assets/companies_links/IITK_IP_Internship_Proforma_2022-23.docx"
 	},
 	{
 		name: "Placement Policy",
-		link: "assets/companies_links/Placement-Policy-Companies.pdf"
+		link: "docs/company/placement-policy.pdf"
 	},
 	{
 		name: "Internship Policy",
@@ -215,7 +215,7 @@ export default function CompaniesPage() {
 						placement interview.
 					</li>
 					<li>
-						IIn case a candidate receives multiple offers, the candidate has to make a choice at the end of the slot. The companies will be
+						In case a candidate receives multiple offers, the candidate has to make a choice at the end of the slot. The companies will be
 						intimated about the final choice of the candidate two hours after the end of the slot, or receipt of the offers, whichever is
 						later.
 					</li>
@@ -258,7 +258,7 @@ export default function CompaniesPage() {
 						placement interview.
 					</li>
 					<li>
-						IIn case a candidate receives multiple offers, the candidate has to make a choice at the end of the slot. The companies will be
+						In case a candidate receives multiple offers, the candidate has to make a choice at the end of the slot. The companies will be
 						intimated about the final choice of the candidate two hours after the end of the slot, or receipt of the offers, whichever is
 						later.
 					</li>

@@ -55,27 +55,27 @@ const faqlist = [
 	{
 		"idx": 1,
 		"title": "What are the restrictions on resume format?",
-		"body": "There are no restrictions on the resume format barring a few mentioned below.The top heading of your resume should be your Name, Department, year of study, and contact information.A table of educational qualifications should follow it including 10th,12th marks, and CPI ( UG and PG both if applicable) in reverse chronological order."
+		"body": "There are no restrictions on the resume format barring a few mentioned below. The top heading of your resume should be your Name, Department, year of study, and contact information. A table of educational qualifications should follow it including 10th, 12th marks, and CPI(UG and PG both if applicable) in reverse chronological order.",
 	},
 	{
 		"idx": 2,
 		"title": "What should be the name of the resume file (one page)?",
-		"body": "The resume file should be named as rollNumber_resumeNumber, example a student with roll number 180840 who is submitting 3 resumes should name the files as 180840_1,180840_2,180840_3."
+		"body": "The resume file should be named as RollNumber_Name__Program_Department_ResumeNumber. For example, a student with the following details: Roll number: 190351, Name: Gyanendra Kumar, Program - BTech(BT), Department : Mechanical(ME) should name the resume files as 190351_Gyanendra_BT_ME_1, 190351_Gyanendra_BT_ME_2, 190351_Gyanendra_BT_ME_3.",
 	},
 	{
 		"idx": 3,
 		"title": "How to mention JEE Mains/JEE Adv/any other examination ranks or other scholastic achievements in my resume?",
-		"body": "If mentioned, JEE Mains/JEE Adv. ranks have to be mentioned in the numbers, not percentile. For eg, AIR 1234 in JEE Mains 2018.Percentile ranks will only be considered if there is an official record/certificate for the same.If someone wants to mention their rank in their department, a mail from the HoD of the department is required.Definitely mention the year of Activity or Achievement."
+		"body": "JEE Mains/JEE Adv. ranks have to be mentioned in the numbers, not percentile. For eg, AIR 1234 in JEE Mains 2019. If someone wants to mention their rank in their department, a mail from the HoD of the department is required. Definitely mention the year of Activity or Achievement.",
 	},
 	{
 		"idx": 4,
 		"title": "I don't have any proof for some points on my resume, but I can provide them after campus reopens. What should I do?",
-		"body": "[Please note that the below exceptions are only allowed for Scholastic and Extracurricular Achievements.]    For verification of 10th marks, 12th marks, JEE ranks, a google form will be circulated through mail. All the students will need to fill that form.For the verification of any other scholastic achievements (if you do not have a scanned copy of the documents with you), you need to fill the following undertaking and include it in the zip file of proofs, to be sent to spoproofs2021@gmail.com.Undertaking FormThese details will be cross verified in the future and any discrepancy will be dealt with according to SPO policy. The points on your resume for which you will provide the undertaking should be # marked with a footnote “not verified by SPO”. Such points should be given a # mark and a footnote only on the Master Resume, which is not visible to the company officials, and not on the one-page resumes, to be uploaded on the portal."
+		"body": "[Please note that the below exceptions are only allowed for Scholastic and Extracurricular Achievements.]\nFor verification of 10th marks, 12th marks, and JEE ranks, a google form will be circulated through mail.All the students will need to fill out that for\nFor the verification of any other scholastic achievements(if you do not have a scanned copy of the documents with you), you need to fill the following undertaking and include it in the zip file of proofs, to be sent to spoproofs2022@gmail.com. Undertaking Form[bit.ly/spoundertaking] These details will be cross- verified in the future and any discrepancy will be dealt with according to SPO policy.The points on your resume for which you will provide the undertaking should be # marked with a footnote 'not verified by SPO'. Such points should be given a # mark and a footnote only on the Master Resume, which is not visible to the company officials, and not on the one - page resumes, to be uploaded on the portal.",
 	},
 	{
 		"idx": 5,
 		"title": "When is a Project Verification Form (PVF) required?",
-		"body": "A PVF is needed to be signed by your mentor for any intern/project done under an IITK professor or any external organization (no PVF needed for projects under institute clubs or course projects). Kindly ask your mentor/Guide to send the filled PVF from his/her official email address to spoproofs2021@gmail.com. Only PVFs received on the given ID will be considered. Also, ask your mentor to mark you in cc. The PVF can be downloaded from here.The subject and content of the project written on your resume should match that written on the PVF."
+		"body": "A PVF is needed to be signed by your mentor for any intern/project done under an IITK professor or any external organization (no PVF is needed for projects under institute clubs or course projects).  Kindly ask your mentor/ Guide to send the filled PVF from his / her official email address to spoproofs2022@gmail.com.Only PVFs received on the given ID will be considered.Also, ask your mentor to mark you in cc.The PVF can be downloaded from here(spo.iitk.ac.in/docs/2021-22/PVF.doc). The subject and content of the project written on your resume should match that written on the PVF.",
 	},
 	{
 		"idx": 6,
@@ -100,7 +100,7 @@ const faqlist = [
 	{
 		"idx": 10,
 		"title": "My internship/project is ongoing and will not be finished before resume submission. What should I do?",
-		"body": "Fill up the PVF with whatever work has been completed and ask your mentor to sign and send it to spoproofs2021@gmail.com.You will have to mention in the resume that the internship/project is ongoing."
+		"body": "Fill up the PVF with whatever work has been completed and ask your mentor to sign and send it to spoproofs2022@gmail.com.You will have to mention in the resume that the internship/project is ongoing."
 	},
 	{
 		"idx": 11,
@@ -124,7 +124,7 @@ const ResourcesC = [
 	},
 	{
 		name: "Internship Policy",
-		link: "docs/2021-22/Internship-Policy-2021-22.pdf"
+		link: "docs/students/internship-policy.pdf"
 	},
 	{
 		name: "Leave Application",
@@ -168,9 +168,9 @@ const Routes = [
 	}, {
 		name: "FAQs",
 		url: "/students#faqs"
-	},{ 
-		name: "Preparation Portal", 
-		url: "https://spo.iitk.ac.in/preparation/" 
+	}, {
+		name: "Preparation Portal",
+		url: "https://spo.iitk.ac.in/preparation/"
 	}
 ]
 
@@ -210,7 +210,7 @@ export default function StudentsPage() {
 				<FaqSection faqs={faqlist} />
 				<p style={{ marginTop: "3rem" }}>
 					<b>NOTE:</b> Whenever you send a mail containing proofs/PVFs or anything related to resume submission, kindly ensure that the subject contains your roll number.
-					For detailed guidelines and recommendations on resume making, all the students are advised to visit this <a href="https://docs.google.com/document/d/1Lf4T9PAXi4yQ0cobzzyoslTy3VvBw8FB6FONHNQT1kY/edit">link</a>.
+					For detailed guidelines and recommendations on resume making, all the students are advised to visit this <a href="https://docs.google.com/document/d/113Gqoz3X4ZMAybflQi2LkI2DbY7ULgyZ8mwS-QcE68s/edit?usp=sharing">link</a>.
 				</p>
 			</Section>
 		</Page>
