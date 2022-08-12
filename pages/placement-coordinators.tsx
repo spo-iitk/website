@@ -367,7 +367,7 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 									<Title>{member.name}</Title>
 									<Description>{member.department}</Description>
 									<Description><Link href={"mailto:" + member.email}>{member.email}</Link></Description>
-									<Description><Link href={"mailto:" + member.phone}>{member.phone}</Link></Description>
+									<Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
 								</Card>
 							</div>
 						))}
