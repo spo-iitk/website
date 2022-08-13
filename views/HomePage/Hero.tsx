@@ -6,7 +6,6 @@ import styled from "styled-components"
 import Button from "components/Button"
 import ButtonGroup from "components/ButtonGroup"
 import Container from "components/Container"
-import HeroIllustration from "components/HeroIllustation"
 import OverTitle from "components/OverTitle"
 import { media } from "utils/media"
 
@@ -22,20 +21,19 @@ export default function Hero() {
         grateful for the trust placed in us by various organisations, and we hope to continue working with them in the future.
 				</Description>
 				<CustomButtonGroup>
-					{/* <NextLink href="#whitepaper" passHref>
-            <Button>
-              Features <span>&rarr;</span>
-            </Button>
-          </NextLink> */}
 					<Link href="/placement-coordinators" passHref>
 						<Button>
               Contact <span>&rarr;</span>
 						</Button>
 					</Link>
+					<a target="_blank" rel="noopener noreferrer" href="https://placement.iitk.ac.in/">
+						<Button transparent>
+              Recruitment Portal <span>&rarr;</span>
+						</Button>
+					</a>
 				</CustomButtonGroup>
 			</Contents>
 			<ImageContainer>
-				{/* <HeroIllustration /> */}
 				<NextImage id = "building" src= "/testimonials/iitkanpur.png"  layout = "fill" objectFit="contain" />
 			</ImageContainer>
 		</HeroWrapper>
