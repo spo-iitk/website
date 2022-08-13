@@ -149,7 +149,7 @@ const deptBrochure = [
 		idx: "24",
 		dept: "Sustainable Energy Engineering",
 		url: "https://www.iitk.ac.in/see/",
-		link: ""
+		link: "/assets/Brochure_SEE.pdf"
 	},
 ]
 
