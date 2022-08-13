@@ -101,10 +101,10 @@ const WEBHEAD = [
 ]
 const WEBEXEC = [
 	{
-		name: "S Amandeep",
+		name: "Aditya Bangar",
 		position: "Web Executive",
-		mail: "samandeep21@iitk.ac.in",
-		phone: "(+91) 70755 63909"
+		mail: "adityavb21@iitk.ac.in",
+		phone: "(+91) 77438 08044"
 	},
 	{
 		name: "Krishnansh Agarwal",
