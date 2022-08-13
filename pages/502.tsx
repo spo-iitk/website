@@ -1,6 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from "next/head"
-import Image from "next/image"
-import NextLink from "next/link"
 import styled from "styled-components"
 
 import Button from "components/Button"
@@ -15,23 +14,22 @@ export default function MaintenancePage() {
 			</Head>
 			<Wrapper>
 				<Container>
-					<Image src="/maintenance.png" alt="Maintenance" height={400} width={500} objectFit="contain" />
+					<Image src="/maintenance.png" alt="Maintenance" width={400} />
 					<Title>Under Maintenance</Title>
 					<Description>We apologize for the inconvenience, but we&apos;re performing some maintenance.</Description>
 					<Description>You can still contact us at <Link href="mailto:spo@iitk.ac.in">spo@iitk.ac.in</Link>. We&apos;ll be back up soon!</Description>
-					<br/>
-					<Description>
-						<a target="_blank" rel="noopener noreferrer" href="https://placement.iitk.ac.in/">
-							<Button>
-								Recruitment Portal <span>&rarr;</span>
-							</Button>
-						</a>
-						<a target="_blank" rel="noopener noreferrer" href="https://spo.iitk.ac.in/old		">
-							<Button transparent>
-								Old Website <span>&rarr;</span>
-							</Button>
-						</a>
-					</Description>
+					<br />
+					<a target="_blank" rel="noopener noreferrer" href="https://placement.iitk.ac.in/">
+						<Button>
+							Recruitment Portal <span>&rarr;</span>
+						</Button>
+					</a>
+					{" "}
+					<a target="_blank" rel="noopener noreferrer" href="https://spo.iitk.ac.in/old">
+						<Button transparent>
+							Old Website <span>&rarr;</span>
+						</Button>
+					</a>
 				</Container>
 			</Wrapper>
 		</>
@@ -63,4 +61,11 @@ const Description = styled.div`
 
 const Link = styled.a`
   text-decoration: none;
+  margin-left: 0.5rem;
+`
+
+const Image = styled.img`
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 `
