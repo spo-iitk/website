@@ -83,6 +83,183 @@ const APC = [
 	{ name: "Upen Mishra", phone: "(+91) 78519 28910", mail: "upen20@iitk.ac.in" },
 	{ name: "Vandana Basrani", phone: "(+91) 88904 06081", mail: "vandanab20@iitk.ac.in" },
 ]
+const DPC = [
+	{
+		name: "Nishant Raj",
+		department: "Aerospace Engineering",
+		phone: "(+91) 82951 50352",
+		email: "nishantr21@iitk.ac.in"
+	},
+	{
+		name: "Peram Akhil Kumar",
+		department: "Aerospace Engineering",
+		phone: "(+91) 94906 39831",
+		email: "pakhil21@iitk.ac.in"
+	},
+	{
+		name: "Ajay Kumar",
+		department: "Civil Engineering",
+		phone: "(+91) 85068 01940",
+		email: "ajaysk21@iitk.ac.in"
+	},
+	{
+		name: "Diksha Yadav",
+		department: "Cognitive Science",
+		phone: "(+91) 88009 53879",
+		email: "dikshay21@iitk.ac.in"
+	},
+	{
+		name: "Keerthi Vasan M",
+		department: "Chemical Engineering",
+		phone: "(+91) 97919 30615",
+		email: "keerthi21@iitk.ac.in"
+	},
+	{
+		name: "Abhishek Sahu ",
+		department: "Computer Science and Engineering",
+		phone: "(+91) 70773 40317",
+		email: "abhisheks21@iitk.ac.in"
+	},
+	{
+		name: "Abhishek Kumar Saini",
+		department: "Computer Science and Engineering",
+		phone: "(+91) 87910 70321",
+		email: "abhik20@iitk.ac.in"
+	},
+	{
+		name: "Rohit Kakkar",
+		department: "Department of Design",
+		phone: "(+91) 79850 80996",
+		email: "rohitk21@iitk.ac.in"
+	},
+	{
+		name: "Shreyansh Sunil",
+		department: "Department of Design",
+		phone: "(+91) 94543 60632",
+		email: "shreyansh21@iitk.ac.in"
+	},
+	{
+		name: "Shivani Jha ",
+		department: "Economics",
+		phone: "(+91) 84292 31864",
+		email: "shivanij@iitk.ac.in"
+	},
+	{
+		name: "Roshan kumar",
+		department: "Electrical Engineering",
+		phone: "(+91) 91798 33136",
+		email: "kroshan20@iitk.ac.in"
+	},
+	{
+		name: "Reetu Hota",
+		department: "Electrical Engineering",
+		phone: "(+91) 86372 72561",
+		email: "reetuh21@iitk.ac.in"
+	},
+	{
+		name: "Hammad Zubair ",
+		department: "Earth Sciences",
+		phone: "(+91) 82669 85229",
+		email: "hammadz21@iitk.ac.in"
+	},
+	{
+		name: "Meet Saiya",
+		department: "Industrial and Management Engineering",
+		phone: "(+91) 83840 54004",
+		email: "meets21@iitk.ac.in"
+	},
+	{
+		name: "Shivam Saini",
+		department: "Industrial and Managemenet Engineering",
+		phone: "(+91) 84499 79988",
+		email: "shivams21@iitk.ac.in"
+	},
+	{
+		name: "Vikas Gill",
+		department: "Industrial and Management Engineering",
+		phone: "(+91) 98736 48500",
+		email: "vikasgill21@iitk.ac.in"
+	},
+	{
+		name: "Vishnu Mehta",
+		department: "Industrial and Management Engineering",
+		phone: "(+91) 74269 05975",
+		email: "vishnum21@iitk.ac.in"
+	},
+	{
+		name: "Sheshmani Maurya",
+		department: "Mathematics",
+		phone: "(+91) 87379 38859",
+		email: "sheshmani21@iitk.ac.in"
+	},
+	{
+		name: "Sachin Sharma",
+		department: "Mechanical Engineering",
+		phone: "(+91) 87651 15892",
+		email: "sachins21@iitk.ac.in"
+	},
+	{
+		name: "Shubham Sahu",
+		department: "Mechanical Engineering",
+		phone: "(+91) 73898 08435",
+		email: "skumars21@iitk.ac.in"
+	},
+	{
+		name: "Akshay Manjarekar ",
+		department: "Mechanical Engineering",
+		phone: "(+91) 78758 62677",
+		email: "akshaym21@iitk.ac.in"
+	},
+	{
+		name: "Ankit Singh",
+		department: "Material Sciences and Engineering",
+		phone: "(+91) 91133 40982",
+		email: "ankits21@iitk.ac.in"
+	},
+	{
+		name: "Nandni Sinha",
+		department: "Material Sciences and Engineering",
+		phone: "(+91) 91708 52304",
+		email: "snandni@iitk.ac.in"
+	},
+	{
+		name: "Manoj kumar Virigineni",
+		department: "Material Sciences and Engineering",
+		phone: "(+91) 79955 33979",
+		email: "manojkv21@iitk.ac.in"
+	},
+	{
+		name: "Viren S Ram",
+		department: "Photonics Science and Engineering",
+		phone: "(+91) 82796 86175",
+		email: "virenr21@iitk.ac.in"
+	},
+	{
+		name: "Gosu Satish Kumar Reddy",
+		department: "Sustainable Energy Engineering",
+		phone: "(+91) 79969 98373",
+		email: "skreddy21@iitk.ac.in"
+	},
+	{
+		name: "Mohammad Hashim",
+		department: "Sustainable Energy Engineering",
+		phone: "(+91) 87506 87660",
+		email: "mhashim21@iitk.ac.in"
+	},
+	{
+		name: "Shagun Bansal",
+		department: "Statistics ",
+		phone: "(+91) 98132 93763",
+		email: "shagunb21@iitk.ac.in"
+	},
+	{
+		name: "Neha Gupta",
+		department: "Statistics ",
+		phone: "(+91) 74089 37974",
+		email: "nehag21@iitk.ac.in"
+	},
+]
+
 const WEBHEAD = [
 	{
 		name: "Harshit Raj",
@@ -99,6 +276,7 @@ const WEBHEAD = [
 		linkedin: "https://www.linkedin.com/in/abhishekshree/"
 	},
 ]
+
 const WEBEXEC = [
 	{
 		name: "Aditya Bangar",
@@ -179,6 +357,21 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 							</div>
 						))}
 					</CustomAutofitGrid3>
+				</Container>
+				<SectionTitle>Department Placement Coordinators</SectionTitle>
+				<Container>
+					<CustomAutofitGrid3>
+						{DPC.map((member)=>(
+							<div key={member.name}>
+								<Card>
+									<Title>{member.name}</Title>
+									<Description>{member.department}</Description>
+									<Description><Link href={"mailto:" + member.email}>{member.email}</Link></Description>
+									<Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+								</Card>
+							</div>
+						))}
+					</CustomAutofitGrid3>	
 				</Container>
 				<SectionTitle>Web Team</SectionTitle>
 				<Container>
