@@ -109,12 +109,6 @@ const DPC = [
 		email: "dikshay21@iitk.ac.in"
 	},
 	{
-		name: "Keerthi Vasan M",
-		department: "Chemical Engineering",
-		phone: "(+91) 97919 30615",
-		email: "keerthi21@iitk.ac.in"
-	},
-	{
 		name: "Abhishek Sahu ",
 		department: "Computer Science and Engineering",
 		phone: "(+91) 70773 40317",
@@ -164,7 +158,7 @@ const DPC = [
 	},
 	{
 		name: "Meet Saiya",
-		department: "Industrial and Management Engineering",
+		department: "Civil Engineering",
 		phone: "(+91) 83840 54004",
 		email: "meets21@iitk.ac.in"
 	},
