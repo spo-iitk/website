@@ -202,12 +202,6 @@ const ACD = [
 		"phone": "+91 9169948260"
 	},
 	{
-		"name": "Nidhinandana Salian",
-		"department": "Cognitive Science",
-		"mail": "nidhiprs@iitk.ac.in",
-		"phone": "+91 7760569266"
-	},
-	{
 		"name": "Tushar Shandhilya",
 		"department": "Computer Science and Engineering",
 		"mail": "stushar@cse.iitk.ac.in",
