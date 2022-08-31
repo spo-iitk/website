@@ -109,6 +109,26 @@ const DPC = [
 		email: "dikshay21@iitk.ac.in"
 	},
 	{
+		name: "Alok Sahu",
+		department: "Chemical Engineering",
+		phone: "(+91) 94549 82210",
+		email: "aloks21@iitk.ac.in"
+	},
+
+	{
+		name: "Mihirkumar Patel",
+		department: "Chemical Engineering",
+		phone: "(+91) 99740 70504",
+		email: "mmpatel21@iitk.ac.in"
+	},
+
+	{
+		name: "Siddhartha U",
+		department: "Chemistry",
+		phone: "(+91) 95850 95117",
+		email: "siddhartha21@iitk.ac.in"
+	},
+	{
 		name: "Abhishek Sahu ",
 		department: "Computer Science and Engineering",
 		phone: "(+91) 70773 40317",
@@ -149,6 +169,12 @@ const DPC = [
 		department: "Electrical Engineering",
 		phone: "(+91) 86372 72561",
 		email: "reetuh21@iitk.ac.in"
+	},
+	{
+		name: "Apoorva Dixit",
+		department: "Electrical Engineering",
+		phone: "(+91) 70548 63359",
+		email: "apoorvad20@iitk.ac.in "
 	},
 	{
 		name: "Hammad Zubair ",
