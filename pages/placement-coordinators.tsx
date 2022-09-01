@@ -124,7 +124,7 @@ const DPC = [
 
 	{
 		name: "Siddhartha U",
-		department: "Chemistry",
+		department: "Chemical Engineering",
 		phone: "(+91) 95850 95117",
 		email: "siddhartha21@iitk.ac.in"
 	},
