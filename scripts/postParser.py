@@ -26,7 +26,7 @@ if __name__ == "__main__":
 	Edit as required
 	'''
 	OPTIONS = ["Internship", "Placement"]
-	INSIGHT_TYPE = OPTIONS[0]
+	INSIGHT_TYPE = OPTIONS[1]
 
 	YEAR = 2022
 
@@ -48,8 +48,6 @@ if __name__ == "__main__":
 		suffix += " placement"
 
     
-    
-
 	# loop thru data
 	for index, row in df.iterrows():
 		fileName = suffix + " " + \
@@ -75,9 +73,14 @@ if __name__ == "__main__":
 		file.write("imageUrl: ''\n")
 		file.write("---" + "\n" + "\n")
         
-		file.write(row["Name"] + ", studying in IIT Kanpur as a " + row["Programme"] + " student in " + 
-			row["Department"] + " will do\n" + x +  " summer internship in " + row["Profile"] 
-			+ " profile at " + row["Company"] + ". Here are some brief\n" + "insights of " + y +".\n\n")
+		if INSIGHT_TYPE == OPTIONS[0]:
+			file.write(str(row["Name"]) + ", studying in IIT Kanpur as a " + str(row["Programme"]) + " student in " + 
+				str(row["Department"]) + " will do\n" + x +  " summer internship in " + str(row["Profile"]) 
+				+ " profile at " + row["Company"] + ". Here are some brief\n" + "insights of " + y +".\n\n")
+		else:
+			file.write(str(row["Name"]) + ", studying in IIT Kanpur as a " + str(row["Programme"]) + " student in " +
+					str(row["Department"]) + " will be joining " + str(row["Company"]) + " as " + str(row["Profile"]) + ". Here are some brief insights of " + y + ".\n\n") 
+
 		file.write(
 			"## Shortlisted Profiles & Companies:\n")
 		file.write(str(

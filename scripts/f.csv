@@ -1,89 +1,919 @@
 Name,Programme,Department,Gender,Company,Profile,Companies & Profiles that you were shortlisted for,Insights on the Selection Process, Preparation Resources ,Advice for students (dos and don’ts)?
-Maryam Raza Khan,BT,ME,F,Hindustan Unilever Limited,Techno-Managerial,"Proctor and Gamble (Techno-Managerial), ITC (Techno-Managerial), Goldman Sachs ( Software )","1. Resume Shortlist
-a. Based on a form we had to fill about us, general HR
-questions etc
+Deeksha Arora,M.Tech.,CSE,F,Google India,SDE,"1. MS SDE & DS
+2. Texas SDE
+3. Uber SDE","1. Resume shortlist
+2. 3 rounds of technical interview
 
+Interview Questions:
+Data structure and graph-based questions, Behavioral questions","1. Love Babbar coding sheet
+2. GFG placement course","1. Don’t take aptitude and MCQ (subject based) lightly. Prepare well for them as well.
+2. Be very well knowledgable about everything mentioned in the resume (even the
+subjects you mention)."
+Pragyan Pandey,B.Tech.,EE,M,Alphagrep Securities,Quant Trader,"1.Tower Research
+2.Quadeye (Quant and SDE)
+3.Microsoft SDE
+4.JPMC Quant
+5.Goldman Sachs
+6.American Express(Analytics)
+7.Plutus Research (Infra and Quant)
+8.Flipkart SDE
+9.Rakuten Mobile
+10.MTX
+11.Jumio
+12.SAP Labs
+13.Amazon
+14.Cisco
+15.JLR SDE
+16.Dynamic Technologies
+17.Harness
+18.Tracable.ai
+19.Nvidia","1. Resume Shortlist based on CPI
+2. Online Assessment – 6 Quant question and 5 coding question in 2hrs.
+3. Only one interview of 2 hours.
+
+Insights on Interview Process :
+
+Note that Interviews are more of a discussion rather than a question-answering
+session. So, try to involve the interviewer while solving a question.
+Do not stress on HR prep much if you are focusing on quant or software. I was not asked a
+single HR question in any of my interviews.
+The interviews will indeed be stressful try to take small breaks if you want and most
+interviewers are chill about it.
+Prioritize your companies accordingly – Don’t just sort the companies in decreasing order of
+the pay. Try to have an idea how difficult these interviews will be and if possible have one or
+two backup company interviews in between the dream companies.
+
+Interview Questions :
+These are some of the questions that were asked :
+
+Quant 
+1. How would you estimate the value of pi using n sided die
+2. Use a 1-5 random number generator to create 1-7 random number generator and code it
+3. There are 2 random variables in unit of cm let’s say x and y having autocorrelation as some
+rho. Now X and Y are the same random variables but in units of m or km what is the new
+autocorrelation?
+
+Software 
+1. Snake Ladder Question(interviewbit)
+2. A simple binary tree question
+3. Binary Search in matrix(can’t remember the exact question)","I prepared mostly for quant and software.
+
+For Quant you can use standard resources that are there - 50 CP, Brainstellar and Xinfeng
+zhou. Understand the concept behind each of the problems.
+
+For coding – Leetcode and Interviewbit
+Sometimes for quick revision or for learning a new algorithm I often referred to this website -
+https://cp-algorithms.com/
+I’m sharing some of the docs I made of the question that I thought were important
+
+1. https://docs.google.com/document/d/152Qr0FCtz0scjIQzmtUbKQs-
+43hlDEfOBWz9OxOFghM/edit?usp=sharing
+
+2.. https://docs.google.com/document/d/1JzkcM4fDWJTUMEXxyo3TQIMlof2wolDRYlzQjXsKfZ0/
+edit?usp=sharing
+
+3. https://docs.google.com/document/d/1V54usLjlCttm7OJ-
+W397RqmQJK3j0RN5V1bQHksvUyQ/edit?usp=sharing
+
+4. https://docs.google.com/document/d/1-R6BQqQcdD6MKjjvsbpH4yqeC0WTk1NX9w-
+UHHBN4gA/edit?usp=sharing
+
+5. https://docs.google.com/document/d/1HzinrwdCU9H_FOsU4fgDjL9Xl1icFC9qVqTmXJV0BxY/
+edit?usp=sharing
+
+6. https://docs.google.com/document/d/1mzD7Wx_IjNHNczAGnLhhAo_TdhB3-VuCeZ5UU-
+XNTRo/edit?usp=sharing
+
+7. https://docs.google.com/document/d/1gSq__YuPKEyTZktBhcK2gH-BFHg_lO2J-
+efaCBjlLEo/edit?usp=sharing","Do’s : 
+1. Know each and every word for your resume. Go through the codes of the projects that
+you did to have a more clear understanding. Don’t just skip it ki upar upar se dekh lete
+hain.
+2. Start early – I started around May (Side by side with my research work). Try to do
+some coding side by side with your internship work this will help in your ppo interviews
+as well.
+3. Try before giving up on any skill – I know many people just giving up on coding
+because they had a bad esc101 grade. I would suggest try it, give it a month or so and
+even then, if it’s not working for you and then you can move onto any other skillset.
+4. CPI – try maintain a decent cpi. Cpi helps you in getting shortlisted for the companies
+a lot more than you think.
+
+Don’ts :
+1. Do not stress if you did not get a 3rd year internship. Try to get one from LinkedIn or
+else try to self-projects and build your resume."
+Gavish Saraf,B.Tech.,ME,M, Arthur D. Little,Management Consulting (Business Analyst),"1. McKinsey & Company
+2. Bain & Company
+3. Alvarez and Marsel
+4. Auctus Advisors
+5. PWC (Management consulting)
+6. ITC (Techno-Managerial)
+7. Sprinkler (Product Analyst)
+8. Praxis (Management Consulting)
+9. Accenture (Management Consulting) 
+10.Indus Insights (Financial Consulting)
+","Selection Process for Arthur D Little:
+1. Resume shortlisting: Typical consulting resume shortlisting. They look for peaks like
+high CPI, Day-1 Internship, Research publications, etc.
+2. Buddy Case practice: After the shortlist, a buddy is assigned to help in your case
+preparation. Timing is such that you can practice maximum 3-4 cases with your buddy
+so one should not rely only on these.
+3. Final Interviews (Day1, Slot1):
+Round 1 - (Manager Round)
+A guesstimate or case interview. Experience varies individually.
+Round 2 - (Partner Round)
+Can be a case interview or a general HR discussion. Experience varies individually.
+
+Pro tip- Know your resume inside out. You can be grilled on every single word you
+mention on the resume.
+
+Insights on Interview Process:
+
+Some special Notes about the Arthur D. Little interview process-
+1) The major bottle neck is the Resume shortlisting. Only 15-20 people get shortlisted
+from all the people that apply.
+2) The Buddy sessions are non-evaluative, so make proper use of them to get a good
+flavor of what can be expected in the interviews. Try to talk to the buddies about the
+company and what they expect from you. This is the part of the process where you
+can understand if the company is really a right fit for you.
+3) The final interviews can be radically different from person to person. Some might find
+them extremely easy and some might struggle. It depends highly on the interviewer.
+Do not assume anything about what they might ask or how you might perform. Just
+focus on giving your best.
+
+Sample Interview Questions:
+
+Round-1(Manager round)-
+1) Basic HR questions and questions on resume(I can't remember exactly what
+questions)
+
+2) Guesstimate-
+Estimate the quantity of denim cloth used in Mumbai in one year. (Interviewer was only
+
+interested in the approach. Once I cleared up my approach, the interviewer did not
+allow me to put numbers and perform calculations. He simply acknowledged the
+approach and closed the interview)
+
+Round-2 (Partner round)-
+There were no questions in the interview. It was just a conversation with both of us
+sharing our opinion on topics of interest and discussing how they might be relevant to
+anyone in their regular lives. In my opinion, the partner wanted to check how well I
+would fit in the company and how well can I communicate with clients on project.
+
+
+
+
+
+
+
+
+
+
+
+
+
+","Drive link to the consulting preparation material:
+https://drive.google.com/drive/folders/0B2qQx5DAQoeINUF4cmgwbEk5RXM?resourcekey=0-
+IcVEnTmMJnLGd7VcWxFydw
+
+A very helpful Youtube channel for case interview prep-
+https://www.youtube.com/c/CraftingCases","1) Start making your master resume from the summers before 7th semester itself. You
+can add anything new you do later on. Get the resume looked at by as many seniors
+and friends as possible. Do not write anything on the resume that cannot be
+confidently defended.
+2) Form groups for practicing cases and begin practicing as soon as you can after the 6th
+semester. Practicing cases individually is not useful. To get an idea about case
+solving, you can practice a few cases with seniors. Utilize the buddy round cases for
+understanding the general flavor of cases expected in the interviews.
+3) Be confident during the interviews. Since this is a client facing role, you need to have
+good communication skills. Keep smiling and do not get frustrated by your
+interviewer’s conduct, they might be stress-testing you.
+4) Read as much as you can about the company. It helps in asking good questions
+during the interviews and assures the company of your interest in the firm."
+Ayush Agrawal,B.Tech.,AE,M,Finmechanics,Associate Consultant,"1.Alvarez and Marsal - Analyst
+2.Jaguar - GMET
+3.Groww - Business Associate
+4.NVIDIA - FVE
+5.Airbus - Flight Operations Analysis and Incident Analysis Engineer
+6.Bajaj - GTE
+7.Uni Cards - Risk Associate
+8.Indus - Senior Associate
+9.Praxis - Associate Consultant
+10.Wells Fargo - Program Associate A
+11.Capgemini - Associate Consultant
+12.Trinity - Associate
+13.ICICI Bank - Management Trainee","1.Resume Shortlist
+2.Online Test
+3.2 Rounds of Interview
+
+Interview Process: 
+
+A&M interview had basic HR questions and a case study. I knew I had messed up the case study
+and was not selected for Round 2.
+JLR asked questions related to Aerospace and Thermodynamics. My interview went well for JLR
+but unfortunately, I was not selected for Round 2.
+FinMechanics had 2 rounds of interviews. The 1st round had 2 maths questions and some
+questions on my resume. The 2nd round had 2 more maths questions and a few HR questions.
+The interviews might be stress interviews but you should try to remain calm. I was not able to
+completely solve the maths questions in both my rounds of FinMechanics but the interviewers
+helped me solve the answers and I got selected in the end. Convey whatever your thought
+process is to the interviewer. Only then he can help you reach the final solution.
+
+Sample Interview Questions:
+
+How many solutions exist for x*y = x+y
+Prove (p^2)-1 is divisible by 24 if p is a prime number greater than 3.
+Resume based questions (What did you do in this project)
+HR questions (Why should we hire you; You have a software intern, why the change of field)
+
+","I was studying for CAT and only practised Quant, LRDI and Verbal Ability from the CAT study
+material. The placement tests are also comprised of these sections only.","1.Target a specific profile and prepare for it.
+2.Try to start preparing at the earliest possible since you will always feel that the time remaining
+is very small during the last few weeks.
+3.Practice giving mock interviews or at least speaking fluently in English. This will help you
+improve your communication skills and perform better during the interviews and you would be
+a bit less stressed on your interview day.
+4.Don’t get disheartened if you don’t get a job during the initial days or you miss your target
+company. Keep giving your best in the next interviews, otherwise, you might lose that
+opportunity as well."
+Tanu Modi,B.Tech.,CHE,F,Flipkart Internet Pvt Ltd,Associate Product Manager,Goldman Sachs,"1) Deck shortlist
+Post that, 3 rounds of interviews:
+2) RCA round
+3) Product analysis
+4) HR round/ director round
+
+Interview Process:
+
+For product and HR both, practice a lot, but don’t mug up or try to fit in previous cases or
+answers prepared, think fresh.
+For HR part(There is no separate HR Round, the director round includes the HR and is quite
+inclusive ),
+ Take time, but think out loud after every question
+ Build a conversation and instead of a QnA
+ Be realistic in your answers
+ Try to relate the question you are answering to a previous question you answered
+ Write down what the interviewer is saying about themselves or company, they’ll
+appreciate that, plus you’ll have something to build your question on, at the end of the
+interview
+ Ask the interviewer some check-in questions, keep giving mini summaries in long
+answers and cases in order to keep the interview interactive.
+
+Sample Interview Questions:
+
+Product Case: Contact separately
+
+Behavioural:
+ Tell me about yourself
+ Strengths, Weakness
+ Why should I hire you
+ Why APM
+ Why Flipkart
+ Money vs. Learning
+ What’s the most important thing for you in a job
+ What would be a dealbreaker for you to work in a company
+ How would you raise the bar of a team when you join
+ Where do you see yourself after 3 years
+ MBA plans?
+","YT Links:
+
+Puzzle: https://youtube.com/playlist?list=PLJicmE8fK0EiFRt1Hm5a_7SJFaikIFW30
+
+Product:
+https://youtube.com/playlist?list=PLrtCHHeadkHr8ro-vTg1CAdDuwrVmXS4y
+https://youtube.com/playlist?list=PLqtwvdE26B_RqemTzPe1NwfufeNV5USEI
+
+Case: https://youtube.com/playlist?list=PLIO8daZRc7DecpoYI5T8ChbtWItgTW6m8
+
+Product Cases:
+Preparing for Product Interviews (Advaith Sridhar)
+Decode and Conquer (Lewis C. Lin)
+Cracking the PM Interviews (Gayle Laakmann McDowell)
+Tech- Swipe to Unlock(Read only)
+
+Question Bank: www.productmanagementexercises.com
+
+Consult, guesstimates: Case Interviews Cracked, IIMA Case Book","Practice a lot, prepare, but don’t mug up the concepts of cases and HR answers."
+Divij Jain,B.Tech.,EE,M,Flipkart Internet Pvt Ltd,Software Development Engineer - 1,"1.FinMechanics
+2.Flipkart
+3.Jumio
+4.PwC","1. Coding Test (3 questions, solved all three completely)
+2. Two interview rounds
+
+Be confidence. Process involvement should be there and rather answering the questions
+directly, interact with interviewer, discuss, understand the problem and then take up that
+question. SQL, DBMS and OOPS all these concepts are important and should be practiced thoroughly.
+
+Sample Interview Questions:
+
+The round 1 was on the coding, mainly DP, graph(BFS) and backtracking
+The round 2 was based on resume and DBMS, OOPS, SQL concepts","Started coding start after internship. Tried to make a of minimum 5 questions everyday and
+continued doing this for 3-3.5 months.
+For quant did Gurmeet puzzles, 50 challenging problems, brainsteller and practiced puzzles from
+them. Used binarysearch.com and leetcode.com extensively for coding practice.","Good group studies matter a lot. Practicing with you friends would help you know different
+approaches to a particular question as well."
+Mudit Mamodia,B.Tech.,MSE,M,Sprinklr,Product Analyst,"1. Praxis (Consulting)
+2. Zomato (Product Analyst)","1. Resume Shortlist
+2. Test
+3. 4 interview rounds-
+First-simple root cause analysis
+Second-product design
+Third-RCA based
+Forth-Resume questionnaire, innovation and future ideas based
+
+Sample Interview Questions:
+
+Simple Root cause analysis had quick calculation questions and product design had business cases.","Casebooks-IIM Ahemdabad
+VictorChang(YouTube) for consulting
+More focus on group preparation as one has to discuss and share ideas to grow in this field","1. Sort out your profile, get clarity first.
+2. Practice In groups, brainstorm thoughts, go out of box, stay updated with general knowledge.
+3. Your way of talking and experience matters a lot.
+4. If You have interest in creating something on your own from scratch, You might find Product
+Analyst profile very interesting."
+Aarsh Mishra,B.Tech.,ME,M,SAP Labs India Pvt. Ltd.,Developer Associate,Oracle - Applications Engineer,"1. Resume Shortlist
+2. Test
+3. Interview
+
+Coding questions fairly easy and can be found on gfg or leetcode
+Few puzzles, logical reasoning
+Slight knowledge of OOPS, DBMS, OS was required.
+
+Sample Interview Questions:
+
+1. Write a code to find it a binary tree is mirror of itself or not,
+2. Word ladder (common bfs question)
+3. Inorder successor when a node(not necessaily root) is given,
+4. What is third normal form (dbms)
+5. Features of OOPS
+","LEETCODE,
+INTERVIEWBIT,
+GEEKSFORGEEKS,
+Online notes for os, dbms, oops","1. Please try to develop some proficiency in algorithms and their implementation in a language of choice, Cpp is preferred.
+2. Mock interviews help a lot, and it is important to know how to explain and debug solutions in
+the interview round."
+Mudit Mamodia,B.Tech.,MSE,M,Sprinklr,Product Analyst,"1. Consulting at Praxis
+2. Product Analyst at Zomato","1. Resume Shortlist
+2. 4 interview rounds-
+First-simple root cause analysis
+Second-product design
+Third-RCA based
+Forth-Resume questionnaire, innovation and future ideas based
+
+Sample Interview Questions:
+
+Simple Root cause analysis had quick calculation questions and product design had business cases.","1. Casebooks-IIM Ahemdabad
+2. VictorChang(YouTube) for consulting
+3. More focus on group preparation as one has to discuss and share ideas to grow in this field","1. Sort out your profile, get clarity first.
+2. Practice In groups, brainstorm thoughts, go out of box, stay updated with general knowledge.
+3. Your way of talking and experience matters a lot.
+4. If you have interest in creating something on your own from scratch, you might find Product
+Analyst profile very interesting."
+Shivangi Singh,B.Tech.,EE,F,Rakuten Mobile,Software Engineer,"1. Google Software
+2. Goldman Sachs Risk
+3. Qualcomm Software
+4. VMWare MTS
+5. Oracle MTS
+6. Amazon SDE","Resume shortlisting (based on relevant coursework+projects) and a coding test
+
+Interview for Rakuten was mostly resume based. For me, they checked my knowledge in
+communication and networks (since I had the relevant coursework and a UGP).
+
+","GFG,Leetcode, ESO207 and MSO201 course content, Brainstellar","Start leetcoding at least a month in advance. Even if you know DS-Algo, coding up your
+algorithms requires practice. For interviews, practice coding on paper, since the platform used
+does not usually have autocorrect. Go throught HR questions and your resume well in
+advance. Look at GFG archives for company-specific interview questions. Having a peer
+group during placement preparation always helps."
+Ajay Prajapati,Dual Degree,MTH,M,Rakuten Mobile,Software Engineer,"I was shortlisted and interviewed by Graviton for the Quantative Researcher profile and by
+Google for the Software Developer profile. I was shortlisted in other day 2 companies as well
+but I was placed before interview.","1. Resume Shortlist
+2. Test
+3. Interview
+
+Sample Interview Questions:
+
+1) Introduce Yourself.
+2) Why should Rakuten hire you?
+3) What technologies are you interested in?
+4) Are you comfortable moving to Japan?
+","I used Interviewbit for coding practice. I learned and practiced Machine Learning commands
+in Panda by watching YouTube videos (codebasics channel). I revised the courses MSO201,
+ESC101, and ESO207.","1. Start your placement preparation as early as you can.
+2. Keep your academics load as minimum as possible because placement season is very hectic with lots of tests to write and lots of forms to fill.
+3. Also make time to improve your communication skills. Prepare the basic HR questions well."
+Ujjwal Pratap Singh,Dual Degree,MSE,M,Accenture Strategy and Consulting ,Analyst,"1. Micron (Modeling Engineer)
+2. Meesho (SDE)
+3. Hilabs (Data Science)
+4. Indus Insights (Associate)
+5. ShareChat (Decision Scientist)
+6. Myntra (Data Analytics)
+7. Tata 1mg (SDE)","The Profile was open for Dual Degree and M.Tech students.
+There was a test (Coding+SQL+Aptitude) and the selected students were directly called for the interview process.
+
+There were three rounds:
+1. Coding round: Asked four easy coding questions. Knowledge of Python and
+SQL will be a plus.
+2. Case Study round: Interviewer asked a very basic case study. No formal
+knowledge of case solving required.
+3. HR: Interviewer asked standard HR questions, nothing tricky.
+
+Sample Interview Questions:
+1.Coding: Some easy coding questions.
+2. Case Study round:
+What are the parameters you would keep in mind while deciding the location for
+your lemonade stand?
+How would you increase your sales?
+3. HR:
+Why not going for higher studies?
+Things you missed out on in your college life.
+Mention some strengths and occasions where you showcased your strengths.","I was targeting Software and Data Analytics companies, so I used following resources:
+Coding: GfG (DSA self paced course) and Interviewbit (problem solving)
+Aptitude and Prob-Stats: Prepleaf (lectures and tests)
+Puzzle: Brainstellar and GfG","1. If you are able to decide which profile you want to apply, then it would save a lot of efforts during your prepration.
+2. Students eyeing SDE profiles should pick one coding platform and stick to it during their entire preparation."
+Mahima Tarunkumar Bhavsar,M.Tech,AE,F,Airbus,Associate Flight Physics Engineer,"1. GE - Edison Engineering Development Program
+2. Airbus – Associate Engineer Flight Physics","1) Resume Shortlisting
+2) Aptitude Test – 60 questions (no negative marking), duration – 1 hr
+Followed by Technical Test – 20-25 questions depending on the profile (+2 for coorect
+answer, -1 for incorrect answer), duration – 30 minutes
+3) Technical Interview
+4) HR Interview
+
+Sample Interview Questions:
+
+For Technical Interview:
+1) I was asked to explain my Btech projects and most questions were asked based on
+that
+2) Conceptual questions from flight mechanics
+
+For HR:
+1) Tell me about yourself
+2) Which role I would prefer - research based or managerial
+3) For research-based role, how will I keep my myself motivated throughout the years
+4) Any event or moment from the past that may have led to self-revelation
+5) What changes I would want to see in myself after 15 years?","For aptitude preparation – youtube channels
+For technical test and interview, I had mostly followed GATE syllabus.",Prepare for HR interview but do not mug up the answers. Your response should sound natural.
+Devanshu Gupta,B.Tech.,ME,M,American Express,Engineer Trainee,Vmock - SDE,"Company had a CPI criteria. Minimum 8 cpi was required for the same. They also saw the technical knowledge and experience in shortlisting resume. After that, test was major criteria for shortlisting students further.
+
+Interview consisted of 3 rounds. First two rounds were technical rounds and last round was a typical HR round. In technical round they asked basic coding questions and judged technical skills. In the HR round, we discussed about the project of cryptosystems and asked about how interview process in general was.
+
+Sample Interview Questions:
+
+These questions were asked-
+1. https://www.interviewbit.com/problems/minimum-lights-to-activate/
+2. https://www.interviewbit.com/problems/max-sum-contiguous-subarray/
+3. https://www.interviewbit.com/problems/cycle-in-directed-graph/
+","I prepared majorly by solving the questions of Interviewbit and geeksforgeeks. Other than
+that, I also used Prepleaf for Aptitude ,Probability and Statistics.","DOs:
+Keep practicing coding questions. Must go through that 200-250 set of questions on Interviewbit. Other than that, participate in contests. Should prepare your resume well and should have thorough knowledge of each and every point present in your resume.
+
+DON’Ts:
+Do not stress out a lot and don’t compromise your health and sleep in any way."
+Sana Anwer,MT,EE,F,"Qualcomm Technologies, Inc.",Modern FW Engineer,"Qualcomm - Modem FW Engineer
+Intel - SDE","1. Resume shortlist 
+2. Written test – aptitude, programming and technical 
+3. Three rounds of interview 
+
+I only gave 3 rounds of interviews for Qualcomm. It was my first ever experience of placement interviews as I never sat for placements in B.Tech. I was nervous but the interviewers were quite helpful and friendly. They were giving hints and guiding me if I was stuck in some question. So, such friendly interaction lessened my nervousness. I tried to give intuitions for the questions | didn't know the exact answers. ","1. Communication Systems book by Simon Haykin 
+2. Digital Signal Processing book by Oppenheim - Chapter 4 and 5 only 
+3. Geeks for Geeks for C language based questions 
+4. Gate level aptitude questions 
+5. Previous written test and interview questions given by seniors 
+","Prepare your basics very well. Instead of tough questions first solve easier ones in written test since there will be time constraints. Don't spend much time on a single question. There may be negative markings so avoid guess work. Prepare all three sections well, don't take the aptitude section lightly. It can be the most scoring section. Keep practicing at least 10 questions daily for aptitude and C output questions. Force yourself to do so even if you feel like skipping. Consistency is better than perfection. For the interviews don't sit silently even if you don't know the exact solution. Try your best guess. If it's correct the interviewers will guide you further. If it's not, they may give you some hints to start off and build upon further. "
+Aditya Jain,MT,,M,"Qualcomm Technologies, Inc.",Software Engineering,"1.1 Qualcomm 
+1.2 Oracle, SAP, Urban Company 
+2.1 VMware, Samsung Bangalore, Amazon, Myntra, Ola 
+2.2 Visa, Jio-Saavn, Cisco 
+3.2 Fareye","1. Resume Shortlist
 2. GD
-a. Case questions given like what can we do for delivery truck drivers etc
-b. Had to record a 15 min video live on their platform for 3 - 4 questions
+3. Written Test - The test comprises of - Aptitude - Logical Reasoning - Quant - Computer Science Fundamentals (OS, CSO, etc). All questions were MCQ.
 
-3. Interview Process
-a. 2 interview rounds
-b. First round: Few HR questions, and resume based questions
-c. Second round: Extensively course based ( Thermo, Mechanics) and project based questions – more detailed
-than first round
+There are two compulsory rounds of 45 minutes. One round was more on theoretical concepts of computer architecture and the other was on practical implementations (coding) of some hardware modules and some questions to judge the analysis skills.
+ 
+Interview 1 (Theoretical): Only discussed the projects related to computer architecture and created new scenarios in the hardware (like if cache hierarchy is exclusive instead of inclusive what would happen, etc.). To answer the questions, one requires good knowledge of the subject Computer Organization and Architecture (CS622 ACA covers everything). Some questions were -
+ 
+• What is prefetcher, how would one identify the optimum lookahead value of prefetcher. 
 
-Test questions: 
-1) What can you do to ensure safety of truck drivers? 
-2) How would you convince workers to work on low wage and alternating days during COVID times?
+• Questions on various cache hierarchies. Disadvantages and advantages of inclusive 
+cache hierarchy. Design a new cache replacement policy that removes the problem of inclusive victims of inclusion cache hierarchy (There is no solution to the problem without compromising the bandwidth, the interviewer just wants to check your analysis skills. So come up with various approaches and have a discussion on pros and cons.). Cache replacement policies - LRU, Belady. 
 
-Interview questions: 
-1) Which POR do you like and why? 
-2) How does a boomerang work? 
-3) How does a refrigerator work? 
-4) How is a gyroscope used in phones?","1) Previous case study question given by seniors
-2) Participated in practice GD organized by AnC
-3) Internet Surfing on key words like six-sigma, supply chain ( less useful during interviews though)
-4) Visited the company website, read latest initiatives","1) Cracking the process doesn’t require extensive one-time preparation, we build the profile round the year, try to relate answers to HR questions with what you learned during your POR experiences
-2)  Focus on applications of stuff we read in courses
-3) Be confident with what you say in the interview, if you don’t know the answer do not fool around, and politely refuse
-4) Practice a lot of GDs, try to open, interact and also let others speak.
-5) Do not go theoretical with your answers, specially in HR questions, try to relate to experiences"
-Vishwaraj Singh,BT,CHE,M,Piramal Pharma Solutions,Global Emerging Leader Program - Summer Intern,HUL,"1) Questions were based on general understanding of basics concepts of chemical engineering.
-2) Little knowledge of practical application of Thermodynamics will be helpful. 
-3) Thorough understanding of projects and internships written on resume is must. Questions on the core projects and their applications are asked.","Thermodynamics lecture slides, Fluid mechanic lecture slides ","1) Generally have a specific profile in your mind you are targeting and you can prepare for the specific companies coming for that profile. 
-2) Be confident with your preparation and your basic concepts in whichever profile you are sitting and the process will be very relaxing.
-3) Don't take tension as internships are the not the end goal for you.
-4) Be confident in the interview, that will help you a lot. "
-Ayush Ranjan ,BT,ME,M,Proctor and Gamble (P&G),Supply Chain Management ,NA,"1) Open for all
-2) Psychometric Test and Situational Judgement Test
-3) Aptitude Test: Mathematical and mental ability, memory  games etc. 
-4) Group Interview: A set of HR questions were asked to the  entire group
-5)  HR Interview
-",Just do a bit of GD,Don't fake around in the psychometric test. Just choose whatever seems logical to you. Prepare resume properly with action verbs. Try to emphasize management skills you gained from past experience in the interview.
-Aditya Vats,BT,ME,M,ITC Limited,Techno-Managerial,HUL,"1) The first round is filling a very detailed form. This constitutes everyThing from your achievements to your life goals etc. I believe it’s to understand how actively you are engaged in progressing your career and yourself.
+• Cache coherence protocols, sparse directory, bus snooping. (Questions related to the 
+project in the resume) 
 
-2) Second round is basically the short listing for GD. The short listing is done on the basis of your form, your CPI, and your resume. I believe a CPI > 8.5 will suffice.
-
-3) My GD was online and it was a very quick case study. A situation was provided and 3-4 people were asked to come to a consensus for a solution. The selection over this was pretty much how any GD selection goes. You speak up, speak logically, don’t criticise, be courteous but put your point across. 
-
-4) After getting selected, you have another 2 rounds of interviews. You must be very thorough with your resume. Technical questions were asked of me but not related to my coursework. Some general stuff like what motors do we use in our bot (related to a project of mine). So have at least 10 minutes of speaking content on each of your project points (yup, 10 minutes for each bullet point). Be very thorough here.
-
-5) Almost all the questions were about your resume points. So if you had written for eg something about Random Forest Classifiers, they are going to go to the depth of it. So ensure that you are able to justify all your points.They may ask very unrelated questions, that they know you don’t have the technical expertise to know. These are just to ensure you don’t get baffled by stuff. Stay calm and answer to the best of your abilities.","I was not really preparing much for internship. I had done some GD practice with my friends, at least 3-4 mock GDs. Was doing some coding on interviewbit and some quant practice (50 challenging problems etc). I was not very rigorous in my prep. What helped me I guess, was that I had done lot of work in my semester time. Projects, Teams, Internship. All that actually helped me in the ITC shortlisting.","I would suggest to stay calm and relaxed in interviews. A relaxed and positive vibe actually creates a big difference in such interviews. Nobody wants a nervous wreck in their company. So smile, make light conversation with the interviewers while answering their questions seriously. That shows that you are confident in dealing with new situations."
-Shubham Sanjay Korde,BT,EE,M,ITC Limited,Techno-Managerial,Hindustan Unilever (Techno Managerial),"Shortlist
-- Shortlisting done on the basis of Resume + Application form
-- A good CGPA helps
-- Having a project and a POR beneficial 
-
-GD 
-- Group Discussion with a batch of 6 people
-- Common problem statement is given. You have to choose an option and try to convince others why that options should be choosen.
-- Sample Question: There are 5 people who want to get an apartment in the residential complex. The traits and characteristics of all the 5 were given. Like one of them was the senior most, one did crucial time sensitive jobs, one was handicapped and so on. We had to decide and explain whom to give the room and convince everyone else why that was the correct choice.
-
-Interviews
-- 2 rounds of interviews: 1 technical and 1 HR
-- Explain one of the projects on your resume.
-- What are the two important internationally important topics you deeply feel about? (HR)
-- Which will be your ideal company to join apart from ITC? (HR)
-- All other questions were resume specific (most of it was  conversations)
+Interview 2 (Practical): Discussed project. Then asked to share screen and code to implement a cache with LRU cache replacement policy. After the successful implementation using hashmap, the interview asked on the aspects of performance on using link-list, vectors to implement the cache and LRU instead of hashmap. Performance in terms of time and space complexity, temporal and spatial locality of the application in your own laptop's cache, i.e. which will give better performance when the application is executed on your laptop. Answer - Vector will give better performance as it will enjoy spatial locality as all elements of the array are stored contiguous in the memory whereas link list is not necessarily stored contiguous (once some of the nodes are deleted). Link list also consumes more space, so it will also require more memory accesses as compared to vector.
+ 
+Sample Interview Questions:
+ 
+Questions on working of DRAMS - channels, row hit, row miss, banks, case where two subsequent dram requests will take the most time to service. 
+I was asked to code for the implementation of the LRU (Least Recently Used) Policy of the cache replacement policy. 
 
 
-General Insights
-- Having a good CGPA makes selection way easier
-- Clear speech, logical structure in arguments and persuasiveness in manner beneficial in clearing the GD. Exposure to public speaking and GD practices will surely help. 
-- Basic questions on core courses like EE330, ESO203, ESC201 can be asked. Although I was asked none. Same for Mechanical and Chemical core courses
-- Have basic info for HR round like CEO name, products of the company, primary business market etc.","- I did not specifically prepare for techno managerial profiles. I had been debating for a couple of years by then so it was relatively easier for me to crack the GD.
-- I watched a couple of youtube videos on basic tips to perform well GD before the GD.
-- Do not forget to ask your friends who have already been in one of the previous batches what the question was. I knew the question well in advance before the GD. Although the question was not super difficult, it could make a difference if you get more time to think about your answer.
-- I watched youtube videos on HR interview questions and correct answers to them. None of them helped as HR interviews are basically conversations. 
-","- Have backup options ready if your target is techno-managerial profile because the number of good companies in this profile are very few. It is also possible because preparing for this profile does not require much hardwork.
-- If you have never done any kind of public speaking or any such activity, practicing GD with your friends can be really helpful.
-- Be as frank as you could during the interview. No need to fake. Most times the people interviewing you are extremely pleasant and make you feel comfortable. Take the interview just like a conversation. You wont even know when did the interview end.
-- Don’t worry if you don’t get it. A significant part of the process is luck."
-Chaitanya Sahni,BT,ME,M,ITC Limited,Techno-Managerial,Hindustan Unilever (Techno Managerial),"1. Resume Shortlist and personal questionnaire form : High CPI is important
-2. GD: Directed GD amd GD usually presents a moral dilemma as topic where you choose what to give priority to.
-3. Interview Process: There were 2 interviews in total post GD. The first interview was more on the technical side whereas the second was a general interview seeking to know more about your personality.
+",NA,"If you are shortlisted for the interview for this profile and you are not interested, say that in the interview that you want to go for pure SE role and don't want to go in computer architecture. Many students did that and interviewers didn't mind at all and wished them luck for other companies. "
+Aman Aryan,M.Tech,CSE,M,"Qualcomm Technologies, Inc.",ML SW,"1) Qualcomm (selected)
+2) Intel
+3) Media.net
+4) Amagi Media Labs
+5) BrowserStack
+6) Flipkart
+7) Oracle
+8) VMWare","1. Test – MCQs mostly related to Aptitude, Basic Programming and Core Subjects
+related to CSE.
+2. Interview
 
-The personal questions form should be filled with care. The answers should show clarity in the direction you are headed. For the GD the best steps to follow are to be aware of others peoples points and not repeat. Also you should try to bring a different angle from others. Stick to your decisions and make arguments in a formal manner.
+Interview Process can be a bit hectic if you are shortlisted in multiple companies. Careful selection of priority for shortlisted companies is very essential. Also, scheduling the interviews for different companies is also very important. Since a slot is of 8 hours. And most of the companies takes at least 2 rounds. At max, one may be able to sit in interview for 2 or 3 companies.
 
-The GD question for me was related to a company which gave workers houses within the company plant. The house allocation was usually done on seniority basis however we were presented with a dilemma in this case were there were some special cases in addition to the senior most worker. We were to decide based on this who we would allocate the house to. The technical interview was focused primarily on my resume. They asked in depth about projects I was pursuing and some course related questions as well.",My preparation for the GD was done by interacting with some seniors and taking part in mock GD’s arranged by the ANC. After the GD I did some basic research into standard interview questions and prepared myself for those. Apart from this I also did some background research on the company I was interviewing for. We must be prepared for what we have written in our resume as they will surely pick up on those points and ask to explain them.,"Be thorough while preparing resume. Do not panic or feel dejected when you do not see your name in the list. Intern season is stressful, prepare well beforehand and dedicate time daily for your betterment. Apart from this focus on your soft skills as they also play an important role to get you intern."
+Sample Interview Questions:
+
+All question needed to be coded. Design and Puzzle on scratchpad.
+Round 1
+1. Kth Node from the end
+2. Designing stack using linked list from scratch
+3. MOD operator without / and %
+Round 2
+1. Design Tic-tac-toe for optimal move
+2. Puzzle: 4 people, identify based on constraints in minimum trials
+3. Longest Palindromic Subsequence","1. InterviewBit – Solve all problems from June-August
+2. LeetCode – Practicing using leetcode test for speed.
+3. GATE Notes – For core subjects
+4. Google Search on need-to-know basis. (GFG, Youtube, etc).","Stay Calm.
+Code Hard.
+Maintain notes of every problem you solve systematically to retrieve it as fast as you can.
+Keep referring notes once a week to revise the algorithms."
+Yash Vardhan Raizada,B.Tech.,CE,M,Microsoft India,Software Engineer,"1. Microsoft - SDE
+2. JPMC - Analyst","1. Resume Shortlisting
+2. Test
+3. Interviews (2-3 rounds)
+
+The placement process was a unique experience full of excitement, stress and a lot of learning. Before sitting for the placement season, I had already decided to target SDE roles specifically and
+keep ML and Analytics roles as a backup.
+
+The standard resume shortlisting and placement tests were quite same for both. J P Morgan Chase also asks Aptitude and Mathematics besides programming in their tests.
+
+Interview Experiences:
+
+Our campus interviews were scheduled on December 1, and both of my interviews were scheduled during the first slot of 8 hours (Day 1, Slot 1).
+
+Microsoft:
+Great Experience. It was one of the interviews where I felt like I was actually working with them and not interviewing. Apart from the standard coding rounds, they let you ask questions to them and then they give answers and follow up with you on how you think of the problem etc. Just be very well prepared with the fundamentals and practice communicating technical ideas and processes verbally, it helps a lot.
+
+J P Morgan Chase:
+Wonderful experience with very collaborative interviewers. They ask you a combination of programming and mathematics questions. The mathematics round was a bit challenging, but the interviewer helped me think through the problems very clearly until I solved them successfully.
+
+Sample Interview Questions:
+
+Microsoft Interview:
+Round 1 (Technical):
+Introduction
+Q1. Based on a partial reversal of the Linked List.
+Q2. BFS Traversal on a Matrix of 0s and 1s.
+Resume Project based questions.
+Questions on differences between C++ and Python. Why C++ used in Game Development ?
+Be very neat in writing code. Keep it modular, use functions, give proper names to the
+variables. Also don’t forget to ask questions and clarify the problem and input before solving it.
+Round 2 (Technical + Behavioral + HR based):
+
+This interview round was with a senior manager at Microsoft.
+The interviewer asked me to ask questions about Microsoft or anything I wanted to know
+about Microsoft or its products. It was pretty behavioral and challenging.
+I asked her about the team structure and workflow, new products they were working on and
+about the Underwater Data Centers they are building (The interviewer was very impressed by
+this question. I had earlier watched a video regarding the same !).
+Then she asked me a question on Semaphores Design, which after some help I was able to
+explain satisfactorily. I had told her during the conversation that I am not from a CS
+Background, so she gave me hints whenever I got stuck.
+Rest of the interview was about deep-diving on technologies and further questions that
+emerged due to our conversation. There was a good amount of verbal technical
+communication that happened. Be good at it !
+Both the rounds were about 1 hour each.
+
+Result: Offer !
+
+JPMC Interview:
+Round 1 (Programming + Technical):
+Around 45 minutes interview.
+Interviewer asked me to reverse the Linked List and write a code for it.
+Detailed questions and explanations of OOPS Concepts with examples.
+Differences between C++ and Python.
+Probability questions on Expectation and Integral Evaluations.
+Asked me to write the code for Dijkstra. Follow up questions on priority queue and heaps were
+also asked.
+
+Round 2 (Mathematics):
+Hard Probability problems on Expectation and Variance.
+Integral Evaluation - Medium
+Joint Probability Distribution
+Question on Leibnitz Theorem.
+Some basic math puzzles.
+I solved about 3.5 questions out of 5. But the interviewer was very helpful.
+Discussion on life as a quantitative analyst.
+For preparation, one can look up at brainstellar.com problems and solve questions from 50
+Challenging Problems in Probability.
+Round 3 (HR):
+Basic HR stuff, discussion of the offer, opportunities, activities etc.
+
+Result: Offer !","My preparation was mainly through LeetCode, InterviewBit and Brainstellar. I had made up
+my mind to target SDE/ML and Quant/Analytics roles.
+
+InterviewBit is a great resource. I went through the tutorials on DS/Algo, articles on ML and
+other CS Fundamental topics: OOP, CN, DBMS and OS. Try to practice 2-3 questions from
+each basket.
+
+I also learnt SQL and practiced writing queries here. Also one can go through some of the
+system design questions as well to get to know more about real world software engineering. It
+may help you in some of the advanced technical rounds of some startups.
+
+Besides these, I regularly attempted Weekly and Bi-Weekly contests on LeetCode, apart from
+solving mock assessments on LC and practicing mock interviews on IB. Be consistent in your
+practice, it will help you a lot !
+
+For puzzles, I practiced questions from the 50 Challenging Problems in Probability,
+Brainstellar and InterviewBit puzzles sections. For aptitude, I practiced solving past CAT
+papers and enrolled in a placement preparation test series by PrepLeaf.
+
+But 80% of my time was spent practicing more and more DSA questions and studying ML, CS
+Fundamental articles on GFG, IB, Medium etc.
+
+Regarding resume, I would suggest everyone to go through the SPO Preparation Folder. Just
+keep it precise and crisp, not exceeding 1 page. Make sure you are prepared to defend each
+and every point written on it, even from the extracurricular section. Also, do get it reviewed
+multiple times by at least 5 seniors, till you get satisfied.
+
+ https://www.interviewbit.com/practice/
+ https://leetcode.com/
+ https://brainstellar.com/
+ http://spo.iitk.ac.in/preparation/
+ https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-
+microsoft-adobe/
+ https://www.geeksforgeeks.org/machine-learning/
+ https://www.linkedin.com/pulse/most-asked-interview-questions-os-dbms-cn-harsh-
+agarwal/
+ https://soce-iitk.herokuapp.com/Samyak_Jain","Some very important tips:
+
+Take care of yourself and your health. Keep it a top priority. Indulge in some form of physical
+activity or workout which you can do regularly without losing out a lot of energy and disturbing
+your schedule and commitments. It will help you to stay motivated, healthy and happy.
+
+Take care of your mental health. Switch off the notification of Social Media apps, if it takes
+away your peace of mind. Find a close friend, with whom you can ease out your post
+assessment stress and share your experiences. It will help you out a lot !
+
+Take ample rest, but do follow a schedule. Be in touch with your seniors, you can’t imagine
+how motivating and helpful their advice can be ! Trust them, they have also gone through
+similar experiences.
+
+Regarding resume, I would suggest everyone to go through the SPO Preparation Folder. Just
+keep it precise and crisp, not exceeding 1 page. Make sure you are prepared to defend each
+and every point written on it, even from the extracurricular section. Also, do get it reviewed
+multiple times by at least 5 seniors, till you get satisfied."
+Bhavesh Jain,B.Tech.,EE,M,Microsoft India,Data Scientist,"1. Milliniuem management - Quant
+2. Microsoft - Software Engineer
+3. Goldman Sachs - Quant Analyst
+4. Microsoft - Data Scientist","1. The online test was completely based on your knowledge of ML and Statistics (both theory and implementation)
+2. Interviewer discussed the projects that I had mentioned in my resume. Also intensive discussion went on as to why I had used the approach that I used and what different kind of approach could be used.
+3. In the 2nd round - I was given a problem statement (an actual problem that Microsoft solved few years back) and we had to discuss on the approach that I would take to solve it.
+4. It was a HR round where we basically discussed as to why I choose Data science instead of my Major (EE) and some other standard HR questions.","1. Brainstellar
+2. 50 challenging problems
+3. Leetcode
+4. Notes of courses taken in ML","1. Ask multiple people to interview based on your resume
+2. Think about the interview more of as a discussion rather than question - answer kind of thing"
+Rishabh Katiyar,Dual Degree,CHE,M,Barclays India,Graduate Analyst ,"1. Barclays India, Graduate Analyst 
+2. PWC, Management Consulting
+3. Praxis, Consulting
+4. Indus Insights, Consulting
+5. American Express, Analyst","1. Resume Shortlist (Basically CPI)
+2. Quant Test
+3. Interview
+
+Resume-Based Questions/ Prob & Stats/ Python/ HR Questions
+1-2 rounds
+
+Sample Interview Questions:
+
+1. Why do you want to work at Barclays?
+2. Why do you like the work culture at Barclays?
+3. Which type of working environment do you prefer?
+4. General Python/ML related Questions
+5. General Prob & stats Questions from 50CP or Xinfeng zhou","For Stats & ML - StatQuest with Josh Starmer, Krish Naik youtube
+For Probability - Xin feng zhou + 50cp
+For Coding - Leetcode Explore cards+Aditya Verma Playlist for dp+Interview Bit+InterIIT doc","1. Start your preparations from summers, and even if you are not going for coding, Learn at least one coding language(along with C), Learn some basic SQL
+2. Solve InterIIT doc questions of all companies
+3. Do not put too many projects/interns in your resume, just put the impactful projects/internships, and go through every single term in your resume."
+Nandini Ojha,B.Tech.,EE,F,Discovery Inc.,Software Development Engineer-I,"Microsoft, AmEx, Oracle, Nomura, Discovery
+(Software/Data Analyst roles)","1. Resume Shortlist
+2. Test
+3. Interview
+
+Sample Interview Questions:
+
+LC medium+hard, basics of data structures and DBMS","Leetcode, InterviewBit, gfg (coding)
+50 challenging puzzles, brainstellar (puzzles)
+","1. Start prep as early, possibly before PPO announcements
+2. Have a prep buddy + support system (would be nice during interviews :))
+3. Expect chaos. Strive. Good results will follow."
+Prashant Kumar,B.Tech.,CSE,M,Glean,Software Engineer,"Glean - Software
+Quadeye - systems
+Graviton - systems
+Tower Research - systems","There was a resume shortlist directly followed by interviews. Shortlisting was primarily done on the basis of CPI and department (CSE, EE, MTH) which I find a very unfair way of doing things based on my experience of the skills of people. There were 3 rounds of interviews, all technical.
+
+First round was technical, the question was not that tough and there was more emphasis on implementation. In the next round, they asked questions about my resume and about my future plans and told me details about the company as they are a fairly new startup. The last round had a medium level coding question on parenthesis.","● Leetcode
+● Geeks for geek articles
+● https://cp-algorithms.com/
+● Codeforces
+● https://brainstellar.com/","● Start early and try to solve some questions every day
+● Keep a list of questions or concepts you struggled with and revise it after 2-3 weeks
+● Don’t waste your time on high-level topics a lot and focus more on the basics
+● Thinking about the solution is important so don’t jump straight to the answers if you can’t solve something
+● Eat healthily and take 6-8 hrs of sleep during the placement season. You won’t want to get sick at that time.
+● Do some physical exercise, jogging, etc. This will help with stress.
+● Feel free to contact any senior and ask for advice. They will be happy to help!"
+Abhishek Agrawal,Dual Degree,CHE,M,Grofers (now Blinkit),Assocate Product Manager,"Day 1.1:
+Company: Finmechanics -&gt; Role: Associate Consultant
+
+Day 1.2:
+Company: Groww -&gt; Role: Associate Product Manager
+Company: Grofers -&gt; Role: Associate Product Manager
+
+Day 2.1:
+Company: Praxis Global Alliance -&gt; Role: Associate Consultant
+
+Day 2.2
+Company: Sprinklr -&gt; Role: Product Analyst
+
+Day 3:
+Company: Dr. Reddy -&gt; Role: Technical Trainee
+Company: Tata 1mg -&gt; Role: SDE
+Company: Tata Projects -&gt; Role: Field Engineer Trainee","1. Deck round: You are the Product Manager of a new startup that wishes to revolutionize the movie-ticketing space. Your objective is to conceptualize and design a comprehensive mobile movie-ticketing product end-to-end.
+
+
+https://drive.google.com/file/d/1lyu78EYEyBQ2l74ncH6P0xF0EAs8Y1NQ/view?usp=sharing
+
+2. One Round Interview which went for 45 minutes covering technical, product and HR Questions
+Details are here:
+
+https://docs.google.com/document/d/1M6aDyUtsu3EBDSyBqiKH6998OVZpyc0BM2Awy2sNC3g/edit?usp=sharing
+
+
+Three insights:
+(i) The whole process before the interview as well as the interviews are exhausting, physically as well as mentally. Have a support system with you (I had my family) and avoid distractions which might come in the form of any emotional or informational distress, during the process. Keep yourself healthy.
+
+(ii) Be yourself, with dress or coiffure, with knowledge, with language. Make your own plan, your goals and execute. Prepare for the placements keeping in mind that these are almost once in a lifetime opportunity. But also relax yourself as the placements are not the only opportunity in life.
+
+(iii) Enter the interview process with confidence and a little smile. Greet the interviewers, that usually breaks the ice. If you can know the background of your interviewer, you might be able to make little tweaks in your conversation (But do this only when you have your fundamental knowledge solid. Otherwise, instead of being smart, you will look sciolist).
+
+Sample Interview Questions:
+
+Interview details can be found here:
+https://docs.google.com/document/d/1M6aDyUtsu3EBDSyBqiKH6998OVZpyc0BM2Awy2sNC3g/edit?usp=sharing","Sources: 
+
+Books: 
+1. Cracking the PM Interview (Relevant Parts: Ch 2, Ch 9 , Ch 10-15)
+2. Decode and Conquer(Ch 2, Ch 8-12, Ch 16)
+3. Preparing For Product Interviews (All Chapters, Don’t read, but practice)
+4. Futuristic Outlook to Product Management (The Prodman Club, IIMA) (Overview and company specific, Good Read)
+5. The Design of Everyday Things (Don Norman) (Used it for design thinking and picking out direct sentences to speak in the interview)
+ Order to read: (3) -> (2) -> (1) -> (4) -> (5) (You may decide on your own too)
+ Books Drive Link: https://drive.google.com/drive/folders/1rlg70fm6rxK3ze461qTMdJkxa4DrWK98?usp=sharing
+
+Websites:
+1. Product Management Exercises: Master Your Product Manager Interview Skills
+2. PMSchool
+3. StellarPeers – Preparing for Greatness, Together
+4. Product manager interview prep (relax, start here) – IGotAnOffer
+5. Product Manager Interview Questions | The PM Interview
+6. Product School: Product Management Certificates &amp; Training - Product School
+7. Product Development – Flipkart Tech Blog
+ Website (1) is enough, but you can always explore more! There are many articles on Medium.
+
+Youtube channels/series:
+1. PM School (Explainer series by Prashanth (Most Important Resource), Khanjan Desai)
+2. Exponent (Channel) 
+3. Rocketblocks
+4. HR Questions: Deniz Sasal (Stick to only this for HR: the more you search the more time you will lose)
+
+Deck Round:
+1. Preparing For Product Interviews (Deck vala Chapter)
+2. Go to LinkedIn -> Search APM Deck -> Take ideas
+3. Use Google Scholar to find technical Information
+4. My Decks: https://drive.google.com/drive/folders/1-1HH-PurcL-Zuyp7A1qc5mpSYTMADD1A?usp=sharing","# Specific Profiles:
+
+1. For SDE: Start as early as possible. If you are novice, one year preparation will make you at par with what is required for the roles. Ample resources are there, so a plan is needed to optimize them.
+
+2. For Chemical Engineering Core: Refresh your fundamentals. The Heat Transfer, Mass Transfer, Fluids, Chemical Process Industries are the core subjects you need to be strong at.
+
+3. For PM: Follow the doc:
+https://docs.google.com/document/d/1M6aDyUtsu3EBDSyBqiKH6998OVZpyc0BM2Awy2sNC3g/edit?usp=sharing
+
+4. For Consultancy: Prepare all type of cases, read the books by IITB, IITM, IIM etc. Here also, ample resources are already available. You just need to make a plan and practice.
+
+# General:
+1. Collect resources -> Plan -> Prepare -> Practice -> Practice -> Perform
+2. Give as many mocks as possible before the interviews.
+3. Your resume is the pitch for you. Make it yours and make it strong. Attach stories to it for the interviews. Prepare it in and out.
+4. Prepare personalized HR questions beforehand. Impromptu attempt for HR question is only safe if you have prepared the standard HR questions well.
+5. एकै साधे सब सधै, सब साधै सब जाय : Don’t run for all the profiles, choose few and master them.
+
+Conclusion: Madness is everywhere. Find Methods in that Madness."
+Ajayraj Singh Jhaj,,,M,Groww India,Assocate Product Manager,"1. Alvarez & Marsel
+2. Urban Company
+3. Amex
+4. PwC
+5. Auctus Advisors
+6. Mastercard APM
+7. Meesho PA
+8. Swiggy PA
+9. Groww APM","Step 1: A problem statement was given and we had to submit a google doc as our soln
+Step 2: Candidates were shortlisted on the basis of the aforementioned submission and resume both
+Step 3: Interviews (2 or 3 rounds depending upon candidate)
+
+Round 1, 20 Minutes
+
+After a brief welcome greeting, we got down to the case immediately. No intro of the interviewer or me.
+
+Question - RCA (Root Cause Analysis) case
+
+Round 2 involved a case on Product sense for most of the candidates. I directly had the CEO round (Round 3) after my Round 1 interview so I didn’t have round 2.
+
+Round 3, 20 Minutes - CEO round
+
+Sample Interview Questions:
+
+Round 1: RCA — users sign-up but don’t invest on Groww
+Round 3:
+Ques 1: Tell me something you have built - also asked me counter questions in between
+Ques 2: How would you disrupt the cycle industry - again asked me counter questions in between","Sources:
+
+Asim Katakwar (Y15-dual, Flipkart APM) resources - I followed this as a guide
+Link - https://docs.google.com/document/d/1361vh1zuKTrCXR_DH0WVzJ1cBWjMWJHnpSqtg6jwTOs/edit#
+
+Books: (in order of priority)
+1. Preparing For Product Interviews - Advaith Sridhar (Practice Cases as Mock interview when you feel fairly confident in that category of cases)
+2. Decode and Conquer - Lewis C. Lin (Ch 1-10)
+3. Swipe to Unlock (Read this like a novel, helps you to be confident about the tech used in apps - this also helps in both RCA cases and Design cases to varying extent)
+4. Cracking the PM Interview - Gayle Laakmann - (Relevant Parts: Ch 10-15)
+5. The Product Manager Interview - Lewis C. Lin with Teng Lu (Ch 6, 11-18)
+
+Websites:
+1. https://medium.com/stellarpeers
+2. Product Management Exercises: Master Your Product Manager Interview Skills
+
+You can practice product cases (even individually) from above two resources and then compare your response to that given in the answer. Reading through the answers without giving them a genuine shot beforehand will NOT help you extract the value out of these resources.
+
+Youtube channels:
+1. Exponent
+2. PM School","1. When practising cases, try to keep your paperwork neat and structured
+
+2. In the interviews, communication is very important. The interviewer should know at every step what you are trying to figure out/solve for. Be structured in your communication.
+
+3. Start preparing early and practice a lot of product cases of each category (RCA/Guesstimate, Product Design/Improvement, Metrics). Practice is super important.
+
+4. Carefully observe the products that you interact with frequently
+
+Digital products: Amazon-Flipkart-Myntra, Zomato-Swiggy, Phonepe-Gpay-Paytm, Spotify-YTMusic, Ola-Uber, Whatsapp-Messenger-Telegram, FB-Insta, Youtube-Netflix-Hotstar, Airbnb, Chrome-Firefox Brave, Duolingo, Headspace, LinkedIn, Gdocs etc. — whichever of these you personally use. 
+
+You should be aware of their user journeys, and the different features, scope for improvement, business model. Be a bit more conscious and observant when you use some of these products. Also observe the physical products that you use - headphones, cycle, electric kettle, school bag etc. and how can each of these be further improved."
+Perikala Sandeep,B.Tech.,EE,,Intel Technologies Pvt. Ltd.,Hardware Engineer,"Electronics :
+1. Google Hardware – Silicon Engineer
+2. Intel
+3. TI – Digital Engineer
+4. TI – Analog Engineer
+5. Ceremorphic Technologies – SoC Engineer
+
+Electrical :
+6. JLE
+7. Ola Mobility
+8. AirBus
+9. TATA steel
+
+Others:
+10. Rakuten
+11. Accenture Solutions","1. Resume Shortlist - It has a CPI criterion of 7(for UG) and open for EE – BT, MT, Dual, Double Major.
+2. Test - The test has 2 sections
+a. Aptitude (15 ques – 20 min)
+b. Technical (45 ques – 70 min)
+
+The interview process for INTEL is very random compared to the other VLSI companies I have attended. They didn’t frame any continuous questions. They have started the interview by asking about my projects and asked related digital topics which were used in the project. Then, the 2 members of the panel asked questions on different VLSI concepts like Verilog, Digital Design etc.
+
+I have also given interviews for Google Hardware, TI – analog and digital. In Google Hardware, they expect coding skills along with core knowledge. In TI – Digital, I was asked to draw different voltage and current graphs by hand for different circuits. In TI – Analog, They asked me questions from the test paper by changing the circuits like diodes and some RC RL related questions.
+
+Sample Interview Questions:
+
+1. Draw a transistor level Inverter and add a capacitor, What will the voltage and currentwaveforms?
+2. Verilog Code of D Flip Flop, Gray Counter etc and explaining each line of the code
+3. Some Array based questions in Google Hardware
+4. Different VLSI concepts like STA analysis, Digital Design etc","I have received most of the material from my senior who is placed in VLSI role. He told me the kind of questions that will be asked in test and interviews and shared the NPTEL playlists for Verilog and Digital Design. ESC201, EE210, EE370, EE619 course material. EE619 is very useful for interview process. Apart from these, I used to see blogs and some famous youtube channels like all about electronics, neso academy etc.","The general advice would be to take the tests seriously, prepare well by going over past years’ repositories, and working on areas where one might me relatively weak. Start preparation early and shape the resume fit for the role. For interviews, try to polish communication skills and temperament. You don’t need to answer every question correctly. Try to do as best as you can."
+Sathvik Bhagavan,Double Major (ME + CSE),ME,M,Intel Technologies Pvt. Ltd.,Software Engineer,"Intel, Discovery, TSMC, Visa, Amazon etc.","Resume Shortlist -> Test -> Interview
+
+Interview with intel revolved around my resume and projects. No DSA was asked.
+
+Sample Interview Questions:
+
+1. Project related questions
+2. Fundamentals of ML Algorithms like I was asked into Semantic Segmentation (which was used in my project), Clustering etc.","1. Leetcode
+2. Interviewbit
+3. GFG
+4. Stats Quest youtube channel","Dos
+1. Practice as much as you can
+2. Revise your resume and projects thoroughly
+3. Prepare popular DSA problems
+4. Prepare for HR questions as well
+
+Don’ts
+1. Don’t Panic and keep calm
+2. Don’t try to apply to all companies, this will only burden you in terms of time for giving tests and preparing for interview and also managing academics"
