@@ -12,7 +12,7 @@ const TeamMembers = [
 	{
 		name: "Abhinav D Singh",
 		image: "/testimonials/Abhinav.jpg",
-		phone: "(+91) 94832 96049",
+		phone: "(+91) 78920 16240",
 		mail: "abhids@iitk.ac.in",
 		linkedin: "https://www.linkedin.com/in/abhinav-d-singh-iitk/"
 
