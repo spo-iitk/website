@@ -52,7 +52,7 @@ export default function OfficeTeam() {
 				<div style={{ display: "flex", justifyContent: "center" }}>
 					<Card>
 						<NextImage src="/testimonials/vc.jpg" width={128} height={128} alt="Vice Chairman SPO" />
-						<Title>Prof. Raju Gupta</Title>
+						<Title>Prof. Sudhanshu Shekhar Singh</Title>
 						<Description>Vice Chairman, Students&apos; Placement Office </Description>
 						<Description><Link href="/vice-chairman-message" passHref>Vice Chairman&apos; Message</Link></Description>
 					</Card>

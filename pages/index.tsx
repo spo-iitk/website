@@ -88,7 +88,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
 							</MessageSection>
 						</SwiperSlide>
 						<SwiperSlide>
-							<MessageSection imageUrl="/testimonials/vc_1.png" title="Vice Chairman's Message">
+							<MessageSection imageUrl="/testimonials/vc.png" title="Vice Chairman's Message">
 								<p>
 							Indian Institute of Technology Kanpur (IITK), established in 1959, is one of the premier institutions established by the
 							Government of India. IITK aims to create, disseminate, and translate knowledge in science, engineering and allied disciplines

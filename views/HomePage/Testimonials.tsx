@@ -33,10 +33,10 @@ const TESTIMONIALS = [
 		companyLogoUrl: "/testimonials/iitk-logo.svg",
 		content: "Indian Institute of Technology Kanpur (IITK), established in 1959, is one of the premier institutions established by the Government of India. IITK aims to create, disseminate, and translate knowledge in science, engineering and allied disciplines that serve the society. IITK has set a benchmark through its outstanding academic programs, quality education, and cutting-edge multidisciplinary research. We at IITK prioritize the 360-degree development of students to meet global standards. Our education system goes over and beyond the classroom lectures. We strongly agree with the overall growth of the students that ensures all our students are ready to meet the new challenges in life. In this regard, Students' Placement Office (SPO) takes utmost care to groom students according to the needs of the industry.",
 		author: {
-			name: "Dr. Raju Gupta",
+			name: "Prof. Sudhanshu Shekhar Singh",
 			title: "Vice Chairman",
 			subtitle: "Students' Placement Office, IIT Kanpur",
-			avatarUrl: "/testimonials/vc_1.png",
+			avatarUrl: "/testimonials/vc.png",
 		},
 	},
 ]
