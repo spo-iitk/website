@@ -36,7 +36,7 @@ const TESTIMONIALS = [
 			name: "Prof. Sudhanshu Shekhar Singh",
 			title: "Vice Chairman",
 			subtitle: "Students' Placement Office, IIT Kanpur",
-			avatarUrl: "/testimonials/vc.png",
+			avatarUrl: "/testimonials/vc.jpg",
 		},
 	},
 ]
