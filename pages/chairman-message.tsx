@@ -4,8 +4,8 @@ import Page from "components/Page"
 
 export default function ChairmanMessage() {
 	return (
-		<Page title="Chairman Message" description="From the desk of Dr. Kaustubh Kulkarni">
-			<MessageSection imageUrl="/testimonials/cc_2.png" title="Chairman's Message" hideTitle>
+		<Page title="Chairman Message" description="From the desk of Dr. Raju Gupta">
+			<MessageSection imageUrl="/testimonials/chairman.jpg" title="Chairman's Message" hideTitle>
 				<p>
           I would like to warmly welcome all the current and prospective recruiters to the Student Placement Office (SPO) of IIT Kanpur. In
           this age, demanding continual technology enhancements, the industry requires talented youngsters with outstanding analytical skills,
@@ -46,7 +46,7 @@ export default function ChairmanMessage() {
           IIT Kanpur. Have a happy placement experience.
 				</p>
 				<br />
-        Dr. Kaustubh Kulkarni <br />
+        Dr. Raju Gupta <br />
         Chairman <br />
         Students' Placement Office <br />
         IIT Kanpur <br />
