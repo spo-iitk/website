@@ -73,6 +73,7 @@ const ContentContainer = styled.div`
 
 const Message = styled.div`
     font-size: 1.5rem;
+    text-align: justify;
 `
 
 type Props = Pick<MessageSectionProps, "reversed">;

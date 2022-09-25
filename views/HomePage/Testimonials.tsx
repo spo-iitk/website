@@ -23,7 +23,7 @@ const TESTIMONIALS = [
 		companyLogoUrl: "/testimonials/iitk-logo.svg",
 		content: "I would like to warmly welcome all the current and prospective recruiters to the Student Placement Office (SPO) of IIT Kanpur. In this age, demanding continual technology enhancements, the industry requires talented youngsters with outstanding analytical skills, open mindset and innovative approach towards problem solving. I am glad to convey that IIT Kanpur is home to such bright young minds. Our next batch of students is all set to graduate soon and they are looking for opportunities that are appealing to their intellect and would help them realize their full potential.",
 		author: {
-			name: "Prof.Raju Gupta",
+			name: "Prof.Raju Kumar Gupta",
 			title: "Chairman",
 			subtitle: "Students' Placement Office, IIT Kanpur",
 			avatarUrl: "/testimonials/chairman.jpg",
