@@ -43,7 +43,7 @@ export default function OfficeTeam() {
 				<div style={{ display: "flex", justifyContent: "center" }}>
 					<Card>
 						<NextImage src="/testimonials/chairman.jpg" width={128} height={128} alt="Chairman SPO" />
-						<Title>Prof. Raju Gupta</Title>
+						<Title>Prof. Raju Kumar Gupta</Title>
 						<Description>Chairman, Students&apos; Placement Office </Description>
 						<Description><Link href="/chairman-message" passHref>Chairman&apos; Message</Link></Description>
 					</Card>
