@@ -19,6 +19,9 @@ export default function NewsIIT(){
 					<TwitterWrapper>
 						<a className="twitter-timeline" data-width="500" data-height="400" href="https://twitter.com/IITKanpur?ref_src=twsrc%5Etfw">Tweets by IITKanpur</a>
 					</TwitterWrapper>
+					<TwitterWrapperTablet>
+						<a className="twitter-timeline" data-width="250" data-height="400" href="https://twitter.com/IITKanpur?ref_src=twsrc%5Etfw">Tweets by IITKanpur</a>
+					</TwitterWrapperTablet>
 					<FacebookWrapper>
 						<div id="fb-root"></div>
 						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fiitkanpur&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="400" style={{ border: "none", overflow: "hidden" }} scrolling="no" frameBorder="0" allow="encrypted-media" title="FB IITK"></iframe>
@@ -40,15 +43,25 @@ margin: 0 auto;
 padding: 0 2rem;
 ${media("<=desktop")} {
   flex-direction: column;
-  
 }
 `
 
 const TwitterWrapper = styled.div`
 max-height: 18.75 rem;
 margin : 2rem;
-
+${media("<=tablet")} {
+  display: none;
+}
 `
+
+const TwitterWrapperTablet = styled.div`
+max-height: 18.75 rem;
+margin : 2rem;
+${media(">tablet")} {
+  display: none;
+}
+`
+
 const FacebookWrapper = styled.div`
 max-height: 18.75 rem;
 margin : 2rem;
