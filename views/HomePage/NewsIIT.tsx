@@ -1,4 +1,4 @@
-import Head from "next/head"
+import Script from "next/script"
 import styled from "styled-components"
 
 import Section from "components/Section"
@@ -8,29 +8,37 @@ import { media } from "utils/media"
 export default function NewsIIT(){
 	return (
 		<>
-			<Head>
-				<script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
-				<script async defer crossOrigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v14.0" nonce="DiXLrsY8"></script>
-			</Head>
+			<Script src="https://platform.twitter.com/widgets.js" strategy="lazyOnload" />
+			<Script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" strategy="beforeInteractive" nonce="DiXLrsY8" />
+
 			<Section title="">
 				<SectionTitle>News@IITK</SectionTitle>
 				<br /> <br />
 				<Wrapper>
-					<TwitterWrapper>
-						<a className="twitter-timeline" data-width="500" data-height="400" href="https://twitter.com/IITKanpur?ref_src=twsrc%5Etfw">Tweets by IITKanpur</a>
-					</TwitterWrapper>
-					<TwitterWrapperTablet>
-						<a className="twitter-timeline" data-width="250" data-height="400" href="https://twitter.com/IITKanpur?ref_src=twsrc%5Etfw">Tweets by IITKanpur</a>
-					</TwitterWrapperTablet>
-					<FacebookWrapper>
-						<div id="fb-root"></div>
-						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fiitkanpur&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="400" style={{ border: "none", overflow: "hidden" }} scrolling="no" frameBorder="0" allow="encrypted-media" title="FB IITK"></iframe>
-					</FacebookWrapper>
+					<>
+						<WidgetWrapper>
+							<a className="twitter-timeline" data-width="500" data-height="400" href="https://twitter.com/IITKanpur?ref_src=twsrc%5Etfw">Tweets from @IITKanpur</a>
+						</WidgetWrapper>
+						<WidgetWrapper>
+							<div id="fb-root"></div>
+							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fiitkanpur&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="400" style={{ border: "none", overflow: "scroll" }} scrolling="no" frameBorder="0" allow="encrypted-media" title="FB IITK"></iframe>
+						</WidgetWrapper>
+					</>
+					<>
+						<WidgetWrapperMobile>
+							<a className="twitter-timeline" data-width="300" data-height="400" href="https://twitter.com/IITKanpur?ref_src=twsrc%5Etfw">Tweets from @IITKanpur</a>
+						</WidgetWrapperMobile>
+						<WidgetWrapperMobile>
+							<div id="fb-root"></div>
+							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fiitkanpur&tabs=timeline&width=300&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="400" style={{ border: "none", overflow: "scroll" }} scrolling="no" frameBorder="0" allow="encrypted-media" title="FB IITK"></iframe>
+						</WidgetWrapperMobile>
+					</>
 				</Wrapper>
 			</Section>
 		</>
 	)
 }
+
 const Wrapper = styled.div`
 display: flex;
 justify-content: center;
@@ -46,7 +54,7 @@ ${media("<=desktop")} {
 }
 `
 
-const TwitterWrapper = styled.div`
+const WidgetWrapper = styled.div`
 max-height: 18.75 rem;
 margin : 2rem;
 ${media("<=tablet")} {
@@ -54,18 +62,10 @@ ${media("<=tablet")} {
 }
 `
 
-const TwitterWrapperTablet = styled.div`
+const WidgetWrapperMobile = styled.div`
 max-height: 18.75 rem;
 margin : 2rem;
 ${media(">tablet")} {
-  display: none;
-}
-`
-
-const FacebookWrapper = styled.div`
-max-height: 18.75 rem;
-margin : 2rem;
-${media("<=desktop")} {
   display: none;
 }
 `
