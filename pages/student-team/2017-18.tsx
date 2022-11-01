@@ -83,7 +83,7 @@ const APC = [
 	{
 		"name": "Sagar Goyal",
 		"mail": "sagarg@iitk.ac.in",
-		"phone": "+91 8562822202"
+		"phone": ""
 	},
 	{
 		"name": "Shubhi Agrawal",
