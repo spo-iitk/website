@@ -22,7 +22,7 @@ export default function AboutPage() {
 	return (
 		<>
 			<Page
-				title="Career Festival IIT Kanpur"
+				title="Career Festival"
 				description="The Institute of Technology (IIT) Kanpur is a premier technical institute in India known for its excellent academic programs and talented student body. Students' Placement Office, IIT Kanpur, proposes the first Career Fest to provide students with a unique opportunity to connect with potential employers and explore their career options."
 				routes = {Routes}
 			>
@@ -68,7 +68,7 @@ export default function AboutPage() {
 				<br />
 				<hr />
 				<br />
-				<SectionTitle id="research">TargetParticipants</SectionTitle>
+				<SectionTitle id="research">Target Participants</SectionTitle>
 				<br />
 				<br />
 				<TextWrapper>
@@ -81,31 +81,33 @@ export default function AboutPage() {
 						</ul>
 					</SectionText>
 				</TextWrapper>	
-				<br />
+				{/* <br />
 				<hr />
 				<br />
 				<SectionTitle id="alumni">Schedule</SectionTitle>
 				<br />
 				<br />
-				<SectionText>
-                The first Career Fest of IIT Kanpur will be held from the 8th to the 9th of April. The tentative schedule for the two-day event is as follows:
-					<ul style={{listStyleType:"none"}}>
-						<li><strong>Day 1:</strong></li>
-						<ul>
-							<li>9:00AM  : Set up for participating companies.</li>
-							<li>10:00AM : Opening ceremony and welcome address.</li>
-							<li>10:30AM : Career fest begins, and companies meet with students.</li>
-							<li>8:00PM  : Closing of Day 1.</li>
+				<TextWrapper>
+					<SectionText>
+                    The first Career Fest of IIT Kanpur will be held from the 8th to the 9th of April. The tentative schedule for the two-day event is as follows:
+						<ul style={{listStyleType:"none"}}>
+							<li><strong>Day 1:</strong></li>
+							<ul>
+								<li>9:00AM  : Set up for participating companies.</li>
+								<li>10:00AM : Opening ceremony and welcome address.</li>
+								<li>10:30AM : Career fest begins, and companies meet with students.</li>
+								<li>8:00PM  : Closing of Day 1.</li>
+							</ul>
+							<br />
+							<li><strong>Day 2:</strong></li>
+							<ul>
+								<li>9:00AM  : Career fest continues.</li>
+								<li>4:00PM  : Closing ceremony and award presentation.</li>
+								<li>6:00PM  : Tear-down and departure for participating companies.</li>
+							</ul>
 						</ul>
-						<br />
-						<li><strong>Day 2:</strong></li>
-						<ul>
-							<li>9:00AM  : Career fest continues.</li>
-							<li>4:00PM  : Closing ceremony and award presentation.</li>
-							<li>6:00PM  : Tear-down and departure for participating companies.</li>
-						</ul>
-					</ul>
-				</SectionText>
+					</SectionText>
+				</TextWrapper> */}
 				<br />
 				<hr />
 				<br />
@@ -165,7 +167,7 @@ export default function AboutPage() {
 				<br />
 				<hr />
 				<br />
-				<SectionTitle>Benefits for Companies/Organizations</SectionTitle>
+				<SectionTitle>Benefits</SectionTitle>
 				<TextWrapper>
 					<SectionText>
                     The First Career Fest of IIT Kanpur will provide numerous benefits for participating companies, including:

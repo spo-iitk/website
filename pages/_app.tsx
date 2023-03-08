@@ -23,6 +23,7 @@ const navItems: NavItems = [
 	{ title: "About IITK", href: "/about" },
 	{ title: "For companies", href: "/companies" },
 	{ title: "For students", href: "/students" },
+	{ title: "Career Festival", href: "/career-festival" },
 	{ title: "Contact", href: "/contact" },
 ]
 
