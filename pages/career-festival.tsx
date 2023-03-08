@@ -11,28 +11,12 @@ import { media } from "utils/media"
 
 const Routes=[
 	{
-		name:"About IITK",
-		url:"/about#about"
+		name:"Policy for Companies",
+		url:"/docs/2021-22/Career Fair Policy for Companies - 2022 - 23.pdf"
 	},
 	{
-		name:"Academics",
-		url:"/about#academics"
-	},
-	{
-		name:"Research",
-		url:"/about#research"
-	},
-	{
-		name:"Alumni",
-		url:"/about#alumni"
-	},
-	{
-		name:"Faculty",
-		url:"/about#faculty"
-	},
-	{
-		name:"Students' Life and Activities",
-		url:"/about#activities"
+		name:"Policy for Students",
+		url:"/docs/2021-22/Career Fair Policy for Students - 2022 - 23.pdf"
 	},
 ]
 
@@ -42,7 +26,7 @@ export default function AboutPage() {
 			<Page
 				title="Career Festival IIT Kanpur"
 				description="The Institute of Technology (IIT) Kanpur is a premier technical institute in India known for its excellent academic programs and talented student body. Students' Placement Office, IIT Kanpur, proposes the first Career Fest to provide students with a unique opportunity to connect with potential employers and explore their career options."
-				// routes = {Routes}
+				routes = {Routes}
 			>
 				{/* <SectionTitle id = "about">Objectives</SectionTitle>
 				<br />
