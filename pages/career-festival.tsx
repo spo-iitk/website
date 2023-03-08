@@ -1,7 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 
-import Head from "next/head"
-import NextImage from "next/image"
 import styled from "styled-components"
 
 import AutofitGrid from "components/AutofitGrid"
@@ -28,50 +26,21 @@ export default function AboutPage() {
 				description="The Institute of Technology (IIT) Kanpur is a premier technical institute in India known for its excellent academic programs and talented student body. Students' Placement Office, IIT Kanpur, proposes the first Career Fest to provide students with a unique opportunity to connect with potential employers and explore their career options."
 				routes = {Routes}
 			>
-				{/* <SectionTitle id = "about">Objectives</SectionTitle>
-				<br />
-				<br />
-				<TextWrapper>
-					<SectionText>
-			Indian Institute of Technology Kanpur is one of the premier institutions established by the Government of India in 1959. The aim of the Institute is to provide meaningful education, conduct original research of the highest standard and provide leadership in technological innovation. Consistently ranked amongst the top 5 engineering institutes in India over past several decades, IIT Kanpur offers courses in sciences, engineering, humanities and management. The students get the best of opportunities in the form of highly advanced courses, eminent faculty members, well-equipped laboratories, library, hostels and state of the art facilities to excel in research and development. The selection procedures for students at undergraduate, postgraduate and PhD levels are highly stringent so that IIT gets the best brains of India. Highly scientific and innovative technology is used for teaching and conducting research activities. Every year IIT Kanpur is enriched by the laurels brought by its faculty members and the students in the form of research publications, sponsored projects, fellowships and industrial consultancies. Many of our alumni are leaders in academia and industry around the globe. The sprawling IIT Kanpur campus is located in the industrial city of Kanpur, only a few hours away from New Delhi, the Capital of India.
-					</SectionText>
-				</TextWrapper>
-				<br />	
-				<hr />
-				<br /> */}
 				<SectionTitle id="academics">Objectives</SectionTitle>
 				<br />
 				<br />
 				<CustomAutofitGrid>
 					<Card>
 						<Title>To provide students with a platform to connect with potential employers and explore job opportunities.</Title>
-						{/* <Description>
-							Admission: Joint Entrance Exam (JEE) Advanced <br />
-							Duration: 4 years <br />
-							Internships(voluntary): Upto 5 internships of 1-3 months <br />
-							Includes a core programme common to all students; provides a foundation in introductory Mathematics, Physics, Chemistry, Engineering Sciences, Technical Arts and Humanities and Social Sciences. and professionally trains the students in their individual disciplines.{" "}
-						</Description> */}
 					</Card>
 					<Card>
 						<Title>To showcase the talent and skills of the student body to companies and organisations.</Title>
-						{/* <Description>
-							Our B.Tech/B.S. students can take 3 or 4 courses to gain specialization in a specific field of a department, other than their parent departments to get a minor. <br />
-							Eg: BS in Mathematics and Scientific Computing with a minor in Economics.
-						</Description> */}
 					</Card>
 					<Card>
 						<Title>To provide companies with an opportunity to connect with IIT Kanpur students and build their brands.</Title>
-						{/* <Description>
-							Our B.Tech/B.S. students can choose to convert to a dual degree (with Masters in the parent or any other department) till the end of 7th semester.Two degrees (BTech/BS+MTech/MS) are awarded at the end of 5-year coursework.No student is initially admitted in a dual degree program because we believe it is too early for them to decide their specializations.We want them to get a flavour of the department before they make such a crucial choice. <br />
-							Eg: BS in Mathematics and Scientific Computing with MS in Economics.
-						</Description> */}
 					</Card>	
 					<Card>
 						<Title>To promote the IIT Kanpur brand and increase visibility among potential employers.</Title>
-						{/* <Description>
-							Our B.Tech/B.S. students can major in 2 departments, meaning a B Tech/BS degree in parent department along with a second major in department of their choice, in duration of 5 years. This requires the student to complete all department core courses of their second major. <br />
-							Eg: BS in Mathematics and Scientific Computing with second major in Economics.
-						</Description> */}
 					</Card>
 				</CustomAutofitGrid>
 				<br />
