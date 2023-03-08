@@ -167,7 +167,8 @@ export default function AboutPage() {
 				<br />
 				<hr />
 				<br />
-				<SectionTitle>Benefits</SectionTitle>
+				<SectionTitle>Benefits for</SectionTitle>
+				<SectionTitle>Companies</SectionTitle>
 				<TextWrapper>
 					<SectionText>
                     The First Career Fest of IIT Kanpur will provide numerous benefits for participating companies, including:
