@@ -241,30 +241,6 @@ export default function AboutPage() {
 				<br />
 				<Cta/>
 			</Page>
-			<CtaWrapper>
-				<Container>
-					<Stack>
-						<OverTitle>Registration</OverTitle>
-						<SectionTitle>Register with us to conduct events in Career Festival</SectionTitle>
-						<Description>Fill out the online form or share the filled doc with us at <a href="mailto:spo@iitk.ac.in" style={{textDecoration: "none", color: "inherit"}}>spo@iitk.ac.in</a></Description>
-						<ButtonGroup>
-							<Link href="https://docs.google.com/forms/d/e/1FAIpQLScnmO0WUWhNH16_VG_oODZ6qf7XyHu3YuHilxLM-pMC3OjpKg/viewform?usp=sf_link">
-								<Button>
-                    				Google Form <span>&rarr;</span>
-								</Button>
-							</Link>
-							<Link href="https://docs.google.com/document/d/1YFfLPlAzhr1o5p7ySwJ4BGDZjlpUhAGvmmYHD_GXvYI/edit?usp=sharing">
-								<OutlinedButton>
-                    				Word Document <span>&rarr;</span>
-								</OutlinedButton>
-							</Link>
-						</ButtonGroup>
-					</Stack>
-				</Container>
-				<Container style={{marginBottom: 25, color: "rgb(var(--textSecondary))", textAlign: "center", padding: 10}}>
-          Page last updated on March 2023
-				</Container>
-			</CtaWrapper>
 		</>
 	)
 }
