@@ -239,7 +239,6 @@ export default function AboutPage() {
 				<br />
 
 				<br />
-				<Cta/>
 			</Page>
 		</>
 	)
