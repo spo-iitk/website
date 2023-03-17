@@ -1,3 +1,4 @@
+/* eslint-disable no-mixed-spaces-and-tabs */
 /* eslint-disable react/no-unescaped-entities */
 
 import NextLink from "next/link"
@@ -249,12 +250,12 @@ export default function AboutPage() {
 						<ButtonGroup>
 							<Link href="https://docs.google.com/forms/d/e/1FAIpQLScnmO0WUWhNH16_VG_oODZ6qf7XyHu3YuHilxLM-pMC3OjpKg/viewform?usp=sf_link">
 								<Button>
-                    Google Form <span>&rarr;</span>
+                    				Google Form <span>&rarr;</span>
 								</Button>
 							</Link>
 							<Link href="https://docs.google.com/document/d/1YFfLPlAzhr1o5p7ySwJ4BGDZjlpUhAGvmmYHD_GXvYI/edit?usp=sharing">
 								<OutlinedButton>
-                    Word Document <span>&rarr;</span>
+                    				Word Document <span>&rarr;</span>
 								</OutlinedButton>
 							</Link>
 						</ButtonGroup>
