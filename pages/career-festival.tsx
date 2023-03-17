@@ -2,25 +2,54 @@
 
 import NextLink from "next/link"
 import styled from "styled-components"
+import { Button } from "tinacms"
 
 import AutofitGrid from "components/AutofitGrid"
-import Button from "components/Button"
+import BasicSection from "components/BasicSection"
 import ButtonGroup from "components/ButtonGroup"
 import Container from "components/Container"
 import OverTitle from "components/OverTitle"
 import Page from "components/Page"
 import SectionTitle from "components/SectionTitle"
 import { media } from "utils/media"
+import Cta from "views/CareerFestival/Cta"
+import Cta2 from "views/CareerFestival/Cta2"
+import Features from "views/CareerFestival/Features"
+import FeaturesGallery from "views/CareerFestival/FeaturesGallery"
 
 const Routes = [
 	{
-		name: "Policy for Companies",
-		url: "/docs/2021-22/Career Fair Policy for Companies - 2022 - 23.pdf",
+		name:"Features",
+		url:"/career-festival#features"
 	},
 	{
-		name: "Policy for Students",
-		url: "/docs/2021-22/Career Fair Policy for Students - 2022 - 23.pdf",
+		name:"Why Participate?",
+		url:"/career-festival#why-participate"
 	},
+	{
+		name:"Schedule",
+		url:"/career-festival#schedule"
+	},
+	{
+		name:"Registration",
+		url:"/career-festival#registration"
+	},
+	{
+		name:"Event Details",
+		url:"/career-festival#event-details"
+	},
+	{
+		name:"Policies",
+		url:"/career-festival#policies"
+	},
+	// {
+	// 	name:"Policy for Companies",
+	// 	url:"/docs/2021-22/Career Fair Policy for Companies - 2022 - 23.pdf"
+	// },
+	// {
+	// 	name:"Policy for Students",
+	// 	url:"/docs/2021-22/Career Fair Policy for Students - 2022 - 23.pdf"
+	// },
 ]
 
 export default function AboutPage() {
@@ -31,55 +60,20 @@ export default function AboutPage() {
 				description="The Institute of Technology (IIT) Kanpur is a premier technical institute in India known for its excellent academic programs and talented student body. Students' Placement Office, IIT Kanpur, proposes the first Career Fest to provide students with a unique opportunity to connect with potential employers and explore their career options."
 				routes={Routes}
 			>
-				<SectionTitle id="academics">Objectives</SectionTitle>
-				<br />
-				<br />
-				<CustomAutofitGrid>
-					<Card>
-						<Title>To provide students with a platform to connect with potential employers and explore job opportunities.</Title>
-					</Card>
-					<Card>
-						<Title>To showcase the talent and skills of the student body to companies and organisations.</Title>
-					</Card>
-					<Card>
-						<Title>To provide companies with an opportunity to connect with IIT Kanpur students and build their brands.</Title>
-					</Card>
-					<Card>
-						<Title>To promote the IIT Kanpur brand and increase visibility among potential employers.</Title>
-					</Card>
-				</CustomAutofitGrid>
+				<FeaturesGallery/>
 				<br />
 				{/*  */}
 				<br />
-				<SectionTitle id="about">Mission</SectionTitle>
-				<br />
-				<br />
-				<TextWrapper>
-					<SectionText>
-            The mission of the Career Festival at IIT Kanpur is to provide a platform for students to connect with leading companies and
-            organisations and to explore career opportunities in various industries.
-					</SectionText>
-				</TextWrapper>
-				<br />
-				{/*  */}
-				<br />
-				<SectionTitle id="about">Vision</SectionTitle>
-				<br />
-				<br />
-				<TextWrapper>
-					<SectionText>
-            The vision of the Career Festival is to foster a dynamic and engaging environment where students can network with professionals,
-            gain insights into different industries, and find meaningful and fulfilling career paths. The festival aims to be a hub of
-            innovation, creativity, and collaboration, where students, companies, and academia come together to create opportunities for
-            growth and development.
-					</SectionText>
-				</TextWrapper>
+				<SectionTitle id="why-participate">Why Participate?</SectionTitle>
+				<br /><br />
+				<Features/>
 				<br />
 				{/*  */}
 				<br />
 				<SectionTitle id="research">Target Participants</SectionTitle>
 				<br />
 				<br />
+				
 				<TextWrapper>
 					<SectionText>
             The target participants for the Career Fest of IIT Kanpur are:
@@ -89,38 +83,21 @@ export default function AboutPage() {
 							<li>Industry professionals and experts</li>
 						</ul>
 					</SectionText>
-				</TextWrapper>
-				{/* <br />
-				
+				</TextWrapper>	
 				<br />
-				<SectionTitle id="alumni">Schedule</SectionTitle>
+				<hr />
 				<br />
-				<br />
-				<TextWrapper>
-					<SectionText>
-                    The first Career Fest of IIT Kanpur will be held from the 8th to the 9th of April. The tentative schedule for the two-day event is as follows:
-						<ul style={{listStyleType:"none"}}>
-							<li><strong>Day 1:</strong></li>
-							<ul>
-								<li>9:00AM  : Set up for participating companies.</li>
-								<li>10:00AM : Opening ceremony and welcome address.</li>
-								<li>10:30AM : Career fest begins, and companies meet with students.</li>
-								<li>8:00PM  : Closing of Day 1.</li>
-							</ul>
-							<br />
-							<li><strong>Day 2:</strong></li>
-							<ul>
-								<li>9:00AM  : Career fest continues.</li>
-								<li>4:00PM  : Closing ceremony and award presentation.</li>
-								<li>6:00PM  : Tear-down and departure for participating companies.</li>
-							</ul>
-						</ul>
+				<BasicSection imageUrl="/demo-illustration-1.svg" title="8th and 9th April" overTitle="SCHEDULE">
+					<SectionText id="schedule">
+						The detailed scheduled with be shared soon...
 					</SectionText>
-				</TextWrapper> */}
+				</BasicSection>
+				<br />
+				<Cta2/>
 				<br />
 
 				<br />
-				<SectionTitle id="faculty">Event Details</SectionTitle>
+				<SectionTitle id="event-details">Event Details</SectionTitle>
 				<br />
 				<br />
 				<TextWrapper>
@@ -261,65 +238,7 @@ export default function AboutPage() {
 				<br />
 
 				<br />
-				<SectionTitle>Why participate in Career fest</SectionTitle>
-				<Container>
-					<TextWrapper>
-						<SectionText>
-              The First Career Fest of IIT Kanpur will provide numerous benefits for participating companies, including:
-						</SectionText>
-					</TextWrapper>
-					<br />
-					<CustomAutofitGrid3>
-						<Card>
-							<Title>Brand Awareness</Title>
-							<Description>
-                Companies can showcase their brand and increase visibility among potential candidates through their participation in the
-                career fest.
-							</Description>
-						</Card>
-						<Card>
-							<Title>Access to Talent</Title>
-							<Description>
-                The career fest provides an opportunity for companies to connect with talented students from one of the top institutes of
-                engineering and technology education, which can result in finding the right candidate for job or internship opportunities.
-							</Description>
-						</Card>
-						<Card>
-							<Title>Networking</Title>
-							<Description>
-                The career fest provides opportunities for companies to network with other participating companies and industry
-                professionals, which can lead to new relationships and collaborations.
-							</Description>
-						</Card>
-						<Card>
-							<Title>Market Intelligence</Title>
-							<Description>
-                Companies can gain insights into the industry and the current job market through their participation in the career fest.
-							</Description>
-						</Card>
-						<Card>
-							<Title>Cost-Effective Recruitment</Title>
-							<Description>
-                Participating in a career fest can be more cost-effective than traditional recruitment methods, as companies can meet with
-                multiple potential candidates in one location.
-							</Description>
-						</Card>
-						<Card>
-							<Title>Building Relationships</Title>
-							<Description>
-                The career fest provides a platform for companies to build relationships with potential candidates and institutes, which can
-                result in future collaborations and partnerships.
-							</Description>
-						</Card>
-						<Card>
-							<Title>Reputation Building</Title>
-							<Description>
-                Companies can enhance their reputation as attractive employers by participating in a career fest and showcasing their brand
-                and culture to potential candidates.
-							</Description>
-						</Card>
-					</CustomAutofitGrid3>
-				</Container>
+				<Cta/>
 			</Page>
 			<CtaWrapper>
 				<Container>
@@ -334,7 +253,7 @@ export default function AboutPage() {
 								</Button>
 							</Link>
 							<Link href="https://docs.google.com/document/d/1YFfLPlAzhr1o5p7ySwJ4BGDZjlpUhAGvmmYHD_GXvYI/edit?usp=sharing">
-								<OutlinedButton transparent>
+								<OutlinedButton>
                     Word Document <span>&rarr;</span>
 								</OutlinedButton>
 							</Link>
