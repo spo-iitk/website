@@ -15,7 +15,7 @@ const TABS = [
 	{
 		title: "OBJECTIVES",
 		description:
-      "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>",
+      "<p></p>",
 		imageUrl: "/demo-illustration-3.png",
 		baseColor: "249,82,120",
 		content:"<h3>The objectives of Career Fest are:</h3><ul><li>To provide students with a platform to connect with potential employers and explore job opportunities.</li><li>To showcase the talent and skills of the student body to companies and organisations.</li><li>To provide companies with an opportunity to connect with IIT Kanpur students and build their brands.</li><li>To promote the IIT Kanpur brand and increase visibility among potential employers.</li></ul>",
@@ -24,7 +24,7 @@ const TABS = [
 	{
 		title: "MISSION",
 		description:
-      "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>",
+      "<p></p>",
 		imageUrl: "/demo-illustration-4.png",
 		baseColor: "57,148,224",
 		content:"<h3>The mission of the Career Festival at IIT Kanpur is to provide a platform for students to connect with leading companies and organisations and to explore career opportunities in various industries.</h3>",
@@ -33,7 +33,7 @@ const TABS = [
 	{
 		title: "VISION",
 		description:
-      "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>",
+      "<p></p>",
 		imageUrl: "/demo-illustration-5.png",
 		content:"<h3>The vision of the Career Festival is to foster a dynamic and engaging environment where students can network with professionals, gain insights into different industries, and find meaningful and fulfilling career paths. The festival aims to be a hub of innovation, creativity, and collaboration, where students, companies, and academia come together to create opportunities for growth and development.</h3>",
 		baseColor: "88,193,132",
@@ -46,6 +46,8 @@ export default function FeaturesGallery() {
 
 	const sectionMarkup = TABS.map((singleTab, idx) => {
 		const isActive = singleTab.title === currentTab.title
+    console.log("singleTab:",singleTab.title);
+    console.log("currentTab:",currentTab.title);
 		const isFirst = idx === 0
 
 		if(isActive){
@@ -77,7 +79,7 @@ export default function FeaturesGallery() {
 				</TabTitleContainer>
 				<Collapse isOpen={isActive} duration={300}>
 					<TabContent>
-						<div dangerouslySetInnerHTML={{ __html: singleTab.description }}></div>
+						<div dangerouslySetInnerHTML={{__html: singleTab.description}}></div>
 					</TabContent>
 				</Collapse>
 			</Tab>
@@ -96,6 +98,7 @@ export default function FeaturesGallery() {
 			</Content>
 			<GalleryWrapper>
 				<TabsContainer>{tabsMarkup}</TabsContainer>
+        {/* <TabsContainer>{sectionMarkup}</TabsContainer> */}
 				{sectionMarkup}
 			</GalleryWrapper>
 		</FeaturesGalleryWrapper>
@@ -110,11 +113,14 @@ const FeaturesGalleryWrapper = styled(Container)`
 `
 
 const GalleryWrapper = styled.div`
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  // align-items: center;
   margin-top: 4rem;
+  width: 100%;
 
   ${media("<=desktop")} {
+    display: flex;
     flex-direction: column;
   }
 `
@@ -127,7 +133,7 @@ const Content = styled.div`
 `
 
 const TabsContainer = styled.div`
-  flex: 1;
+  // flex: 1;
   margin-right: 4rem;
 
   & > *:not(:first-child) {
@@ -135,6 +141,7 @@ const TabsContainer = styled.div`
   }
 
   ${media("<=desktop")} {
+    flex: 1;
     margin-right: 0;
     margin-bottom: 4rem;
     width: 100%;
@@ -143,7 +150,8 @@ const TabsContainer = styled.div`
 
 const ImageContainer = styled.div<{ isActive: boolean }>`
   position: relative;
-  overflow: hidden;
+  overflow: scroll;
+  width: 100%;
   border-radius: 0.8rem;
   align-content: center;
   flex: ${(p) => (p.isActive ? "2" : "0")};
@@ -170,9 +178,9 @@ const ImageContainer = styled.div<{ isActive: boolean }>`
 `
 
 const Tab = styled.div<{ isActive: boolean }>`
-  display: flex;
-  flex-direction: column;
-  padding: 2rem 1.5rem;
+  // display: flex;
+  // flex-direction: column;
+  padding: 0rem 1.5rem;
   background: rgb(var(--cardBackground));
   box-shadow: var(--shadow-md);
   opacity: ${(p) => (p.isActive ? 1 : 0.6)};
