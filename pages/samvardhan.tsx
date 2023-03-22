@@ -21,27 +21,27 @@ import FeaturesGallery from "views/CareerFestival/FeaturesGallery"
 const Routes = [
 	{
 		name:"Features",
-		url:"/career-festival#features"
+		url:"/samvardhan#features"
 	},
 	{
 		name:"Why Participate?",
-		url:"/career-festival#why-participate"
+		url:"/samvardhan#why-participate"
 	},
 	{
 		name:"Schedule",
-		url:"/career-festival#schedule"
+		url:"/samvardhan#schedule"
 	},
 	{
 		name:"Registration",
-		url:"/career-festival#registration"
+		url:"/samvardhan#registration"
 	},
 	{
 		name:"Event Details",
-		url:"/career-festival#event-details"
+		url:"/samvardhan#event-details"
 	},
 	{
 		name:"Policies",
-		url:"/career-festival#policies"
+		url:"/samvardhan#policies"
 	},
 	// {
 	// 	name:"Policy for Companies",
@@ -57,7 +57,7 @@ export default function AboutPage() {
 	return (
 		<>
 			<Page
-				title="Career Festival"
+				title="Samvardhan"
 				description="The Institute of Technology (IIT) Kanpur is a premier technical institute in India known for its excellent academic programs and talented student body. Students' Placement Office, IIT Kanpur, proposes the first Career Fest to provide students with a unique opportunity to connect with potential employers and explore their career options."
 				routes={Routes}
 			>
@@ -237,7 +237,7 @@ export default function AboutPage() {
 					</SectionText>
 				</TextWrapper>
 				<br />
-
+				<Cta/>
 				<br />
 			</Page>
 		</>
