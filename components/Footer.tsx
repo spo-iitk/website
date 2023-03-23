@@ -100,7 +100,7 @@ export default function Footer() {
 							</a>
 						</NextLink>
 					</ShareBar>
-					<Copyright>&copy; Copyright 2022 SPO, IIT Kanpur</Copyright>
+					<Copyright>&copy; Copyright 2023 SPO, IIT Kanpur</Copyright>
 				</BottomBar>
 			</Container>
 		</FooterWrapper>
