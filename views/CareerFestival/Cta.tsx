@@ -16,12 +16,12 @@ export default function Cta() {
 				<Stack>
 					<SectionTitle id="policies">Policies</SectionTitle>
 					<ButtonGroup>
-						<NextLink href="/docs/2021-22/Career Fair Policy for Companies - 2022 - 23.pdf" passHref>
+						<NextLink href="/docs/samvardhan/company_policies_2022-23.pdf" passHref>
 							<Button>
                 Policy for Companies <span>&rarr;</span>
 							</Button>
 						</NextLink>
-						<NextLink href="/docs/2021-22/Career Fair Policy for Students - 2022 - 23.pdf" passHref>
+						<NextLink href="/docs/samvardhan/student_policies_2022-23.pdf" passHref>
 							<Button>
                 Policy for Students <span>&rarr;</span>
 							</Button>
