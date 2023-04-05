@@ -1,6 +1,7 @@
 /* eslint-disable no-mixed-spaces-and-tabs */
 /* eslint-disable react/no-unescaped-entities */
 
+import NextImage from "next/image"
 import NextLink from "next/link"
 import styled from "styled-components"
 import { Button } from "tinacms"
@@ -89,10 +90,26 @@ export default function AboutPage() {
 				<hr />
 				<br />
 				<BasicSection imageUrl="/demo-illustration-1.svg" title="8th and 9th April" overTitle="SCHEDULE">
-					<SectionText id="schedule">
+					{/* <SectionText id="schedule">
 						The detailed scheduled with be shared soon...
-					</SectionText>
+					</SectionText> */}
 				</BasicSection>
+				<TextWrapper>
+					<ImageContainer>
+						<NextImage 
+							src="/SamvardhanImg/day1_2023.jpg" 
+							alt="IITK" layout="fill"	
+						/>
+					</ImageContainer>
+					<ImageContainer>
+						<NextImage 
+							src="/SamvardhanImg/day2_2023.jpg" 
+							alt="IITK" 
+							layout="fill"
+							height={1000} 
+						/>
+					</ImageContainer>
+				</TextWrapper>
 				<br />
 				<Cta2/>
 				<br />
@@ -274,6 +291,7 @@ const Description = styled.div`
 const TextWrapper = styled.div`
   display: flex;
   justify-content: space-between;
+  align-items: center;
   ${media("<=tablet")} {
     display: block;
   }
@@ -317,19 +335,22 @@ const CustomAutofitGrid3 = styled(AutofitGrid)`
   }
 `
 const ImageContainer = styled.div`
-  max-width: 40%;
+  max-width: 48%;
   flex: 1;
   position: relative;
   padding: 2px;
+  height: 65rem;
+  justify-content: space-around;
+  align-items: center;
 
   & > :first-child {
     border-style: solid;
     border-radius: 0.6rem;
   }
   ${media("<=tablet")} {
-    max-width: 100%;
+    max-width: 90%;
     display: block;
-    height: 30rem;
+    height: 50rem;
     width: auto;
     margin-top: 20px;
   }
