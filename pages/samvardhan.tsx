@@ -97,16 +97,8 @@ export default function AboutPage() {
 				<TextWrapper>
 					<ImageContainer>
 						<NextImage 
-							src="/SamvardhanImg/day1_2023.jpg" 
+							src="/SamvardhanImg/schedule_2023.png" 
 							alt="IITK" layout="fill"	
-						/>
-					</ImageContainer>
-					<ImageContainer>
-						<NextImage 
-							src="/SamvardhanImg/day2_2023.jpg" 
-							alt="IITK" 
-							layout="fill"
-							height={1000} 
 						/>
 					</ImageContainer>
 				</TextWrapper>
@@ -335,7 +327,7 @@ const CustomAutofitGrid3 = styled(AutofitGrid)`
   }
 `
 const ImageContainer = styled.div`
-  max-width: 48%;
+  max-width: 100%;
   flex: 1;
   position: relative;
   padding: 2px;
@@ -348,7 +340,7 @@ const ImageContainer = styled.div`
     border-radius: 0.6rem;
   }
   ${media("<=tablet")} {
-    max-width: 90%;
+    max-width: 100%;
     display: block;
     height: 50rem;
     width: auto;
