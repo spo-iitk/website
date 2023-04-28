@@ -389,7 +389,7 @@ export default function StudentTeam22() {
 									<Description>{member.position}</Description>
 									<Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
 									<Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
-									{/* {<small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small>} */}
+									{<small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small>}
 								</Card>
 							</div>
 						))}
