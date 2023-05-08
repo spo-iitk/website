@@ -52,7 +52,7 @@ const TeamMembers = [
 		image: "/testimonials/rishi.png",
 	},
 	{ 
-		name: "Shubhajit Pandey", 
+		name: "Subhajit Panday", 
 		phone: "(+91) 7098068804", 
 		mail: "subhajitp22@iitk.ac.in",
 		linkedin: "https://www.linkedin.com/in/subhajit-panday-9a59a1145/",
@@ -70,7 +70,7 @@ const APC = [
 	{ name: "Gautam Raghuvanshi", phone: "(+91) 8009861147", mail: "gautamr21@iitk.ac.in" },
 	{ name: "Jatin Rastogi", phone: "(+91) 8570940447", mail: "jatinr21@iitk.ac.in" },
 	{ name: "Karamveer Singh", phone: "(+91) 8791180652", mail: "karamveers21@iitk.ac.in" },
-	{ name: "Kriti Arora", phone: "(+91) 7087384058", mail: "kriti21@iitk.ac.in" },
+	{ name: "Kriti", phone: "(+91) 7087384058", mail: "kriti21@iitk.ac.in" },
 	{ name: "Mohak Singh Rana", phone: "(+91) 7999884586", mail: "mohaksr21@iitk.ac.in" },
 	{ name: "Mohd Siraj", phone: "(+91) 6005450524", mail: "siraj21@iitk.ac.in" },
 	{ name: "Nishant", phone: "(+91) 7248692807", mail: "nishantp21@iitk.ac.in" },
