@@ -147,9 +147,14 @@ const ResourcesC = [
 		link: "docs/2021-22/List-of-companies.pdf"
 	},
 	{
-		name: "Previous Year IP and JAF",
-		link: "https://spo.iitk.ac.in/resources/"
-	}, {
+		name: "Previous Year Internship Proforma",
+		link: "https://iitk-my.sharepoint.com/personal/harshitr20_iitk_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fharshitr20%5Fiitk%5Fac%5Fin%2FDocuments%2FSPO%20Proformas%2FIntern%202022%20Phase%201%2FStudent&ga=1"
+	},
+	{
+		name: "Previous Year Placement Proforma",
+		link: "https://iitk-my.sharepoint.com/:f:/g/personal/harshitr20_iitk_ac_in/Eo4wewCT1hVOua8Ub9ZREeYBSh6JzIEFjF1jjCMrhGqTfA?e=XkLLZ0"
+	},
+	{
 		name: "Preparation Portal",
 		link: "https://spo.iitk.ac.in/preparation/"
 	}

@@ -33,7 +33,7 @@ const TeamMembers = [
 	},
 	{
 		name: "Abhishek Kumar",
-		image: "/testimonials/Abhishek.jpg",
+		image: "/testimonials/PastYearTeamImages/22-23/Abhishek.jpg",
 		phone: "(+91) 98726 86648",
 		mail: "krabhishek20@iitk.ac.in",
 		linkedin: "https://www.linkedin.com/in/abhisjust4u"
