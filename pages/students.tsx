@@ -148,12 +148,14 @@ const ResourcesC = [
 	},
 	{
 		name: "Previous Year Internship Proforma",
-		link: "https://iitk-my.sharepoint.com/:f:/g/personal/utkarshm21_iitk_ac_in/EkHewzknkgVFs5TJV5sfvzABGtts48wHzDpfVI7RvucEcg?e=pBAg0n"
+		link: "https://drive.google.com/file/d/1Td9Z5gMgMO6U9mn8tXTS86IZ2Rs0LpWB/view?usp=sharing"
 	},
+	
 	{
 		name: "Previous Year Placement Proforma",
-		link: "https://iitk-my.sharepoint.com/:f:/g/personal/utkarshm21_iitk_ac_in/Ev3ps68SaPFFnlHsF_CXqNkB4A7XEA0-Koeq-_E6NO-UsQ?e=8bBU3d"
+		link: "https://drive.google.com/file/d/1VSVDkvSQO0Gi270WlxXeFr_ctxqtUERF/view?usp=sharing"
 	},
+
 	{
 		name: "Preparation Portal",
 		link: "https://spo.iitk.ac.in/preparation/"
