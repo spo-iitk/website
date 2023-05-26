@@ -4,8 +4,8 @@ import Page from "components/Page"
 
 export default function ViceChairmanMessage() {
 	return (
-		<Page title="Vice Chairman Message" description="From the desk of Prof. Sudhanshu Shekhar Singh">
-			<MessageSection imageUrl="/testimonials/vc.jpg" title="Vice Chairman's Message" hideTitle>
+		<Page title="Vice Chairperson Message" description="From the desk of Prof. Sudhanshu Shekhar Singh">
+			<MessageSection imageUrl="/testimonials/vc.jpg" title="Vice Chairperson's Message" hideTitle>
 				<p>
           Indian Institute of Technology Kanpur (IITK), established in 1959, is one of the premier institutions established by the
           Government of India. IITK aims to create, disseminate, and translate knowledge in science, engineering and allied disciplines that
@@ -26,7 +26,7 @@ export default function ViceChairmanMessage() {
 				<p>Partner and write your success stories with IITK.</p>
 				<br />
         Prof. Sudhanshu Shekhar Singh <br />
-        Vice Chairman <br />
+        Vice Chairperson <br />
         Students' Placement Office <br />
         IIT Kanpur <br />
         Email ID: spovc@iitk.ac.in <br />

@@ -39,22 +39,22 @@ export default function OfficeTeam() {
 	return (
 		<Page title="Administration" keywords="Administration IITK, SPO Management IITK" description="">
 			<DarkerBackgroundContainer>
-				<SectionTitle>SPO Chairman</SectionTitle>
+				<SectionTitle>SPO Chairperson</SectionTitle>
 				<div style={{ display: "flex", justifyContent: "center" }}>
 					<Card>
-						<NextImage src="/testimonials/chairman.jpg" width={128} height={128} alt="Chairman SPO" />
+						<NextImage src="/testimonials/chairman.jpg" width={128} height={128} alt="Chairperson SPO" />
 						<Title>Prof. Raju Kumar Gupta</Title>
-						<Description>Chairman, Students&apos; Placement Office </Description>
-						<Description><Link href="/chairman-message" passHref>Chairman&apos; Message</Link></Description>
+						<Description>Chairperson, Students&apos; Placement Office </Description>
+						<Description><Link href="/chairman-message" passHref>Chairperson&apos; Message</Link></Description>
 					</Card>
 				</div>
-				<SectionTitle>SPO Vice Chairman</SectionTitle>
+				<SectionTitle>SPO Vice Chairperson</SectionTitle>
 				<div style={{ display: "flex", justifyContent: "center" }}>
 					<Card>
-						<NextImage src="/testimonials/vc.jpg" width={128} height={128} alt="Vice Chairman SPO" />
+						<NextImage src="/testimonials/vc.jpg" width={128} height={128} alt="Vice Chairperson SPO" />
 						<Title>Prof. Sudhanshu Shekhar Singh</Title>
-						<Description>Vice Chairman, Students&apos; Placement Office </Description>
-						<Description><Link href="/vice-chairman-message" passHref>Vice Chairman&apos; Message</Link></Description>
+						<Description>Vice Chairperson, Students&apos; Placement Office </Description>
+						<Description><Link href="/vice-chairman-message" passHref>Vice Chairperson&apos; Message</Link></Description>
 					</Card>
 				</div>
 				<SectionTitle>SPO Officials</SectionTitle>
