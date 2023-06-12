@@ -14,5 +14,7 @@ RUN git clone --depth 1 https://github.com/spo-iitk/website.git .
 
 EXPOSE 80
 
+RUN sh -c "$(wget -O- https://github.com/deluan/zsh-in-docker/releases/download/v1.1.5/zsh-in-docker.sh)"
+
 # Run script
 CMD [ "/home/website/scripts/production.sh" ]
