@@ -103,10 +103,10 @@ const WEBHEAD = [
 
 const WEBEXEC = [
 	{
-		name: "Sagar Arora",
+		name: "Ashish Newar",
 		position: "Web Executive",
-		mail: "sagara22@iitk.ac.in",
-		phone: "(+91) 63964 36922"
+		mail: "nashish22@iitk.ac.in",
+		phone: "(+91) 93948 57874"
 	},
 	{
 		name: "Burhanuddin Merchant",
@@ -115,16 +115,16 @@ const WEBEXEC = [
 		phone: "(+91) 88159 92866"
 	},
 	{
+		name: "Sagar Arora",
+		position: "Web Executive",
+		mail: "sagara22@iitk.ac.in",
+		phone: "(+91) 63964 36922"
+	},
+	{
 		name: "Yash Chauhan",
 		position: "Web Executive",
 		mail: "yashc22@iitk.ac.in",
 		phone: "(+91) 98370 90171"
-	},
-	{
-		name: "Ashish Newar",
-		position: "Web Executive",
-		mail: "nashish22@iitk.ac.in",
-		phone: "(+91) 93948 57874"
 	},
 ]
 
