@@ -381,7 +381,7 @@ const WEBEXEC = [
 
 export default function StudentTeam22() {
 	return (
-		<Page title="Placement Team 2020-21" >
+		<Page title="Placement Team 2021-22" >
 			<DarkerBackgroundContainer>
 				<br />
 				<br />
