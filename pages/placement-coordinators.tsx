@@ -83,6 +83,40 @@ const APC = [
 	{ name: "Siddhant Singhai", phone: "(+91) 9685678711", mail: "ssinghai21@iitk.ac.in" },
 	{ name: "Tavishi", phone: "(+91) 9997846712", mail: "tavishis21@iitk.ac.in" },
 ]
+const DPC=[
+	{name:"Aishwarya P S",department:"Aerospace Engineering",email:"aishwarya22@iitk.ac.in",phone:"(+91) 8217855489"},
+	{name:"Vishal Shah ",department:"Aerospace Engineering",email:"vishalshah22@iitk.ac.in",phone:"(+91) 9737727805"},
+	{name:"Gouravmoy Boruah ",department:"Cognitive Science",email:"gouravmoy22@iitk.ac.in",phone:"(+91) 8473889868"},
+	{name:"Aditya Choumal ",department:"Chemical Engineering",email:"adityaac22@iitk.ac.in ",phone:"(+91) 7016302404"},
+	{name:"Sagnik Saha",department:"Chemical Engineering",email:"sagniksaha22@iitk.ac.in",phone:"(+91) 8620868016"},
+	{name:"Hemant Singh Kumaiya",department:"Chemical Engineering",email:"hemantsk22@iitk.ac.in",phone:"(+91) 9760562747"},
+	{name:"Mansi Pradip Koshti",department:"Civil Engineering",email:"mansipk22@iitk.ac.in ",phone:"(+91) 9834848951"},
+	{name:"Ayush Anand ",department:"Civil Engineering",email:"anand22@iitk.ac.in",phone:"(+91) 7042488245"},
+	{name:"Amit Tripathi",department:"Civil Engineering",email:"amitt22@iitk.ac.in ",phone:"(+91) 9993114981"},
+	{name:"Sandeep Vissa",department:"Computer Science and Engineering",email:"vsssandeep22@iitk.ac.in ",phone:"(+91) 7904311487"},
+	{name:"Shivam Tripathi",department:"Computer Science and Engineering",email:"shivamtr21@iitk.ac.in ",phone:"(+91) 9451400223"},
+	{name:"Harsh Jain",department:"Department of Design",email:"harshjain22@iitk.ac.in ",phone:"(+91) 9826598153"},
+	{name:"Sanjukta Sen",department:"Department of Design",email:"sanjukta22@iitk.ac.in ",phone:"(+91) 8826198970"},
+	{name:"Kinshuk Siyol ",department:"Economics",email:"kinshuks20@iitk.ac.in",phone:"(+91) 9145850807"},
+	{name:"Kunal Aggarwal ",department:"Electrical Engineering",email:"kunala@iitk.ac.in",phone:"(+91) 9478300927"},
+	{name:"Puneet Shrivastava ",department:"Electrical Engineering",email:"puneets22@iitk.ac.in",phone:"(+91) 8982015929"},
+	{name:"Nikhil Dubey",department:"Industrial and Management Engineering",email:"nikhild22@iitk.ac.in",phone:"(+91) 8076452971"},
+	{name:"Abhishek Kumar Singh",department:"Industrial and Management Engineering",email:"abhiks22@iitk.ac.in",phone:"(+91) 8638040742"},
+	{name:"Shankar Pal ",department:"Industrial and Management Engineering",email:"shankarpal22@iitk.ac.in",phone:"(+91) 9588376074"},
+	{name:"Fahad Farid",department:"Mechanical Engineering",email:"fahadf22@iitk.ac.in",phone:"(+91) 8840655972"},
+	{name:"Prasad Satish Chavan",department:"Mechanical Engineering",email:"pschavan22@iitk.ac.in",phone:"(+91) 9594373588"},
+	{name:"Suhail Sheikh ",department:"Mechanical Engineering",email:"suhails21@iitk.ac.in",phone:"(+91) 9131482835"},
+	{name:"Akshada Raykar",department:"Material Sciences and Engineering",email:"akshadam22@iitk.ac.in",phone:"(+91) 7016638024"},
+	{name:"Pratap Sharma",department:"Material Sciences and Engineering",email:"prataps22@iitk.ac.in",phone:"(+91) 8389818681"},
+	{name:"Kaushik Roy",department:"Materials Science Programme",email:"kaushikroy22@iitk.ac.in",phone:"(+91) 8240973521"},
+	{name:"Aryaman Singhal",department:" Mathematics",email:"aryamans20@iitk.ac.in",phone:"(+91) 9997229000"},
+	{name:"Kuldeep",department:"Physics",email:"kuldeep22@iitk.ac.in",phone:"(+91) 6377400403"},
+	{name:"Suchismita Bose",department:"Photonics Science and Engineering",email:"sbose21@iitk.ac.in",phone:"(+91) 8637054496"},
+	{name:"Aman kundu ",department:"Sustainable Energy Engineering",email:"amankundu22@iitk.ac.in",phone:"(+91) 9253222212"},
+	{name:"Paulomi Das",department:"Statistics ",email:"paulomid22@iitk.ac.in",phone:"(+91) 9073548873"},
+	{name:"Ringan Majumdar",department:"Statistics ",email:"ringanm22@iitk.ac.in",phone:"(+91) 8584009149"},
+	
+]
 
 const WEBHEAD = [
 	{
@@ -182,6 +216,21 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 							</div>
 						))}
 					</CustomAutofitGrid3>
+				</Container>
+				<SectionTitle>Assistant Coordinators of Departments</SectionTitle>
+				<Container>
+					<CustomAutofitGrid4>
+						{DPC.map((member) => (
+							<div key={member.name}>
+								<Card>
+									<Title>{member.name}</Title>
+									<Description>{member.department}</Description>
+									<Description><Link href={"mailto:" + member.email}>{member.email}</Link></Description>
+									<Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+								</Card>
+							</div>
+						))}
+					</CustomAutofitGrid4>
 				</Container>
 				<SectionTitle>Web Team</SectionTitle>
 				<Container>
