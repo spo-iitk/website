@@ -162,6 +162,53 @@ const ResourcesC = [
 	}
 ]
 
+const Roadmaps = [
+	{
+		name: "Mechanical Core",
+		link: "/assets/Roadmap_ME.pdf"
+	},
+
+	{
+		name: "Electrical Core",
+		link: "/assets/Roadmap_EE.pdf"
+	},
+
+	{
+		name: "Analyst",
+		link: "/assets/Roadmap_Analytics.pdf"
+	},
+
+	{
+		name: "Product Management",
+		link: "/assets/Roadmap_PM.pdf"
+	},
+
+	{
+		name: "SDE",
+		link: "/assets/Roadmap_SDE.pdf"
+	},
+
+	{
+		name: "Consulting",
+		link: "/assets/Roadmap_Consulting.pdf"
+	},
+
+	{
+		name: "MSE Core",
+		link: "/assets/Roadmap_MSE.pdf"
+	},
+
+	{
+		name: "CHE Core",
+		link: "/assets/Roadmap_CHE.pdf"
+	},
+
+	{
+		name: "AE Core",
+		link: "/assets/Roadmap_AE.pdf"
+	}
+]
+
 const Routes = [
 	{
 		name: "Insights",
@@ -202,6 +249,21 @@ export default function StudentsPage() {
 				<Container>
 					<CustomAutofitGrid4>
 						{ResourcesC.map((member) => (
+							<Link href={member.link} key={member.name} passHref>
+								<Card style={{ cursor: "pointer" }}>
+									<Title>{member.name}</Title>
+								</Card>
+							</Link>
+						))}
+					</CustomAutofitGrid4>
+				</Container>
+			</Section>
+
+			<div id="prepRoadmaps"></div>
+			<Section title="Preparation Roadmaps">
+				<Container>
+					<CustomAutofitGrid4>
+						{Roadmaps.map((member) => (
 							<Link href={member.link} key={member.name} passHref>
 								<Card style={{ cursor: "pointer" }}>
 									<Title>{member.name}</Title>
