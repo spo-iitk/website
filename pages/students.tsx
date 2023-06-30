@@ -154,11 +154,6 @@ const ResourcesC = [
 	{
 		name: "Previous Year Placement Proforma",
 		link: "https://drive.google.com/file/d/1VSVDkvSQO0Gi270WlxXeFr_ctxqtUERF/view?usp=sharing"
-	},
-
-	{
-		name: "Preparation Portal",
-		link: "https://spo.iitk.ac.in/preparation/"
 	}
 ]
 
@@ -220,11 +215,11 @@ const Routes = [
 		name: "Resources",
 		url: "/students#resources"
 	}, {
+		name: "Preperation Roadmaps",
+		url: "/students#prepRoadmaps"
+	}, {
 		name: "FAQs",
 		url: "/students#faqs"
-	}, {
-		name: "Preparation Portal",
-		url: "https://spo.iitk.ac.in/preparation/"
 	}
 ]
 

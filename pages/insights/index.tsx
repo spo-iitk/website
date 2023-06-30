@@ -37,7 +37,7 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 				/>
 			</div>
 			<br />
-			{/* <div style={{ width: "100%", display: "grid", placeItems: "center" }}>
+			<div style={{ width: "100%", display: "grid", placeItems: "center" }}>
 				<CustomUl>
 					{!filteredBlogPosts.length && "No posts found."}
 					<CustomSectionTitle>{filteredBlogPosts.length && "2023 Placement Insight" }</CustomSectionTitle>
@@ -59,7 +59,7 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 					})}
 				</CustomUl>
 			</div>
-			<br /> */}
+			<br />
 			<div style={{ width: "100%", display: "grid", placeItems: "center" }}>
 				<CustomUl>
 					{!filteredBlogPosts.length && "No posts found."}
