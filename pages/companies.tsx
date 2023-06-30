@@ -131,15 +131,15 @@ const ResourcesL = [
 	},
 	{
 		name: "Placement Policy",
-		link: "assets/companies_links/Placement-Policy.pdf"
+		link: "assets/2023-24/Placement_Policy_for_Companies_2023-24.pdf"
 	},
 	{
 		name: "Internship Policy",
-		link: "assets/companies_links/Internship-Policy-Companies.pdf"
+		link: "assets/2023-24/Internship-Policy-2023-24.pdf"
 	},
 	{
 		name: "Campus Recruitement Brochure",
-		link: "/assets/IITK_Recruitment_Brochure_2022-23.pdf"
+		link: "/assets/2023-24/IITK_Recruitment_Brochure_2023-24.pdf"
 	},
 	{
 		name: "Campus Recruitment Guide",
