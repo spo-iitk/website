@@ -154,11 +154,53 @@ const ResourcesC = [
 	{
 		name: "Previous Year Placement Proforma",
 		link: "https://drive.google.com/file/d/1VSVDkvSQO0Gi270WlxXeFr_ctxqtUERF/view?usp=sharing"
+	}
+]
+
+const Roadmaps = [
+	{
+		name: "Mechanical Core",
+		link: "/assets/Roadmap_ME.pdf"
 	},
 
 	{
-		name: "Preparation Portal",
-		link: "https://spo.iitk.ac.in/preparation/"
+		name: "Electrical Core",
+		link: "/assets/Roadmap_EE.pdf"
+	},
+
+	{
+		name: "Analyst",
+		link: "/assets/Roadmap_Analytics.pdf"
+	},
+
+	{
+		name: "Product Management",
+		link: "/assets/Roadmap_PM.pdf"
+	},
+
+	{
+		name: "SDE",
+		link: "/assets/Roadmap_SDE.pdf"
+	},
+
+	{
+		name: "Consulting",
+		link: "/assets/Roadmap_Consulting.pdf"
+	},
+
+	{
+		name: "MSE Core",
+		link: "/assets/Roadmap_MSE.pdf"
+	},
+
+	{
+		name: "CHE Core",
+		link: "/assets/Roadmap_CHE.pdf"
+	},
+
+	{
+		name: "AE Core",
+		link: "/assets/Roadmap_AE.pdf"
 	}
 ]
 
@@ -173,11 +215,11 @@ const Routes = [
 		name: "Resources",
 		url: "/students#resources"
 	}, {
+		name: "Preperation Roadmaps",
+		url: "/students#prepRoadmaps"
+	}, {
 		name: "FAQs",
 		url: "/students#faqs"
-	}, {
-		name: "Preparation Portal",
-		url: "https://spo.iitk.ac.in/preparation/"
 	}
 ]
 
@@ -202,6 +244,21 @@ export default function StudentsPage() {
 				<Container>
 					<CustomAutofitGrid4>
 						{ResourcesC.map((member) => (
+							<Link href={member.link} key={member.name} passHref>
+								<Card style={{ cursor: "pointer" }}>
+									<Title>{member.name}</Title>
+								</Card>
+							</Link>
+						))}
+					</CustomAutofitGrid4>
+				</Container>
+			</Section>
+
+			<div id="prepRoadmaps"></div>
+			<Section title="Preparation Roadmaps">
+				<Container>
+					<CustomAutofitGrid4>
+						{Roadmaps.map((member) => (
 							<Link href={member.link} key={member.name} passHref>
 								<Card style={{ cursor: "pointer" }}>
 									<Title>{member.name}</Title>

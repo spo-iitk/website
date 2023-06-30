@@ -96,3 +96,5 @@ if __name__ == "__main__":
 			"## Advice for students (dos and don’ts)? " + "\n")
 		file.write(str(
 			row["Advice for students (dos and don’ts)?"]) + "\n" + "\n")
+
+# Check for parsing { } properly in mdx file
