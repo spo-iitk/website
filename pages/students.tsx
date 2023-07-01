@@ -220,6 +220,9 @@ const Routes = [
 		name: "Resources",
 		url: "/students#resources"
 	}, {
+		name: "Roadmaps",
+		url: "/students#roadmaps"
+	}, {
 		name: "FAQs",
 		url: "/students#faqs"
 	}, {
