@@ -215,7 +215,7 @@ const Routes = [
 		name: "Resources",
 		url: "/students#resources"
 	}, {
-		name: "Preperation Roadmaps",
+		name: "Preparation Roadmaps",
 		url: "/students#prepRoadmaps"
 	}, {
 		name: "FAQs",
