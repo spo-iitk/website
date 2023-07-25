@@ -4,9 +4,12 @@ import { useState } from "react"
 import styled from "styled-components"
 import { Button } from "tinacms"
 
+import AutofitGrid from "components/AutofitGrid"
+import Container from "components/Container"
 import Input from "components/Input"
 import Page from "components/Page"
 import SectionTitle from "components/SectionTitle"
+import { media } from "utils/media"
 import { getAllPosts } from "utils/postsFetcher"
 
 export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
@@ -18,6 +21,10 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 	}).sort((a, b) => {
 		return new Date(b.meta.date).valueOf() - new Date(a.meta.date).valueOf()
 	})
+
+	const PREVINSIGHTS = [
+		"2022"
+	]
 
 	return (
 		<Page title="SPO Insights" description="">
@@ -33,10 +40,10 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 			<div style={{ width: "100%", display: "grid", placeItems: "center" }}>
 				<CustomUl>
 					{!filteredBlogPosts.length && "No posts found."}
-					<CustomSectionTitle>{filteredBlogPosts.length && "2022 Placement Insight" }</CustomSectionTitle>
+					<CustomSectionTitle>{filteredBlogPosts.length && "2023 Placement Insight" }</CustomSectionTitle>
 					<br></br>
 					{filteredBlogPosts.map((singlePost, idx) => {
-						if (singlePost.slug.includes("2022-placement")) {
+						if (singlePost.slug.includes("2023-placement")) {
 							return (
 								<NextLink href={"/insights/" + singlePost.slug} passHref key={idx}>
 									<BlogItem>
@@ -56,10 +63,10 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 			<div style={{ width: "100%", display: "grid", placeItems: "center" }}>
 				<CustomUl>
 					{!filteredBlogPosts.length && "No posts found."}
-					<CustomSectionTitle>{filteredBlogPosts.length && "2022 Internship Insight" }</CustomSectionTitle>
+					<CustomSectionTitle>{filteredBlogPosts.length && "2023 Internship Insight" }</CustomSectionTitle>
 					<br></br>
 					{filteredBlogPosts.map((singlePost, idx) => {
-						if (singlePost.slug.includes("2022-intern")) {
+						if (singlePost.slug.includes("2023-intern")) {
 							return (
 								<NextLink href={"/insights/" + singlePost.slug} passHref key={idx}>
 									<BlogItem>
@@ -75,6 +82,18 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 					})}
 				</CustomUl>
 			</div>
+			<SectionTitle>Previous Insights</SectionTitle>
+			<Container>
+				<CustomAutofitGrid>
+					{PREVINSIGHTS.map((year) => (
+						<Link href={`/insights/${year}`} key={year}>
+							<Card>
+								<Title>Insights {year}</Title>
+							</Card>
+						</Link>
+					))}
+				</CustomAutofitGrid>
+			</Container>
 		</Page>
 	)
 }
@@ -142,6 +161,46 @@ const DropdownMenu = styled.div`
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
+`
+
+const Card = styled.div`
+  display: flex;
+  padding: 2.5rem;
+  background: rgb(var(--cardBackground));
+  box-shadow: var(--shadow-md);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  border-radius: 0.6rem;
+  color: rgb(var(--text));
+  font-size: 1.6rem;
+
+  & > *:not(:first-child) {
+    margin-top: 1rem;
+  }
+`
+
+const CustomAutofitGrid = styled(AutofitGrid)`
+  --autofit-grid-item-size: 20rem;
+
+  ${media("<=tablet")} {
+    --autofit-grid-item-size: 15rem;
+  }
+
+  ${media("<=phone")} {
+    --autofit-grid-item-size: 50%;
+  }
+`
+
+const Link = styled.a`
+  text-decoration: none;
+  color: var(--primary);
+`
+
+const Title = styled.div`
+  font-weight: bold;
 `
 
 export async function getStaticProps() {
