@@ -441,7 +441,7 @@ export default function StudentTeam22() {
 						))}
 					</CustomAutofitGrid4>
 				</Container>
-				<SectionTitle>Assistant Coordinators of Departments</SectionTitle>
+				<SectionTitle>Department Placement Coordinator</SectionTitle>
 				<Container>
 					<h1>Inter-disciplinary specializations</h1>
 					<br />
@@ -581,5 +581,5 @@ const CustomBtnGroup = styled.div`
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
-}
+
 `
