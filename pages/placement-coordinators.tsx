@@ -217,7 +217,7 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 						))}
 					</CustomAutofitGrid3>
 				</Container>
-				<SectionTitle>Assistant Coordinators of Departments</SectionTitle>
+				<SectionTitle>Department Placement Coordinator</SectionTitle>
 				<Container>
 					<CustomAutofitGrid4>
 						{DPC.map((member) => (

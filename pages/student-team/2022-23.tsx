@@ -364,7 +364,7 @@ export default function StudentTeam22() {
 						))}
 					</CustomAutofitGrid4>
 				</Container>
-				<SectionTitle>Assistant Coordinators of Departments</SectionTitle>
+				<SectionTitle>Department Placement Coordinator</SectionTitle>
 				<Container>
 					<CustomAutofitGrid4>
 						{DPC.map((member) => (
@@ -497,5 +497,5 @@ const CustomBtnGroup = styled.div`
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
-}
+
 `
