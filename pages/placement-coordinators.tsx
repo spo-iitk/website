@@ -106,16 +106,23 @@ const DPC=[
 	{name:"Fahad Farid",department:"Mechanical Engineering",email:"fahadf22@iitk.ac.in",phone:"(+91) 8840655972"},
 	{name:"Prasad Satish Chavan",department:"Mechanical Engineering",email:"pschavan22@iitk.ac.in",phone:"(+91) 9594373588"},
 	{name:"Suhail Sheikh ",department:"Mechanical Engineering",email:"suhails21@iitk.ac.in",phone:"(+91) 9131482835"},
-	{name:"Akshada Raykar",department:"Material Sciences and Engineering",email:"akshadam22@iitk.ac.in",phone:"(+91) 7016638024"},
-	{name:"Pratap Sharma",department:"Material Sciences and Engineering",email:"prataps22@iitk.ac.in",phone:"(+91) 8389818681"},
+	{name:"Akshada Raykar",department:"Materials Science and Engineering",email:"akshadam22@iitk.ac.in",phone:"(+91) 7016638024"},
+	{name:"Pratap Sharma",department:"Materials Science and Engineering",email:"prataps22@iitk.ac.in",phone:"(+91) 8389818681"},
 	{name:"Kaushik Roy",department:"Materials Science Programme",email:"kaushikroy22@iitk.ac.in",phone:"(+91) 8240973521"},
 	{name:"Aryaman Singhal",department:" Mathematics",email:"aryamans20@iitk.ac.in",phone:"(+91) 9997229000"},
 	{name:"Kuldeep",department:"Physics",email:"kuldeep22@iitk.ac.in",phone:"(+91) 6377400403"},
 	{name:"Suchismita Bose",department:"Photonics Science and Engineering",email:"sbose21@iitk.ac.in",phone:"(+91) 8637054496"},
-	{name:"Aman kundu ",department:"Sustainable Energy Engineering",email:"amankundu22@iitk.ac.in",phone:"(+91) 9253222212"},
+	{name:"Aman kundu",department:"Sustainable Energy Engineering",email:"amankundu22@iitk.ac.in",phone:"(+91) 9253222212"},
+	{name:"Sparsh Rai",department:"Sustainable Energy Engineering",email:"Sparshrai22@iitk.ac.in",phone:"(+91) 9148550609"},
 	{name:"Paulomi Das",department:"Statistics ",email:"paulomid22@iitk.ac.in",phone:"(+91) 9073548873"},
 	{name:"Ringan Majumdar",department:"Statistics ",email:"ringanm22@iitk.ac.in",phone:"(+91) 8584009149"},
-	
+	{name:"Debjani Das",department:"Biological Sciences & Bioengineering",email:"debjanidas22@iitk.ac.in",phone:"(+91) 9470979009"},
+	{name:"Rudra Abhishek",department:"Biological Sciences & Bioengineering",email:"rabhishek22@iitk.ac.in",phone:"(+91) 9348444874"},
+	{name:"Dheerajkumar Yadav",department:"Chemistry",email:"dlyadav22@iitk.ac.in",phone:"(+91) 8652867410"},
+	{name:"Aman Singh",department:"Chemistry",email:"singhaman20@iitk.ac.in",phone:"(+91) 6307440053"},
+	{name:"Vinaj Joshi",department:"Earth Sciences",email:"vinayjoshi22@iitk.ac.in",phone:"(+91) 8057632768"},
+	{name:"Ankit Yadav",department:"Earth Sciences",email:"ankity22@iitk.ac.in",phone:"(+91) 9616019284"},
+	{name:"Ayush Gupta",department:"Earth Sciences",email:"ayushgupta20@iitk.ac.in",phone:"(+91) 7905092460"},
 ]
 
 const WEBHEAD = [
