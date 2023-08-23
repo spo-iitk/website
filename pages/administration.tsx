@@ -24,7 +24,7 @@ const TeamMembers = [
 	{
 		name: "Praveen Kumar",
 		position: "Junior Assistant",
-		image: "/testimonials/praveen_2022.jpg",
+		image: "/testimonials/praveen_2022.png",
 		email: "pravkmr@iitk.ac.in",
 	},
 	{
