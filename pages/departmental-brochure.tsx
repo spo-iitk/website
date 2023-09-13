@@ -101,7 +101,7 @@ const deptBrochure = [
 		idx: "16",
 		dept: "Materials Science Programme",
 		url: "https://www.iitk.ac.in/msp/",
-		link: "/assets/Brochure_MATERIAL_SCIENCE.pdf"
+		link: "/assets/Brochure_MSP.pdf"
 	},
 	{
 		idx: "17",
@@ -131,7 +131,7 @@ const deptBrochure = [
 		idx: "21",
 		dept: "Physics",
 		url: "https://www.iitk.ac.in/phy/",
-		link: ""
+		link: "/assets/Brochure_PHY.pdf"
 	},
 	{
 		idx: "22",
