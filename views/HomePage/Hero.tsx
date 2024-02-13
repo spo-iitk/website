@@ -31,11 +31,6 @@ export default function Hero() {
               Recruitment Portal <span>&rarr;</span>
 						</Button>
 					</a>
-					<a target="_blank" rel="noopener noreferrer" href="https://phdplacement.iitk.ac.in/">
-						<Button transparent>
-              Phd Portal <span>&rarr;</span>
-						</Button>
-					</a>
 				</CustomButtonGroup>
 			</Contents>
 			<ImageContainer>
