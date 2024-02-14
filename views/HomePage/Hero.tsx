@@ -31,11 +31,13 @@ export default function Hero() {
               Recruitment Portal <span>&rarr;</span>
 						</Button>
 					</a>
+				</CustomButtonGroup>
+				<CustomButtonGroup>
 					<a target="_blank" rel="noopener noreferrer" href="https://phdplacement.iitk.ac.in/">
 						<Button transparent>
-              Phd Portal <span>&rarr;</span>
+              PhD Portal <span>&rarr;</span>
 						</Button>
-					</a>
+					</a>  
 				</CustomButtonGroup>
 			</Contents>
 			<ImageContainer>
@@ -66,12 +68,19 @@ const Contents = styled.div`
 `
 
 const CustomButtonGroup = styled(ButtonGroup)`
-  margin-top: 4rem;
+  margin-top: 4rem; 
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  ${media("<=desktop")}{
+    margin-top: 0rem;
+  }
 `
 
 const ImageContainer = styled.div`
 flex: 1;
-max-width: 40%;
+max-width: 50%;
 position: relative;
 left : 5rem;
 &:before {
@@ -80,7 +89,6 @@ left : 5rem;
   width: 100%;
   padding-top : calc((9 / 16) * 100%);
 }
-
   ${media("<=desktop")} {
     margin-top: 2rem;
     justify-content: center; 
@@ -98,6 +106,7 @@ const Description = styled.p`
   text-align: justify;
   ${media("<=desktop")} {
     font-size: 1.5rem;
+    margin-bottom: 4rem;
   }
 `
 
