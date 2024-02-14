@@ -80,7 +80,7 @@ const CustomButtonGroup = styled(ButtonGroup)`
 
 const ImageContainer = styled.div`
 flex: 1;
-max-width: 40%;
+max-width: 50%;
 position: relative;
 left : 5rem;
 &:before {
@@ -89,7 +89,6 @@ left : 5rem;
   width: 100%;
   padding-top : calc((9 / 16) * 100%);
 }
-
   ${media("<=desktop")} {
     margin-top: 2rem;
     justify-content: center; 
