@@ -122,7 +122,6 @@ const DPC=[
 	{name:"Aman Singh",department:"Chemistry",email:"singhaman20@iitk.ac.in",phone:"(+91) 6307440053"},
 	{name:"Vinaj Joshi",department:"Earth Sciences",email:"vinayjoshi22@iitk.ac.in",phone:"(+91) 8057632768"},
 	{name:"Ankit Yadav",department:"Earth Sciences",email:"ankity22@iitk.ac.in",phone:"(+91) 9616019284"},
-	{name:"Ayush Gupta",department:"Earth Sciences",email:"ayushgupta20@iitk.ac.in",phone:"(+91) 7905092460"},
 ]
 
 const WEBHEAD = [
