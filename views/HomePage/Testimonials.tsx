@@ -13,10 +13,10 @@ const TESTIMONIALS = [
 		companyLogoUrl: "/testimonials/iitk-logo.svg",
 		content: "Since the advent of this great institution, IIT Kanpur has vision to provide quality technical education and act as a rostrum for scientific research, and a mission to develop human potential to its greatest degree. In accordance with this vision IIT Kanpur has maintained an exemplary record of academic contribution for achieving excellence in teaching, research and governance. A sincere effort has now begun to restore the vantage position of IITK as the top technological Institute in India, The students of IITK are a cherry picked group. They have been chosen through a process that makes IITK one of the toughest institutes to get an admission.",
 		author: {
-			name: "Prof. Abhay Karandikar",
+			name: "Prof. Manindra Agrawal",
 			title: "Director",
 			subtitle: "Indian Institute of Technology, Kanpur",
-			avatarUrl: "/testimonials/dir_2.png",
+			avatarUrl: "/testimonials/dir.jpg",
 		},
 	},
 	{
