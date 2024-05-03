@@ -3,7 +3,7 @@ import Page from "components/Page"
 
 export default function DirectorMessage() {
 	return (
-		<Page title="Director Message" description="From the desk of Prof. Manindra Agarwal">
+		<Page title="Director&#39;s Message" description="From the desk of Prof. Manindra Agarwal">
 			<MessageSection imageUrl="/testimonials/dir.jpg" title="Director's Message" hideTitle>
 				<p>
           Since its advent, IIT Kanpur has had the vision to provide quality technical education and act as a rostrum for scientific

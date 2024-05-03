@@ -80,22 +80,22 @@ const APC = [
 // 	{name:"Aishwarya P S",department:"Aerospace Engineering",email:"aishwarya22@iitk.ac.in",phone:"(+91) 8217855489"},
 // ]
 
-// const WEBHEAD = [
-// 	{
-// 		name: "Krishnansh Agarwal",
-// 		position: "Web Head",
-// 		mail: "krishnansh21@iitk.ac.in",
-// 		phone: "(+91) 83170 84914",
-// 		linkedin: "https://www.linkedin.com/in/krishnansh-agarwal/"
-// 	},
-// 	{
-// 		name: "Utkarsh Mishra",
-// 		position: "Web Head",
-// 		mail: "utkarshm21@iitk.ac.in",
-// 		phone: "(+91) 93992 15049",
-// 		linkedin: "https://www.linkedin.com/in/utkarsh-mishra-086251228"
-// 	},
-// ]
+const WEBHEAD = [
+	{
+		name: "Burhanuddin Merchant",
+		position: "Web Head",
+		mail: "bmerchant22@iitk.ac.in",
+		phone: "(+91) 88159 92866",
+		linkedin: "https://www.linkedin.com/in/burhanuddin-merchant-23622a254/"
+	},
+	{
+		name: "Yash Chauhan",
+		position: "Web Head",
+		mail: "yashc22@iitk.ac.in",
+		phone: "(+91) 98370 90171",
+		linkedin: "https://www.linkedin.com/in/yash-chauhan-10b696250/"
+	},
+]
 
 // const WEBEXEC = [
 // 	{
@@ -194,7 +194,7 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 							</div>
 						))}
 					</CustomAutofitGrid4>
-				</Container>
+				</Container> */}
 				<SectionTitle>Web Team</SectionTitle>
 				<Container>
 					<CustomAutofitGrid2>
@@ -210,7 +210,7 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 							</div>
 						))}
 					</CustomAutofitGrid2>
-					<br />
+					{/* <br />
 					<CustomAutofitGrid4>
 						{WEBEXEC.map((member) => (
 							<div key={member.name}>
@@ -222,8 +222,8 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 								</Card>
 							</div>
 						))}
-					</CustomAutofitGrid4> 
-				</Container> */}
+					</CustomAutofitGrid4>  */}
+				</Container>
 				<SectionTitle>Previous Teams</SectionTitle>
 				<Container>
 					<CustomAutofitGrid>
