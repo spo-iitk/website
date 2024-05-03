@@ -17,13 +17,6 @@ const TeamMembers = [
 		image: "/testimonials/abhishek.jpg",
 	},
 	{ 
-		name: "Ashwanth P Nair", 
-		phone: "(+91) 99646 20056", 
-		mail: "ashwanthpn23@iitk.ac.in",
-		linkedin: "https://www.linkedin.com/in/ashwanth-p-nair/",
-		image: "/testimonials/ashwanth.jpg",
-	},
-	{ 
 		name: "B P Hitesh", 
 		phone: "(+91) 93601 19151", 
 		mail: "bphitesh21@iitk.ac.in",
@@ -43,6 +36,13 @@ const TeamMembers = [
 		mail: "shashank21@iitk.ac.in",
 		linkedin: "https://www.linkedin.com/in/shashanksc03/",
 		image: "/testimonials/shashank.jpg",
+	},
+	{ 
+		name: "Ashwanth P Nair", 
+		phone: "(+91) 99646 20056", 
+		mail: "ashwanthpn23@iitk.ac.in",
+		linkedin: "https://www.linkedin.com/in/ashwanth-p-nair/",
+		image: "/testimonials/ashwanth.jpg",
 	},
 	{ 
 		name: "Siddhant Ramesh Lakkam", 
