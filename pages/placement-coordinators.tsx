@@ -148,10 +148,10 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 			<DarkerBackgroundContainer>
 				<SectionTitle>Overall Placement Coordinators</SectionTitle>
 				<Container>
-					<CustomAutofitGrid4>
+					<CustomAutofitGrid4 style={{ display: "flex", justifyContent: "center", flexWrap: "wrap"}}>
 						{TeamMembers.map((member, i) => {
 							return (
-								<div key={member.name}>
+								<div key={member.name} style={{width: "25em"}}>
 									<Card>
 										{member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
 										<Title>{member.name}</Title>
@@ -168,9 +168,9 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 				</Container>
 				<SectionTitle>Assistant Coordinators</SectionTitle>
 				<Container>
-					<CustomAutofitGrid3>
+					<CustomAutofitGrid3 style={{ display: "flex", justifyContent: "center", flexWrap: "wrap"}}>
 						{APC.map((member) => (
-							<div key={member.name}>
+							<div key={member.name} style={{width: "35em"}}>
 								<Card>
 									<Title>{member.name}</Title>
 									<Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
