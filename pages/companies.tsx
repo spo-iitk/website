@@ -123,11 +123,11 @@ const faqlist = [
 const ResourcesL = [
 	{
 		name: "Job Announcement Form",
-		link: "assets/companies_links/IITK_JAF_Job_Announcement_Form_2023-24.docx"
+		link: "assets/companies_links/IITK_JAF_Job_Announcement_Form_2024-25.docx"
 	},
 	{
 		name: "Internship Proforma",
-		link: "assets/companies_links/IITK_IP_Internship_Proforma_2022-23.docx"
+		link: "assets/companies_links/IITK_IP_Internship_Proforma_2024-25.docx"
 	},
 	{
 		name: "Placement Policy",
