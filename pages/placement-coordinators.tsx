@@ -151,7 +151,7 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 					<CustomAutofitGrid4 style={{ display: "flex", justifyContent: "center", flexWrap: "wrap"}}>
 						{TeamMembers.map((member, i) => {
 							return (
-								<div key={member.name} style={{width: "25em"}}>
+								<div key={member.name} style={{width: "29em"}}>
 									<Card>
 										{member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
 										<Title>{member.name}</Title>
