@@ -69,6 +69,7 @@ const Wrapper = styled.div`
 `
 
 const HeaderContainer = styled.div`
+	padding-top: 5rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -101,11 +102,7 @@ const NavContainer = styled.div`
 	margin-top: 5rem;
 	align-items: center;
 	justify-content: center;
-
-	${media("<=tablet")} {
-		display:none;
-	}
-	
+	margin-bottom: 5rem;
 `
 const CustomButton = styled(Button)`
 	color: rgb(var(--primary));

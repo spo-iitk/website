@@ -31,11 +31,14 @@ export default function Hero() {
               Recruitment Portal <span>&rarr;</span>
 						</Button>
 					</a>
-					<a target="_blank" rel="noopener noreferrer" href="https://phdplacement.iitk.ac.in/">
+					{/* <a target="_blank" rel="noopener noreferrer" href="https://phdplacement.iitk.ac.in/">
 						<Button transparent>
               Phd Portal <span>&rarr;</span>
 						</Button>
-					</a>
+					</a> */}
+          <Button transparent onClick={() => window.open('https://phdplacement.iitk.ac.in/', '_blank', 'noopener,noreferrer')}>
+            PhD Portal <span>&rarr;</span>
+          </Button>
 				</CustomButtonGroup>
 			</Contents>
 			<ImageContainer>
