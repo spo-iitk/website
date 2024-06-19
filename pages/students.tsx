@@ -148,12 +148,12 @@ const ResourcesC = [
 	},
 	{
 		name: "Previous Year Internship Proforma",
-		link: "https://drive.google.com/file/d/1Td9Z5gMgMO6U9mn8tXTS86IZ2Rs0LpWB/view?usp=sharing"
+		link: "/proformas/intern"
 	},
 	
 	{
 		name: "Previous Year Placement Proforma",
-		link: "https://drive.google.com/file/d/1VSVDkvSQO0Gi270WlxXeFr_ctxqtUERF/view?usp=sharing"
+		link: "/proformas/placement"
 	}
 ]
 
