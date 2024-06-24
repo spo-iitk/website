@@ -211,10 +211,10 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 				</Container>
 				<SectionTitle>Department Placement Coordinators</SectionTitle>
 				<Container>
-					<CustomAutofitGrid4>
+					<CustomAutofitGrid4 style={{ display: "flex", justifyContent: "center", flexWrap: "wrap"}}>
 						{DPC.map((member) => (
-							<div key={member.name}>
-								<Card>
+							<div key={member.name} style={{width: "35em"}}>
+								<Card style={{height:"11em"}}>
 									<Title>{member.name}</Title>
 									<Description>{member.department}</Description>
 									<Description><Link href={"mailto:" + member.email}>{member.email}</Link></Description>

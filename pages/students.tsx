@@ -165,7 +165,7 @@ const Roadmaps = [
 
 	{
 		name: "Electrical Core",
-		link: "/assets/Roadmap_EE.pdf"
+		link: "/assets/final_roadmap__EE.pdf"
 	},
 
 	{
@@ -195,7 +195,7 @@ const Roadmaps = [
 
 	{
 		name: "CHE Core",
-		link: "/assets/Roadmap_CHE.pdf"
+		link: "/assets/ROADMAP FOR CHE CORE (3).pdf"
 	},
 
 	{
