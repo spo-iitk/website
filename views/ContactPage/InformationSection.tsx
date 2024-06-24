@@ -18,12 +18,12 @@ export default function InformationSection() {
 			<CustomButtonGroup>
 				<NextLink href="/placement-coordinators" passHref>
 					<CustomButton transparent>
-						Placement Coordinators
+            Placement Coordinators
 					</CustomButton>
 				</NextLink>
 				<NextLink href="/administration" passHref>
 					<CustomButton transparent>
-						Administration
+            Administration
 					</CustomButton>
 				</NextLink>
 			</CustomButtonGroup>
