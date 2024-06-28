@@ -1,3 +1,4 @@
+/* eslint-disable no-multiple-empty-lines */
 import { InferGetStaticPropsType } from "next"
 import NextLink from "next/link"
 import { useState } from "react"
@@ -23,7 +24,8 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 	})
 
 	const PREVINSIGHTS = [
-		"2022"
+		"2022",
+		"2023"
 	]
 
 	return (
@@ -35,29 +37,6 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 					onChange={(e) => setSearchValue(e.target.value)}
 					placeholder="Search articles"
 				/>
-			</div>
-			<br />
-			<div style={{ width: "100%", display: "grid", placeItems: "center" }}>
-				<CustomUl>
-					{!filteredBlogPosts.length && "No posts found."}
-					<CustomSectionTitle>{filteredBlogPosts.length && "2023 Placement Insight"}</CustomSectionTitle>
-					<br></br>
-					{filteredBlogPosts.map((singlePost, idx) => {
-						if (singlePost.slug.includes("2023-placement")) {
-							return (
-								<NextLink href={"/insights/" + singlePost.slug} passHref key={idx}>
-									<BlogItem>
-										<BlogDate>{singlePost.meta.date}</BlogDate>
-										<BlogTitle>{singlePost.meta.title}</BlogTitle>
-									</BlogItem>
-								</NextLink>
-							)
-						} else {
-							return <></>
-						}
-
-					})}
-				</CustomUl>
 			</div>
 			<br />
 
@@ -85,28 +64,6 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 			</div>
 			<br />
 
-			<div style={{ width: "100%", display: "grid", placeItems: "center" }}>
-				<CustomUl>
-					{!filteredBlogPosts.length && "No posts found."}
-					<CustomSectionTitle>{filteredBlogPosts.length && "2023 Internship Insight"}</CustomSectionTitle>
-					<br></br>
-					{filteredBlogPosts.map((singlePost, idx) => {
-						if (singlePost.slug.includes("2023-intern")) {
-							return (
-								<NextLink href={"/insights/" + singlePost.slug} passHref key={idx}>
-									<BlogItem>
-										<BlogDate>{singlePost.meta.date}</BlogDate>
-										<BlogTitle>{singlePost.meta.title}</BlogTitle>
-									</BlogItem>
-								</NextLink>
-							)
-						} else {
-							return <></>
-						}
-
-					})}
-				</CustomUl>
-			</div>
 			<SectionTitle>Previous Insights</SectionTitle>
 			<Container>
 				<CustomAutofitGrid>
