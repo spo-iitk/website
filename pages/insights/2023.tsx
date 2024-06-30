@@ -1,4 +1,3 @@
-/* eslint-disable no-multiple-empty-lines */
 import { InferGetStaticPropsType } from "next"
 import NextLink from "next/link"
 import { useState } from "react"
@@ -24,7 +23,6 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 	})
 
 	const PREVINSIGHTS = [
-		"2022",
 		"2023"
 	]
 
@@ -39,14 +37,13 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 				/>
 			</div>
 			<br />
-
 			<div style={{ width: "100%", display: "grid", placeItems: "center" }}>
 				<CustomUl>
 					{!filteredBlogPosts.length && "No posts found."}
-					<CustomSectionTitle>{filteredBlogPosts.length && "2024 Internship Insight"}</CustomSectionTitle>
+					<CustomSectionTitle>{filteredBlogPosts.length && "2023 Placement Insight" }</CustomSectionTitle>
 					<br></br>
 					{filteredBlogPosts.map((singlePost, idx) => {
-						if (singlePost.slug.includes("2024-intern")) {
+						if (singlePost.slug.includes("2023-placement")) {
 							return (
 								<NextLink href={"/insights/" + singlePost.slug} passHref key={idx}>
 									<BlogItem>
@@ -63,19 +60,28 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 				</CustomUl>
 			</div>
 			<br />
+			<div style={{ width: "100%", display: "grid", placeItems: "center" }}>
+				<CustomUl>
+					{!filteredBlogPosts.length && "No posts found."}
+					<CustomSectionTitle>{filteredBlogPosts.length && "2023 Internship Insight" }</CustomSectionTitle>
+					<br></br>
+					{filteredBlogPosts.map((singlePost, idx) => {
+						if (singlePost.slug.includes("2023-intern")) {
+							return (
+								<NextLink href={"/insights/" + singlePost.slug} passHref key={idx}>
+									<BlogItem>
+										<BlogDate>{singlePost.meta.date}</BlogDate>
+										<BlogTitle>{singlePost.meta.title}</BlogTitle>
+									</BlogItem>
+								</NextLink>
+							)
+						} else {
+							return <></>
+						}
 
-			<SectionTitle>Previous Insights</SectionTitle>
-			<Container>
-				<CustomAutofitGrid>
-					{PREVINSIGHTS.map((year) => (
-						<Link href={`/insights/${year}`} key={year}>
-							<Card>
-								<Title>Insights {year}</Title>
-							</Card>
-						</Link>
-					))}
-				</CustomAutofitGrid>
-			</Container>
+					})}
+				</CustomUl>
+			</div>
 		</Page>
 	)
 }
@@ -184,7 +190,6 @@ const Link = styled.a`
 const Title = styled.div`
   font-weight: bold;
 `
-
 export async function getStaticProps() {
 	return {
 		props: {

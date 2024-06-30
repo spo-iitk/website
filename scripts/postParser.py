@@ -26,9 +26,9 @@ if __name__ == "__main__":
 	Edit as required
 	'''
 	OPTIONS = ["Internship", "Placement"]
-	INSIGHT_TYPE = OPTIONS[1]
+	INSIGHT_TYPE = OPTIONS[0]
 
-	YEAR = 2022
+	YEAR = 2024
 
 	'''
 	DRIVER CODE
@@ -57,11 +57,11 @@ if __name__ == "__main__":
 
 		print(fileName)  
 
-		x = "his" if (row["Gender"]=="M") else "her"  
-		y = "his" if (row["Gender"]=="M") else "hers"   
+		# x = "his" if (row["Gender"]=="M") else "her"  
+		# y = "his" if (row["Gender"]=="M") else "hers"   
 
 		
-		file = open("draft/"+str(fileName) + ".mdx", 'w+')
+		file = open("posts/"+str(fileName) + ".mdx", 'w+')
 		file.write("---\n")
 		file.write("title: "+ "'" +row["Name"] + ": Summer Intern at " +
 				   row["Company"] + "'\n")
@@ -74,12 +74,12 @@ if __name__ == "__main__":
 		file.write("---" + "\n" + "\n")
         
 		if INSIGHT_TYPE == OPTIONS[0]:
-			file.write(str(row["Name"]) + ", studying in IIT Kanpur as a " + str(row["Programme"]) + " student in " + 
-				str(row["Department"]) + " will do\n" + x +  " summer internship in " + str(row["Profile"]) 
-				+ " profile at " + row["Company"] + ". Here are some brief\n" + "insights of " + y +".\n\n")
+			file.write(str(row["Name"]) + ", studying in IIT Kanpur as a " + " student in " + 
+				str(row["ProgrammeandDepartment"]) + " will do\n" +   " summer internship in " + str(row["Profile"]) 
+				+ " profile at " + row["Company"] + ". Here are some brief\n" + "insights."  +"\n\n")
 		else:
-			file.write(str(row["Name"]) + ", studying in IIT Kanpur as a " + str(row["Programme"]) + " student in " +
-					str(row["Department"]) + " will be joining " + str(row["Company"]) + " as " + str(row["Profile"]) + ". Here are some brief insights of " + y + ".\n\n") 
+			file.write(str(row["Name"]) + ", studying in IIT Kanpur as a " + " student in " + 
+				str(row["ProgrammeandDepartment"]) + " will be joining " + str(row["Company"]) + " as " + str(row["Profile"]) + ". Here are some brief insights. "  + "\n\n") 
 
 		file.write(
 			"## Shortlisted Profiles & Companies:\n")
@@ -91,7 +91,7 @@ if __name__ == "__main__":
 			str(row["Insights on the Selection Process"]) + "\n" + "\n")
 		file.write("##  Preparation Resources" + "\n")
 		file.write(str(
-			row[" Preparation Resources "]) + "\n\n")
+			row["Preparation Resources"]) + "\n\n")
 		file.write(
 			"## Advice for students (dos and don’ts)? " + "\n")
 		file.write(str(
