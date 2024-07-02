@@ -127,7 +127,7 @@ const ResourcesL = [
 	},
 	{
 		name: "Internship Proforma",
-		link: "assets/companies_links/IITK_IP_Internship_Proforma_2024-25.docx"
+		link: "assets/companies_links/Internship_Proforma 2024-25.docx"
 	},
 	{
 		name: "Placement Policy",
