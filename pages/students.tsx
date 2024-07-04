@@ -151,10 +151,10 @@ const ResourcesC = [
 		link: "/proformas/intern"
 	},
 	
-	// {
-	// 	name: "Previous Year Placement Proforma",
-	// 	link: "/proformas/placement"
-	// }
+	{
+		name: "Previous Year Placement Proforma",
+		link: "/proformas/placement"
+	}
 ]
 
 const Roadmaps = [
