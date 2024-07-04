@@ -151,21 +151,21 @@ const ResourcesC = [
 		link: "/proformas/intern"
 	},
 	
-	{
-		name: "Previous Year Placement Proforma",
-		link: "/proformas/placement"
-	}
+	// {
+	// 	name: "Previous Year Placement Proforma",
+	// 	link: "/proformas/placement"
+	// }
 ]
 
 const Roadmaps = [
 	{
 		name: "Mechanical Core",
-		link: "/assets/Roadmap_ME.pdf"
+		link: "/assets/ME Core Roadmap.pdf"
 	},
 
 	{
 		name: "Electrical Core",
-		link: "/assets/Roadmap_EE.pdf"
+		link: "/assets/final_roadmap__EE.pdf"
 	},
 
 	{
@@ -195,7 +195,7 @@ const Roadmaps = [
 
 	{
 		name: "CHE Core",
-		link: "/assets/Roadmap_CHE.pdf"
+		link: "/assets/ROADMAP FOR CHE CORE (3).pdf"
 	},
 
 	{
