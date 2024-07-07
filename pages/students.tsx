@@ -148,24 +148,24 @@ const ResourcesC = [
 	},
 	{
 		name: "Previous Year Internship Proforma",
-		link: "https://drive.google.com/file/d/1Td9Z5gMgMO6U9mn8tXTS86IZ2Rs0LpWB/view?usp=sharing"
+		link: "/proformas/intern"
 	},
 	
 	{
 		name: "Previous Year Placement Proforma",
-		link: "https://drive.google.com/file/d/1VSVDkvSQO0Gi270WlxXeFr_ctxqtUERF/view?usp=sharing"
+		link: "/proformas/placement"
 	}
 ]
 
 const Roadmaps = [
 	{
 		name: "Mechanical Core",
-		link: "/assets/Roadmap_ME.pdf"
+		link: "/assets/ME Core Roadmap.pdf"
 	},
 
 	{
 		name: "Electrical Core",
-		link: "/assets/Roadmap_EE.pdf"
+		link: "/assets/final_roadmap__EE.pdf"
 	},
 
 	{
@@ -195,7 +195,7 @@ const Roadmaps = [
 
 	{
 		name: "CHE Core",
-		link: "/assets/Roadmap_CHE.pdf"
+		link: "/assets/ROADMAP FOR CHE CORE (3).pdf"
 	},
 
 	{
