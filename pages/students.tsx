@@ -175,7 +175,7 @@ const Roadmaps = [
 
 	{
 		name: "Product Management",
-		link: "/assets/Roadmap_PM.pdf"
+		link: "/assets/Roadmap_PM_New.pdf"
 	},
 
 	{
