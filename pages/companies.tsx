@@ -177,6 +177,17 @@ const Routes=[
 		url:"/companies#resources"
 	},
 	{
+		name:"Declaration by Recruiters",
+		url:"/companies#annexure1",
+		link:"assets/companies_links/Annexure-1-Revised.docx"
+	},
+	{
+		name:"Violation Guidelines by AIPC",
+		url:"/companies#annexure4",
+		link:"assets/companies_links/Annexure-4-Revised.docx"
+
+	},
+	{
 		name:"FAQs",
 		url:"/companies#faqs"
 	},
@@ -184,7 +195,21 @@ const Routes=[
 
 export default function CompaniesPage() {
 	return (
-		<Page title="For companies" description="A collection of resources for companies to recruit at IIT Kanpur." routes={Routes} keywords="Recruitment IITK, Placement Policy IITK, Internship Policy IITK, FAQs, Companies, Resources">
+		<Page title="For companies" description="A collection of resources for companies to recruit at IIT Kanpur." routes={Routes} keywords="Recruitment IITK, Placement Policy IITK, Internship Policy IITK, FAQs, Companies, Resources" {...Routes.map((route) => {
+			if (route.link) {
+				return (
+					<Link href={route.link} key={route.name} passHref>
+						<a target="_blank" rel="noopener noreferrer">
+							{route.name}
+						</a>
+					</Link>
+				)
+			} else {
+				return (
+					<Link href={route.url} key={route.name}>
+						<a>{route.name}</a>
+					</Link>
+				)}})}>
 
 			<div id="steps">
 				<Section title="Procedure">

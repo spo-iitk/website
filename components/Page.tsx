@@ -21,6 +21,8 @@ export interface PageProps {
 interface RouteType {
 	name: string;
 	url: string;
+	link?: string;
+
 }
 
 export default function Page({ title, description, keywords,routes, children, notNeedTitle }: PropsWithChildren<PageProps>) {
@@ -45,12 +47,12 @@ export default function Page({ title, description, keywords,routes, children, no
 							<Title>{title}</Title>
 							{description && <Description>{description}</Description>}
 							<NavContainer>
-								<CustomAutofitGrid>
-									{routes?.map((nav) => {
-										return (
-											<CustomButton key={nav.url} href={nav.url}>{nav.name}</CustomButton>
-										)
-									})}
+								<CustomAutofitGrid>   {routes?.map((nav) => {
+									const href = nav.link || nav.url
+									return (
+										<CustomButton key={href} href={href}>{nav.name}</CustomButton>
+									)
+								})}
 								</CustomAutofitGrid>
 							</NavContainer>
 						</Container>
