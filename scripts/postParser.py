@@ -34,11 +34,11 @@ if __name__ == "__main__":
 	DRIVER CODE
 	'''
 
-	df = pd.read_csv(get_input_file_name())
+	df = pd.read_csv(get_input_file_name(), encoding='utf-8')
 
 	# Date
 	now = datetime.now()
-	date = now.strftime("%Y-%m-%d")
+	date = now.strftime(f'%Y-%m-%d')
 
 	# suffix
 	suffix = str(YEAR)
@@ -61,16 +61,16 @@ if __name__ == "__main__":
 		# y = "his" if (row["Gender"]=="M") else "hers"   
 
 		
-		file = open("posts/"+str(fileName) + ".mdx", 'w+')
+		file = open("../posts/"+str(fileName) + ".mdx", 'w', encoding='utf-8')
 		file.write("---\n")
-		file.write("title: "+ "'" +row["Name"] + ": Summer Intern at " +
-				   row["Company"] + "'\n")
-		file.write("description: " +"'"+row["Name"] + ": " +
-				   row["Company"] + "(" + row["Profile"] + ")" + "'" + "\n")
-		file.write("date: " + "'" + date + "'" + "\n")
-		file.write("tags: " + row["Profile"] + "," +
-				   row["Company"] + "," + INSIGHT_TYPE + "\n")
-		file.write("imageUrl: ''\n")
+		file.write("title: "+ '"' +row["Name"] + ": Summer Intern at " +
+				   row["Company"] + '"\n')
+		file.write("description: " +"\""+row["Name"] + ": " +
+				   row["Company"] + "(" + row["Profile"] + ")" + "\"" + "\n")
+		file.write("date: " + "\"" + date + "\"" + "\n")
+		file.write("tags: \"" + row["Profile"] + "," +
+				   row["Company"] + "," + INSIGHT_TYPE + "\"\n")
+		file.write("imageUrl: \"\"\n")
 		file.write("---" + "\n" + "\n")
         
 		if INSIGHT_TYPE == OPTIONS[0]:
