@@ -131,11 +131,11 @@ const ResourcesL = [
 	},
 	{
 		name: "Placement Policy",
-		link: "assets/2023-24/Placement_Policy_for_Companies_2023-24.pdf"
+		link: "assets/2023-24/Placement_Policy_2024-25.pdf"
 	},
 	{
 		name: "Internship Policy",
-		link: "assets/2023-24/Internship-Policy-2023-24.pdf"
+		link: "assets/2023-24/Internship-Policy-2024-25.pdf"
 	},
 	{
 		name: "Campus Recruitement Brochure",
