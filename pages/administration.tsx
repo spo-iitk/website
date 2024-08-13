@@ -16,18 +16,6 @@ const TeamMembers = [
 		email: "ksnayak@iitk.ac.in",
 	},
 	{
-		name: "Garima Singh",
-		position: "Junior Superintendent",
-		image: "/testimonials/garima_2022.jpg",
-		email: "garimasg@iitk.ac.in",
-	},
-	{
-		name: "Praveen Kumar",
-		position: "Junior Assistant",
-		image: "/testimonials/praveen_2022.png",
-		email: "pravkmr@iitk.ac.in",
-	},
-	{
 		name: "Amarendra Mohanty",
 		position: "Deputy Project Manager",
 		image: "/testimonials/amarendra_2022.jpg",
@@ -58,8 +46,8 @@ export default function OfficeTeam() {
 					</Card>
 				</div>
 				<SectionTitle>SPO Officials</SectionTitle>
-				<Container>
-					<CustomAutofitGrid>
+				<Container style={{textAlign:"center"}}>
+					<CustomAutofitGrid className="Administrationcard" style={{display:"flex",justifyContent:"space-around"}}>
 						{TeamMembers.map((member) => (
 							<div key={member.name}>
 								<Card>
@@ -136,6 +124,11 @@ const CustomAutofitGrid = styled(AutofitGrid)`
   }
   ${media("<=phone")} {
 	--autofit-grid-item-size: 100%;
+  }
+	&.Administrationcard {
+    @media (max-width: 768px) {
+      flex-direction: column; // Apply for screens <= 768px (mobile)
+    }
   }
 `
 
