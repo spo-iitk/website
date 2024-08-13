@@ -47,7 +47,7 @@ export default function OfficeTeam() {
 				</div>
 				<SectionTitle>SPO Officials</SectionTitle>
 				<Container style={{textAlign:"center"}}>
-					<CustomAutofitGrid style={{display:"flex",justifyContent:"space-around"}}>
+					<CustomAutofitGrid className="Administrationcard" style={{display:"flex",justifyContent:"space-around"}}>
 						{TeamMembers.map((member) => (
 							<div key={member.name}>
 								<Card>
@@ -124,6 +124,11 @@ const CustomAutofitGrid = styled(AutofitGrid)`
   }
   ${media("<=phone")} {
 	--autofit-grid-item-size: 100%;
+  }
+	&.Administrationcard {
+    @media (max-width: 768px) {
+      flex-direction: column; // Apply for screens <= 768px (mobile)
+    }
   }
 `
 
