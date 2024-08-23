@@ -124,7 +124,7 @@ const ResourcesC = [
 	},
 	{
 		name: "Internship Policy",
-		link: "https://spo.iitk.ac.in/assets/2023-24/Internship-Policy-2024-25.pdf"
+		link: "assets/2023-24/Internship-Policy-2024-25.pdf"
 	},
 	{
 		name: "Leave Application",
