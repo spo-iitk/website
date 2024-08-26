@@ -26,7 +26,7 @@ if __name__ == "__main__":
 	Edit as required
 	'''
 	OPTIONS = ["Internship", "Placement"]
-	INSIGHT_TYPE = OPTIONS[0]
+	INSIGHT_TYPE = OPTIONS[1]
 
 	YEAR = 2024
 
@@ -55,21 +55,18 @@ if __name__ == "__main__":
 		fileName = re.sub('[^0-9a-zA-Z ]+', '', fileName)
 		fileName = fileName.replace(" ", "-").lower()
 
-		print(fileName)  
-
+		print(index, fileName)
 		# x = "his" if (row["Gender"]=="M") else "her"  
 		# y = "his" if (row["Gender"]=="M") else "hers"   
 
-		
 		file = open("../posts/"+str(fileName) + ".mdx", 'w', encoding='utf-8')
 		file.write("---\n")
-		file.write("title: "+ '"' +row["Name"] + ": Summer Intern at " +
+		file.write("title: "+ '"' +row["Name"] + ": Placed at " +
 				   row["Company"] + '"\n')
-		file.write("description: " +"\""+row["Name"] + ": " +
-				   row["Company"] + "(" + row["Profile"] + ")" + "\"" + "\n")
+		file.write("description: " +"\""+row.iloc[3] + ": " +
+				   row.iloc[4] + "\"" + "\n")
 		file.write("date: " + "\"" + date + "\"" + "\n")
-		file.write("tags: \"" + row["Profile"] + "," +
-				   row["Company"] + "," + INSIGHT_TYPE + "\"\n")
+		file.write("tags: \"" + row.iloc[4] + "," + INSIGHT_TYPE + "\"\n")
 		file.write("imageUrl: \"\"\n")
 		file.write("---" + "\n" + "\n")
         
@@ -78,23 +75,28 @@ if __name__ == "__main__":
 				str(row["ProgrammeandDepartment"]) + " will do\n" +   " summer internship in " + str(row["Profile"]) 
 				+ " profile at " + row["Company"] + ". Here are some brief\n" + "insights."  +"\n\n")
 		else:
-			file.write(str(row["Name"]) + ", studying in IIT Kanpur as a " + " student in " + 
-				str(row["ProgrammeandDepartment"]) + " will be joining " + str(row["Company"]) + " as " + str(row["Profile"]) + ". Here are some brief insights. "  + "\n\n") 
+			file.write(str(row.iloc[3]) + ", studying in IIT Kanpur" + " will be joining " + str(row.iloc[4]) + ". Here are some brief insights. "  + "\n\n") 
 
 		file.write(
 			"## Shortlisted Profiles & Companies:\n")
 		file.write(str(
-			row["Companies & Profiles that you were shortlisted for"]) + "\n" + "\n")
+			row.iloc[5]) + "\n" + "\n")
 		file.write(
-			"## Insights on the Selection Process" + "\n")
+			"## Selection Process of the Company you are selected in 1) Resume Shortlist, 2) GD, 3)Test" + "\n")
 		file.write(
-			str(row["Insights on the Selection Process"]) + "\n" + "\n")
-		file.write("##  Preparation Resources" + "\n")
+			str(row.iloc[6]) + "\n" + "\n")
+		file.write("##  Insights on the interview process" + "\n")
 		file.write(str(
-			row["Preparation Resources"]) + "\n\n")
+			row.iloc[7]) + "\n\n")
 		file.write(
-			"## Advice for students (dos and don’ts)? " + "\n")
+			"## Sample Interview Questions? " + "\n")
 		file.write(str(
-			row["Advice for students (dos and don’ts)?"]) + "\n" + "\n")
-
+			row.iloc[8]) + "\n" + "\n")
+		file.write("## Preparation Resources" + "\n")
+		file.write(str(
+			row.iloc[9]) + "\n" + "\n")
+		file.write("## Advice for students (do's and don'ts)\n")
+		file.write(str(
+			row.iloc[10]) + "\n\n")
+		
 # Check for parsing { } properly in mdx file
