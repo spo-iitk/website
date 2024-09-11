@@ -11,67 +11,67 @@ const deptBrochure = [
 		idx: "1",
 		dept: "Aerospace Engineering",
 		url: "https://www.iitk.ac.in/aero/",
-		link: "/assets/Brochure_AE.pdf"
+		link: "/assets/Brochures/AE.pdf"
 	},
 	{
 		idx: "2",
 		dept: "Biological Sciences & Bioengineering",
 		url: "https://www.iitk.ac.in/bsbe/",
-		link: "/assets/Brochure_BSBE.pdf"
+		link: "/assets/Brochures/BSBE.pdf"
 	},
 	{
 		idx: "3",
 		dept: "Chemical Engineering",
 		url: "https://www.iitk.ac.in/che/",
-		link: "/assets/Brochure_CHE.pdf"
+		link: "/assets/Brochures/CHE.pdf"
 	},
 	{
 		idx: "4",
 		dept: "Chemistry",
 		url: "https://www.iitk.ac.in/chm/",
-		link: "/assets/Brochure_CHM.pdf"
+		link: "/assets/Brochures/CHM.pdf"
 	},
 	{
 		idx: "5",
 		dept: "Civil Engineering",
 		url: "https://www.iitk.ac.in/ce/",
-		link: "/assets/Brochure_CE.pdf"
+		link: "/assets/Brochures/CE.pdf"
 	},
 	{
 		idx: "6",
 		dept: "Cognitive Science",
 		url: "https://www.cgs.iitk.ac.in/",
-		link: "/assets/Brochure_CGS.pdf"
+		link: "/assets/Brochures/CGS.pdf"
 	},
 	{
 		idx: "7",
 		dept: "Computer Science & Engineering",
 		url: "https://www.cse.iitk.ac.in/",
-		link: "/assets/Brochure_CSE.pdf"
+		link: "/assets/Brochures/CSE.pdf"
 	},
 	{
 		idx: "8",
 		dept: "Design",
 		url: "https://www.iitk.ac.in/design/",
-		link: "/assets/Brochure_Design.pdf"
+		link: "/assets/IITK_MDES_Brochure 2024-25 F.pdf"
 	},
 	{
 		idx: "9",
 		dept: "Earth Sciences",
 		url: "https://www.iitk.ac.in/es/",
-		link: "/assets/Brochure_ES.pdf"
+		link: "/assets/Brochures/ES.pdf"
 	},
 	{
 		idx: "10",
 		dept: "Economic Sciences",
 		url: "https://www.iitk.ac.in/eco/",
-		link: "/assets/Brochure_ECO.pdf"
+		link: "/assets/Brochures/ECO.pdf"
 	},
 	{
 		idx: "11",
 		dept: "Electrical Engineering",
 		url: "https://www.iitk.ac.in/ee/",
-		link: "/assets/Brochure_EE.pdf"
+		link: "/assets/Brochures/EE.pdf"
 	},
 	{
 		idx: "12",
@@ -83,37 +83,37 @@ const deptBrochure = [
 		idx: "13",
 		dept: "Industrial & Management Engineering",
 		url: "https://www.iitk.ac.in/ime/",
-		link: "/assets/Brochure_IME.pdf"
+		link: "/assets/Brochures/IME.pdf"
 	},
 	{
 		idx: "14",
 		dept: "MBA Program",
 		url: "https://www.iitk.ac.in/ime/mba-course-structure",
-		link: "/assets/Brochure_MBA.pdf"
+		link: "/assets/MBA DoMS Placement Brochure.pdf"
 	},
 	{
 		idx: "15",
 		dept: "Materials Science & Engineering",
 		url: "https://www.iitk.ac.in/mse",
-		link: "/assets/Brochure_MSE.pdf"
+		link: "/assets/Brochures/MSE.pdf"
 	},
 	{
 		idx: "16",
 		dept: "Materials Science Programme",
 		url: "https://www.iitk.ac.in/msp/",
-		link: "/assets/Brochure_MSP.pdf"
+		link: "/assets/Brochures/MSP.pdf"
 	},
 	{
 		idx: "17",
 		dept: "Mechanical Engineering",
 		url: "https://www.iitk.ac.in/me/",
-		link: "/assets/Brochure_ME.pdf"
+		link: "/assets/Brochures/ME.pdf"
 	},
 	{
 		idx: "18",
 		dept: "Mathematics & Scientific Computing",
 		url: "https://www.iitk.ac.in/math/",
-		link: "/assets/Brochure_MTH.pdf"
+		link: "/assets/Brochures/MTH.pdf"
 	},
 	{
 		idx: "19",
@@ -125,13 +125,13 @@ const deptBrochure = [
 		idx: "20",
 		dept: "Photonics Science and Engineering Programme",
 		url: "https://www.iitk.ac.in/celp",
-		link: "/assets/Brochure_PSE.pdf"
+		link: "/assets/Brochures/PSE.pdf"
 	},
 	{
 		idx: "21",
 		dept: "Physics",
 		url: "https://www.iitk.ac.in/phy/",
-		link: "/assets/Brochure_PHY.pdf"
+		link: "/assets/Brochures/PHY.pdf"
 	},
 	{
 		idx: "22",
@@ -143,7 +143,7 @@ const deptBrochure = [
 		idx: "23",
 		dept: "Statistics",
 		url: "https://www.iitk.ac.in/math/",
-		link: "/assets/Brochure_STATS.pdf"
+		link: "/assets/Brochures/Stats.pdf"
 	},
 	{
 		idx: "24",
@@ -155,7 +155,7 @@ const deptBrochure = [
 		idx: "25",
 		dept: "Sustainable Energy Engineering",
 		url: "https://www.iitk.ac.in/see/",
-		link: "/assets/Brochure_SEE.pdf"
+		link: "/assets/Brochures/SEE.pdf"
 	},
 ]
 
