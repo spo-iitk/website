@@ -147,6 +147,12 @@ const deptBrochure = [
 	},
 	{
 		idx: "24",
+		dept: "Statistics and Data Sciences",
+		url: "https://www.iitk.ac.in/math/bs-sds",
+		link: "/assets/Brochure_SDS.pdf"
+	},
+	{
+		idx: "25",
 		dept: "Sustainable Energy Engineering",
 		url: "https://www.iitk.ac.in/see/",
 		link: "/assets/Brochures/SEE.pdf"
