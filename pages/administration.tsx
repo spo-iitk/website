@@ -31,7 +31,7 @@ export default function OfficeTeam() {
 				<div style={{ display: "flex", justifyContent: "center" }}>
 					<Card>
 						<NextImage src="/testimonials/chairman.jpg" width={128} height={128} alt="Chairperson SPO" />
-						<Title>Prof. Raju Kumar Gupta</Title>
+						<Title>Prof: Ashwani Kumar Thakur</Title>
 						<Description>Chairperson, Students&apos; Placement Office </Description>
 						<Description><Link href="/chairman-message" passHref>Chairperson&apos; Message</Link></Description>
 					</Card>
@@ -40,7 +40,7 @@ export default function OfficeTeam() {
 				<div style={{ display: "flex", justifyContent: "center" }}>
 					<Card>
 						<NextImage src="/testimonials/vc.jpg" width={128} height={128} alt="Vice Chairperson SPO" />
-						<Title>Prof. Sudhanshu Shekhar Singh</Title>
+						<Title>Prof. Manjesh Kumar Singh</Title>
 						<Description>Vice Chairperson, Students&apos; Placement Office </Description>
 						<Description><Link href="/vice-chairman-message" passHref>Vice Chairperson&apos; Message</Link></Description>
 					</Card>
