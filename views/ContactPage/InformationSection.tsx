@@ -6,29 +6,29 @@ import ButtonGroup from "components/ButtonGroup"
 import { media } from "utils/media"
 
 export default function InformationSection() {
-  return (
-    <Wrapper>
-      <h3>Contact Info</h3>
-      <p>
-        <span>Email:</span> spo@iitk.ac.in
-      </p>
-      <p>
-        <span>Desk No. :</span> 0512-259-4433/34
-      </p>
-      <CustomButtonGroup>
-        <NextLink href="/placement-coordinators" passHref>
-          <CustomButton transparent>
-            Placement Coordinators
-          </CustomButton>
-        </NextLink>
-        <NextLink href="/administration" passHref>
-          <CustomButton transparent>
-            Administration
-          </CustomButton>
-        </NextLink>
-      </CustomButtonGroup>
-    </Wrapper>
-  )
+	return (
+		<Wrapper>
+			<h3>Contact Info</h3>
+			<p>
+				<span>Email:</span> spo@iitk.ac.in
+			</p>
+			<p>
+				<span>Desk No. :</span> 0512-259-4433/34
+			</p>
+			<CustomButtonGroup>
+				<NextLink href="/placement-coordinators" passHref>
+					<CustomButton transparent>
+						Placement Coordinators
+					</CustomButton>
+				</NextLink>
+				<NextLink href="/administration" passHref>
+					<CustomButton transparent>
+						Administration
+					</CustomButton>
+				</NextLink>
+			</CustomButtonGroup>
+		</Wrapper>
+	)
 }
 
 const Wrapper = styled.div`

@@ -10,27 +10,27 @@ import SectionTitle from "components/SectionTitle"
 import { media } from "utils/media"
 
 export default function Cta() {
-  return (
-    <CtaWrapper>
-      <Container>
-        <Stack>
-          <SectionTitle id="policies">Policies</SectionTitle>
-          <ButtonGroup>
-            <NextLink href="/docs/samvardhan/company_policies_2022-23.pdf" passHref>
-              <Button>
+	return (
+		<CtaWrapper>
+			<Container>
+				<Stack>
+					<SectionTitle id="policies">Policies</SectionTitle>
+					<ButtonGroup>
+						<NextLink href="/docs/samvardhan/company_policies_2022-23.pdf" passHref>
+							<Button>
                 Policy for Companies <span>&rarr;</span>
-              </Button>
-            </NextLink>
-            <NextLink href="/docs/samvardhan/student_policies_2022-23.pdf" passHref>
-              <Button>
+							</Button>
+						</NextLink>
+						<NextLink href="/docs/samvardhan/student_policies_2022-23.pdf" passHref>
+							<Button>
                 Policy for Students <span>&rarr;</span>
-              </Button>
-            </NextLink>
-          </ButtonGroup>
-        </Stack>
-      </Container>
-    </CtaWrapper>
-  )
+							</Button>
+						</NextLink>
+					</ButtonGroup>
+				</Stack>
+			</Container>
+		</CtaWrapper>
+	)
 }
 
 const Description = styled.div`

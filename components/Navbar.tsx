@@ -59,7 +59,7 @@ export default function Navbar({ items }: NavbarProps) {
 			return
 		}
 
-		setScrollingDirection(isScrollingUp ? "up" : "down")
+		setScrollingDirection(isScrollingUp ? "up" : "down")	
 		lastScrollY.current = currentScrollY
 	}
 

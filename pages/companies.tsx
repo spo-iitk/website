@@ -155,41 +155,41 @@ const ResourcesL = [
 	},
 ]
 
-const Routes = [
+const Routes=[
 	{
-		name: "Procedures",
-		url: "/companies#steps"
+		name:"Procedures",
+		url:"/companies#steps"
 	},
 	{
-		name: "Placement Policy",
-		url: "/companies#policy"
+		name:"Placement Policy",
+		url:"/companies#policy"
 	},
 	{
-		name: "Internship Poilcy",
-		url: "/companies#ipolicy"
+		name:"Internship Poilcy",
+		url:"/companies#ipolicy"
 	},
 	{
-		name: "Facilities",
-		url: "/companies#facilities"
+		name:"Facilities",
+		url:"/companies#facilities"
 	},
 	{
-		name: "Resources",
-		url: "/companies#resources"
+		name:"Resources",
+		url:"/companies#resources"
 	},
 	{
-		name: "Declaration by Recruiters",
-		url: "/companies#annexure1",
-		link: "assets/companies_links/Annexure-1-Revised.docx"
+		name:"Declaration by Recruiters",
+		url:"/companies#annexure1",
+		link:"assets/companies_links/Annexure-1-Revised.docx"
 	},
 	{
-		name: "Violation Guidelines by AIPC",
-		url: "/companies#annexure4",
-		link: "assets/companies_links/Annexure-4-Revised.docx"
+		name:"Violation Guidelines by AIPC",
+		url:"/companies#annexure4",
+		link:"assets/companies_links/Annexure-4-Revised.docx"
 
 	},
 	{
-		name: "FAQs",
-		url: "/companies#faqs"
+		name:"FAQs",
+		url:"/companies#faqs"
 	},
 ]
 
@@ -209,9 +209,7 @@ export default function CompaniesPage() {
 					<Link href={route.url} key={route.name}>
 						<a>{route.name}</a>
 					</Link>
-				)
-			}
-		})}>
+				)}})}>
 
 			<div id="steps">
 				<Section title="Procedure">

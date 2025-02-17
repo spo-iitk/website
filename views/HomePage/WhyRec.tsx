@@ -7,63 +7,63 @@ import Section from "components/Section"
 import SectionTitle from "components/SectionTitle"
 import { media } from "utils/media"
 
-export default function WhyRec() {
-	return (
-		<Section title="" >
+export default function WhyRec(){
+	return(
+		<Section title = "" >
 			<SectionTitle>Why Recruit from IIT Kanpur ?</SectionTitle>
 			<br />
 			<br />
 			<Container>
 				<CustomAutofitGrid3>
-					<Link href="/about#academics" passHref>
+					<Link href= "/about#academics"  passHref>
 						<Card style={{ cursor: "pointer" }}>
-							<NextImage src="/HomePageImg/whyrecAcademics.png" height="120" width="120" alt="Academics Image" />
+							<NextImage src="/HomePageImg/whyrecAcademics.png" height="120" width="120" alt="Academics Image"/>
 							<Title>Academics</Title>
-							<Description>Providing a rigorous and world-class academic experience with the help
-								of distinguished faculty, amazing peer groups and carefully designed coursework.
+							<Description>Providing a rigorous and world-class academic experience with the help 
+                                        of distinguished faculty, amazing peer groups and carefully designed coursework.
 							</Description>
-
+							
 						</Card>
 					</Link>
-					<Link href="/about" passHref>
+					<Link href= "/about"  passHref>
 						<Card style={{ cursor: "pointer" }}>
-							<NextImage src="/HomePageImg/whyrecRanking.png" height="120" width="120" alt="Ranking Image" />
+							<NextImage src="/HomePageImg/whyrecRanking.png" height="120" width="120" alt="Ranking Image"/>
 							<Title>Ranking</Title>
-							<Description>IIT Kanpur is ranked 4th among engineering colleges in India by the National Institutional Ranking
-								Framework (NIRF) in 2021, and 5th overall.
+							<Description>IIT Kanpur is ranked 4th among engineering colleges in India by the National Institutional Ranking 
+                                      Framework (NIRF) in 2021, and 5th overall.
 							</Description>
 						</Card>
 					</Link>
-					<Link href="/about#alumni" passHref>
+					<Link href= "/about#alumni"  passHref>
 						<Card style={{ cursor: "pointer" }}>
-							<NextImage src="/HomePageImg/whyrecAlumni.png" height="120" width="120" alt="Alumni Image" />
+							<NextImage src="/HomePageImg/whyrecAlumni.png" height="120" width="120" alt="Alumni Image"/>
 							<Title>Alumni</Title>
 							<Description>The alumni of IIT Kanpur have undoubtedly made their mark on the Global professional fronts. Most of them occupy leading positions in corporate, academia & the government.</Description>
 						</Card>
 					</Link>
-					<Link href="/about" passHref>
+					<Link href= "/about"  passHref>
 						<Card style={{ cursor: "pointer" }}>
-							<NextImage src="/HomePageImg/whyrecSelection.png" height="120" width="120" alt="Selections Image" />
+							<NextImage src="/HomePageImg/whyrecSelection.png" height="120" width="120" alt="Selections Image"/>
 							<Title>Selection Process</Title>
 							<Description>IIT Kanpur is home to the brightest individuals in India who have been accepted through a rigorous screening procedure like JEE Advanced, Gate etc.
 							</Description>
 						</Card>
 					</Link>
-					<Link href="/about#research" passHref>
+					<Link href= "/about#research"  passHref>
 						<Card style={{ cursor: "pointer" }}>
-							<NextImage src="/HomePageImg/whyrecResearch.png" height="120" width="120" alt="Research and Development Image" />
+							<NextImage src="/HomePageImg/whyrecResearch.png" height="120" width="120" alt="Research and Development Image"/>
 							<Title>Research and Development</Title>
-							<Description>Access to the latest and pioneering advances in technology with the aim of acclimating students
-								to the innovations in the scientific community.
+							<Description>Access to the latest and pioneering advances in technology with the aim of acclimating students 
+                                        to the innovations in the scientific community.
 							</Description>
 						</Card>
 					</Link>
-					<Link href="/about#all-round-development" passHref>
+					<Link href= "/about#all-round-development"  passHref>
 						<Card style={{ cursor: "pointer" }}>
-							<NextImage src="/HomePageImg/whyrecDevelopment.png" height="120" width="120" alt="Development Image" />
+							<NextImage src="/HomePageImg/whyrecDevelopment.png" height="120" width="120" alt="Development Image"/>
 							<Title>All-Round Development</Title>
-							<Description>Promoting the all-around development of students through a myriad of cultural and sports activities,
-								fests, competitions and exhibitions.
+							<Description>Promoting the all-around development of students through a myriad of cultural and sports activities, 
+                                        fests, competitions and exhibitions.
 							</Description>
 						</Card>
 					</Link>

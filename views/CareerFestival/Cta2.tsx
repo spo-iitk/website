@@ -10,31 +10,31 @@ import SectionTitle from "components/SectionTitle"
 import { media } from "utils/media"
 
 export default function Cta() {
-  return (
-    <CtaWrapper>
-      <Container>
-        <Stack>
-          {/* <OverTitle>Lorem ipsum dolor sit amet</OverTitle> */}
-          <SectionTitle id="registration">Register with us to conduct events in Career Festival</SectionTitle>
-          <Description>
-            Fill out the online form or share the filled doc with us at <a href="mailto:spo@iitk.ac.in">spo@iitk.ac.in</a>
-          </Description>
-          <ButtonGroup>
-            <NextLink href="https://docs.google.com/forms/d/e/1FAIpQLScnmO0WUWhNH16_VG_oODZ6qf7XyHu3YuHilxLM-pMC3OjpKg/viewform?usp=sf_link" passHref>
-              <Button>
+	return (
+		<CtaWrapper>
+			<Container>
+				<Stack>
+					{/* <OverTitle>Lorem ipsum dolor sit amet</OverTitle> */}
+					<SectionTitle id="registration">Register with us to conduct events in Career Festival</SectionTitle>
+					<Description>
+          Fill out the online form or share the filled doc with us at <a href="mailto:spo@iitk.ac.in">spo@iitk.ac.in</a>
+					</Description>
+					<ButtonGroup>
+						<NextLink href="https://docs.google.com/forms/d/e/1FAIpQLScnmO0WUWhNH16_VG_oODZ6qf7XyHu3YuHilxLM-pMC3OjpKg/viewform?usp=sf_link" passHref>
+							<Button>
                 Online Form Link <span>&rarr;</span>
-              </Button>
-            </NextLink>
-            <NextLink href="https://docs.google.com/document/d/1YFfLPlAzhr1o5p7ySwJ4BGDZjlpUhAGvmmYHD_GXvYI/edit?usp=sharing" passHref>
-              <OutlinedButton transparent>
+							</Button>
+						</NextLink>
+						<NextLink href="https://docs.google.com/document/d/1YFfLPlAzhr1o5p7ySwJ4BGDZjlpUhAGvmmYHD_GXvYI/edit?usp=sharing" passHref>
+							<OutlinedButton transparent>
                 Doc link <span>&rarr;</span>
-              </OutlinedButton>
-            </NextLink>
-          </ButtonGroup>
-        </Stack>
-      </Container>
-    </CtaWrapper>
-  )
+							</OutlinedButton>
+						</NextLink>
+					</ButtonGroup>
+				</Stack>
+			</Container>
+		</CtaWrapper>
+	)
 }
 
 const Description = styled.div`

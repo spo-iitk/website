@@ -5,7 +5,7 @@ import Section from "components/Section"
 import SectionTitle from "components/SectionTitle"
 import { media } from "utils/media"
 
-export default function NewsIIT() {
+export default function NewsIIT(){
 	return (
 		<>
 			<Script src="https://platform.twitter.com/widgets.js" strategy="lazyOnload" />
