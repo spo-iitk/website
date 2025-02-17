@@ -59,7 +59,7 @@ export default function Testimonials() {
 								<Content>{singleTestimonial.content}</Content>
 								<AuthorContainer>
 									<AuthorImageContainer>
-										<NextImage src={singleTestimonial.author.avatarUrl} alt={singleTestimonial.author.name} width={48} height={48}/>
+										<NextImage src={singleTestimonial.author.avatarUrl} alt={singleTestimonial.author.name} width={48} height={48} />
 									</AuthorImageContainer>
 									<AuthorContent>
 										<AuthorName>{singleTestimonial.author.name}</AuthorName>

@@ -1,7 +1,7 @@
 import NextImage from "next/image"
 export default function HeroIllustration() {
 	return (
-		<NextImage id = "building" src= "/testimonials/iitkanpur.png"  layout = "fill" objectFit="contain"  />
+		<NextImage id="building" src="/testimonials/iitkanpur.png" layout="fill" objectFit="contain" />
 		// <svg
 		// 	id="70093593-85a2-447b-b81e-208691c845a3"
 		// 	data-name="Layer 1"

@@ -40,7 +40,7 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 			<div style={{ width: "100%", display: "grid", placeItems: "center" }}>
 				<CustomUl>
 					{!filteredBlogPosts.length && "No posts found."}
-					<CustomSectionTitle>{filteredBlogPosts.length && "2023 Placement Insight" }</CustomSectionTitle>
+					<CustomSectionTitle>{filteredBlogPosts.length && "2023 Placement Insight"}</CustomSectionTitle>
 					<br></br>
 					{filteredBlogPosts.map((singlePost, idx) => {
 						if (singlePost.slug.includes("2023-placement")) {
@@ -63,7 +63,7 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 			<div style={{ width: "100%", display: "grid", placeItems: "center" }}>
 				<CustomUl>
 					{!filteredBlogPosts.length && "No posts found."}
-					<CustomSectionTitle>{filteredBlogPosts.length && "2023 Internship Insight" }</CustomSectionTitle>
+					<CustomSectionTitle>{filteredBlogPosts.length && "2023 Internship Insight"}</CustomSectionTitle>
 					<br></br>
 					{filteredBlogPosts.map((singlePost, idx) => {
 						if (singlePost.slug.includes("2023-intern")) {

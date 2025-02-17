@@ -46,8 +46,8 @@ export default function OfficeTeam() {
 					</Card>
 				</div>
 				<SectionTitle>SPO Officials</SectionTitle>
-				<Container style={{textAlign:"center"}}>
-					<CustomAutofitGrid className="Administrationcard" style={{display:"flex",justifyContent:"space-around"}}>
+				<Container style={{ textAlign: "center" }}>
+					<CustomAutofitGrid className="Administrationcard" style={{ display: "flex", justifyContent: "space-around" }}>
 						{TeamMembers.map((member) => (
 							<div key={member.name}>
 								<Card>

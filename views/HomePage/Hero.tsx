@@ -10,28 +10,28 @@ import OverTitle from "components/OverTitle"
 import { media } from "utils/media"
 
 export default function Hero() {
-	return (
-		<HeroWrapper>
-			<Contents>
-				<CustomOverTitle>IIT Kanpur</CustomOverTitle>
-				<Heading>Students' Placement Office</Heading>
-				<Description>
-        The Students' Placement Office (SPO), IIT Kanpur is maintained and managed by a dedicated team of office staff and students 
-        who are responsible for all areas of IIT Kanpur placements. The SPO team assists recruiters to the best of its ability. We are 
-        grateful for the trust placed in us by various organisations, and we hope to continue working with them in the future.
-				</Description>
-				<CustomButtonGroup>
-					<Link href="/placement-coordinators" passHref>
-						<Button>
+  return (
+    <HeroWrapper>
+      <Contents>
+        <CustomOverTitle>IIT Kanpur</CustomOverTitle>
+        <Heading>Students' Placement Office</Heading>
+        <Description>
+          The Students' Placement Office (SPO), IIT Kanpur is maintained and managed by a dedicated team of office staff and students
+          who are responsible for all areas of IIT Kanpur placements. The SPO team assists recruiters to the best of its ability. We are
+          grateful for the trust placed in us by various organisations, and we hope to continue working with them in the future.
+        </Description>
+        <CustomButtonGroup>
+          <Link href="/placement-coordinators" passHref>
+            <Button>
               Contact <span>&rarr;</span>
-						</Button>
-					</Link>
-					<a target="_blank" rel="noopener noreferrer" href="https://placement.iitk.ac.in/">
-						<Button transparent>
+            </Button>
+          </Link>
+          <a target="_blank" rel="noopener noreferrer" href="https://placement.iitk.ac.in/">
+            <Button transparent>
               Recruitment Portal <span>&rarr;</span>
-						</Button>
-					</a>
-					{/* <a target="_blank" rel="noopener noreferrer" href="https://phdplacement.iitk.ac.in/">
+            </Button>
+          </a>
+          {/* <a target="_blank" rel="noopener noreferrer" href="https://phdplacement.iitk.ac.in/">
 						<Button transparent>
               Phd Portal <span>&rarr;</span>
 						</Button>
@@ -39,13 +39,13 @@ export default function Hero() {
           <Button transparent onClick={() => window.open('https://phdplacement.iitk.ac.in/', '_blank', 'noopener,noreferrer')}>
             PhD Portal <span>&rarr;</span>
           </Button>
-				</CustomButtonGroup>
-			</Contents>
-			<ImageContainer>
-				<NextImage id = "building" src= "/testimonials/iitkanpur.png"  layout = "fill" objectFit="contain" />
-			</ImageContainer>
-		</HeroWrapper>
-	)
+        </CustomButtonGroup>
+      </Contents>
+      <ImageContainer>
+        <NextImage id="building" src="/testimonials/iitkanpur.png" layout="fill" objectFit="contain" />
+      </ImageContainer>
+    </HeroWrapper>
+  )
 }
 
 const HeroWrapper = styled(Container)`

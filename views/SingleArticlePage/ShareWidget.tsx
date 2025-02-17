@@ -10,22 +10,22 @@ interface ShareWidgetProps {
 }
 
 export default function ShareWidget({ title, slug }: ShareWidgetProps) {
-	const shareMessage = "New article: " + title
-	const currentUrl = EnvVars.URL + "insights/" + slug
+  const shareMessage = "New article: " + title
+  const currentUrl = EnvVars.URL + "insights/" + slug
 
-	return (
-		<Wrapper>
-			<FacebookShareButton title={shareMessage} url={currentUrl}>
-				<FacebookIcon />
-			</FacebookShareButton>
-			<TwitterShareButton title={shareMessage} url={currentUrl}>
-				<TwitterIcon />
-			</TwitterShareButton>
-			<LinkedinShareButton title={shareMessage} url={currentUrl}>
-				<LinkedinIcon />
-			</LinkedinShareButton>
-		</Wrapper>
-	)
+  return (
+    <Wrapper>
+      <FacebookShareButton title={shareMessage} url={currentUrl}>
+        <FacebookIcon />
+      </FacebookShareButton>
+      <TwitterShareButton title={shareMessage} url={currentUrl}>
+        <TwitterIcon />
+      </TwitterShareButton>
+      <LinkedinShareButton title={shareMessage} url={currentUrl}>
+        <LinkedinIcon />
+      </LinkedinShareButton>
+    </Wrapper>
+  )
 }
 
 const Wrapper = styled.div`

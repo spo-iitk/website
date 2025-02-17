@@ -9,30 +9,30 @@ import Page from "components/Page"
 import SectionTitle from "components/SectionTitle"
 import { media } from "utils/media"
 
-const Routes=[
+const Routes = [
 	{
-		name:"About IITK",
-		url:"/about#about"
+		name: "About IITK",
+		url: "/about#about"
 	},
 	{
-		name:"Academics",
-		url:"/about#academics"
+		name: "Academics",
+		url: "/about#academics"
 	},
 	{
-		name:"Research",
-		url:"/about#research"
+		name: "Research",
+		url: "/about#research"
 	},
 	{
-		name:"Alumni",
-		url:"/about#alumni"
+		name: "Alumni",
+		url: "/about#alumni"
 	},
 	{
-		name:"Faculty",
-		url:"/about#faculty"
+		name: "Faculty",
+		url: "/about#faculty"
 	},
 	{
-		name:"Students' Life and Activities",
-		url:"/about#activities"
+		name: "Students' Life and Activities",
+		url: "/about#activities"
 	},
 ]
 
@@ -42,20 +42,20 @@ export default function AboutPage() {
 			<Page
 				title="IIT Kanpur"
 				description="The Institute has earned a superb academic reputation globally in its continuous endeavour to achieve excellence in undergraduate and postgraduate education and research."
-				routes = {Routes}
+				routes={Routes}
 			>
-				<SectionTitle id = "about">About IIT Kanpur</SectionTitle>
+				<SectionTitle id="about">About IIT Kanpur</SectionTitle>
 				<br />
 				<br />
 				<TextWrapper>
 					<SectionText>
-			Indian Institute of Technology Kanpur is one of the premier institutions established by the Government of India in 1959. The aim of the Institute is to provide meaningful education, conduct original research of the highest standard and provide leadership in technological innovation. Consistently ranked amongst the top 5 engineering institutes in India over past several decades, IIT Kanpur offers courses in sciences, engineering, humanities and management. The students get the best of opportunities in the form of highly advanced courses, eminent faculty members, well-equipped laboratories, library, hostels and state of the art facilities to excel in research and development. The selection procedures for students at undergraduate, postgraduate and PhD levels are highly stringent so that IIT gets the best brains of India. Highly scientific and innovative technology is used for teaching and conducting research activities. Every year IIT Kanpur is enriched by the laurels brought by its faculty members and the students in the form of research publications, sponsored projects, fellowships and industrial consultancies. Many of our alumni are leaders in academia and industry around the globe. The sprawling IIT Kanpur campus is located in the industrial city of Kanpur, only a few hours away from New Delhi, the Capital of India.
+						Indian Institute of Technology Kanpur is one of the premier institutions established by the Government of India in 1959. The aim of the Institute is to provide meaningful education, conduct original research of the highest standard and provide leadership in technological innovation. Consistently ranked amongst the top 5 engineering institutes in India over past several decades, IIT Kanpur offers courses in sciences, engineering, humanities and management. The students get the best of opportunities in the form of highly advanced courses, eminent faculty members, well-equipped laboratories, library, hostels and state of the art facilities to excel in research and development. The selection procedures for students at undergraduate, postgraduate and PhD levels are highly stringent so that IIT gets the best brains of India. Highly scientific and innovative technology is used for teaching and conducting research activities. Every year IIT Kanpur is enriched by the laurels brought by its faculty members and the students in the form of research publications, sponsored projects, fellowships and industrial consultancies. Many of our alumni are leaders in academia and industry around the globe. The sprawling IIT Kanpur campus is located in the industrial city of Kanpur, only a few hours away from New Delhi, the Capital of India.
 					</SectionText>
 					<ImageContainer>
-						<NextImage src="/AboutPageImg/AboutIITK.jpg" alt="IITK" layout="fill" objectFit="contain"	/>
+						<NextImage src="/AboutPageImg/AboutIITK.jpg" alt="IITK" layout="fill" objectFit="contain" />
 					</ImageContainer>
 				</TextWrapper>
-				<br />	
+				<br />
 				<hr />
 				<br />
 				<SectionTitle id="academics">Academics at IIT Kanpur</SectionTitle>
@@ -66,7 +66,7 @@ export default function AboutPage() {
 						Academics at IIT Kanpur empowers the students with scientific temperament and knowledge in diverse disciplines of science, engineering, management, and humanities and social sciences. The pedagogy at IIT Kanpur teaches the students to take an approach led by critical thinking to solve technologically challenging problems. The globally acclaimed education prepares the students for rewarding and exciting careers. The excellent education has enabled the alumni to succeed in diverse fields.
 					</SectionText>
 					<ImageContainer>
-						<NextImage src="/AboutPageImg/students.jpg" alt="IITK" layout="fill" objectFit="contain"	/>
+						<NextImage src="/AboutPageImg/students.jpg" alt="IITK" layout="fill" objectFit="contain" />
 					</ImageContainer>
 				</TextWrapper>
 				<br />
@@ -94,7 +94,7 @@ export default function AboutPage() {
 							Our B.Tech/B.S. students can choose to convert to a dual degree (with Masters in the parent or any other department) till the end of 7th semester.Two degrees (BTech/BS+MTech/MS) are awarded at the end of 5-year coursework.No student is initially admitted in a dual degree program because we believe it is too early for them to decide their specializations.We want them to get a flavour of the department before they make such a crucial choice. <br />
 							Eg: BS in Mathematics and Scientific Computing with MS in Economics.
 						</Description>
-					</Card>	
+					</Card>
 					<Card>
 						<Title>Double Major</Title>
 						<Description>
@@ -138,7 +138,7 @@ export default function AboutPage() {
 					<Card>
 						<Title>Master of Design (M.Des.)</Title>
 						<Description>
-					Admission: Common Entrance Exam for Design(CEED) <br />
+							Admission: Common Entrance Exam for Design(CEED) <br />
 							Duration: 2 years <br />
 							The programme is interdisciplinary in nature with a strong emphasis on a balanced curriculum of theory and practice. The programme has three sub-groups: Product Design, User Interface Design and Visual Communication Design. Students are required to conduct a project and prepare a thesis as a part of their curriculum. Various workshops are also held to broaden the outlook of students and also in helping them in deciding their career.
 						</Description>
@@ -161,21 +161,21 @@ export default function AboutPage() {
 							<li>Flight Lab</li>
 							<li>Tinkering Labs</li>
 							<li>Centre for Mechatronics</li>
-							<li>Centre for Cyber security</li> 
+							<li>Centre for Cyber security</li>
 							<li>Thematic Unit of Excellence</li>
 							<li>Engine Research Laboratory</li>
 							<li>Centre for Laser Technology</li>
 							<li>Real Time Digital Simulation Centre</li>
-							<li>Advanced Centre for Materials Science</li> 
-							<li>Advance Centre for Electronic Systems</li> 
+							<li>Advanced Centre for Materials Science</li>
+							<li>Advance Centre for Electronic Systems</li>
 							<li>SAMTEL Centre for Display Technology</li>
 							<li>BSNL-IITK Telecom Centre of Excellence</li>
 						</ul>
 					</SectionText>
-			    	<ImageContainer>{ /* eslint-disable-line no-mixed-spaces-and-tabs */}
-						<NextImage src="/AboutPageImg/Research.jpg" alt="Research" layout="fill" objectFit="contain"/>
+					<ImageContainer>{ /* eslint-disable-line no-mixed-spaces-and-tabs */}
+						<NextImage src="/AboutPageImg/Research.jpg" alt="Research" layout="fill" objectFit="contain" />
 					</ImageContainer>
-				</TextWrapper>	
+				</TextWrapper>
 				<br />
 				<hr />
 				<br />
@@ -183,13 +183,13 @@ export default function AboutPage() {
 				<br />
 				<br />
 				<ImageContainerCenter30>
-					<NextImage src="/AboutPageImg/alumni.png" alt="alumni" layout="fill" objectFit="contain"/>
+					<NextImage src="/AboutPageImg/alumni.png" alt="alumni" layout="fill" objectFit="contain" />
 				</ImageContainerCenter30>
 				<SectionText>
-					IIT Kanpur's rising global stature is credited to its distinguished alumni whose achievements in many different fields continue to make us proud. Our well-established alumni network is a matter of pride for us. It includes India's stalwarts in all imaginable fields: academia, technology, banking, entrepreneurship, public services, music and social service. IIT Kanpur recognizes the achievements and contributions of its alumni by conferring the Distinguished Alumnus Award (DAA) to honour individuals who have made a mark in their fields (Academic Excellence, Professional Excellence, Entrepreneurship and Management, Humanitarian Service). Our alumni too have generously given back to the institute. Their endowments have funded scholarships, departmental buildings, parks and other infrastructural improvements.With more than 45000 alumni spanning across the globe, they have been instrumental in strengthening the image of IIT Kanpur. <br /> 
+					IIT Kanpur's rising global stature is credited to its distinguished alumni whose achievements in many different fields continue to make us proud. Our well-established alumni network is a matter of pride for us. It includes India's stalwarts in all imaginable fields: academia, technology, banking, entrepreneurship, public services, music and social service. IIT Kanpur recognizes the achievements and contributions of its alumni by conferring the Distinguished Alumnus Award (DAA) to honour individuals who have made a mark in their fields (Academic Excellence, Professional Excellence, Entrepreneurship and Management, Humanitarian Service). Our alumni too have generously given back to the institute. Their endowments have funded scholarships, departmental buildings, parks and other infrastructural improvements.With more than 45000 alumni spanning across the globe, they have been instrumental in strengthening the image of IIT Kanpur. <br />
 					We have had many notable alumni who have received national and international recognitions in their respective professional fields.
 					Some of the most notable alumni that IIT Kanpur boasts of are :
-					<ol> 
+					<ol>
 						<li>N.R. Narayana Murthy - Founder of Infosys</li>
 						<li>Pradeep S. Sindhu - Founder, Vice Chairman & CTO - Juniper Networks</li>
 						<li>Dr Ashok Jhunjhunwala - Padma Shri & Professor of Electrical Engg at IIT Madras</li>
@@ -201,7 +201,7 @@ export default function AboutPage() {
 						<li>Duvvuri Subbarao - 22nd Governor of Reserve Bank of India</li>
 						<li>Pawan Kumar Goenka - Chief Operating Officer(COO) of Mahindra & Mahindra Ltd.</li>
 						<li>Late Professor Rajiv Motwani (Stanford University) - Backed the founders of Google & Paypal</li>
-						<li>Manindra Agarwal, Nitin Saxena & Neeraj Kayal - Gave the first deterministic primality-proving algorithm famously known as AKS Primality Test. Authors received the 2006 Godel Prize & the 2006 Fulkerson Prize for this result</li>             
+						<li>Manindra Agarwal, Nitin Saxena & Neeraj Kayal - Gave the first deterministic primality-proving algorithm famously known as AKS Primality Test. Authors received the 2006 Godel Prize & the 2006 Fulkerson Prize for this result</li>
 						<li>Prof. Arvind - JOHNSON Professor , MIT, USA</li>
 						<li>Rajeev Chawla - Secretary of E-governance, Govt. of Karnataka</li>
 					</ol>
@@ -214,11 +214,11 @@ export default function AboutPage() {
 				<br />
 				<TextWrapper>
 					<SectionText>
-				IIT Kanpur has more than 413 <a href="https://iitk.ac.in/new/iitk-faculty">faculty members</a> with degrees from renowned
-				universities worldwide. The Faculty at IIT Kanpur are involved in cutting-edge research both in the industry and within IIT
-				Kanpur and hold positions as varied as editors of various international journals, visiting Faculty in many universities, advisors to
-				government and industry. The contribution of the Faculty has been recognized frequently and has been honored with the awards such
-				as:
+						IIT Kanpur has more than 413 <a href="https://iitk.ac.in/new/iitk-faculty">faculty members</a> with degrees from renowned
+						universities worldwide. The Faculty at IIT Kanpur are involved in cutting-edge research both in the industry and within IIT
+						Kanpur and hold positions as varied as editors of various international journals, visiting Faculty in many universities, advisors to
+						government and industry. The contribution of the Faculty has been recognized frequently and has been honored with the awards such
+						as:
 						<ul>
 							<li>Padma Vibhushan</li>
 							<li>Padmashree</li>
@@ -229,8 +229,8 @@ export default function AboutPage() {
 							<li>Humboldt and JSPS Fellowships</li>
 						</ul>
 					</SectionText>
-			    <ImageContainer>{ /* eslint-disable-line no-mixed-spaces-and-tabs */}
-						<NextImage src="/AboutPageImg/faculty.png" alt="Faculty" layout="fill" objectFit="contain"/>
+					<ImageContainer>{ /* eslint-disable-line no-mixed-spaces-and-tabs */}
+						<NextImage src="/AboutPageImg/faculty.png" alt="Faculty" layout="fill" objectFit="contain" />
 					</ImageContainer>
 				</TextWrapper>
 				<br />
@@ -248,38 +248,38 @@ export default function AboutPage() {
 						<Title>Science & Technology</Title>
 						<NextImage src="/AboutPageImg/Logos/snt.jpeg" width="128" height="128" alt="SnT logo" />
 						<Description>
-					Our Science and Technology Council connects student activity to the broader technological forum. We Invest in our students right from the first year, guiding them through workshops and events, and developing their technical skills. In this process, we also plan and implement projects that address modern challenges in science and technology.{" "}
+							Our Science and Technology Council connects student activity to the broader technological forum. We Invest in our students right from the first year, guiding them through workshops and events, and developing their technical skills. In this process, we also plan and implement projects that address modern challenges in science and technology.{" "}
 						</Description>
 					</Card>
 					<Card>
 						<Title>Games & Sports</Title>
 						<NextImage src="/AboutPageImg/Logos/games.jpeg" width="128" height="128" alt="GnS logo" />
 						<Description>
-					Our Games and Sports Council has always been in front for the all-round development of our people, by constant persuasion of professional coaches. We strive for nurturing the spirit of sportsmanship amongst our students, for building their self-confidence and to emerge as winners. We have facilities of international standards to create an amazing atmosphere for sports and consequently our students have created a streak of winning the last three Inter HT Sports Meets. The council regularly organises competitive and non-competitive events for promoting sports.{" "}
+							Our Games and Sports Council has always been in front for the all-round development of our people, by constant persuasion of professional coaches. We strive for nurturing the spirit of sportsmanship amongst our students, for building their self-confidence and to emerge as winners. We have facilities of international standards to create an amazing atmosphere for sports and consequently our students have created a streak of winning the last three Inter HT Sports Meets. The council regularly organises competitive and non-competitive events for promoting sports.{" "}
 						</Description>
 					</Card>
 					<Card>
 						<Title>Media and Culture</Title>
 						<NextImage src="/AboutPageImg/Logos/mnc.jpeg" width="128" height="128" alt="GnS logo" />
 						<Description>
-					Our Media and Cultural Council keeps busy throughout the year, On an annual calendar punctuated by scores of workshops and classes, the Council marks its platforms to pursue various cultural endeavours. The students train themselves to perform before audiences and to understand and appreciate different cultural elements and trends. The Council also promotes competitions with other prime colleges in inter collegiate cultural festivals. {" "}
+							Our Media and Cultural Council keeps busy throughout the year, On an annual calendar punctuated by scores of workshops and classes, the Council marks its platforms to pursue various cultural endeavours. The students train themselves to perform before audiences and to understand and appreciate different cultural elements and trends. The Council also promotes competitions with other prime colleges in inter collegiate cultural festivals. {" "}
 						</Description>
 					</Card>
 					<Card>
 						<Title>Entrepreneurial Activities</Title>
 						<NextImage src="/AboutPageImg/Logos/ecell.jpeg" width="128" height="128" alt="GnS logo" />
 						<Description>
-					IIT Kanpur works hard towards imbibing an entrepreneurial drive among its students. The institute along with the students run E-Cell and conduct activities. These activities include technical & non-technical workshops,hackathons, lectures and hangouts with eminent entrepreneurs. On campus incubation centres, regular alumni mentorship and a reliable pipeline for funding make the institute a thriving entrepreneurial center. {" "}
+							IIT Kanpur works hard towards imbibing an entrepreneurial drive among its students. The institute along with the students run E-Cell and conduct activities. These activities include technical & non-technical workshops,hackathons, lectures and hangouts with eminent entrepreneurs. On campus incubation centres, regular alumni mentorship and a reliable pipeline for funding make the institute a thriving entrepreneurial center. {" "}
 						</Description>
 					</Card>
 					<Card>
 						<Title>Vox Populi</Title>
 						<NextImage src="/AboutPageImg/Logos/vox.jpeg" width="128" height="128" alt="GnS logo" />
 						<Description>
-					It was envisioned as an advisory board which would give advice and help to different publications and editorials in the institute. Through this forum, editors can channelize their thoughts, bring up more ideas and publicize their work. It tends to serve as a common platform where people share ideas to improve and streamline their publications. {" "}
+							It was envisioned as an advisory board which would give advice and help to different publications and editorials in the institute. Through this forum, editors can channelize their thoughts, bring up more ideas and publicize their work. It tends to serve as a common platform where people share ideas to improve and streamline their publications. {" "}
 						</Description>
 					</Card>
-				</CustomAutofitGrid>	
+				</CustomAutofitGrid>
 				<br />
 				<br />
 				<SectionTitle2>Festivals at IITK</SectionTitle2>
@@ -289,21 +289,21 @@ export default function AboutPage() {
 						<Title>Techkriti</Title>
 						<NextImage src="/AboutPageImg/Logos/techkriti.jpeg" width="128" height="128" alt="GnS logo" />
 						<Description>
-					IITK has a unique intellectual mix.IIT Kanpur's annual Technical & Entrepreneurial Techkriti, was first organized in 1955. Today, it is one of the Largest of its kind in Asia, attracting competitors from all corners of India and from various places around the world. Apart from the cut-throat competition of exotic softwares, erudite electronic gizmos and robust robots,we have had guest lectures and talks that include names such as Marshall Strabala, Jeff Lieberman, Dr. Richard Stallman, Dr. APJ Abdul Kalam Alvin E Roth' and Wing Commander Rakesh Sharma among others. {" "}
+							IITK has a unique intellectual mix.IIT Kanpur's annual Technical & Entrepreneurial Techkriti, was first organized in 1955. Today, it is one of the Largest of its kind in Asia, attracting competitors from all corners of India and from various places around the world. Apart from the cut-throat competition of exotic softwares, erudite electronic gizmos and robust robots,we have had guest lectures and talks that include names such as Marshall Strabala, Jeff Lieberman, Dr. Richard Stallman, Dr. APJ Abdul Kalam Alvin E Roth' and Wing Commander Rakesh Sharma among others. {" "}
 						</Description>
 					</Card>
 					<Card>
 						<Title>Antaragni</Title>
 						<NextImage src="/AboutPageImg/Logos/antaragni.jpeg" width="128" height="128" alt="GnS logo" />
 						<Description>
-					"Unleash the Fire Within". Antaragni was born in 1966 as the Cult fest (a generic name for the first and only event of its kind then). The festival is in its 54th edition and has became a permanent fixture in the cultural calendars af all the premier colleges of India. Antaragni's multihued competitions are contested by the leading teams Of these colleges. Our shows cover the traditional arts with the modern reimaginatians, the Indian roots with the foreign influences, and the glamorous lifestyle with the socially relevant themes. The issues we raise resonate in the panel discussions in this four-day long festival. {" "}
+							"Unleash the Fire Within". Antaragni was born in 1966 as the Cult fest (a generic name for the first and only event of its kind then). The festival is in its 54th edition and has became a permanent fixture in the cultural calendars af all the premier colleges of India. Antaragni's multihued competitions are contested by the leading teams Of these colleges. Our shows cover the traditional arts with the modern reimaginatians, the Indian roots with the foreign influences, and the glamorous lifestyle with the socially relevant themes. The issues we raise resonate in the panel discussions in this four-day long festival. {" "}
 						</Description>
 					</Card>
 					<Card>
 						<Title>Udghosh</Title>
 						<NextImage src="/AboutPageImg/Logos/udghosh.jpeg" width="128" height="128" alt="GnS logo" />
 						<Description>
-						This is the annual sports meet of IIT Kanpur. It is an exhibition of sporting fervour, and success in the meet has been ratified by the success of many of its winners higher up in the sporting hierarchy. It offers a common platform for the students of numerous educational institutions from all over the country to exhibit and hone their skills in the sport arena. It attracts huge participation under its banner from across the country. The institute has, in all four sprawling well-maintained grounds. This includes two cricket grounds, one for football, and one for Hockey, volley courts, two basketball courts, complete with night-lights and seating facility.{" "}
+							This is the annual sports meet of IIT Kanpur. It is an exhibition of sporting fervour, and success in the meet has been ratified by the success of many of its winners higher up in the sporting hierarchy. It offers a common platform for the students of numerous educational institutions from all over the country to exhibit and hone their skills in the sport arena. It attracts huge participation under its banner from across the country. The institute has, in all four sprawling well-maintained grounds. This includes two cricket grounds, one for football, and one for Hockey, volley courts, two basketball courts, complete with night-lights and seating facility.{" "}
 						</Description>
 					</Card>
 				</CustomAutofitGrid3>
@@ -312,7 +312,7 @@ export default function AboutPage() {
 				<SectionTitle2>Student Innovation at IIT Kanpur</SectionTitle2>
 				<br />
 				<SectionText>
-			    IIT Kanpur has a rich history of unparalleled excellence in the field of research and entrepreneurship. The { /* eslint-disable-line no-mixed-spaces-and-tabs */}entrepreneurial skill of this institute is among the highest in the country, our very own SIDBI Innovation and Incubation Centre has won national awards for its commendable performance. Startups incubated here have also won various awards, and a very high percentage of them have matured. In addition to this, students from this institute have built their own nanosatellite Jugnu, built their own planetarium, and represented India in multiple international conferences like those of ACM and ASME. ITT Kanpur has been made a key resource centre to provide guidance for water sustainability; it has its own airstrip, flight laboratory, and wind-tunnel facility; the National Information Centre for Earthquake Engineering is located here; and opportunities like these give students a chance to excel in their chosen areas of research, how much ever diverse it may be. 
+					IIT Kanpur has a rich history of unparalleled excellence in the field of research and entrepreneurship. The { /* eslint-disable-line no-mixed-spaces-and-tabs */}entrepreneurial skill of this institute is among the highest in the country, our very own SIDBI Innovation and Incubation Centre has won national awards for its commendable performance. Startups incubated here have also won various awards, and a very high percentage of them have matured. In addition to this, students from this institute have built their own nanosatellite Jugnu, built their own planetarium, and represented India in multiple international conferences like those of ACM and ASME. ITT Kanpur has been made a key resource centre to provide guidance for water sustainability; it has its own airstrip, flight laboratory, and wind-tunnel facility; the National Information Centre for Earthquake Engineering is located here; and opportunities like these give students a chance to excel in their chosen areas of research, how much ever diverse it may be.
 				</SectionText>
 				<br />
 			</Page>

@@ -21,28 +21,28 @@ import FeaturesGallery from "views/CareerFestival/FeaturesGallery"
 
 const Routes = [
 	{
-		name:"Features",
-		url:"/samvardhan#features"
+		name: "Features",
+		url: "/samvardhan#features"
 	},
 	{
-		name:"Why Participate?",
-		url:"/samvardhan#why-participate"
+		name: "Why Participate?",
+		url: "/samvardhan#why-participate"
 	},
 	{
-		name:"Schedule",
-		url:"/samvardhan#schedule"
+		name: "Schedule",
+		url: "/samvardhan#schedule"
 	},
 	{
-		name:"Registration",
-		url:"/samvardhan#registration"
+		name: "Registration",
+		url: "/samvardhan#registration"
 	},
 	{
-		name:"Event Details",
-		url:"/samvardhan#event-details"
+		name: "Event Details",
+		url: "/samvardhan#event-details"
 	},
 	{
-		name:"Policies",
-		url:"/samvardhan#policies"
+		name: "Policies",
+		url: "/samvardhan#policies"
 	},
 	// {
 	// 	name:"Policy for Companies",
@@ -62,30 +62,30 @@ export default function AboutPage() {
 				description="The Institute of Technology (IIT) Kanpur is a premier technical institute in India known for its excellent academic programs and talented student body. Students' Placement Office, IIT Kanpur, proposes the first Career Fest to provide students with a unique opportunity to connect with potential employers and explore their career options."
 				routes={Routes}
 			>
-				<FeaturesGallery/>
+				<FeaturesGallery />
 				<br />
 				{/*  */}
 				<br />
 				<SectionTitle id="why-participate">Why Participate?</SectionTitle>
 				<br /><br />
-				<Features/>
+				<Features />
 				<br />
 				{/*  */}
 				<br />
 				<SectionTitle id="research">Target Participants</SectionTitle>
 				<br />
 				<br />
-				
+
 				<TextWrapper>
 					<SectionText>
-            The target participants for the Career Fest of IIT Kanpur are:
+						The target participants for the Career Fest of IIT Kanpur are:
 						<ul>
 							<li>Students of IIT Kanpur</li>
 							<li>Companies and organisations interested in recruiting IIT Kanpur students</li>
 							<li>Industry professionals and experts</li>
 						</ul>
 					</SectionText>
-				</TextWrapper>	
+				</TextWrapper>
 				<br />
 				<hr />
 				<br />
@@ -96,14 +96,14 @@ export default function AboutPage() {
 				</BasicSection>
 				<TextWrapper>
 					<ImageContainer>
-						<NextImage 
-							src="/SamvardhanImg/schedule_2023.png" 
-							alt="IITK" layout="fill"	
+						<NextImage
+							src="/SamvardhanImg/schedule_2023.png"
+							alt="IITK" layout="fill"
 						/>
 					</ImageContainer>
 				</TextWrapper>
 				<br />
-				<Cta2/>
+				<Cta2 />
 				<br />
 
 				<br />
@@ -112,141 +112,141 @@ export default function AboutPage() {
 				<br />
 				<TextWrapper>
 					<SectionText>
-            The career fest of IIT Kanpur can include a variety of events and activities, including:
+						The career fest of IIT Kanpur can include a variety of events and activities, including:
 						<ul>
 							<li>
 								<b>Panel Discussions: </b>Panel discussions can be a valuable component of the career fest of IIT Kanpur, offering
-                opportunities for companies and industry professionals to share their insights and knowledge with students. Panel
-                discussions can be organised around the following topics:
+								opportunities for companies and industry professionals to share their insights and knowledge with students. Panel
+								discussions can be organised around the following topics:
 							</li>
 							<ul>
 								<li>
 									<b>Industry Trends: </b>Panelists can discuss the latest trends and innovations in the industry and share their
-                  perspectives on the future of the field.
+									perspectives on the future of the field.
 								</li>
 								<li>
 									<b>Career Paths: </b>Panelists can discuss their career paths and advise and guide students on pursuing their career
-                  goals.
+									goals.
 								</li>
 								<li>
 									<b>Skills and Knowledge: </b>Panelists can discuss the skills and knowledge most in demand in the industry and offer tips
-                  and advice on developing and showcasing these skills.
+									and advice on developing and showcasing these skills.
 								</li>
 								<li>
 									<b>Company Culture: </b>Panelists can discuss the company culture and work environment and offer insights into what makes
-                  their company a great place to work.
+									their company a great place to work.
 								</li>
 								<li>
 									<b>Hiring and Recruitment: </b>Panelists can discuss the hiring and recruitment process and offer advice and guidance on
-                  how to stand out as a candidate.
+									how to stand out as a candidate.
 								</li>
 							</ul>
 							<br />
 							<li>
 								<b>Workshops and Seminars: </b>Workshops and seminars can be an integral part of the career fest of IIT Kanpur, providing
-                opportunities for companies and industry professionals to share their knowledge and skills with students. Some of the
-                workshops and seminars that can be organised during the career fest include:
+								opportunities for companies and industry professionals to share their knowledge and skills with students. Some of the
+								workshops and seminars that can be organised during the career fest include:
 							</li>
 							<ul>
 								<li>
 									<b>Resume Writing: </b>Companies can conduct workshops on how to write effective resumes and cover letters and offer
-                  advice on how to stand out as a candidate.
+									advice on how to stand out as a candidate.
 								</li>
 								<li>
 									<b>Interview Skills: </b>Companies can conduct seminars on preparing for job interviews and offer tips on making a
-                  positive impression during the interview.
+									positive impression during the interview.
 								</li>
 								<li>
 									<b>Networking Skills: </b>Companies can conduct workshops on how to network effectively and offer advice on how to make
-                  meaningful connections with potential employers and industry professionals.
+									meaningful connections with potential employers and industry professionals.
 								</li>
 								<li>
 									<b>Career Development: </b>Companies can conduct seminars on developing and advancing their career and offer advice on
-                  pursuing their goals and aspirations.
+									pursuing their goals and aspirations.
 								</li>
 								<li>
 									<b>Industry Trends: </b>Companies can conduct workshops on the latest trends and innovations in the industry and offer
-                  insights into what the future holds.
+									insights into what the future holds.
 								</li>
 							</ul>
 							<br />
 							<li>
 								<b>Virtual Industry Tours/Tech Demonstrations: </b>In today's digital age, virtual industry tours and tech demonstrations
-                can be an effective way for companies to participate in the career fest of IIT Kanpur. Companies can showcase their products
-                and technology through hands-on demonstrations. Some of the virtual events that can be organised include:
+								can be an effective way for companies to participate in the career fest of IIT Kanpur. Companies can showcase their products
+								and technology through hands-on demonstrations. Some of the virtual events that can be organised include:
 							</li>
 							<ul>
 								<li>
 									<b>Virtual Industry Tours: </b>Companies can conduct virtual tours of their facilities, showcasing their products and
-                  services and providing insight into their operations and culture.
+									services and providing insight into their operations and culture.
 								</li>
 								<li>
 									<b>Virtual Tech Demonstrations: </b>Companies can conduct virtual demonstrations of their products and technology,
-                  showcasing their capabilities and offering hands-on experience to students.
+									showcasing their capabilities and offering hands-on experience to students.
 								</li>
 							</ul>
 							<br />
 							<li>
 								<b>Hackathons and Competitions: </b>In addition to the events and activities listed above, hackathons and competitions can
-                be included in the career fest of IIT Kanpur as well, including:
+								be included in the career fest of IIT Kanpur as well, including:
 							</li>
 							<ul>
 								<li>
 									<b>Hackathons: </b>Companies can sponsor or participate in hackathons, where students can work together to solve
-                  real-world problems and showcase their coding and problem-solving skills.
+									real-world problems and showcase their coding and problem-solving skills.
 								</li>
 								<li>
 									<b>Innovation Competitions: </b>Companies can participate in innovation competitions, where students can showcase their
-                  creative and entrepreneurial ideas.
+									creative and entrepreneurial ideas.
 								</li>
 								<li>
 									<b>Technical Competitions: </b>Companies can participate in technical competitions, where students can showcase their
-                  technical skills and knowledge in areas such as programming, design, and data analysis.
+									technical skills and knowledge in areas such as programming, design, and data analysis.
 								</li>
 								<li>
 									<b>Product Demos: </b>Companies can participate in product demos, where students can showcase their prototypes and
-                  innovative products.
+									innovative products.
 								</li>
 								<li>
 									<b>Case Competitions: </b>Companies can participate in case competitions, where students can work together to analyse and
-                  solve business problems.
+									solve business problems.
 								</li>
 								<li>
 									<b>Gaming Competitions: </b>Companies can participate in gaming competitions, where students can showcase their gaming
-                  skills and compete against each other.
+									skills and compete against each other.
 								</li>
 							</ul>
 							<br />
 							<li>
 								<b>Career Fair: </b>The career fair is the central component of the IIT Kanpur career fest, providing companies with an
-                opportunity to connect with students and discuss job and internship opportunities. The career fair can be organised as
-                follows:
+								opportunity to connect with students and discuss job and internship opportunities. The career fair can be organised as
+								follows:
 							</li>
 							<ul>
 								<li>
 									<b>Recruitment Meetings: </b>Companies can meet with students one-on-one to discuss job and internship opportunities,
-                  conduct on-site interviews, and provide information on the hiring process.
+									conduct on-site interviews, and provide information on the hiring process.
 								</li>
 								<li>
 									<b>Resume Collection: </b>Companies can collect resumes from students, providing an opportunity to review the
-                  qualifications and potential of IIT Kanpur's talent.
+									qualifications and potential of IIT Kanpur's talent.
 								</li>
 							</ul>
 							<br />
 							<li>
 								<b>Networking Receptions: </b>Companies can participate in networking receptions to meet and connect with other industry
-                professionals and potential candidates.
+								professionals and potential candidates.
 							</li>
 							<br />
 							<li>
 								<b>Keynote Speakers: </b>Companies can provide keynote speeches and share their insights on current industry trends and the
-                future of the field.
+								future of the field.
 							</li>
 						</ul>
 					</SectionText>
 				</TextWrapper>
 				<br />
-				<Cta/>
+				<Cta />
 				<br />
 			</Page>
 		</>

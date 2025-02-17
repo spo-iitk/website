@@ -15,8 +15,8 @@ export default function BasicCard({ title, description, imageUrl, linkUrl }: Bas
 	const router = useRouter()
 	return (
 		<Card onClick={() => {
-			if(linkUrl) router.push(linkUrl, "_blank")
-		}}  >	
+			if (linkUrl) router.push(linkUrl, "_blank")
+		}}  >
 			{imageUrl && <NextImage src={imageUrl} width={128} height={128} alt={title} />}
 			<Title>{title}</Title>
 			<Description>{description}</Description>
