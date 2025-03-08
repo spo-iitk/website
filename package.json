@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "yarn lint --fix && yarn tinacms server:start -c \"next dev\"",
-    "build": "cross-env  NODE_OPTIONS='--max-old-space-size=8192' && yarn lint --fix && yarn tinacms server:start -c \"next build\"",
+    "build": "yarn lint --fix && yarn tinacms server:start -c \"next build\"",
     "start": "yarn tinacms server:start -c \"next start\"",
     "export": "yarn tinacms server:start -c \"next build && next export\"",
     "lint": "next lint",
