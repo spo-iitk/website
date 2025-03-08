@@ -27,7 +27,7 @@ export default function OfficeTeam() {
 	return (
 		<Page title="Administration" keywords="Administration IITK, SPO Management IITK" description="">
 			<DarkerBackgroundContainer>
-				<SectionTitle>SPO Chairperson</SectionTitle>
+				<SectionTitle>SPO Chairperson </SectionTitle>
 				<div style={{ display: "flex", justifyContent: "center" }}>
 					<Card>
 						<NextImage src="/testimonials/chairman.jpg" width={128} height={128} alt="Chairperson SPO" />
@@ -74,6 +74,7 @@ const Wrapper = styled.div`
   padding: 2.5rem;
   flex: 1;
   margin-right: 3rem;
+  
   margin-bottom: 3rem;
   h3 {
 	font-size: 2.5rem;
