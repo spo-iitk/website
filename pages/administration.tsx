@@ -61,7 +61,7 @@ export default function OfficeTeam() {
 					</CustomAutofitGrid>
 					<Wrapper>
 						<h3>Office Contact Details</h3>
-						<p><span>Email:</span> <a href="mailto:spooffice@iitk.ac.in">spooffice@iitk.ac.in</a></p>
+						<p><span>Email:</span> <a href="mailto:spooffice@iitk.ac.in">spooffice[AT]iitk.ac.in</a></p>
 						<p><span>Desk No. :</span> 0512-259-4433/34</p>
 					</Wrapper>
 				</Container>

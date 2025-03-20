@@ -61,7 +61,7 @@ export default function Footer() {
 								Phone no.: +91 512 259 44 33/34 <br />
 								Email:
 								<NextLink href="mailto:spo@iitk.ac.in" passHref>
-									<a>spo@iitk.ac.in</a>
+									<a>spo[AT]iitk.ac.in</a>
 								</NextLink>
 								<br />
 								<br />
