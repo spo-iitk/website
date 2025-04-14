@@ -9,7 +9,7 @@ export default async function SendEmail(req: NextApiRequest, res: NextApiRespons
 	const referer = req.headers.referer
 
 	const content = {
-		to: ["spo@iitk.ac.in"],
+		to: ["spo[AT]iitk.ac.in"],
 		from: `SPO Website Automation<${sender}`,
 		subject: subject,
 		text: company + " " + name + " " + email + " " + phone + " " + designation + " " + description,
