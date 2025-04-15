@@ -13,13 +13,13 @@ const TeamMembers = [
 		name: "Kumar Srikanta Nayak",
 		position: "Career Development Officer",
 		image: "/testimonials/srikanta_2022.jpg",
-		email: "ksnayak@iitk.ac.in",
+		email: "ksnayak[AT]iitk.ac.in",
 	},
 	{
 		name: "Amarendra Mohanty",
 		position: "Deputy Project Manager",
 		image: "/testimonials/amarendra_2022.jpg",
-		email: "amaren@iitk.ac.in",
+		email: "amaren[AT]iitk.ac.in",
 	},
 ]
 
@@ -61,7 +61,7 @@ export default function OfficeTeam() {
 					</CustomAutofitGrid>
 					<Wrapper>
 						<h3>Office Contact Details</h3>
-						<p><span>Email:</span> <a href="mailto:spooffice@iitk.ac.in">spooffice@iitk.ac.in</a></p>
+						<p><span>Email:</span> <a href="mailto:spooffice[AT]iitk.ac.in">spooffice[AT]iitk.ac.in</a></p>
 						<p><span>Desk No. :</span> 0512-259-4433/34</p>
 					</Wrapper>
 				</Container>
@@ -126,7 +126,7 @@ const CustomAutofitGrid = styled(AutofitGrid)`
 	--autofit-grid-item-size: 100%;
   }
 	&.Administrationcard {
-    @media (max-width: 768px) {
+    [AT]media (max-width: 768px) {
       flex-direction: column; // Apply for screens <= 768px (mobile)
     }
   }
