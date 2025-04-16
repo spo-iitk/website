@@ -12,42 +12,42 @@ const TeamMembers = [
 	{
 		"name": "Ayush Agrawal",
 		"image": "/testimonials/PastYearTeamImages/21-22/ayush.jpg",
-		"mail": "ayushagr@iitk.ac.in",
+		"mail": "ayushagr[AT]iitk.ac.in",
 		"phone": "91-8588846679",
 		"linkedin": "https://www.linkedin.com/in/ayush-agrawal-iitk/"
 	},
 	{
 		"name": "Akarsh Mittal",
 		"image": "/testimonials/PastYearTeamImages/21-22/akarsh.jpg",
-		"mail": "akarshm@iitk.ac.in",
+		"mail": "akarshm[AT]iitk.ac.in",
 		"phone": "91-9828383799",
 		"linkedin": "https://www.linkedin.com/in/akarsh-mittal"
 	},
 	{
 		"name": "Shruti Srivastava",
 		"image": "/testimonials/PastYearTeamImages/21-22/shruti.jpg",
-		"mail": "shrutis20@iitk.ac.in",
+		"mail": "shrutis20[AT]iitk.ac.in",
 		"phone": "91-8299767186",
 		"linkedin": "https://www.linkedin.com/in/shruti-srivastava-808a87179"
 	},
 	{
 		"name": "Amisha Shahdeo",
 		"image": "/testimonials/PastYearTeamImages/21-22/amisha.jpg",
-		"mail": "ashahdeo@iitk.ac.in",
+		"mail": "ashahdeo[AT]iitk.ac.in",
 		"phone": "91-8809405690",
 		"linkedin": "https://www.linkedin.com/in/amisha-shahdeo-7b38b619a/"
 	},
 	{
 		"name": "Manali Patil",
 		"image": "/testimonials/PastYearTeamImages/21-22/manali.jpg",
-		"mail": "manali@iitk.ac.in",
+		"mail": "manali[AT]iitk.ac.in",
 		"phone": "91-9130597084",
 		"linkedin": "https://www.linkedin.com/in/manali-patil-20845b148"
 	},
 	{
 		"name": "Utkarsh Verma",
 		"image": "/testimonials/PastYearTeamImages/21-22/utkarsh.jpg",
-		"mail": "utverma@iitk.ac.in",
+		"mail": "utverma[AT]iitk.ac.in",
 		"phone": "91-6388500292",
 		"linkedin": "https://www.linkedin.com/in/utkarsh-verma-2a7875168/"
 	}]
@@ -55,102 +55,102 @@ const TeamMembers = [
 const APC = [
 	{
 		"name": "Abhinav D Singh",
-		"mail": "abhids@iitk.ac.in",
+		"mail": "abhids[AT]iitk.ac.in",
 		"phone": "+91 9483296049"
 	},
 	{
 		"name": "Abhishek Verma",
-		"mail": "abhivrm@iitk.ac.in",
+		"mail": "abhivrm[AT]iitk.ac.in",
 		"phone": "+91 8957934462"
 	},
 	{
 		"name": "Adarsh Anand",
-		"mail": "adarsh@iitk.ac.in",
+		"mail": "adarsh[AT]iitk.ac.in",
 		"phone": "+91 8529761909"
 	},
 	{
 		"name": "Akshita",
-		"mail": "akshita@iitk.ac.in",
+		"mail": "akshita[AT]iitk.ac.in",
 		"phone": "+91 9784903254"
 	},
 	{
 		"name": "Anchal Gupta",
-		"mail": "anchalgu@iitk.ac.in",
+		"mail": "anchalgu[AT]iitk.ac.in",
 		"phone": "+91 7309369322"
 	},
 	{
 		"name": "Asmita Nimesh",
-		"mail": "asmita@iitk.ac.in",
+		"mail": "asmita[AT]iitk.ac.in",
 		"phone": "+91 7393019939"
 	},
 	{
 		"name": "Ayushi Arora",
-		"mail": "ayushii@iitk.ac.in",
+		"mail": "ayushii[AT]iitk.ac.in",
 		"phone": "+91 8171103397"
 	},
 	{
 		"name": "Gyanendra Kumar",
-		"mail": "krgyan@iitk.ac.in",
+		"mail": "krgyan[AT]iitk.ac.in",
 		"phone": "+91 7301276032"
 	},
 	{
 		"name": "Jitesh Hemji",
-		"mail": "jithemji@iitk.ac.in",
+		"mail": "jithemji[AT]iitk.ac.in",
 		"phone": "+91 7062355340"
 	},
 	{
 		"name": "Kritarth Lohomi",
-		"mail": "kritarth@iitk.ac.in",
+		"mail": "kritarth[AT]iitk.ac.in",
 		"phone": "+91 7023409984"
 	},
 	{
 		"name": "Neelabh Singhania",
-		"mail": "neel@iitk.ac.in",
+		"mail": "neel[AT]iitk.ac.in",
 		"phone": "+91 8957241002"
 	},
 	{
 		"name": "Nitish Yadav",
-		"mail": "nkyadav@iitk.ac.in",
+		"mail": "nkyadav[AT]iitk.ac.in",
 		"phone": "+91 9467838726"
 	},
 	{
 		"name": "Prachi Priya",
-		"mail": "prachi@iitk.ac.in",
+		"mail": "prachi[AT]iitk.ac.in",
 		"phone": "+91 9334112386"
 	},
 	{
 		"name": "Pragati Singh",
-		"mail": "spragati@iitk.ac.in",
+		"mail": "spragati[AT]iitk.ac.in",
 		"phone": "+91 8303065597"
 	},
 	{
 		"name": "Rishabh Katiyar",
-		"mail": "rkatiyar@iitk.ac.in",
+		"mail": "rkatiyar[AT]iitk.ac.in",
 		"phone": "+91 8318430643"
 	},
 	{
 		"name": "Siddharth Kumar Singh",
-		"mail": "sksingh@iitk.ac.in",
+		"mail": "sksingh[AT]iitk.ac.in",
 		"phone": "+91 8127680401"
 	},
 	{
 		"name": "Siddharth Mishra",
-		"mail": "sidmish@iitk.ac.in",
+		"mail": "sidmish[AT]iitk.ac.in",
 		"phone": "+91 9980929001"
 	},
 	{
 		"name": "Sunay Chhajed",
-		"mail": "sunay@iitk.ac.in",
+		"mail": "sunay[AT]iitk.ac.in",
 		"phone": "+91 7225824183"
 	},
 	{
 		"name": "Tanisha Agrawal",
-		"mail": "taniagra@iitk.ac.in",
+		"mail": "taniagra[AT]iitk.ac.in",
 		"phone": "+91 9079574621"
 	},
 	{
 		"name": "Vishwaraj Singh",
-		"mail": "vrsingh@iitk.ac.in",
+		"mail": "vrsingh[AT]iitk.ac.in",
 		"phone": "+91 9877579129"
 	}
 ]
@@ -158,199 +158,199 @@ const ACD = [
 	{
 		"name": "Neelesh Srivastava",
 		"department": "Aerospace Engineering",
-		"mail": "neelesh20@iitk.ac.in",
+		"mail": "neelesh20[AT]iitk.ac.in",
 		"phone": "+91 9889349546"
 	},
 	{
 		"name": "Saumya Singh",
 		"department": "Aerospace Engineering",
-		"mail": "saumyas@iitk.ac.in",
+		"mail": "saumyas[AT]iitk.ac.in",
 		"phone": "+91 6392210249"
 	},
 	{
 		"name": "Dona Maheshwari",
 		"department": "Biosciences and Bioengineering",
-		"mail": "dona@iitk.ac.in",
+		"mail": "dona[AT]iitk.ac.in",
 		"phone": "+91 6377758772"
 	},
 	{
 		"name": "Ankit",
 		"department": "Civil Engineering",
-		"mail": "ankitver@iitk.ac.in",
+		"mail": "ankitver[AT]iitk.ac.in",
 		"phone": "+91 7988273596"
 	},
 	{
 		"name": "Anshita Srivastava",
 		"department": "Civil Engineering",
-		"mail": "anshitas20@iitk.ac.in",
+		"mail": "anshitas20[AT]iitk.ac.in",
 		"phone": "+91 7905664807"
 	},
 	{
 		"name": "Aritra Nandy",
 		"department": "Civil Engineering",
-		"mail": "nandy20@iitk.ac.in",
+		"mail": "nandy20[AT]iitk.ac.in",
 		"phone": "+91 9883109135"
 	},
 	{
 		"name": "Moulshree Rana",
 		"department": "Cognitive Sciences",
-		"mail": "moulshree20@iitk.ac.in",
+		"mail": "moulshree20[AT]iitk.ac.in",
 		"phone": "+91 7045361588"
 	},
 	{
 		"name": "Sagar Vasant Chaudhari",
 		"department": "Chemical Engineering",
-		"mail": "sagarkpgms20@iitk.ac.in",
+		"mail": "sagarkpgms20[AT]iitk.ac.in",
 		"phone": "+91 8652830453"
 	},
 	{
 		"name": "Debanjan Dutta",
 		"department": "Chemical Engineering",
-		"mail": "deb20@iitk.ac.in",
+		"mail": "deb20[AT]iitk.ac.in",
 		"phone": "+91 8981243540"
 	},
 	{
 		"name": "Rakshit Kajala",
 		"department": "Chemical Engineering",
-		"mail": "rkajala@iitk.ac.in",
+		"mail": "rkajala[AT]iitk.ac.in",
 		"phone": "+91 8003496709"
 	},
 	{
 		"name": "Uttkarsh Bhalika",
 		"department": "Chemistry",
-		"mail": "ubhalika20@iitk.ac.in",
+		"mail": "ubhalika20[AT]iitk.ac.in",
 		"phone": "+91 7999363620"
 	},
 	{
 		"name": "Harshvardhan Pratap Singh",
 		"department": "Computer Science and Engineering",
-		"mail": "Hrshsengar20@iitk.ac.in",
+		"mail": "Hrshsengar20[AT]iitk.ac.in",
 		"phone": "+91 8851817208"
 	},
 	{
 		"name": "Jaykumar J. Kothdiya",
 		"department": "Computer Science and Engineering",
-		"mail": "jay20@iitk.ac.in",
+		"mail": "jay20[AT]iitk.ac.in",
 		"phone": "+91 9624030465"
 	},
 	{
 		"name": "Rahul Bhure",
 		"department": "Design",
-		"mail": "rwb20@iitk.ac.in",
+		"mail": "rwb20[AT]iitk.ac.in",
 		"phone": "+91 7020950454"
 	},
 	{
 		"name": "Shravan Tiwari",
 		"department": "Design",
-		"mail": "shravan20@iitk.ac.in",
+		"mail": "shravan20[AT]iitk.ac.in",
 		"phone": "+91 6307537606"
 	},
 	{
 		"name": "Abhas Goyal",
 		"department": "Economics",
-		"mail": "abhasg@iitk.ac.in",
+		"mail": "abhasg[AT]iitk.ac.in",
 		"phone": "+91 9755357190"
 	},
 	{
 		"name": "Chandan Kumar",
 		"department": "Electrical Engineering",
-		"mail": "chandank20@iitk.ac.in",
+		"mail": "chandank20[AT]iitk.ac.in",
 		"phone": "+91 9430029172"
 	},
 	{
 		"name": "Utkarsh Adya",
 		"department": "Electrical Engineering",
-		"mail": "utkarsh20@iitk.ac.in",
+		"mail": "utkarsh20[AT]iitk.ac.in",
 		"phone": "+91 7003038142"
 	},
 	{
 		"name": "abhishek kumar",
 		"department": "Electrical Engineering",
-		"mail": "Krabhishek20@iitk.ac.in",
+		"mail": "Krabhishek20[AT]iitk.ac.in",
 		"phone": "+91 9872686648"
 	},
 	{
 		"name": "Abhishek kumar",
 		"department": "Earth Sciences",
-		"mail": "abhishekk20@iitk.ac.in",
+		"mail": "abhishekk20[AT]iitk.ac.in",
 		"phone": "+91 8789745927"
 	},
 	{
 		"name": "Ajay Mohan",
 		"department": "Industrial and Management Engineering",
-		"mail": "ajmohan20@iitk.ac.in",
+		"mail": "ajmohan20[AT]iitk.ac.in",
 		"phone": "+91 8556827724"
 	},
 	{
 		"name": "Yash Taunk",
 		"department": "Industrial and Management Engineering",
-		"mail": "yashtaunk20@iitk.ac.in",
+		"mail": "yashtaunk20[AT]iitk.ac.in",
 		"phone": "+91 9704316054"
 	},
 	{
 		"name": "Shubham Awasthi",
 		"department": "Industrial and Management Engineering",
-		"mail": "sawasthi20@iitk.ac.in",
+		"mail": "sawasthi20[AT]iitk.ac.in",
 		"phone": "+91 8318511892"
 	},
 	{
 		"name": "Keyur Panchal",
 		"department": "Mechanical Engineering",
-		"mail": "kpanchal20@iitk.ac.in",
+		"mail": "kpanchal20[AT]iitk.ac.in",
 		"phone": "+91 7778947661"
 	},
 	{
 		"name": "Inderjeet singh",
 		"department": "Mechanical Engineering",
-		"mail": "inderjeet20@iitk.ac.in",
+		"mail": "inderjeet20[AT]iitk.ac.in",
 		"phone": "+91 9599718880"
 	},
 	{
 		"name": "Ankur Kumar Kaushik",
 		"department": "Mechanical Engineering",
-		"mail": "akkaushik20@iitk.ac.in",
+		"mail": "akkaushik20[AT]iitk.ac.in",
 		"phone": "+91 7011941642"
 	},
 	{
 		"name": "Rakesh Potnuru",
 		"department": "Material Science and Engineering",
-		"mail": "rakh@iitk.ac.in",
+		"mail": "rakh[AT]iitk.ac.in",
 		"phone": "+91 8374284348"
 	},
 	{
 		"name": "Jatin Jain",
 		"department": "Material Science and Engineering",
-		"mail": "jjainindia20@iitk.ac.in",
+		"mail": "jjainindia20[AT]iitk.ac.in",
 		"phone": "+91 7978023020"
 	},
 	{
 		"name": "Mukesh Kumbhakar",
 		"department": "Material Science and Engineering",
-		"mail": "mukeshkr20@iitk.ac.in",
+		"mail": "mukeshkr20[AT]iitk.ac.in",
 		"phone": "+91 7064183404"
 	},
 	{
 		"name": "Sunny Choudhary",
 		"department": "Materials Science Program",
-		"mail": "sunny20@iitk.ac.in",
+		"mail": "sunny20[AT]iitk.ac.in",
 		"phone": "+91 9084603897"
 	},
 	{
 		"name": "Akansha Sharma",
 		"department": "Photonics Science and Engineering",
-		"mail": "akanksha20@iitk.ac.in",
+		"mail": "akanksha20[AT]iitk.ac.in",
 		"phone": "+91 8965020084"
 	},
 	{
 		"name": "Nikhil Munakhiya",
 		"department": "Stats",
-		"mail": "nmunakhiya20@iitk.ac.in",
+		"mail": "nmunakhiya20[AT]iitk.ac.in",
 		"phone": "+91 9711137338"
 	},
 	{
 		"name": "Shivani",
 		"department": "Stats",
-		"mail": "shivaniy20@iitk.ac.in",
+		"mail": "shivaniy20[AT]iitk.ac.in",
 		"phone": "+91 7011104111"
 	}
 ]
@@ -359,7 +359,7 @@ const WEBHEAD = [
 	{
 		"name": "Ketan Chaturvedi",
 		"position": "Web Head",
-		"mail": "ketanchaturvedi.24@gmail.com",
+		"mail": "ketanchaturvedi.24[AT]gmail.com",
 		"phone": "+91-6386730160"
 	}
 ]
@@ -368,13 +368,13 @@ const WEBEXEC = [
 	{
 		"name": "Harshit Raj",
 		"position": "Web Executive",
-		"mail": "harshit9304@gmail.com",
+		"mail": "harshit9304[AT]gmail.com",
 		"phone": "+91-7992271701"
 	},
 	{
 		"name": "Kunwar Preet Singh",
 		"position": "Web Executive",
-		"mail": "nsng042@gmail.com",
+		"mail": "nsng042[AT]gmail.com",
 		"phone": "+91-7009276430"
 	}
 ]

@@ -60,8 +60,8 @@ export default function Footer() {
 								IIT Kanpur, Kanpur-208016 <br />
 								Phone no.: +91 512 259 44 33/34 <br />
 								Email:
-								<NextLink href="mailto:spo@iitk.ac.in" passHref>
-									<a>spo@iitk.ac.in</a>
+								<NextLink href="mailto:spo[AT]iitk.ac.in" passHref>
+									<a>spo[AT]iitk.ac.in</a>
 								</NextLink>
 								<br />
 								<br />
@@ -82,7 +82,7 @@ export default function Footer() {
               </a>
             </NextLink> */}
 
-						<NextLink href="mailto:spo@iitk.ac.in" passHref>
+						<NextLink href="mailto:spo[AT]iitk.ac.in" passHref>
 							<a>
 								<EmailIcon size={50} round={true} />
 							</a>

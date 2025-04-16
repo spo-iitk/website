@@ -10,7 +10,7 @@ export default function InformationSection() {
 		<Wrapper>
 			<h3>Contact Info</h3>
 			<p>
-				<span>Email:</span> spo@iitk.ac.in
+				<span>Email:</span> spo[AT]iitk.ac.in
 			</p>
 			<p>
 				<span>Desk No. :</span> 0512-259-4433/34
