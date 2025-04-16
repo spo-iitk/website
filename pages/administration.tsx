@@ -126,7 +126,7 @@ const CustomAutofitGrid = styled(AutofitGrid)`
 	--autofit-grid-item-size: 100%;
   }
 	&.Administrationcard {
-    [AT]media (max-width: 768px) {
+    @media (max-width: 768px) {
       flex-direction: column; // Apply for screens <= 768px (mobile)
     }
   }
