@@ -17,7 +17,7 @@ export default function Cta() {
 					{/* <OverTitle>Lorem ipsum dolor sit amet</OverTitle> */}
 					<SectionTitle id="registration">Register with us to conduct events in Career Festival</SectionTitle>
 					<Description>
-          Fill out the online form or share the filled doc with us at <a href="mailto:spo@iitk.ac.in">spo@iitk.ac.in</a>
+          Fill out the online form or share the filled doc with us at <a href="mailto:spo[AT]iitk.ac.in">spo[AT]iitk.ac.in</a>
 					</Description>
 					<ButtonGroup>
 						<NextLink href="https://docs.google.com/forms/d/e/1FAIpQLScnmO0WUWhNH16_VG_oODZ6qf7XyHu3YuHilxLM-pMC3OjpKg/viewform?usp=sf_link" passHref>

@@ -29,7 +29,7 @@ export default function ViceChairmanMessage() {
         Vice Chairperson <br />
         Students' Placement Office <br />
         IIT Kanpur <br />
-        Email ID: spovc@iitk.ac.in <br />
+        Email ID: spovc[AT]iitk.ac.in <br />
 				<br />
 			</MessageSection>
 		</Page>

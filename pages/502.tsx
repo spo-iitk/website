@@ -17,7 +17,7 @@ export default function MaintenancePage() {
 					<Image src="/maintenance.png" alt="Maintenance" width={400} />
 					<Title>Under Maintenance</Title>
 					<Description>We apologize for the inconvenience, but we&apos;re performing some maintenance.</Description>
-					<Description>You can still contact us at <Link href="mailto:spo@iitk.ac.in">spo@iitk.ac.in</Link>. We&apos;ll be back up soon!</Description>
+					<Description>You can still contact us at <Link href="mailto:spo[AT]iitk.ac.in">spo[AT]iitk.ac.in</Link>. We&apos;ll be back up soon!</Description>
 					<br />
 					<a target="_blank" rel="noopener noreferrer" href="https://placement.iitk.ac.in/">
 						<Button>

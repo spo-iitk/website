@@ -50,7 +50,7 @@ export default function ChairmanMessage() {
         Chairperson <br />
         Students' Placement Office <br />
         IIT Kanpur <br />
-        Email ID: spochair@iitk.ac.in <br />
+        Email ID: spochair[AT]iitk.ac.in <br />
 				<br />
 			</MessageSection>
 		</Page>

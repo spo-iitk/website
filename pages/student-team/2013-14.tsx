@@ -12,28 +12,28 @@ const TeamMembers = [
 	{
 		"name": "Aman Bapna",
 		"image": "/testimonials/PastYearTeamImages/13-14/amanb.jpg",
-		"mail": "amanb@iitk.ac.in",
+		"mail": "amanb[AT]iitk.ac.in",
 		"phone": "",
 		"linkedin": "#"
 	},
 	{
 		"name": "Amit Saraswat",
 		"image": "/testimonials/PastYearTeamImages/13-14/amitsar.jpg",
-		"mail": "amitsar@iitk.ac.in",
+		"mail": "amitsar[AT]iitk.ac.in",
 		"phone": "",
 		"linkedin": "#"
 	},
 	{
 		"name": "Harsh Sejwar",
 		"image": "/testimonials/PastYearTeamImages/13-14/hrshsej.jpg",
-		"mail": "hrshsej@iitk.ac.in",
+		"mail": "hrshsej[AT]iitk.ac.in",
 		"phone": "",
 		"linkedin": "#"
 	},
 	{
 		"name": "Vedant Khamesra",
 		"image": "/testimonials/PastYearTeamImages/13-14/vedantk.jpg",
-		"mail": "vedantk@iitk.ac.in",
+		"mail": "vedantk[AT]iitk.ac.in",
 		"phone": "",
 		"linkedin": "#"
 	}
