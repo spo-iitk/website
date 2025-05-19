@@ -83,36 +83,9 @@ export default function SingleArticlePage(props: InferGetStaticPropsType<typeof 
 }
 
 export async function getStaticPaths() {
-	const postsListData = await staticRequest({
-		query: `
-	  query PostsSlugs{
-		getPostsList{
-		  edges{
-			node{
-			  sys{
-				basename
-			  }
-			}
-		  }
-		}
-	  }
-	`,
-		variables: {},
-	})
-
-	if (!postsListData) {
-		return {
-			paths: [],
-			fallback: false,
-		}
-	}
-
-	type NullAwarePostsList = { getPostsList: NonNullableChildrenDeep<Query["getPostsList"]> };
 	return {
-		paths: (postsListData as NullAwarePostsList).getPostsList.edges.map((edge: { node: { sys: { basename: string } } }) => ({
-			params: { slug: normalizePostName(edge.node.sys.basename) },
-		})),
-		fallback: false,
+		paths: [],
+		fallback: "blocking",
 	}
 }
 
