@@ -279,7 +279,7 @@ const WEBEXEC = [
 		name: "Shivang dixit",
 		position: "Web Executive",
 		mail: "shivangd24@iitk.ac.in",
-		phone: "(+91) 63784	97030",
+		phone: "(+91) 63784 97030",
 	},
 ]
 
