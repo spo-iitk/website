@@ -23,8 +23,10 @@ const PastPlacementProformas = () => {
 	const Proformas_previous: Array<Proforma> = []
 	const Proformas_2024: Array<Proforma> = []
 	for (const key in data_2024) {
+		const rawName = data_2024[key].name
+		const cleanName = rawName.replace(/-/g, " ").replace(/\.pdf$/i, "")
 		Proformas_2024.push({
-			name: data_2024[key].name,
+			name: cleanName,
 			link: `${BASE_URL}${data_2024[key].link}/view`
 		})
 	}
