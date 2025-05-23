@@ -8,6 +8,7 @@ import Section from "components/Section"
 import { media } from "utils/media"
 
 import data_2023 from "./data_2023.json"
+import data_2024 from "./data_2024.json"
 import data_previous from "./data_previous.json"
 
 interface Proforma {
@@ -20,6 +21,13 @@ const BASE_URL = "https://drive.google.com/file/d/"
 const PastPlacementProformas = () => {
 	const Proformas_2023: Array<Proforma> = []
 	const Proformas_previous: Array<Proforma> = []
+	const Proformas_2024: Array<Proforma> = []
+	for (const key in data_2024) {
+		Proformas_2024.push({
+			name: data_2024[key].name,
+			link: `${BASE_URL}${data_2024[key].link}/view`
+		})
+	}
 	for (const key in data_2023) {
 		Proformas_2023.push({
 			name: data_2023[key].name,
