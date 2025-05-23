@@ -43,6 +43,17 @@ const PastPlacementProformas = () => {
 	return (
 		<Page title="Previous Year Placement Proformas">
 			<div id="steps">
+				<Section title="2024-2025">
+					<Container>
+						<CustomAutofitGrid>
+							{
+								Proformas_2024.map((proforma, index) => (
+									<BasicCard key={proforma.name} title={proforma.name} linkUrl={proforma.link} description="" />
+								))
+							}
+						</CustomAutofitGrid>
+					</Container>
+				</Section>
 				<Section title="2023-2024">
 					<Container>
 						<CustomAutofitGrid>
