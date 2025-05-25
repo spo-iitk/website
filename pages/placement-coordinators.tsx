@@ -258,28 +258,28 @@ const WEBHEAD = [
 
 const WEBEXEC = [
 	{
-		name: "Shivang dixit",
-		position: "Web Executive",
-		mail: "shivangd24@iitk.ac.in",
-		phone: "(+91) 63784 97030",
-	},
-	{
 		name: "Muragesh Nyamagoud",
 		position: "Web Executive",
 		mail: "muragesh24@iitk.ac.in",
 		phone: "(+91) 93534 66456",
 	},
 	{
-		name: "Vineesh Dubey",
+		name: "Shivang dixit",
 		position: "Web Executive",
-		mail: "vineeshd24@iitk.ac.in",
-		phone: "(+91) 63943 27615",
+		mail: "shivangd24@iitk.ac.in",
+		phone: "(+91) 63784 97030",
 	},
 	{
 		name: "Ujjwal Prakash",
 		position: "Web Executive",
 		mail: "ujjwal24@iitk.ac.in",
 		phone: "(+91) 77639 80774",
+	},
+	{
+		name: "Vineesh Dubey",
+		position: "Web Executive",
+		mail: "vineeshd24@iitk.ac.in",
+		phone: "(+91) 63943 27615",
 	},
 ]
 
