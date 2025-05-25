@@ -256,32 +256,32 @@ const WEBHEAD = [
 	},
 ]
 
-// const WEBEXEC = [
-// 	{
-// 		name: "Abhimanyu Solanki",
-// 		position: "Web Executive",
-// 		mail: "abhimanyus23@iitk.ac.in",
-// 		phone: "(+91) 82181 96261",
-// 	},
-// 	{
-// 		name: "Akshat",
-// 		position: "Web Executive",
-// 		mail: "akshat23@iitk.ac.in",
-// 		phone: "(+91) 93897 33410",
-// 	},
-// 	{
-// 		name: "Pandya Rushabh Bhavesh",
-// 		position: "Web Executive",
-// 		mail: "rushabhbp23@iitk.ac.in",
-// 		phone: "(+91) 79844 19251",
-// 	},
-// 	{
-// 		name: "Sandeep Kumar Jha",
-// 		position: "Web Executive",
-// 		mail: "sandeepkj23@iitk.ac.in",
-// 		phone: "(+91) 88516 07038",
-// 	},
-// ]
+const WEBEXEC = [
+	{
+		name: "Muragesh Nyamagoud",
+		position: "Web Executive",
+		mail: "muragesh24@iitk.ac.in",
+		phone: "(+91) 93534 66456",
+	},
+	{
+		name: "Shivang dixit",
+		position: "Web Executive",
+		mail: "shivangd24@iitk.ac.in",
+		phone: "(+91) 63784 97030",
+	},
+	{
+		name: "Ujjwal Prakash",
+		position: "Web Executive",
+		mail: "ujjwal24@iitk.ac.in",
+		phone: "(+91) 77639 80774",
+	},
+	{
+		name: "Vineesh Dubey",
+		position: "Web Executive",
+		mail: "vineeshd24@iitk.ac.in",
+		phone: "(+91) 63943 27615",
+	},
+]
 
 const PREVTEAM = [
 	"2024-25",
@@ -426,8 +426,8 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 							</div>
 						))}
 					</CustomAutofitGrid2>
-					{/* <br /> */}
-					{/* <CustomAutofitGrid4>
+					<br />
+					<CustomAutofitGrid4>
 						{WEBEXEC.map((member) => (
 							<div key={member.name}>
 								<Card>
@@ -442,7 +442,7 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 								</Card>
 							</div>
 						))}
-					</CustomAutofitGrid4> */}
+					</CustomAutofitGrid4>
 				</Container>
 				<SectionTitle>Previous Teams</SectionTitle>
 				<Container>
