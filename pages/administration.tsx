@@ -54,7 +54,7 @@ export default function OfficeTeam() {
 									{member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
 									<Title>{member.name}</Title>
 									<Description>{member.position}</Description>
-									<Description><Link href={`mailto:${member.email}`} passHref>{member.email}</Link></Description>
+									{/*<Description><Link href={`mailto:${member.email}`} passHref>{member.email}</Link></Description>*/}
 								</Card>
 							</div>
 						))}
