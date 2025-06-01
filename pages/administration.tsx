@@ -65,8 +65,9 @@ export default function OfficeTeam() {
 				</div>
 				<SectionTitle>SPO Officials</SectionTitle>
 				<Container style={{textAlign:"center"}}>
+					{/* First two members */}
 					<CustomAutofitGrid className="Administrationcard" style={{display:"flex",justifyContent:"space-around"}}>
-						{TeamMembers.map((member) => (
+						{TeamMembers.slice(0, 2).map((member) => (
 							<div key={member.name}>
 								<Card>
 									{member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
@@ -77,6 +78,22 @@ export default function OfficeTeam() {
 							</div>
 						))}
 					</CustomAutofitGrid>
+
+					<div style={{ height: "2rem" }}></div>
+					{/* Other three members */}
+					<CustomAutofitGrid className="Administrationcard" style={{display:"flex",justifyContent:"space-around"}}>
+						{TeamMembers.slice(2).map((member) => (
+							<div key={member.name}>
+								<Card>
+									{member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
+									<Title>{member.name}</Title>
+									<Description>{member.position}</Description>
+									{/*<Description><Link href={`mailto:${member.email}`} passHref>{member.email}</Link></Description>*/}
+								</Card>
+							</div>
+						))}
+					</CustomAutofitGrid>
+
 					<Wrapper>
 						<h3>Office Contact Details</h3>
 						<p><span>Email:</span> <a href="mailto:spooffice@iitk.ac.in">spooffice@iitk.ac.in</a></p>
