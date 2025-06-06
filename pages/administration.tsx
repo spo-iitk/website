@@ -66,7 +66,9 @@ export default function OfficeTeam() {
 				<SectionTitle>SPO Officials</SectionTitle>
 				<Container style={{textAlign:"center"}}>
 					{/* First two members */}
-					<CustomAutofitGrid className="Administrationcard" style={{display:"flex",justifyContent:"space-around"}}>
+					<CustomAutofitGrid className="Administrationcard" style={{display:"flex",justifyContent:"center",
+						gap:"5vw",
+					}}>
 						{TeamMembers.slice(0, 2).map((member) => (
 							<div key={member.name}>
 								<Card>
@@ -81,7 +83,9 @@ export default function OfficeTeam() {
 
 					<div style={{ height: "2rem" }}></div>
 					{/* Other three members */}
-					<CustomAutofitGrid className="Administrationcard" style={{display:"flex",justifyContent:"space-around"}}>
+					<CustomAutofitGrid className="Administrationcard" style={{display:"flex",justifyContent:"center",
+						gap:"5vw"
+					}}>
 						{TeamMembers.slice(2).map((member) => (
 							<div key={member.name}>
 								<Card>
