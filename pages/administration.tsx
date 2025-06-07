@@ -13,13 +13,31 @@ const TeamMembers = [
 		name: "Kumar Srikanta Nayak",
 		position: "Career Development Officer",
 		image: "/testimonials/srikanta_2022.jpg",
-		email: "ksnayak@iitk.ac.in",
+		email: ["ksnayak@iitk.ac.in"],
 	},
 	{
 		name: "Amarendra Mohanty",
 		position: "Deputy Project Manager",
 		image: "/testimonials/amarendra_2022.jpg",
-		email: "amaren@iitk.ac.in",
+		email: ["amaren@iitk.ac.in"],
+	},
+	{
+		name: "Kumar Vaibhav",
+		position: "",
+		image: "/testimonials/vaibhav_2025.jpeg",
+		email: ["krvaibhav@iitk.ac.in","phdplacement@iitk.ac.in"],
+	},
+	{
+		name: "Rachit Kumar Yadav",
+		position: "",
+		image: "/testimonials/rachit_2025.jpeg",
+		email: ["rachitky@iitk.ac.in","spooffice@iitk.ac.in"]
+	},
+	{
+		name: "Sandeep Kumar",
+		position: "",
+		image: "/testimonials/sandeep_2025.jpeg",
+		email: ["sank@iitk.ac.in","spooffice@iitk.ac.in"]
 	},
 ]
 
@@ -47,18 +65,39 @@ export default function OfficeTeam() {
 				</div>
 				<SectionTitle>SPO Officials</SectionTitle>
 				<Container style={{textAlign:"center"}}>
-					<CustomAutofitGrid className="Administrationcard" style={{display:"flex",justifyContent:"space-around"}}>
-						{TeamMembers.map((member) => (
+					{/* First two members */}
+					<CustomAutofitGrid className="Administrationcard" style={{display:"flex",justifyContent:"center",
+						gap:"5vw",
+					}}>
+						{TeamMembers.slice(0, 2).map((member) => (
 							<div key={member.name}>
 								<Card>
 									{member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
 									<Title>{member.name}</Title>
 									<Description>{member.position}</Description>
-									<Description><Link href={`mailto:${member.email}`} passHref>{member.email}</Link></Description>
+									{/*<Description><Link href={`mailto:${member.email}`} passHref>{member.email}</Link></Description>*/}
 								</Card>
 							</div>
 						))}
 					</CustomAutofitGrid>
+
+					<div style={{ height: "2rem" }}></div>
+					{/* Other three members */}
+					<CustomAutofitGrid className="Administrationcard" style={{display:"flex",justifyContent:"center",
+						gap:"5vw"
+					}}>
+						{TeamMembers.slice(2).map((member) => (
+							<div key={member.name}>
+								<Card>
+									{member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
+									<Title>{member.name}</Title>
+									<Description>{member.position}</Description>
+									{/*<Description><Link href={`mailto:${member.email}`} passHref>{member.email}</Link></Description>*/}
+								</Card>
+							</div>
+						))}
+					</CustomAutofitGrid>
+
 					<Wrapper>
 						<h3>Office Contact Details</h3>
 						<p><span>Email:</span> <a href="mailto:spooffice@iitk.ac.in">spooffice@iitk.ac.in</a></p>

@@ -8,6 +8,7 @@ import Section from "components/Section"
 import { media } from "utils/media"
 
 import data_2023 from "./data_2023.json"
+import data_2024 from "./data_2024.json"
 import data_previous from "./data_previous.json"
 
 interface Proforma {
@@ -18,6 +19,15 @@ interface Proforma {
 const BASE_URL = "https://drive.google.com/file/d/"
 
 const PastInternProformas = () => {
+	const Proformas_2024: Array<Proforma> = []
+	for (const key in data_2024) {
+		const rawName = data_2024[key].name
+		const cleanName = rawName.replace(/-/g, " ").replace(/\.pdf$/i, "")
+		Proformas_2024.push({
+			name: cleanName,
+			link: `${BASE_URL}${data_2024[key].link}/view`
+		})
+	}
 	const Proformas_2023: Array<Proforma> = []
 	for (const key in data_2023) {
 		Proformas_2023.push({
@@ -36,6 +46,17 @@ const PastInternProformas = () => {
 	return (
 		<Page title="Previous Year Intern Proformas">
 			<div id="steps">
+				<Section title="2024-2025">
+					<Container>
+						<CustomAutofitGrid>
+							{
+								Proformas_2024.map((proforma, index) => (
+									<BasicCard key={proforma.name} title={proforma.name} linkUrl={proforma.link} description="" />
+								))
+							}
+						</CustomAutofitGrid>
+					</Container>
+				</Section>
 				<Section title="2023-2024">
 					<Container>
 						<CustomAutofitGrid>
