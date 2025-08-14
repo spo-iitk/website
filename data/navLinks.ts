@@ -15,6 +15,7 @@ export const navLinks = [
 		title: "For Students",
 		href: "/students",
 		children: [
+			{ title: "Student Login", href: "https://placement.iitk.ac.in/login" },
 			{ title: "Student Home", href: "/students" },
 			{ title: "Placement Insights", href: "/insights" },
 			{ title: "Procedure", href: "/students#steps" },
@@ -26,6 +27,7 @@ export const navLinks = [
 		title: "Recruiter",
 		href: "/companies",
 		children: [
+			{title: "Recruiter Login", href: "https://placement.iitk.ac.in/login"},
 			{ title: "Companies Home", href: "/companies" },
 			{ title: "Procedure", href: "/companies#steps" },
 			{ title: "Internship Policy", href: "/companies#ipolicy" },
