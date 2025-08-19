@@ -51,7 +51,7 @@ const TeamMembers = [
 		name: "Ashish Rajeev Nayak",
 		phone: "(+91) 84318 26853",
 		mail: "ashishr24@iitk.ac.in",
-		linkedin: "www.linkedin.com/in/ashish-rajeev-nayak",
+		linkedin: "https://www.linkedin.com/in/ashish-rajeev-nayak",
 		image: "/testimonials/ashish.jpg",
 	},
 	{
