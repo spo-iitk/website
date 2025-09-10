@@ -81,78 +81,72 @@ const deptBrochure = [
 	},
 	{
 		idx: "13",
-		dept: "Industrial & Management Engineering",
-		url: "https://www.iitk.ac.in/ime/",
-		link: "/assets/Brochures25_26/IME.pdf"
-	},
-	{
-		idx: "14",
 		dept: "MBA Program",
 		url: "https://www.iitk.ac.in/ime/mba-course-structure",
 		link: "/assets/Brochures25_26/MBA.pdf"
 	},
 	{
-		idx: "15",
+		idx: "14",
 		dept: "Materials Science & Engineering",
 		url: "https://www.iitk.ac.in/mse",
 		link: "/assets/Brochures25_26/MSE.pdf"
 	},
 	{
-		idx: "16",
+		idx: "15",
 		dept: "Materials Science Programme",
 		url: "https://www.iitk.ac.in/msp/",
 		link: "/assets/Brochures25_26/MSP.pdf"
 	},
 	{
-		idx: "17",
+		idx: "16",
 		dept: "Mechanical Engineering",
 		url: "https://www.iitk.ac.in/me/",
 		link: "/assets/Brochures25_26/ME.pdf"
 	},
 	{
-		idx: "18",
+		idx: "17",
 		dept: "Mathematics & Scientific Computing",
 		url: "https://www.iitk.ac.in/math/",
 		link: "/assets/Brochures25_26/MTH.pdf"
 	},
 	{
-		idx: "19",
+		idx: "18",
 		dept: "Nuclear Engineering & Technology",
 		url: "https://www.iitk.ac.in/net/",
 		link: "/assets/IIT_Kanpur_NET_Brochure_2015-16.pdf"
 	},
 	{
-		idx: "20",
+		idx: "19",
 		dept: "Photonics Science and Engineering Programme",
 		url: "https://www.iitk.ac.in/celp",
 		link: "/assets/Brochures25_26/PSE.pdf"
 	},
 	{
-		idx: "21",
+		idx: "20",
 		dept: "Physics",
 		url: "https://www.iitk.ac.in/phy/",
 		link: "/assets/Brochures/PHY.pdf"
 	},
 	{
-		idx: "22",
+		idx: "21",
 		dept: "Space Science and Astronomy",
 		url: "https://www.iitk.ac.in/space",
 		link: "/assets/Brochures25_26/SPASE.pdf"
 	},
 	{
-		idx: "23",
+		idx: "22",
 		dept: "Statistics",
 		url: "https://www.iitk.ac.in/math/",
 		link: "/assets/Brochures25_26/SDS.pdf"
 	},
 	{
-		idx: "24",
+		idx: "23",
 		dept: "Statistics and Data Sciences",
 		url: "https://www.iitk.ac.in/math/bs-sds",
 		link: "/assets/Brochures25_26/SDS.pdf"
 	},
 	{
-		idx: "25",
+		idx: "24",
 		dept: "Sustainable Energy Engineering",
 		url: "https://www.iitk.ac.in/see/",
 		link: "/assets/Brochures25_26/SEE.pdf"
