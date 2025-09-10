@@ -5,6 +5,7 @@ import { useState } from "react"
 import styled from "styled-components"
 import { Button } from "tinacms"
 
+
 import AutofitGrid from "components/AutofitGrid"
 import Container from "components/Container"
 import Input from "components/Input"
@@ -12,6 +13,8 @@ import Page from "components/Page"
 import SectionTitle from "components/SectionTitle"
 import { media } from "utils/media"
 import { getAllPosts } from "utils/postsFetcher"
+
+import placementData from "./2025placement.json" 
 
 export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
 	const [searchValue, setSearchValue] = useState("")
@@ -37,6 +40,24 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
 					onChange={(e) => setSearchValue(e.target.value)}
 					placeholder="Search articles"
 				/>
+			</div>
+			<br />
+			<div style={{ width: "100%", display: "grid", placeItems: "center" }}>
+				<CustomSectionTitle>2025 Placement Insight</CustomSectionTitle>
+				<CustomUl>
+					{placementData.map((item, idx) => (
+						<NextLink
+							href={item.Upload}
+							passHref
+							key={idx}
+						>
+							<BlogItem>
+								<BlogDate>2025-8-25</BlogDate>
+								<BlogTitle>{item.Name}:  Placed at {item.Company}</BlogTitle>
+							</BlogItem>
+						</NextLink>
+					))}
+				</CustomUl>
 			</div>
 			<br />
 			<div style={{ width: "100%", display: "grid", placeItems: "center" }}>

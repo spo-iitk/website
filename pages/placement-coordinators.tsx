@@ -51,7 +51,7 @@ const TeamMembers = [
 		name: "Ashish Rajeev Nayak",
 		phone: "(+91) 84318 26853",
 		mail: "ashishr24@iitk.ac.in",
-		linkedin: "www.linkedin.com/in/ashish-rajeev-nayak",
+		linkedin: "https://www.linkedin.com/in/ashish-rajeev-nayak",
 		image: "/testimonials/ashish.jpg",
 	},
 	{
@@ -242,7 +242,7 @@ const DPC =[
 	{
 		"name": "Anurag Yadav",
 		"department": "Chemical Engineering",
-		"phone": "94564447767",
+		"phone": "9456447767",
 		"email": "anuragy24@iitk.ac.in"
 	},
 	{
@@ -314,7 +314,7 @@ const DPC =[
 	{
 		"name": "Aditya Narayan Singh",
 		"department": "Economics",
-		"phone": "8240807447",
+		"phone": "9305178326",
 		"email": "adityans24@iitk.ac.in"
 	},
 	{
