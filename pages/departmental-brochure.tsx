@@ -65,7 +65,7 @@ const deptBrochure = [
 		idx: "10",
 		dept: "Economic Sciences",
 		url: "https://www.iitk.ac.in/eco/",
-		link: "/assets/Brochures/ECO.pdf"
+		link: "/assets/Brochures25_26/ECO.pdf"
 	},
 	{
 		idx: "11",
@@ -111,42 +111,48 @@ const deptBrochure = [
 	},
 	{
 		idx: "18",
+		dept: "Management Sciences (Industrial & Management Engineering)",
+		url: "https://www.iitk.ac.in/doms",
+		link: "/assets/Brochures25_26/DoMS.pdf"
+	},
+	{
+		idx: "19",
 		dept: "Nuclear Engineering & Technology",
 		url: "https://www.iitk.ac.in/net/",
 		link: "/assets/IIT_Kanpur_NET_Brochure_2015-16.pdf"
 	},
 	{
-		idx: "19",
+		idx: "20",
 		dept: "Photonics Science and Engineering Programme",
 		url: "https://www.iitk.ac.in/celp",
 		link: "/assets/Brochures25_26/PSE.pdf"
 	},
 	{
-		idx: "20",
+		idx: "21",
 		dept: "Physics",
 		url: "https://www.iitk.ac.in/phy/",
 		link: "/assets/Brochures/PHY.pdf"
 	},
 	{
-		idx: "21",
+		idx: "22",
 		dept: "Space Science and Astronomy",
 		url: "https://www.iitk.ac.in/space",
 		link: "/assets/Brochures25_26/SPASE.pdf"
 	},
 	{
-		idx: "22",
+		idx: "23",
 		dept: "Statistics",
 		url: "https://www.iitk.ac.in/math/",
 		link: "/assets/Brochures25_26/SDS.pdf"
 	},
 	{
-		idx: "23",
+		idx: "24",
 		dept: "Statistics and Data Sciences",
 		url: "https://www.iitk.ac.in/math/bs-sds",
 		link: "/assets/Brochures25_26/SDS.pdf"
 	},
 	{
-		idx: "24",
+		idx: "25",
 		dept: "Sustainable Energy Engineering",
 		url: "https://www.iitk.ac.in/see/",
 		link: "/assets/Brochures25_26/SEE.pdf"
