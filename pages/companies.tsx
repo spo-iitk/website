@@ -139,7 +139,7 @@ const ResourcesL = [
 	},
 	{
 		name: "Campus Recruitement Brochure",
-		link: "/assets/2023-24/IITK_Recruitment_Brochure_2023-24.pdf"
+		link: "https://drive.google.com/file/d/1o7WZPfAJTp8gqzAysba2azJlmMhdacX6/view?usp=sharing"
 	},
 	{
 		name: "Campus Recruitment Guide",
