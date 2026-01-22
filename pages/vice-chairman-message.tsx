@@ -1,37 +1,47 @@
 /* eslint-disable react/no-unescaped-entities */
-import MessageSection from "components/MessageSection"
-import Page from "components/Page"
+import MessageSection from 'components/MessageSection';
+import Page from 'components/Page';
 
 export default function ViceChairmanMessage() {
-	return (
-		<Page title="Vice Chairperson&#39;s Message" description="From the desk of Prof. Manjesh Kumar Singh">
-			<MessageSection imageUrl="/testimonials/vc.jpg" title="Vice Chairperson's Message" hideTitle>
-				<p>
-          Indian Institute of Technology Kanpur (IITK), established in 1959, is one of the premier institutions established by the
-          Government of India. IITK aims to create, disseminate, and translate knowledge in science, engineering and allied disciplines that
-          serve the society. IITK has set a benchmark through its outstanding academic programs, quality education, and cutting-edge
-          multidisciplinary research. We at IITK prioritize the 360-degree development of students to meet global standards. Our education
-          system goes over and beyond the classroom lectures. We strongly agree with the overall growth of the students that ensures all our
-          students are ready to meet the new challenges in life. In this regard, Students' Placement Office (SPO) takes utmost care to groom
-          students according to the needs of the industry.
-				</p>
-				<p>
-          Our students are not only talented and dream high, but they are also equally capable of achieving this. Believe, as an industry,
-          you will get the innovators here at IITK, who will significantly contribute to the newer heights of success.
-				</p>
-				<p>
-          Thanks to all our prestigious recruiters for extending opportunities to our students year on year. SPO of IITK welcomes you to
-          join hands for a more profound and mutually beneficial relationship towards nation-building.
-				</p>
-				<p>Partner and write your success stories with IITK.</p>
-				<br />
-        Prof. Manjesh Kumar Singh <br />
+  return (
+    <Page title="Vice Chairperson&#39;s Message" description="From the desk of Prof. Manjesh Kumar Singh">
+      <MessageSection imageUrl="/testimonials/vc2026.jpeg" title="Vice Chairperson's Message" hideTitle>
+        <p>
+          Indian Institute of Technology Kanpur (IITK), since its inception in 1959, has remained at the forefront of academic excellence,
+          research, and innovation. As one of India’s leading technical institutions, IITK is dedicated to nurturing knowledge, fostering
+          creativity, and developing solutions that address real-world challenges across science, engineering, and allied domains.
+        </p>
+        <p>
+          At IIT Kanpur, we emphasize holistic education that goes far beyond conventional academics. Our students are trained to think
+          critically, innovate responsibly, and adapt confidently in an ever-evolving global landscape. Equal importance is given to
+          technical proficiency, professional skills, and personal growth, ensuring that our graduates are well-prepared to excel in diverse
+          environments.
+        </p>
+        <p>
+          The Students’ Placement Office (SPO) plays a vital role in bridging the gap between academia and industry. Through continuous
+          interaction with industry partners, focused skill development initiatives, and structured placement processes, SPO ensures that
+          students are aligned with current and future industry requirements.
+        </p>
+        <p>
+          Our students possess not only strong academic foundations but also the drive, discipline, and vision to create meaningful impact.
+          Industry partners will find at IITK a talented pool of individuals ready to contribute, innovate, and grow alongside their
+          organizations.
+        </p>
+        <p>
+          We extend our sincere gratitude to our valued recruiters for their unwavering support and collaboration over the years. The
+          Students’ Placement Office, IIT Kanpur, looks forward to strengthening these partnerships and building long-term relationships
+          that contribute to shared success and nation-building.
+        </p>
+        <p>Join hands with IIT Kanpur and be a part of shaping the future.</p>
+        <br />
+        Prof. Ritika Gautam Singh
+        <br />
         Vice Chairperson <br />
         Students' Placement Office <br />
         IIT Kanpur <br />
         Email ID: spovc@iitk.ac.in <br />
-				<br />
-			</MessageSection>
-		</Page>
-	)
+        <br />
+      </MessageSection>
+    </Page>
+  );
 }
