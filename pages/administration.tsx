@@ -39,13 +39,7 @@ const TeamMembers = [
     email: 'spooffice@iitk.ac.in',
     phone: '+512-259-4433/34',
   },
-  {
-    name: 'Kumar Vaibhav',
-    position: 'Junior Assistant',
-    image: '/testimonials/vaibhav_2022.jpeg',
-    email: 'phdplacement@iitk.ac.in',
-    phone: '+512-259-4433/34',
-  },
+
   {
     name: 'Rachit Kumar Yadav',
     position: 'Junior Assistant',
