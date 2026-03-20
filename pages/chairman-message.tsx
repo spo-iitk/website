@@ -26,10 +26,10 @@ export default function ChairmanMessage() {
         <p>Partner and write your success stories with IITK.</p>
         <br />
         Prof. Manjesh Kumar Singh <br />
-        Vice Chairperson <br />
+        Chairperson <br />
         Students' Placement Office <br />
         IIT Kanpur <br />
-        Email ID: spovc@iitk.ac.in <br />
+        Email ID: spochair@iitk.ac.in <br />
         <br />
       </MessageSection>
     </Page>
