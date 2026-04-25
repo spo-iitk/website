@@ -11,25 +11,18 @@ import { media } from "utils/media"
 
 const TeamMembers = [
 	{
-		name: "Devesh Choudhury",
-		phone: "(+91) 80186 05330",
-		mail: "deveshc23@iitk.ac.in",
-		linkedin: "https://www.linkedin.com/in/devesh-choudhury-769572280/",
-		image: "/testimonials/devesh.png",
-	},
-	{
-		name: "Harsh Gour",
-		phone: "(+91) 89822 04383",
-		mail: "harshgour23@iitk.ac.in",
-		linkedin: "https://www.linkedin.com/in/harsh-gour-bab4542a3/",
-		image: "/testimonials/Harsh.png",	
-	},
-	{
 		name: "Piyush Singal",
 		phone: "(+91) 70822 98297",
 		mail: "psingal23@iitk.ac.in",
 		linkedin: "https://linkedin.com/in/piyush-singal-b9a6b6233",
 		image: "/testimonials/Piyush.png",
+	},
+	{
+		name: "Devesh Choudhury",
+		phone: "(+91) 80186 05330",
+		mail: "deveshc23@iitk.ac.in",
+		linkedin: "https://www.linkedin.com/in/devesh-choudhury-769572280/",
+		image: "/testimonials/devesh.png",
 	},
 	{
 		name: "Soumyadip Shyam",
@@ -45,13 +38,12 @@ const TeamMembers = [
 		linkedin: "https://www.linkedin.com/in/vaibhav-itauriya/",
 		image: "/testimonials/Vaibhav.png",
 	},
-
 	{
-		name: "Bhairavi Shivajirao Salunke",
-		phone: "(+91) 77199 90900",
-		mail: "bhairaviss25@iitk.ac.in",
-		linkedin: "https://www.linkedin.com/in/bhairavi-salunke-b7aa5037a",
-		image: "/testimonials/Bhairavi.png",
+		name: "Harsh Gour",
+		phone: "(+91) 89822 04383",
+		mail: "harshgour23@iitk.ac.in",
+		linkedin: "https://www.linkedin.com/in/harsh-gour-bab4542a3/",
+		image: "/testimonials/Harsh.png",
 	},
 	{
 		name: "Kalva Mahendhar Yadav",
@@ -67,7 +59,14 @@ const TeamMembers = [
 		linkedin: "https://www.linkedin.com/in/shubham-kumar-mishra-601b82170/",
 		image: "/testimonials/Shubham.png",
 	},
-]
+	{
+		name: "Bhairavi Shivajirao Salunke",
+		phone: "(+91) 77199 90900",
+		mail: "bhairaviss25@iitk.ac.in",
+		linkedin: "https://www.linkedin.com/in/bhairavi-salunke-b7aa5037a",
+		image: "/testimonials/Bhairavi.png",
+	},
+];
 // const SPC = [
 
 // ]
@@ -143,7 +142,7 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 							return (
 								<div key={member.name} style={{ width: "29em" }}>
 									<Card>
-										{member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} objectFit="cover" objectPosition="top" />}
+										{member.image && <NextImage src={member.image} width={128} height={156} alt={member.name}  />}
 										<Title>{member.name}</Title>
 										<Description>
 											<Link href={"mailto:" + member.mail}>{member.mail}</Link>
