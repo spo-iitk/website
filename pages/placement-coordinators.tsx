@@ -66,33 +66,33 @@ const TeamMembers = [
 		linkedin: "https://www.linkedin.com/in/bhairavi-salunke-b7aa5037a",
 		image: "/testimonials/Bhairavi.png",
 	},
-];
+]
 // const SPC = [
 
 // ]
 const APC = [
-	{ "roll": "240003", "name": "Aadi Jain", "mail": "aadijain24@iitk.ac.in", "program": "BT", "branch": "MSE" },
-	{ "roll": "240055", "name": "Aditya Durgapal", "mail": "adityan24@iitk.ac.in", "program": "BT", "branch": "BSBE" },
-	{ "roll": "240078", "name": "Akash Kumar", "mail": "akashr24@iitk.ac.in", "program": "BT", "branch": "BSBE" },
-	{ "roll": "240181", "name": "Arjun Singla", "mail": "arjuns24@iitk.ac.in", "program": "BT", "branch": "ME" },
-	{ "roll": "240288", "name": "Buddha Bhusan Barua", "mail": "buddhab24@iitk.ac.in", "program": "BS", "branch": "ECO" },
-	{ "roll": "240313", "name": "D Sahasra", "mail": "dsahasra24@iitk.ac.in", "program": "BT", "branch": "EE" },
-	{ "roll": "240445", "name": "Haryashva Gupta", "mail": "haryashvag24@iitk.ac.in", "program": "BT", "branch": "CHE" },
-	{ "roll": "240519", "name": "Karan Chauhan", "mail": "karanc24@iitk.ac.in", "program": "BT", "branch": "CHE" },
-	{ "roll": "240532", "name": "Kaushik Kumar", "mail": "kaushik24@iitk.ac.in", "program": "BT", "branch": "ME" },
-	{ "roll": "240544", "name": "Khushi Sharma", "mail": "khushis24@iitk.ac.in", "program": "BS", "branch": "ES" },
-	{ "roll": "240560", "name": "Krish Mesariya", "mail": "kmesariya24@iitk.ac.in", "program": "BT", "branch": "CSE" },
-	{ "roll": "240592", "name": "Laukik Krishna Joshi", "mail": "krishnaj24@iitk.ac.in", "program": "BS", "branch": "MTH" },
-	{ "roll": "240678", "name": "Naivedya Jain", "mail": "naivedyaj24@iitk.ac.in", "program": "BT", "branch": "ME" },
-	{ "roll": "240736", "name": "Parth Rathi", "mail": "parthr24@iitk.ac.in", "program": "BT", "branch": "EE" },
-	{ "roll": "240809", "name": "Priyanshu Pandey", "mail": "priyanshup24@iitk.ac.in", "program": "BT", "branch": "BSBE" },
-	{ "roll": "240861", "name": "Ria Agrawal", "mail": "riaa24@iitk.ac.in", "program": "BT", "branch": "AE" },
-	{ "roll": "240926", "name": "Sanchit Singla", "mail": "sanchit24@iitk.ac.in", "program": "BT", "branch": "CE" },
-	{ "roll": "240960", "name": "Shantanu Chhonkar", "mail": "shantanu24@iitk.ac.in", "program": "BT", "branch": "ME" },
-	{ "roll": "241060", "name": "Sumit Yadav", "mail": "sumity24@iitk.ac.in", "program": "BS", "branch": "ECO" },
-	{ "roll": "241092", "name": "Tanvi Aggarwal", "mail": "tanvi24@iitk.ac.in", "program": "BT", "branch": "ME" },
-	{ "roll": "241097", "name": "Tejaswinee Rathore", "mail": "tejaswinee24@iitk.ac.in", "program": "BT", "branch": "EE" },
-	{ "roll": "241205", "name": "Yash Vardhan Pratihast", "mail": "yashp24@iitk.ac.in", "program": "BT", "branch": "EE" }
+	{ "roll": "240003", "name": "Aadi Jain", "mail": "aadijain24@iitk.ac.in", "program": "BT", "branch": "MSE", "phone": "8800210197" },
+	{ "roll": "240055", "name": "Aditya Durgapal", "mail": "adityan24@iitk.ac.in", "program": "BT", "branch": "BSBE", "phone": "9321643883" },
+	{ "roll": "240078", "name": "Akash Kumar", "mail": "akashr24@iitk.ac.in", "program": "BT", "branch": "BSBE", "phone": "8935965544" },
+	{ "roll": "240181", "name": "Arjun Singla", "mail": "arjuns24@iitk.ac.in", "program": "BT", "branch": "ME", "phone": "8360755662" },
+	{ "roll": "240288", "name": "Buddha Bhusan Barua", "mail": "buddhab24@iitk.ac.in", "program": "BS", "branch": "ECO", "phone": "9229701335" },
+	{ "roll": "240313", "name": "D Sahasra", "mail": "dsahasra24@iitk.ac.in", "program": "BT", "branch": "EE", "phone": "9110347533" },
+	{ "roll": "240445", "name": "Haryashva Gupta", "mail": "haryashvag24@iitk.ac.in", "program": "BT", "branch": "CHE", "phone": "9452141455" },
+	{ "roll": "240519", "name": "Karan Chauhan", "mail": "karanc24@iitk.ac.in", "program": "BT", "branch": "CHE", "phone": "7678217530" },
+	{ "roll": "240532", "name": "Kaushik Kumar", "mail": "kaushik24@iitk.ac.in", "program": "BT", "branch": "ME", "phone": "8434108608" },
+	{ "roll": "240544", "name": "Khushi Sharma", "mail": "khushis24@iitk.ac.in", "program": "BS", "branch": "ES", "phone": "7667723918" },
+	{ "roll": "240560", "name": "Krish Mesariya", "mail": "kmesariya24@iitk.ac.in", "program": "BT", "branch": "CSE", "phone": "9727273756" },
+	{ "roll": "240592", "name": "Laukik Krishna Joshi", "mail": "krishnaj24@iitk.ac.in", "program": "BS", "branch": "MTH", "phone": "9610714579" },
+	{ "roll": "240678", "name": "Naivedya Jain", "mail": "naivedyaj24@iitk.ac.in", "program": "BT", "branch": "ME", "phone": "7027506075" },
+	{ "roll": "240736", "name": "Parth Rathi", "mail": "parthr24@iitk.ac.in", "program": "BT", "branch": "EE", "phone": "8251086260" },
+	{ "roll": "240809", "name": "Priyanshu Pandey", "mail": "priyanshup24@iitk.ac.in", "program": "BT", "branch": "BSBE", "phone": "9263888165" },
+	{ "roll": "240861", "name": "Ria Agrawal", "mail": "riaa24@iitk.ac.in", "program": "BT", "branch": "AE", "phone": "8290441008" },
+	{ "roll": "240926", "name": "Sanchit Singla", "mail": "sanchit24@iitk.ac.in", "program": "BT", "branch": "CE", "phone": "9781357659" },
+	{ "roll": "240960", "name": "Shantanu Chhonkar", "mail": "shantanu24@iitk.ac.in", "program": "BT", "branch": "ME", "phone": "9520518594" },
+	{ "roll": "241060", "name": "Sumit Yadav", "mail": "sumity24@iitk.ac.in", "program": "BS", "branch": "ECO", "phone": "8882035387" },
+	{ "roll": "241092", "name": "Tanvi Aggarwal", "mail": "tanvi24@iitk.ac.in", "program": "BT", "branch": "ME", "phone": "7827098491" },
+	{ "roll": "241097", "name": "Tejaswinee Rathore", "mail": "tejaswinee24@iitk.ac.in", "program": "BT", "branch": "EE", "phone": "9425094987" },
+	{ "roll": "241205", "name": "Yash Vardhan Pratihast", "mail": "yashp24@iitk.ac.in", "program": "BT", "branch": "EE", "phone": "8917524935" }
 ]
 
 // const DPC =[
@@ -142,7 +142,7 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 							return (
 								<div key={member.name} style={{ width: "29em" }}>
 									<Card>
-										{member.image && <NextImage src={member.image} width={128} height={156} alt={member.name}  />}
+										{member.image && <NextImage src={member.image} width={128} height={170} alt={member.name}  />}
 										<Title>{member.name}</Title>
 										<Description>
 											<Link href={"mailto:" + member.mail}>{member.mail}</Link>
@@ -202,7 +202,7 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 										<Link href={"mailto:" + member.mail}>{member.mail}</Link>
 									</Description>
 									<Description>
-										{/* <Link href={"tel:" + member.phone}>{member.phone}</Link> */}
+										<Link href={"tel:" + member.phone}>(+91) {member.phone}</Link>
 									</Description>
 								</Card>
 							</div>
