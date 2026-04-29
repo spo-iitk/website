@@ -497,6 +497,34 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 					</CustomAutofitGrid4>
 					<br />
 				</Container>
+				<SectionTitle>Strategy And Planning</SectionTitle>
+				<Container style={{}}>
+					<CustomAutofitGrid style={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
+						{SPC.map((member, i) => {
+							return (
+								<div key={member.name} style={{ width: "29em" }}>
+									<Card style={{background:"rgb(252,252,252)"}}>
+										{member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />}
+										<Title>{member.name}</Title>
+										<Description>
+											<Link href={"mailto:" + member.mail}>{member.mail}</Link>
+										</Description>
+										<Description>
+											<Link href={"tel:" + member.phone}>{member.phone}</Link>
+										</Description>
+										<small>
+											<a href={member.linkedin} target="_blank" rel="noreferrer">
+												<LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} />
+											</a>
+										</small>
+									</Card>
+								</div>
+							)
+						})}
+					</CustomAutofitGrid>
+					<br />
+					
+				</Container>
 				<SectionTitle>Assistant Coordinators</SectionTitle>
 				<Container>
 					<CustomAutofitGrid3 style={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
