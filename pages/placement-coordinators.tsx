@@ -98,13 +98,29 @@ const APC = [
 // const DPC =[
 
 // ]
-// const WEBHEAD = [
+const WEBHEAD = [
+	{
+		name: "Muragesh Nyamagoud",
+		position: "Web Head",
+		mail: "muragesh24@iitk.ac.in",
+		phone: "(+91) 93534 66456",
+		linkedin: "https://www.linkedin.com/in/muragesh-nyamagoud-459166249/",
+	},
+	{
+		name: "Ujjwal Prakash",
+		position: "Web Head",
+		mail: "ujjwal24@iitk.ac.in",
+		phone: "(+91) 77639 80774",
+		linkedin: "https://www.linkedin.com/in/ujjwal-prakash-036873336/",
+	},
+]
 
-// ]
-
-// const WEBEXEC = [
-
-// ]
+const WEBEXEC = [
+	{"name": "Raj Choudhary", "position": "Web Executive", "mail": "rajc25@iitk.ac.in", "phone": "(+91) 9461772855"},
+	{ "name": "Vanshika Singh", "position": "Web Executive", "mail": "vanshikas25@iitk.ac.in", "phone": "(+91) 9755103696" },
+	{ "name": "Shubh Gupta", "position": "Web Executive", "mail": "Shubhgupta25@iitk.ac.in", "phone": "(+91) 9755745600" },
+	{ "name": "Vineet Singh", "position": "Web Executive", "mail": "vineets25@iitk.ac.in", "phone": "(+91) 92594 81955" },
+]
 
 const PREVTEAM = [
 	"2025-26",
@@ -209,25 +225,6 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 						))}
 					</CustomAutofitGrid3>
 				</Container>
-				{/* <SectionTitle>Department Placement Coordinators</SectionTitle>
-				<Container>
-					<CustomAutofitGrid4 style={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
-						{DPC.map((member) => (
-							<div key={member.name} style={{ width: "35em" }}>
-								<Card style={{ height: "11em" }}>
-									<Title>{member.name}</Title>
-									<Description>{member.department}</Description>
-									<Description>
-										<Link href={"mailto:" + member.email}>{member.email}</Link>
-									</Description>
-									<Description>
-										<Link href={"tel:" + member.phone}>{member.phone}</Link>
-									</Description>
-								</Card>
-							</div>
-						))}
-					</CustomAutofitGrid4>
-				</Container>
 				<SectionTitle>Web Team</SectionTitle>
 				<Container>
 					<CustomAutofitGrid2>
@@ -270,7 +267,7 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 							</div>
 						))}
 					</CustomAutofitGrid4>
-				</Container> */}
+				</Container> 
 				<SectionTitle>Previous Teams</SectionTitle>
 				<Container>
 					<CustomAutofitGrid>
