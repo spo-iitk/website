@@ -148,7 +148,9 @@ const { filtered2025, filtered2025Interns, placements2024, interns2024, stats } 
         {hasNoResults && (
           <EmptyState>
             <EmptyIcon>📭</EmptyIcon>
-            <EmptyText>No insights found matching "{searchValue}"</EmptyText>
+            <EmptyText>
+                No insights found matching {`"${searchValue}"`}
+            </EmptyText>
             <EmptySubtext>Try adjusting your search terms or checking for typos.</EmptySubtext>
           </EmptyState>
         )}
