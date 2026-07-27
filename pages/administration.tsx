@@ -11,13 +11,7 @@ import SectionTitle from 'components/SectionTitle';
 import { media } from 'utils/media';
 
 const TeamMembers = [
-  {
-    name: 'Kumar Srikanta Nayak',
-    position: 'Career Development Officer',
-    image: '/testimonials/srikanta_2022.jpeg',
-    email: 'cdo_spo@iitk.ac.in',
-    phone: '+512-259-4445',
-  },
+  
   {
     name: 'Amarendra Mohanty',
     position: 'Senior Project Manager',
