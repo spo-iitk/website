@@ -95,9 +95,48 @@ const APC = [
 	{ "roll": "241205", "name": "Yash Vardhan Pratihast", "mail": "yashp24@iitk.ac.in", "program": "BT", "branch": "EE", "phone": "8917524935" }
 ]
 
-// const DPC =[
-
-// ]
+const DPC = [
+	{ "roll": "251280002", "name": "Adithya Venkata Rama Mohan Adiraju", "mail": "avrama25@iitk.ac.in", "program": "M Tech", "branch": "Cognitive Science", "phone": "9390098909" },
+	{ "roll": "251030093", "name": "Sarthak Jayswal", "mail": "sarthakj25@iitk.ac.in", "program": "M Tech", "branch": "Civil Engineering", "phone": "9727550659" },
+	{ "roll": "251030005", "name": "Abhishek Dyavershetti", "mail": "abhisheksd25@iitk.ac.in", "program": "MTech", "branch": "Civil Engineering", "phone": "9145613970" },
+	{ "roll": "251030062", "name": "Manpreeth M P", "mail": "manpreethm25@iitk.ac.in", "program": "M Tech", "branch": "Civil Engineering", "phone": "8590453237" },
+	{ "roll": "251190034", "name": "Tunvi Dasari", "mail": "tunvird25@iitk.ac.in", "program": "MDes", "branch": "Design", "phone": "7075706465" },
+	{ "roll": "251190024", "name": "Ravi Bhushan", "mail": "ravibhushan25@iitk.ac.in", "program": "MDes", "branch": "Design", "phone": "7301498748" },
+	{ "roll": "228071013", "name": "Shivam Kumar", "mail": "shivamkur22@iitk.ac.in", "program": "Dual Degree", "branch": "Biological Sciences and Bioengineering", "phone": "7827119335" },
+	{ "roll": "251180011", "name": "Girish Shivhare", "mail": "gashivhare25@iitk.ac.in", "program": "M Tech", "branch": "Biological Sciences and Bioengineering", "phone": "8788259344" },
+	{ "roll": "251060009", "name": "Bhavi Chaturvedi", "mail": "bhavic25@iitk.ac.in", "program": "M Tech", "branch": "Materials Science and Engineering", "phone": "9461133006" },
+	{ "roll": "251060011", "name": "Chetan Lavhe", "mail": "blchetan25@iitk.ac.in", "program": "M Tech", "branch": "Materials Science and Engineering", "phone": "9763548364" },
+	{ "roll": "251120015", "name": "Sourav Sharma", "mail": "sharmas25@iitk.ac.in", "program": "M Tech", "branch": "Materials Science Program", "phone": "9372876036" },
+	{ "roll": "251080072", "name": "Kriti Maheshwari", "mail": "kmaheshwari25@iitk.ac.in", "program": "MSc", "branch": "Mathematics and Statistics", "phone": "9027574782" },
+	{ "roll": "251080062", "name": "Ayush Kundu", "mail": "ayushkundu25@iitk.ac.in", "program": "MSc", "branch": "Mathematics and Statistics", "phone": "9674016704" },
+	{ "roll": "230190", "name": "Arihant Satpathy", "mail": "arihants23@iitk.ac.in", "program": "BS", "branch": "Statistics and Data Science", "phone": "9831577605" },
+	{ "roll": "251230010", "name": "Paritosh Bhattacharyya", "mail": "pcharyya25@iitk.ac.in", "program": "M Tech", "branch": "Earth Science", "phone": "6295471168" },
+	{ "roll": "251230008", "name": "Mridul Anand", "mail": "mridula25@iitk.ac.in", "program": "M Tech", "branch": "Earth Science", "phone": "9336851764" },
+	{ "roll": "251250031", "name": "Nikhil Dudeja", "mail": "nikhild25@iitk.ac.in", "program": "MBA", "branch": "Industrial and Management Engineering", "phone": "9149036209" },
+	{ "roll": "251140016", "name": "Parth Raj Singh", "mail": "parthrs25@iitk.ac.in", "program": "MTech", "branch": "Industrial and Management Engineering", "phone": "9426694450" },
+	{ "roll": "251040079", "name": "Purwansh Sahu", "mail": "purwansh25@iitk.ac.in", "program": "M Tech", "branch": "Electrical Engineering", "phone": "9399147060" },
+	{ "roll": "251040410", "name": "Shambhavi Pandey", "mail": "spandey25@iitk.ac.in", "program": "MSR", "branch": "Electrical Engineering", "phone": "8090907429" },
+	{ "roll": "251040024", "name": "Aryan Sehgal", "mail": "Aryans25@iitk.ac.in", "program": "M Tech", "branch": "Electrical Engineering", "phone": "8278886900" },
+	{ "roll": "251110406", "name": "Kunal Jolly Saxena", "mail": "Kjsaxena25@iitk.ac.in", "program": "MSR", "branch": "Computer Science and Engineering", "phone": "6266360324" },
+	{ "roll": "251110016", "name": "Aryan Arora", "mail": "aryana25@iitk.ac.in", "program": "M Tech", "branch": "Computer Science and Engineering", "phone": "8287467960" },
+	{ "roll": "251310005", "name": "Mohd Intakhab Alam", "mail": "intakhab25@iitk.ac.in", "program": "M Tech", "branch": "Space, Planetary & Astronomical Sciences & Engineering", "phone": "8448138448" },
+	{ "roll": "251160006", "name": "Bittu Pandey", "mail": "bittup25@iitk.ac.in", "program": "M Tech", "branch": "Photonics Science Engineering and Laser Technology", "phone": "6207675182" },
+	{ "roll": "251010064", "name": "Divyansh Singh", "mail": "dsingh25@iitk.ac.in", "program": "M Tech", "branch": "Aerospace Engineering", "phone": "6306635810" },
+	{ "roll": "251010033", "name": "Raghav Mehrotra", "mail": "raghavm25@iitk.ac.in", "program": "M Tech", "branch": "Aerospace Engineering", "phone": "9305120290" },
+	{ "roll": "251010058", "name": "VISHAL UMAPATI CHOUDHARI", "mail": "vuchoudhari25@iitk.ac.in", "program": "M Tech", "branch": "Aerospace Engineering", "phone": "9242778852" },
+	{ "roll": "251020009", "name": "Ayush Verma", "mail": "ayushverma25@iitk.ac.in", "program": "M Tech", "branch": "Chemical Engineering", "phone": "9889585089" },
+	{ "roll": "251020033", "name": "Shashank Chaudhary", "mail": "shashankc25@iitk.ac.in", "program": "M Tech", "branch": "Chemical Engineering", "phone": "7668741915" },
+	{ "roll": "251050021", "name": "Bhupendra singh M Solanki", "mail": "bmsolanki25@iitk.ac.in", "program": "M Tech", "branch": "Mechanical Engineering", "phone": "9408117716" },
+	{ "roll": "251050015", "name": "Atharva Ghate", "mail": "ajghate25@iitk.ac.in", "program": "M Tech", "branch": "Mechanical Engineering", "phone": "9594056528" },
+	{ "roll": "251340001", "name": "Aakrit Raj", "mail": "aakritraj25@iitk.ac.in", "program": "MTech", "branch": "Kotak School of Sustainability", "phone": "8953729992" },
+	{ "roll": "251290007", "name": "Devansh", "mail": "devansh25@iitk.ac.in", "program": "M Tech", "branch": "Sustainable Energy Engineering", "phone": "8957924231" },
+	{ "roll": "251290006", "name": "Bhavesh Inani", "mail": "bhaveshi25@iitk.ac.in", "program": "M Tech", "branch": "Sustainable Energy Engineering", "phone": "6350490894" },
+	{ "roll": "230981", "name": "Shohom De", "mail": "shohomde23@iitk.ac.in", "program": "Double Major", "branch": "Economics", "phone": "8981423221" },
+	{ "roll": "251270019", "name": "Mayank Rathi", "mail": "mayankr25@iitk.ac.in", "program": "MSc", "branch": "Economics", "phone": "9333996277" },
+	{ "roll": "251080015", "name": "Ayushi Agarwal", "mail": "Aagrarwal25@iitk.ac.in", "program": "MSc", "branch": "Mathematics and Statistics", "phone": "7355200069" },
+	{ "roll": "251070008", "name": "Gaurav", "mail": "gaurav25@iitk.ac.in", "program": "MSc", "branch": "Chemistry", "phone": "7082447920" },
+	{ "roll": "251090036", "name": "Vikash Kumar", "mail": "kvikash25@iitk.ac.in", "program": "MSc", "branch": "Physics", "phone": "7004644496" }
+]
 const WEBHEAD = [
 	{
 		name: "Muragesh Nyamagoud",
@@ -225,6 +264,27 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 						))}
 					</CustomAutofitGrid3>
 				</Container>
+				<SectionTitle>Department Placement Coordinators</SectionTitle>
+				<Container>
+					<CustomAutofitGrid3 style={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
+						{DPC.map((member) => (
+							<div key={member.name} style={{ width: "35em" }}>
+								<Card>
+									<Title>{member.name}</Title>
+										
+									<Description>{member.program} - {member.branch}</Description>
+									<Description>
+										<Link href={"mailto:" + member.mail}>{member.mail}</Link>
+									</Description>
+									<Description>
+										<Link href={"tel:" + member.phone}>(+91) {member.phone}</Link>
+									</Description>
+								</Card>
+							</div>
+						))}
+					</CustomAutofitGrid3>
+				</Container>
+				
 				<SectionTitle>Web Team</SectionTitle>
 				<Container>
 					<CustomAutofitGrid2>
