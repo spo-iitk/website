@@ -107,8 +107,8 @@ const DPC = [
 	{ "roll": "251060009", "name": "Bhavi Chaturvedi", "mail": "bhavic25@iitk.ac.in", "program": "M Tech", "branch": "Materials Science and Engineering", "phone": "9461133006" },
 	{ "roll": "251060011", "name": "Chetan Lavhe", "mail": "blchetan25@iitk.ac.in", "program": "M Tech", "branch": "Materials Science and Engineering", "phone": "9763548364" },
 	{ "roll": "251120015", "name": "Sourav Sharma", "mail": "sharmas25@iitk.ac.in", "program": "M Tech", "branch": "Materials Science Program", "phone": "9372876036" },
-	{ "roll": "251080072", "name": "Kriti Maheshwari", "mail": "kmaheshwari25@iitk.ac.in", "program": "MSc", "branch": "Mathematics and Statistics", "phone": "9027574782" },
-	{ "roll": "251080062", "name": "Ayush Kundu", "mail": "ayushkundu25@iitk.ac.in", "program": "MSc", "branch": "Mathematics and Statistics", "phone": "9674016704" },
+	{ "roll": "251080072", "name": "Kriti Maheshwari", "mail": "kmaheshwari25@iitk.ac.in", "program": "MSc", "branch": "Statistics", "phone": "9027574782" },
+	{ "roll": "251080062", "name": "Ayush Kundu", "mail": "ayushkundu25@iitk.ac.in", "program": "MSc", "branch": "Statistics", "phone": "9674016704" },
 	{ "roll": "230190", "name": "Arihant Satpathy", "mail": "arihants23@iitk.ac.in", "program": "BS", "branch": "Statistics and Data Science", "phone": "9831577605" },
 	{ "roll": "251230010", "name": "Paritosh Bhattacharyya", "mail": "pcharyya25@iitk.ac.in", "program": "M Tech", "branch": "Earth Science", "phone": "6295471168" },
 	{ "roll": "251230008", "name": "Mridul Anand", "mail": "mridula25@iitk.ac.in", "program": "M Tech", "branch": "Earth Science", "phone": "9336851764" },
@@ -133,7 +133,7 @@ const DPC = [
 	{ "roll": "251290006", "name": "Bhavesh Inani", "mail": "bhaveshi25@iitk.ac.in", "program": "M Tech", "branch": "Sustainable Energy Engineering", "phone": "6350490894" },
 	{ "roll": "230981", "name": "Shohom De", "mail": "shohomde23@iitk.ac.in", "program": "Double Major", "branch": "Economics", "phone": "8981423221" },
 	{ "roll": "251270019", "name": "Mayank Rathi", "mail": "mayankr25@iitk.ac.in", "program": "MSc", "branch": "Economics", "phone": "9333996277" },
-	{ "roll": "251080015", "name": "Ayushi Agarwal", "mail": "Aagrarwal25@iitk.ac.in", "program": "MSc", "branch": "Mathematics and Statistics", "phone": "7355200069" },
+	{ "roll": "251080015", "name": "Ayushi Agarwal", "mail": "Aagrarwal25@iitk.ac.in", "program": "MSc", "branch": "Mathematics", "phone": "7355200069" },
 	{ "roll": "251070008", "name": "Gaurav", "mail": "gaurav25@iitk.ac.in", "program": "MSc", "branch": "Chemistry", "phone": "7082447920" },
 	{ "roll": "251090036", "name": "Vikash Kumar", "mail": "kvikash25@iitk.ac.in", "program": "MSc", "branch": "Physics", "phone": "7004644496" }
 ]
