@@ -137,6 +137,7 @@ const DPC = [
 	{ "roll": "251070008", "name": "Gaurav", "mail": "gaurav25@iitk.ac.in", "program": "MSc", "branch": "Chemistry", "phone": "7082447920" },
 	{ "roll": "251090036", "name": "Vikash Kumar", "mail": "kvikash25@iitk.ac.in", "program": "MSc", "branch": "Physics", "phone": "7004644496" }
 ]
+DPC.sort((a, b) => a.branch.localeCompare(b.branch))
 const WEBHEAD = [
 	{
 		name: "Muragesh Nyamagoud",
@@ -272,7 +273,7 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 								<Card>
 									<Title>{member.name}</Title>
 										
-									<Description>{member.program} - {member.branch}</Description>
+									<Description>{member.branch}</Description>
 									<Description>
 										<Link href={"mailto:" + member.mail}>{member.mail}</Link>
 									</Description>
