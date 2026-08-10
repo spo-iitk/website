@@ -155,7 +155,7 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
         {hasNoResults && (
           <EmptyState>
             <EmptyIcon>📭</EmptyIcon>
-            <EmptyText>No insights found matching "{searchValue}"</EmptyText>
+            <EmptyText> No insights found matching {`"${searchValue}"`}</EmptyText>
             <EmptySubtext>Try adjusting your search terms or checking for typos.</EmptySubtext>
           </EmptyState>
         )}
