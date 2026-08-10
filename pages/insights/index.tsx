@@ -9,6 +9,7 @@ import SectionTitle from "components/SectionTitle"
 import { getAllPosts } from "utils/postsFetcher"
 import placementData from "./2025placement.json"
 import intern2025Data from "./Intern2025-26.json"
+import placement2025Data from "./placement2025-26.json"
 
 // --- Types ---
 interface PostMeta {
@@ -72,7 +73,7 @@ const StatCard = ({ label, value }: { label: string; value: number }) => (
 export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
   const [searchValue, setSearchValue] = useState("");
 
-const { filtered2025, filtered2025Interns, placements2024, interns2024, stats } = useMemo(() => {
+  const { filtered2025, filteredPlacements2025, filtered2025Interns, placements2024, interns2024, stats } = useMemo(() => {
     const query = searchValue.toLowerCase().trim();
 
     // 1. Filter 2025 Placement Data (Existing)
@@ -83,6 +84,11 @@ const { filtered2025, filtered2025Interns, placements2024, interns2024, stats } 
 
     // 2. Filter 2025-26 Intern Data (NEW!)
     const f2025Interns = (intern2025Data as any[]).filter((item) => {
+      // Including Role in the search string so users can search by "GTE Intern"
+      const searchString = `${item.Name} ${item.Company} ${item.Role || ""}`.toLowerCase();
+      return searchString.includes(query);
+    });
+      const f2025Placements = (placement2025Data as any[]).filter((item) => {
       // Including Role in the search string so users can search by "GTE Intern"
       const searchString = `${item.Name} ${item.Company} ${item.Role || ""}`.toLowerCase();
       return searchString.includes(query);
@@ -102,19 +108,20 @@ const { filtered2025, filtered2025Interns, placements2024, interns2024, stats } 
 
     return {
       filtered2025: f2025,
+      filteredPlacements2025: f2025Placements,
       filtered2025Interns: f2025Interns, // Return the new filtered data
       placements2024: p2024,
       interns2024: i2024,
       stats: {
-        totalPlacements: placementData.length + all2024Placements,
+        totalPlacements: placementData.length + placement2025Data.length + all2024Placements,
         totalInternships: intern2025Data.length + all2024Interns, // Update stats!
-        totalInsights: placementData.length + intern2025Data.length + all2024Placements + all2024Interns,
+        totalInsights: placementData.length + placement2025Data.length + intern2025Data.length + all2024Placements + all2024Interns,
       },
     };
   }, [searchValue, posts]);
 
   // Don't forget to update the empty state check!
-  const hasNoResults = filtered2025.length === 0 && filtered2025Interns.length === 0 && placements2024.length === 0 && interns2024.length === 0;
+  const hasNoResults = filtered2025.length === 0 && filteredPlacements2025.length === 0 && filtered2025Interns.length === 0 && placements2024.length === 0 && interns2024.length === 0;
   return (
     <Page title="SPO Insights" description="Explore interview experiences and preparation strategies from IIT Kanpur students.">
       
@@ -148,9 +155,7 @@ const { filtered2025, filtered2025Interns, placements2024, interns2024, stats } 
         {hasNoResults && (
           <EmptyState>
             <EmptyIcon>📭</EmptyIcon>
-            <EmptyText>
-                No insights found matching {`"${searchValue}"`}
-            </EmptyText>
+            <EmptyText> No insights found matching {`"${searchValue}"`}</EmptyText>
             <EmptySubtext>Try adjusting your search terms or checking for typos.</EmptySubtext>
           </EmptyState>
         )}
@@ -182,11 +187,37 @@ const { filtered2025, filtered2025Interns, placements2024, interns2024, stats } 
             </Grid>
           </Section>
         )}
+        {filteredPlacements2025.length > 0 && (
+          <Section>
+            <SectionHeader>2025-26 Placement Insights</SectionHeader>
+            <Grid>
+              {filteredPlacements2025.map((item, idx) => (
+                <NextLink href={item.Upload} passHref key={`2025-p-${idx}`}>
+                  <CardWrapper>
+                    <CardHeader>
+                      <AvatarPlaceholder>{item.Name.charAt(0).toUpperCase()}</AvatarPlaceholder>
+                      <StudentName>{item.Name}</StudentName>
+                    </CardHeader>
+                    
+                    {/* The new Role tag! */}
+                    {item.Role && (
+                       <RoleTag>{item.Role}</RoleTag>
+                    )}
+
+                    <CompanyTag>
+                      <BuildingIcon>🏢</BuildingIcon>
+                      {item.Company}
+                    </CompanyTag>
+                  </CardWrapper>
+                </NextLink>
+              ))}
+            </Grid>
+          </Section>
+        )}
 
         {/* 2025 Placement Insights */}
         {filtered2025.length > 0 && (
           <Section>
-            <SectionHeader>2025 Placement Insights</SectionHeader>
             <Grid>
               {filtered2025.map((item, idx) => (
                 <InsightCard key={`2025-p-${idx}`} name={item.Name} company={item.Company} href={item.Upload} />
