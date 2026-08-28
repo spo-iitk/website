@@ -100,8 +100,6 @@ const DPC = [
 	{ "roll": "251030093", "name": "Sarthak Jayswal", "mail": "sarthakj25@iitk.ac.in", "program": "M Tech", "branch": "Civil Engineering", "phone": "9727550659" },
 	{ "roll": "251030005", "name": "Abhishek Dyavershetti", "mail": "abhisheksd25@iitk.ac.in", "program": "MTech", "branch": "Civil Engineering", "phone": "9145613970" },
 	{ "roll": "251030062", "name": "Manpreeth M P", "mail": "manpreethm25@iitk.ac.in", "program": "M Tech", "branch": "Civil Engineering", "phone": "8590453237" },
-	{ "roll": "251190034", "name": "Tunvi Dasari", "mail": "tunvird25@iitk.ac.in", "program": "MDes", "branch": "Design", "phone": "7075706465" },
-	{ "roll": "251190024", "name": "Ravi Bhushan", "mail": "ravibhushan25@iitk.ac.in", "program": "MDes", "branch": "Design", "phone": "7301498748" },
 	{ "roll": "228071013", "name": "Shivam Kumar", "mail": "shivamkur22@iitk.ac.in", "program": "Dual Degree", "branch": "Biological Sciences and Bioengineering", "phone": "7827119335" },
 	{ "roll": "251180011", "name": "Girish Shivhare", "mail": "gashivhare25@iitk.ac.in", "program": "M Tech", "branch": "Biological Sciences and Bioengineering", "phone": "8788259344" },
 	{ "roll": "251060009", "name": "Bhavi Chaturvedi", "mail": "bhavic25@iitk.ac.in", "program": "M Tech", "branch": "Materials Science and Engineering", "phone": "9461133006" },
@@ -135,7 +133,10 @@ const DPC = [
 	{ "roll": "251270019", "name": "Mayank Rathi", "mail": "mayankr25@iitk.ac.in", "program": "MSc", "branch": "Economics", "phone": "9333996277" },
 	{ "roll": "251080015", "name": "Ayushi Agarwal", "mail": "Aagrarwal25@iitk.ac.in", "program": "MSc", "branch": "Mathematics", "phone": "7355200069" },
 	{ "roll": "251070008", "name": "Gaurav", "mail": "gaurav25@iitk.ac.in", "program": "MSc", "branch": "Chemistry", "phone": "7082447920" },
-	{ "roll": "251090036", "name": "Vikash Kumar", "mail": "kvikash25@iitk.ac.in", "program": "MSc", "branch": "Physics", "phone": "7004644496" }
+	{ "roll": "251090036", "name": "Vikash Kumar", "mail": "kvikash25@iitk.ac.in", "program": "MSc", "branch": "Physics", "phone": "7004644496" },
+	{ "roll": "230688", "name": "Neel Jadia", "mail": "neeljadia23@iitk.ac.in", "program": "BS", "branch": "MATHEMATICS & SCIENTIFIC COMPUTING", "phone": "9594592592" },
+    { "roll": "251190005", "name": "Bhargav Ram Chodabatula", "mail": "bhargavramc25@iitk.ac.in", "program": "MDes", "branch": "Design", "phone": "8925112368" },
+    { "roll": "251190027", "name": "Rupabrata Bhattacharya", "mail": "rupabrata25@iitk.ac.in", "program": "MDes", "branch": "Design", "phone": "9173166262" }
 ]
 DPC.sort((a, b) => a.branch.localeCompare(b.branch))
 const WEBHEAD = [
