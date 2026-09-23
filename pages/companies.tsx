@@ -131,7 +131,7 @@ const ResourcesL = [
 	},
 	{
 		name: "Placement Policy",
-		link: "assets/2023-24/Placement_Policy_2024-25.pdf"
+		link: "assets/2023-24/Placement_Policy_2026-27.pdf"
 	},
 	{
 		name: "Internship Policy",
@@ -139,15 +139,7 @@ const ResourcesL = [
 	},
 	{
 		name: "Campus Recruitement Brochure",
-		link: "https://drive.google.com/file/d/1o7WZPfAJTp8gqzAysba2azJlmMhdacX6/view?usp=sharing"
-	},
-	{
-		name: "Campus Recruitment Guide",
-		link: "assets/companies_links/IITK_Recruitment_Guide_2022-23.pdf"
-	},
-	{
-		name: "Steps - Company Registration",
-		link: "assets/companies_links/Steps-Company-Registration.pdf"
+		link: "assets/IIT Kanpur Placement Brochure 2026-27.pdf"
 	},
 	{
 		name: "Departmental Brochures",

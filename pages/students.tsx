@@ -120,7 +120,7 @@ const ResourcesC = [
 	},
 	{
 		name: "Placement Policy",
-		link: "assets/2023-24/Placement_Policy_2024-25.pdf"
+		link: "assets/2023-24/Placement_Policy_2026-27.pdf"
 	},
 	{
 		name: "Internship Policy",
