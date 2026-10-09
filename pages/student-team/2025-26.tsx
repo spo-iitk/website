@@ -11,7 +11,7 @@ import { media } from "utils/media"
 const TeamMembers = [
 	{
 		name: "Anushka Meena",
-		phone: "(+91) 70148 82945",
+		phone: " .",
 		mail: "anushkam22@iitk.ac.in",
 		linkedin:
         "https://www.linkedin.com/in/anushka-m-41a421277/",

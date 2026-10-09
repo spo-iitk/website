@@ -57,7 +57,7 @@ const APC = [
 	{ name: "Aditya Gupta", phone: "(+91) 8602564252", mail: "gaditya22@iitk.ac.in" },
 	{ name: "Aditya Raj", phone: "(+91) 9694681598", mail: "adityar22@iitk.ac.in" },
 	{ name: "Akansha Ratnakar", phone: "(+91) 8109167721", mail: "akanshar22@iitk.ac.in" },
-	{ name: "Anushka Meena", phone: "(+91) 7014882945", mail: "anushkam22@iitk.ac.in" },
+	{ name: "Anushka Meena", phone: ".", mail: "anushkam22@iitk.ac.in" },
 	{ name: "Atharv Moghe", phone: "(+91) 6232133073", mail: "atharvm22@iitk.ac.in" },
 	{ name: "Esra Fatima", phone: "(+91) 9721020379", mail: "esra22@iitk.ac.in" },
 	{ name: "Gautam Chandak", phone: "(+91) 9755180883", mail: "gautamch22@iitk.ac.in" },
