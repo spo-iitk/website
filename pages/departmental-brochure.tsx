@@ -35,7 +35,7 @@ const deptBrochure = [
 		idx: "5",
 		dept: "Civil Engineering",
 		url: "https://www.iitk.ac.in/ce/",
-		link: "https://drive.google.com/file/d/1e-DYRRKa4Gkm6XDwnR00E9LS5cctPyCO/view?usp=drivesdk"
+		link: "/assets/CE2026-27.pdf"
 	},
 	{
 		idx: "6",
