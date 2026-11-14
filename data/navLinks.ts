@@ -1,47 +1,48 @@
 export const navLinks = [
-	{
-		title: "About IITK",
-		href: "/about",
-		children: [
-			{ title: "About IITK", href: "/about" },
-			{ title: "Academics", href: "/about#academics" },
-			{ title: "Research & Development", href: "/about#research" },
-			{ title: "Alumni", href: "/about#alumni" },
-			{ title: "Faculty", href: "/about#faculty" },
-			{ title: "Activities", href: "/about#activities" },
-		],
-	},
-	{
-		title: "For Students",
-		href: "/students",
-		children: [
-			{ title: "Student Login", href: "https://placement.iitk.ac.in/login" },
-			{ title: "Student Home", href: "/students" },
-			{ title: "Placement Insights", href: "/insights" },
-			{ title: "Procedure", href: "/students#steps" },
-			{ title: "Resources", href: "/students#resources" },
-			{ title: "Preparation Roadmaps", href: "/students#prepRoadmaps" },
-		],
-	},
-	{
-		title: "Recruiter",
-		href: "/companies",
-		children: [
-			{ title: "Recruiter Login", href: "https://placement.iitk.ac.in/login" },
-			{ title: "Companies Home", href: "/companies" },
-			{ title: "Procedure", href: "/companies#steps" },
-			{ title: "Internship Policy", href: "/companies#ipolicy" },
-			{ title: "Facilities", href: "/companies#facilities" },
-			{ title: "Resources", href: "/companies#resources" },
-			{ title: "Placement Brochure", href: "https://spo.iitk.ac.in/assets/IIT%20Kanpur%20Placement%20Brochure%202026-27.pdf" },
-		],
-	},
-	{
-		title: "Contact",
-		href: "/contact",
-		children: [
-			{ title: "Placement Coordinators", href: "/placement-coordinators" },
-			{ title: "Administration", href: "/administration" },
-		],
-	},
-]
+  {
+    title: 'About IITK',
+    href: '/about',
+    children: [
+      { title: 'About IITK', href: '/about' },
+      { title: 'Academics', href: '/about#academics' },
+      { title: 'Research & Development', href: '/about#research' },
+      { title: 'Alumni', href: '/about#alumni' },
+      { title: 'Faculty', href: '/about#faculty' },
+      { title: 'Activities', href: '/about#activities' },
+    ],
+  },
+  {
+    title: 'For Students',
+    href: '/students',
+    children: [
+      { title: 'Student Login', href: 'https://placement.iitk.ac.in/login' },
+      { title: 'Student Home', href: '/students' },
+      { title: 'Placement Insights', href: '/insights' },
+      { title: 'Internship Experiences', href: '/internship-experience' },
+      { title: 'Procedure', href: '/students#steps' },
+      { title: 'Resources', href: '/students#resources' },
+      { title: 'Preparation Roadmaps', href: '/students#prepRoadmaps' },
+    ],
+  },
+  {
+    title: 'Recruiter',
+    href: '/companies',
+    children: [
+      { title: 'Recruiter Login', href: 'https://placement.iitk.ac.in/login' },
+      { title: 'Companies Home', href: '/companies' },
+      { title: 'Procedure', href: '/companies#steps' },
+      { title: 'Internship Policy', href: '/companies#ipolicy' },
+      { title: 'Facilities', href: '/companies#facilities' },
+      { title: 'Resources', href: '/companies#resources' },
+      { title: 'Placement Brochure', href: 'https://spo.iitk.ac.in/assets/IIT%20Kanpur%20Placement%20Brochure%202026-27.pdf' },
+    ],
+  },
+  {
+    title: 'Contact',
+    href: '/contact',
+    children: [
+      { title: 'Placement Coordinators', href: '/placement-coordinators' },
+      { title: 'Administration', href: '/administration' },
+    ],
+  },
+];
