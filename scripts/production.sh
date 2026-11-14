@@ -1,5 +1,6 @@
 #!/bin/bash
 
+git reset --hard origin/master
 git pull origin master
 
 # Remove old packages and build files
